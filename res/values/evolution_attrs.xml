@@ -7,4 +7,13 @@
         <attr name="defaultValue" />
         <attr name="digits" format="integer" />
     </declare-styleable>
+
+    <!-- Interval seekbar -->
+    <declare-styleable name="IntervalSeekBarAnim">
+        <attr name="minI" format="float" />
+        <attr name="maxI" format="float" />
+        <attr name="defaultValuePure" format="float" />
+        <attr name="digits" format="integer" />
+    </declare-styleable>
+
 </resources>
