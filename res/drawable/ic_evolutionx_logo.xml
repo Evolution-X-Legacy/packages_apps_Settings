@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Copyright (C) 2019 The Evolution X Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:viewportWidth="1280"
+    android:viewportHeight="308"
+    android:width="1600dp"
+    android:height="385dp">
+    <group
+        android:scaleX="0.1"
+        android:scaleY="-0.1"
+        android:translateY="308">
+        <path
+            android:pathData="M8860 1565l0 -675 129 0c108 0 130 3 135 16 3 9 6 169 6 357l0 342 378 -378c207 -207 380 -377 385 -377 4 0 7 302 7 670l0 670 -135 0 -135 0 0 -354 0 -354 -377 379c-207 208 -380 379 -385 379 -4 0 -8 -304 -8 -675z"
+            android:fillColor="?android:attr/colorAccent" />
+        <path
+            android:pathData="M10930 2060l0 -185 160 -160c88 -88 160 -164 160 -170 0 -5 -72 -82 -160 -170l-160 -161 2 -181 3 -182 241 237c132 130 247 243 256 250 13 10 53 -25 269 -238l254 -251 3 183 2 182 -160 161c-88 88 -160 165 -160 170 0 6 72 82 160 170l160 160 0 185 0 185 -253 -253c-138 -138 -257 -252 -262 -252 -5 0 -124 114 -262 252l-253 253 0 -185z"
+            android:fillColor="?android:attr/colorAccent" />
+        <path
+            android:pathData="M674 2189c-4 -7 45 -63 117 -135l124 -124 393 0 393 0 -3 133 -3 132 -507 3c-365 1 -509 -1 -514 -9z"
+            android:fillColor="?android:attr/colorAccent" />
+        <path
+            android:pathData="M2474 1779l-419 -419 -5 412 -5 413 -132 3 -133 3 0 -743 0 -743 565 565 565 565 0 177c0 97 -4 179 -8 182 -5 3 -197 -184 -428 -415z"
+            android:fillColor="?android:attr/colorAccent" />
+        <path
+            android:pathData="M3503 2189c-150 -14 -270 -74 -388 -193 -138 -139 -192 -283 -182 -486 9 -177 64 -305 185 -426 199 -201 496 -249 752 -123 119 59 229 170 287 289 53 110 68 173 67 295 0 206 -75 364 -238 502 -133 113 -291 159 -483 142zm148 -269c117 -22 220 -103 274 -215 26 -54 29 -70 30 -160 0 -88 -3 -107 -27 -157 -146 -312 -587 -299 -708 19 -16 42 -22 80 -22 138 0 108 27 178 97 253 101 109 216 148 356 122z"
+            android:fillColor="?android:attr/colorAccent" />
+        <path
+            android:pathData="M4307 2194c-4 -4 -7 -299 -7 -656l0 -648 302 0 303 0 82 82 83 83 0 -258c0 -141 4 -257 8 -257 5 0 71 57 147 127 76 71 226 208 334 306l196 177 5 -127 5 -128 130 0 130 0 5 638 5 637 120 -120 120 -120 87 0 88 0 0 -520 0 -521 133 3 132 3 3 518 2 517 170 0 171 0 -3 133 -3 132 -645 0 -645 0 -3 -331 -2 -331 -208 -188 -207 -189 -5 520 -5 519 -130 0 -130 0 -3 -517 -2 -518 -250 0 -250 0 -2 518 -3 517 -126 3c-69 1 -128 -1 -132 -4z"
+            android:fillColor="?android:attr/colorAccent" />
+        <path
+            android:pathData="M7135 2188c-3 -7 -4 -301 -3 -653l3 -640 130 0 130 0 0 650 0 650 -128 3c-96 2 -129 -1 -132 -10z"
+            android:fillColor="?android:attr/colorAccent" />
+        <path
+            android:pathData="M8053 2189c-148 -14 -270 -74 -384 -189 -135 -136 -196 -298 -186 -495 9 -176 60 -290 189 -423 149 -153 372 -221 583 -178 257 52 463 260 511 516 41 216 -25 428 -181 584 -144 145 -318 205 -532 185zm148 -269c29 -6 74 -20 99 -32 63 -31 146 -117 178 -185 24 -51 27 -70 27 -158 0 -87 -3 -107 -26 -156 -72 -153 -212 -237 -378 -227 -136 8 -256 89 -318 215 -26 53 -28 67 -28 168 0 102 2 114 29 168 33 65 112 144 175 177 73 37 152 47 242 30z"
+            android:fillColor="?android:attr/colorAccent" />
+        <path
+            android:pathData="M576 1673c-4 -4 168 -182 381 -395l388 -388 177 0c98 0 178 3 178 8 0 4 -110 117 -245 252 -135 135 -245 248 -245 252 0 5 111 8 248 8l247 0 -136 135 -135 135 -426 0c-233 0 -428 -3 -432 -7z"
+            android:fillColor="?android:attr/colorAccent" />
+    </group>
+</vector>
