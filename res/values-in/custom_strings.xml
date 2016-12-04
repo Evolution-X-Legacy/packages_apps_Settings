@@ -15,14 +15,17 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Fingerprint location message -->
+    
+     <!-- Fingerprint location message -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Temukan lokasi pemindai sidik jari di bagian depan telepon anda.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Temukan lokasi pemindai sidik jari di sisi kiri telepon anda.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Temukan lokasi pemindai sidik jari di sisi kanan telepon anda.</string>
-    <!-- Notification light settings -->
+    
+     <!-- Notification light settings -->
     <string name="lights_category_title">Pengaturan cahaya</string>
     <string name="notification_light_title">Lampu notifikasi</string>
     <string name="battery_light_title">Lampu baterai</string>
+     
     <!-- Manual provisioning support -->
     <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s </xliff:g> adalah <xliff:g id="status" example="disabled">%2$s </xliff:g></string>
     <string name="sim_disabled">nonaktif</string>
@@ -39,8 +42,10 @@
     <string name="sub_activate_failed">Aktivasi gagal.</string>
     <string name="sub_deactivate_success">SIM dinonaktifkan.</string>
     <string name="sub_deactivate_failed">Penonaktifan gagal.</string>
+     
     <!-- Generic stuff used everywhere -->
     <string name="reset">Setel ulang</string>
+     
     <!-- Buttons -->
     <string name="button_pref_title">Tombol-tombol</string>
     <string name="hardware_keys_home_key_title">Tombol rumah</string>
@@ -72,6 +77,7 @@
     <string name="camera_sleep_on_release_summary">Menekan setengah akan menyalakan layar hanya saat tombol ditekan</string>
     <string name="camera_launch_title">Menghidupkan kamera</string>
     <string name="camera_launch_summary">Tekan lama dan lepas akan menghidupkan kamera</string>
+     
     <!-- Key backlight -->
     <string name="button_backlight_title">Lampu latar</string>
     <string name="button_backlight_enabled">Cahaya tombol</string>
@@ -82,9 +88,11 @@
     <string name="backlight_summary_disabled">Dimatikan</string>
     <string name="backlight_summary_enabled_with_timeout">Diaktifkan untuk <xliff:g id="timeout">%s</xliff:g></string>
     <string name="backlight_summary_enabled">Dihidupkan</string>
+     
     <!-- Weather -->
     <string name="weather_title">Cuaca</string>
     <string name="weather_unit">Satuan temperatur</string>
+     
     <!-- Ambient Play -->
     <string name="ambient_play_summary">Tampilkan lagu-lagu terdekat</string>
     <string name="ambient_play_lockscreen_title">Tampilkan lagu pada layar kunci</string>
@@ -116,13 +124,16 @@
     <string name="ambient_play_saving_options_quiet_period_enable_summary">Hentikan pengenalan untuk waktu tertentu</string>
     <string name="ambient_play_saving_options_quiet_period_start_time_title">Waktu mulai</string>
     <string name="ambient_play_saving_options_quiet_period_end_time_title">Waktu berakhir</string>
-    <!-- Face auto unlock -->
+    
+     <!-- Face auto unlock -->
     <string name="face_auto_unlock_title">Membuka kunci dengan wajah otomatis</string>
     <string name="face_auto_unlock_summary">Lewati kunci layar setelah terbuka dengan wajah</string>
-    <!-- Advanced restart options -->
+   
+     <!-- Advanced restart options -->
     <string name="advanced_reboot_title">Mulai ulang lanjutan</string>
     <string name="advanced_reboot_summary">Ketika tidak terkunci, berisi pilihan pada menu daya untuk mulai ulang ke pemulihan atau bootloader</string>
-    <!-- Thermal control per app -->
+    
+     <!-- Thermal control per app -->
     <string name="thermal_control_per_app">Profil pengoptimalan</string>
     <string name="thermal_control_per_app_default">Tidak ada optimasi</string>
     <string name="thermal_control_per_app_benchmark">Performa</string>
@@ -131,8 +142,93 @@
     <string name="thermal_control_per_app_video_playback">Pemutaran video</string>
     <string name="thermal_control_per_app_dialer">Telepon</string>
     <string name="thermal_control_per_app_camera">Kamera</string>
+
     <!-- Notch behavior -->
     <string name="display_cutout_mode_title">Perilaku Notch</string>
     <string name="display_cutout_mode_normal">Bawaan</string>
     <string name="display_cutout_mode_hidden">Tersembunyi</string>
+     
+    <!-- Evolution Settings -->
+    <string name="evolution_settings_title">Setelan Evolution</string>
+    <string name="evolution_settings_summary">Percaya pada Evolution</string>
+     
+    <string name="full_gesture_mode_title">Aktifkan mode gestur penuh</string>
+    <string name="full_gesture_mode_summary">Mode ini menonaktifkan tombol kembali dan Anda dapat memicu aksi tombol kembali dengan gesek ke kiri di navigasi bar. Gesek ke kanan masih memicu aplikasi terakhir dan gulir aplikasi ikhtisar. Untuk ke rumah, Anda dapat mengetuk ruang kosong navigasi bar apa pun, tidak hanya tombol beranda. Saat keyboard ditampilkan, tekan lama pada navbar untuk memindahkan kursor teks.</string>
+    <string name="full_gesture_mode_dt2s_title">Aktifkan tap dua kali untuk tidur</string>
+    <string name="full_gesture_mode_dt2s_summary">Tap dua kali pada ruang navbar kosong tetapi bukan tombol rumah untuk mematikan layar.</string>
+
+    <!-- Scramble PIN Layout on Lockscreen -->
+    <string name="unlock_scramble_pin_layout_title">Tata letak acak</string>
+    <string name="unlock_scramble_pin_layout_summary">Acak tata letak PIN saat membuka kunci perangkat</string>
+
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Suara screenshot</string>
+
+    <!-- Charging vibration -->
+    <string name="charging_vibro_title">Getar pengisian baterai</string>
+
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Cegah bangun tidak sengaja</string>
+    <string name="proximity_wake_summary">Periksa sensor jarak sebelum layar diaktifkan</string>
+
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Buka kunci cepat</string>
+    <string name="unlock_quick_unlock_control_summary">Buka kunci secara otomatis ketika PIN/kata sandi yang benar dimasukkan</string>
+
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Setel ulang statistik</string>
+    <string name="battery_stats_message">Statistik riwayat baterai akan diatur ulang</string>
+    <string name="ok_string">Ok</string>
+
+    <!-- ANBI -->
+    <string name="anbi_title">Sentuhan tidak disengaja</string>
+    <string name="anbi_summary">Cegah interaksi dengan tombol navigasi saat layar disentuh</string>
+
+    <string name="dashboard_conditions_title">Kondisi dasbor</string>
+    <string name="summary_dashboard_conditions_enabled">Kondisi dasbor diaktifkan</string>
+    <string name="summary_dashboard_conditions_disabled">Kondisi dasbor dinonaktifkan</string>
+
+    <string name="dashboard_suggestions_title">Saran dasbor</string>
+    <string name="summary_dashboard_suggestions_enabled">Saran dasbor diaktifkan</string>
+    <string name="summary_dashboard_suggestions_disabled">Saran dasbor dinonaktifkan</string>
+
+    <!-- Option defining the phone ringtone for slot1 on Muilti SIM device -->
+    <string name="ringtone1_title">Nada dering telepon - SIM 1</string>
+    <string name="ringtone2_title">Nada dering telepon - SIM 2</string>
+
+    <!-- Swipe fp to dismiss notifications -->
+    <string name="fp_swipe_to_dismiss_notifications_title">Geser sidik jari ke kiri atau kanan untuk mengabaikan pemberitahuan</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">Untuk mengabaikan pemberitahuan, geser ke kiri atau kanan pada sensor sidik jari di bagian belakang ponsel anda.</string>
+
+    <!-- Notification log -->
+    <string name="notification_log_summary">Tampilkan log riwayat pemberitahuan</string>
+
+    <!-- Expanded desktop -->
+    <string name="expanded_desktop_pref_title">Desktop yang diperluas</string>
+    <string name="expanded_hide_nothing">Tidak ada yang disembunyi</string>
+    <string name="expanded_hide_status">Sembunyikan status bar</string>
+    <string name="expanded_hide_navigation">Sembunyikan navigasi bar</string>
+    <string name="expanded_hide_both">Sembunyikan keduanya</string>
+    <string name="expanded_nothing_to_show">Untuk menambahkan konfigurasi khusus per-aplikasi untuk status yang diperluas, atur "Aktifkan untuk semua" ke posisi tidak aktif</string>
+    <string name="expanded_desktop_state">Status yang diperluas</string>
+    <string name="expanded_enabled_for_all">Aktifkan untuk semua</string>
+    <string name="expanded_user_configurable">Pengguna dapat dikonfigurasi</string>
+    <string name="expanded_desktop_style">Gaya desktop yang diperluas</string>
+    <string name="expanded_desktop_style_description">Pilih gaya desktop bawaan yang diperluas</string>
+    <string name="expanded_desktop_title">Opsi desktop yang diperluas</string>
+
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Tautan dering &amp; volume pemberitahuan</string>
+
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Meningkatkan volume dering</string>
+    <string name="increasing_ring_min_volume_title">Volume mulai</string>
+    <string name="increasing_ring_ramp_up_time_title">Waktu padat</string>
+         
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data">Data seluler</string>
+    <string name="data_usage_app_restrict_data_summary">Aktifkan penggunaan data seluler</string>
+    <string name="data_usage_app_restrict_wifi">Data Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Aktifkan penggunaan data Wi\u2011Fi</string>
+
 </resources>
