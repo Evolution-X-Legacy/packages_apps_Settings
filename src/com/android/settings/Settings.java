@@ -168,5 +168,6 @@ public class Settings extends SettingsActivity {
 
     // Evolution X additions
     public static class ExtraSettingsActivity extends SettingsActivity {}
+    public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }
 
 }
