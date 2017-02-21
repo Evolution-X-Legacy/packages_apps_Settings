@@ -244,4 +244,8 @@
     <!-- Running services -->
     <string name="background_processes_settings_title">Background processes</string>
 
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">Pocket detection</string>
+    <string name="pocket_judge_summary">Lock the screen and buttons when the device is in your pocket</string>
+
 </resources>
