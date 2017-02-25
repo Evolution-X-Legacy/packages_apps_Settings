@@ -108,6 +108,11 @@
             <intent android:action="com.android.settings.action.DEMO_MODE" />
         </Preference>
 
+        <SwitchPreference
+            android:key="force_authorize_substratum_packages"
+            android:title="@string/force_authorize_substratum_packages_title"
+            android:summary="@string/force_authorize_substratum_packages_summary" />
+
         <ListPreference
             android:key="dark_ui_mode"
             android:title="@string/dark_ui_mode"
