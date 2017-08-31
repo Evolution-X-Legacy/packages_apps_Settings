@@ -169,4 +169,7 @@ public class Settings extends SettingsActivity {
     // Ambient play
     public static class AmbientPlayHistoryActivity extends SettingsActivity { /* empty */ }
 
+    // Evolution X additions
+    public static class ExtraSettingsActivity extends SettingsActivity {}
+
 }
