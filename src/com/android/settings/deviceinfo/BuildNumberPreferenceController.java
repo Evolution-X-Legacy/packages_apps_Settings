@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2016 The Android Open Source Project
+ * Copyright (C) 2019 The Evolution X Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -88,10 +89,10 @@ public class BuildNumberPreferenceController extends AbstractPreferenceControlle
                 StringBuilder sb = new StringBuilder();
                 sb.append(BidiFormatter.getInstance().unicodeWrap(
                         TextUtils.isEmpty(Build.VENDOR.BUILD_NUMBER_OVERRIDE) ? Build.DISPLAY : Build.VENDOR.BUILD_NUMBER_OVERRIDE));
-                String pixelExperienceVersion = getPixelExperienceVersion();
-                if (!pixelExperienceVersion.equals("")){
+                String EvolutionVersion = getEvolutionVersion();
+                if (!EvolutionVersion.equals("")){
                     sb.append("\n");
-                    sb.append(pixelExperienceVersion);
+                    sb.append(EvolutionVersion);
                 }
                 preference.setSummary(sb.toString());
                 preference.setEnabled(true);
@@ -101,10 +102,10 @@ public class BuildNumberPreferenceController extends AbstractPreferenceControlle
         }
     }
 
-    private String getPixelExperienceVersion(){
-        String buildDate = SystemProperties.get("org.pixelexperience.build_date","");
-        String buildType = SystemProperties.get("org.pixelexperience.build_type","unofficial").toUpperCase();
-        return buildDate.equals("") ? "" : "PixelExperience-" + buildDate + "-" + buildType;
+    private String getEvolutionVersion(){
+        String buildDate = SystemProperties.get("org.evolutionx.build_date","");
+        String buildType = SystemProperties.get("org.evolutionx.build_type","unofficial").toUpperCase();
+        return buildDate.equals("") ? "" : "EvolutionX-" + buildDate + "-" + buildType;
     }
 
     @Override

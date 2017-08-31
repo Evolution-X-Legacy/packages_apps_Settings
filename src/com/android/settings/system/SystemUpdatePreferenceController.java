@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2016 The Android Open Source Project
+ * Copyright (C) 2019 The Evolution X Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -30,9 +31,9 @@ public class SystemUpdatePreferenceController extends BasePreferenceController {
 
     private static final String KEY_SYSTEM_UPDATE_SETTINGS = "system_update_settings";
 
-    private static final String OTA_BUILD_TYPE_PROP = "org.pixelexperience.build_type";
-    private static final String DEVICE_NAME = "org.pixelexperience.device";
-    private static final String OTA_APP_PACKAGE = "org.pixelexperience.ota";
+    private static final String OTA_BUILD_TYPE_PROP = "org.evolutionx.build_type";
+    private static final String DEVICE_NAME = "org.evolutionx.device";
+    private static final String OTA_APP_PACKAGE = "org.evolutionx.ota";
 
     private final UserManager mUm;
 
