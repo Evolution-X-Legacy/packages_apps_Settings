@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2016 The Android Open Source Project
+ * Copyright (C) 2019 The Evolution X Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -140,6 +141,8 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 import com.android.settings.custom.ambient.history.AmbientPlayHistory;
 import com.android.settings.livedisplay.LiveDisplaySettings;
 
+import com.evolution.settings.EvolutionSettings;
+
 public class SettingsGateway {
 
     /**
@@ -265,6 +268,7 @@ public class SettingsGateway {
             DirectoryAccessDetails.class.getName(),
             ToggleBackupSettingFragment.class.getName(),
             PreviouslyConnectedDeviceDashboardFragment.class.getName(),
+            EvolutionSettings.class.getName(),
             AmbientPlayHistory.class.getName(),
             LiveDisplaySettings.class.getName(),
     };
@@ -305,5 +309,6 @@ public class SettingsGateway {
             Settings.DeviceInfoSettingsActivity.class.getName(),
             Settings.EnterprisePrivacySettingsActivity.class.getName(),
             Settings.MyDeviceInfoActivity.class.getName(),
+            Settings.EvolutionSettingsActivity.class.getName(),
     };
 }
