@@ -41,6 +41,11 @@
         android:summary="@string/face_auto_unlock_summary"
         android:defaultValue="@*android:bool/config_autoFaceUnlockEnabledByDefault" />
 
+    <SwitchPreference
+        android:key="security_setting_lockdown_enabled"
+        android:title="@string/lockdown_settings_title"
+        android:summary="@string/lockdown_settings_summary" />
+
     <PreferenceCategory
         android:key="weather_lockscreen_key"
         android:title="@string/weather_title"
