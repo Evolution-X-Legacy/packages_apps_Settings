@@ -3362,7 +3362,7 @@
         <!-- Evolution X settings -->
         <activity android:name=".Settings$ExtraSettingsActivity"
                   android:label="@string/evolution_settings_title"
-                  android:icon="@drawable/ic_settings_evolution"
+                  android:icon="@drawable/ic_homepage_evolution"
                   android:taskAffinity="com.android.settings">
             <intent-filter android:priority="-1">
                 <action android:name="com.android.settings.action.SETTINGS" />
