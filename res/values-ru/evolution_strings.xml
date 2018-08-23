@@ -266,4 +266,9 @@
     <string name="dark_theme_style_title">Стиль тёмной темы</string>
     <string name="dark_theme_style_default">По умолчанию</string>
     <string name="dark_theme_style_black">Чёрный</string>
+    <!-- Custom light color -->
+    <string name="custom_light_title">Цвет светодиода</string>
+    <string name="custom_light_on_time_title">Длительность свечения светодиода (мс)</string>
+    <string name="custom_light_off_time_title">Длительность затухания светодиода (мс)</string>
+    <string name="value_equals_default">умолч.</string>
 </resources>
