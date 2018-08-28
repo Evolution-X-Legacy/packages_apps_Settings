@@ -147,6 +147,7 @@ import com.android.settings.livedisplay.LiveDisplaySettings;
 
 import com.evolution.settings.EvolutionSettings;
 import com.evolution.settings.fragments.NotificationSettings;
+import com.evolution.settings.fragments.ButtonSettings;
 
 public class SettingsGateway {
 
@@ -280,7 +281,8 @@ public class SettingsGateway {
             SmartbarSettingsActivity.class.getName(),
             FlingSettingsActivity.class.getName(),
             PulseSettingsActivity.class.getName(),
-            NotificationSettings.class.getName()
+            NotificationSettings.class.getName(),
+            ButtonSettings.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
