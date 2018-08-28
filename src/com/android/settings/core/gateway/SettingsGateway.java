@@ -146,6 +146,7 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 import com.android.settings.livedisplay.LiveDisplaySettings;
 
 import com.evolution.settings.EvolutionSettings;
+import com.evolution.settings.fragments.NotificationSettings;
 
 public class SettingsGateway {
 
@@ -278,7 +279,8 @@ public class SettingsGateway {
             NavigationSettingsActivity.class.getName(),
             SmartbarSettingsActivity.class.getName(),
             FlingSettingsActivity.class.getName(),
-            PulseSettingsActivity.class.getName()
+            PulseSettingsActivity.class.getName(),
+            NotificationSettings.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
