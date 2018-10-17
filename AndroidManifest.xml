@@ -3346,6 +3346,9 @@
         <service android:name=".fuelgauge.batterytip.AnomalyDetectionJobService"
                  android:permission="android.permission.BIND_JOB_SERVICE" />
 
+        <!-- Hide Apps from Recents (HAFR) -->
+        <activity android:name="com.extra.settings.recents.HAFRAppListActivity" />
+
         <!-- Evolution X settings -->
         <activity android:name=".Settings$ExtraSettingsActivity"
                   android:label="@string/evolution_settings_title"
