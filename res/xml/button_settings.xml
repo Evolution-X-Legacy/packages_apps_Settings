@@ -9,6 +9,12 @@
         android:summary="@string/anbi_summary"
         android:defaultValue="false" />
 
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        android:key="one_hand_mode_enabled"
+        android:title="@string/one_hand_mode_title"
+        android:summary="@string/one_hand_mode_summary"
+        android:defaultValue="false" />
+
     <SwitchPreference
         android:key="disable_nav_keys"
         android:title="@*android:string/disable_navkeys_title"
