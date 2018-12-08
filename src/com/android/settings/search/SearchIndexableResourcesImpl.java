@@ -107,6 +107,7 @@ import com.evolution.settings.fragments.ClockDateSettings;
 import com.evolution.settings.fragments.CustomGestureSettings;
 import com.evolution.settings.fragments.LockScreenSettings;
 import com.evolution.settings.fragments.MiscSettings;
+import com.evolution.settings.fragments.NavigationCategory;
 import com.evolution.settings.fragments.NotificationSettings;
 import com.evolution.settings.fragments.PowerMenuSettings;
 import com.evolution.settings.fragments.QuickSettings;
@@ -226,6 +227,7 @@ public class SearchIndexableResourcesImpl implements SearchIndexableResources {
         addIndex(CustomGestureSettings.class);
         addIndex(LockScreenSettings.class);
         addIndex(MiscSettings.class);
+        addIndex(NavigationCategory.class);
         addIndex(NotificationSettings.class);
         addIndex(PowerMenuSettings.class);
         addIndex(QuickSettings.class);
