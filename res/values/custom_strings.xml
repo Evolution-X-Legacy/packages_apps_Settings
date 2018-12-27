@@ -228,4 +228,12 @@
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
     <string name="status_deep_sleep">(Deep sleep: %1$d%2$s)</string>
 
+    <!-- Sound items summaries -->
+    <string name="dial_pad_tones_summary">When pressing numbers on phone dial pad</string>
+    <string name="screen_locking_sounds_summary">Play sound when locking or unlocking phone</string>
+    <string name="charging_sounds_summary">Play sound after plugging in phone</string>
+    <string name="charging_vibro_summary">Haptic feedback after plugging in phone</string>
+    <string name="touch_sounds_summary">When pressing buttons or navigation bar</string>
+    <string name="docking_sounds_summary">Play sound when you dock your phone</string>
+    <string name="screenshot_sound_summary">Camera shutter sound when taking screenshots</string>
 </resources>
