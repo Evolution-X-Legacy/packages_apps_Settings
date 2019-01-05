@@ -99,6 +99,19 @@ import com.android.settings.wfd.WifiDisplaySettings;
 import com.android.settings.wifi.ConfigureWifiSettings;
 import com.android.settings.wifi.WifiSettings;
 
+import com.extra.settings.fragments.GeneralTweaks;
+import com.extra.settings.fragments.GesturesSettings;
+import com.extra.settings.fragments.HeadsUpSettings;
+import com.extra.settings.fragments.LockScreen;
+import com.extra.settings.fragments.LockScreenUI;
+import com.extra.settings.fragments.Notifications;
+import com.extra.settings.fragments.PowerMenu;
+import com.extra.settings.fragments.QuickSettings;
+import com.extra.settings.fragments.StatusBar;
+import com.extra.settings.fragments.StatusBarBattery;
+import com.extra.settings.fragments.Traffic;
+import com.extra.settings.fragments.VolumeKeys;
+
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
@@ -193,6 +206,20 @@ public class SearchIndexableResourcesImpl implements SearchIndexableResources {
         addIndex(RecentLocationRequestSeeAllFragment.class);
         addIndex(PreviouslyConnectedDeviceDashboardFragment.class);
         addIndex(BluetoothDashboardFragment.class);
+
+        //Evolution X Additions
+        addIndex(GeneralTweaks.class);
+        addIndex(GesturesSettings.class);
+        addIndex(HeadsUpSettings.class);
+        addIndex(LockScreen.class);
+        addIndex(LockScreenUI.class);
+        addIndex(Notifications.class);
+        addIndex(PowerMenu.class);
+        addIndex(QuickSettings.class);
+        addIndex(StatusBar.class);
+        addIndex(StatusBarBattery.class);
+        addIndex(Traffic.class);
+        addIndex(VolumeKeys.class);
     }
 
     @Override
