@@ -64,4 +64,14 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory android:key="divider" />
+
+    <!-- Ambient play -->
+    <Preference
+        android:key="force_ambient_for_media_pref"
+        android:fragment="com.extra.settings.fragments.AmbientTicker"
+        android:title="@string/force_ambient_for_media_pref_title"
+        android:summary="@string/force_ambient_for_media_pref_summary"
+        settings:userRestriction="no_ambient_display" />
+
 </PreferenceScreen>
