@@ -50,7 +50,7 @@ import android.widget.TextView;
         mContext = context;
         mInflater = LayoutInflater.from(context);
         mFontService = IFontService.Stub.asInterface(
-                ServiceManager.getService("dufont"));
+                ServiceManager.getService("fontservice"));
         mPm = context.getPackageManager();
         loadFontList();
     }

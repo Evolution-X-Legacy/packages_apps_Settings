@@ -35,7 +35,7 @@ import android.widget.ListView;
         super(context, attrs);
         mContext = context;
         mFontService = IFontService.Stub.asInterface(
-                ServiceManager.getService("dufont"));
+                ServiceManager.getService("fontservice"));
     }
      @Override
     protected void onPrepareDialogBuilder(Builder builder,

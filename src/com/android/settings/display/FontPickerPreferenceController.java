@@ -54,7 +54,7 @@ import android.util.Log;
             lifecycle.addObserver(this);
         }
         mFontService = IFontService.Stub.asInterface(
-                ServiceManager.getService("dufont"));
+                ServiceManager.getService("fontservice"));
     }
      @Override
     public void onResume() {
