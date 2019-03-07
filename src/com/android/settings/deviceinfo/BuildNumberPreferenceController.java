@@ -104,7 +104,7 @@ public class BuildNumberPreferenceController extends AbstractPreferenceControlle
     private String getPixelExperienceVersion(){
         String buildDate = SystemProperties.get("org.pixelexperience.build_date","");
         String buildType = SystemProperties.get("org.pixelexperience.build_type","unofficial").toUpperCase();
-        return buildDate.equals("") ? "" : "PixelExperience-" + buildDate + "-" + buildType;
+        return buildDate.equals("") ? "" : "EvolutionX-" + buildDate + "-" + buildType;
     }
 
     @Override
