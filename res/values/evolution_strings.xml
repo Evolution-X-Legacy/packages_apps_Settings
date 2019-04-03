@@ -342,6 +342,8 @@
     <string name="battery_estimates_summary">Show the estimated battery life in QS panel</string>
 
     <!-- App Ops Categories -->
+    <string name="app_ops_title">App Ops</string>
+    <string name="app_ops_summary">Advanced app permissions control</string>
     <string name="app_ops_cat_location">Location</string>
     <string name="app_ops_cat_personal">Personal</string>
     <string name="app_ops_cat_messaging">Messaging</string>

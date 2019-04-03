@@ -110,6 +110,16 @@
 
     </PreferenceCategory>
 
+    <Preference
+        android:icon="@drawable/ic_settings_appops"
+        android:key="app_ops_settings"
+        android:title="@string/app_ops_title"
+        android:summary="@string/app_ops_summary" >
+        <intent android:action="android.intent.action.MAIN"
+            android:targetPackage="com.android.settings"
+            android:targetClass="com.android.settings.applications.appops.AppOpsSummary" />
+    </Preference>
+
     <PreferenceCategory
         android:order="40"
         android:key="security_settings_device_admin_category">
