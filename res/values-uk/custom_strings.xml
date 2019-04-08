@@ -103,69 +103,69 @@
     <string name="display_cutout_mode_hidden">Приховати виріз</string>
     <!-- Evolution X settings -->
     <string name="evolution_settings_title">Evolution X</string>
-    <string name="evolution_settings_summary">Keep evolving</string>
+    <string name="evolution_settings_summary">Продовжуйте розвиватися</string>
     <!-- Media gestures -->
-    <string name="prevent_ringing_option_mute_no_media">Mute, no media</string>
-    <string name="prevent_ringing_option_mute_no_media_summary">On (mute, no media)</string>
-    <string name="full_gesture_mode_title">Enable full gesture mode</string>
-    <string name="full_gesture_mode_summary">This mode disables the back button and you can trigger a back button action by a left swipe on navbar. Right swipe still triggers the last-app and the overview apps scrolling. To go home you can tap on any navbar empty space, not only the home button. When keyboard is showing, long press on navbar to move the text cursor.</string>
-    <string name="full_gesture_mode_dt2s_title">Enable double tap to sleep</string>
-    <string name="full_gesture_mode_dt2s_summary">Double Tap on an empty navbar space but not the home button to switch the screen off.</string>
+    <string name="prevent_ringing_option_mute_no_media">Без звуку, без медіа</string>
+    <string name="prevent_ringing_option_mute_no_media_summary">Ввімкнено (без звуку, без медіа)</string>
+    <string name="full_gesture_mode_title">Увімкнути повний режим жестів</string>
+    <string name="full_gesture_mode_summary">Цей режим вимикає кнопку «Назад» і ви зможете назначити дію кнопки «Назад» за допомогою свайпу вліво в рядку навігації. Свайп вправо, як і раніше, викликає останній додаток і огляд нещодавніх додатків. Щоб повернутися на домашній екран, ви можете натиснути на будь-яке пусте місце панелі навігації, а не тільки кнопку «Додому». Коли клавіатура активна, утримуйте натискання у рядку навігації для того, щоб перемістити курсор.</string>
+    <string name="full_gesture_mode_dt2s_title">Ввімкнути подвійне натискання для сну</string>
+    <string name="full_gesture_mode_dt2s_summary">Двічі натисніть на пусте місце в рядку навігації (але не на кнопку \"Додому\") для вимкнення екрана.</string>
     <!-- Scramble PIN Layout on Lockscreen -->
-    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
-    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+    <string name="unlock_scramble_pin_layout_title">Перемішати кнопки</string>
+    <string name="unlock_scramble_pin_layout_summary">Перемішати кнопки вводу PIN-коду при розблокуванні</string>
     <!-- Screenshot sound -->
-    <string name="screenshot_sound_title">Screenshot sound</string>
+    <string name="screenshot_sound_title">Звук знімка екрану</string>
     <!-- Charging vibration -->
-    <string name="charging_vibro_title">Charging vibration</string>
+    <string name="charging_vibro_title">Вібрація при підкл. зарядки</string>
     <!-- Proximity wake -->
-    <string name="proximity_wake_title">Prevent accidental wake-up</string>
-    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+    <string name="proximity_wake_title">Запобігати випадкового пробудження</string>
+    <string name="proximity_wake_summary">Перевіряти датчик наближення перед розблокуванням екрану</string>
     <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
-    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+    <string name="unlock_quick_unlock_control_title">Швидке розблокування</string>
+    <string name="unlock_quick_unlock_control_summary">Автоматичне розблокування при введенні правильного пароля чи PIN-коду</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Reset stats</string>
-    <string name="battery_stats_message">Battery history stats are going to be reset</string>
-    <string name="ok_string">Ok</string>
+    <string name="battery_stats_reset">Очистити статистику</string>
+    <string name="battery_stats_message">Історія використання батареї буде скинута</string>
+    <string name="ok_string">Гаразд</string>
     <!-- ANBI -->
-    <string name="anbi_title">Accidental touch</string>
-    <string name="anbi_summary">Prevent interaction with navigation buttons while the screen is being touched</string>
-    <string name="dashboard_conditions_title">Dashboard conditions</string>
-    <string name="summary_dashboard_conditions_enabled">Dashboard conditions are enabled</string>
-    <string name="summary_dashboard_conditions_disabled">Dashboard conditions are disabled</string>
-    <string name="dashboard_suggestions_title">Dashboard suggestions</string>
-    <string name="summary_dashboard_suggestions_enabled">Dashboard suggestions are enabled</string>
-    <string name="summary_dashboard_suggestions_disabled">Dashboard suggestions are disabled</string>
+    <string name="anbi_title">Випадковий дотик</string>
+    <string name="anbi_summary">Запобігати взаємодії з кнопками навігації при натисканні на екран</string>
+    <string name="dashboard_conditions_title">Сповіщення в меню налаштувань</string>
+    <string name="summary_dashboard_conditions_enabled">Сповіщення в меню налаштувань ввімкнено</string>
+    <string name="summary_dashboard_conditions_disabled">Сповіщення в меню налаштувань вимкнено</string>
+    <string name="dashboard_suggestions_title">Підказки в меню налаштувань</string>
+    <string name="summary_dashboard_suggestions_enabled">Підскази в меню налаштувань увімкнено</string>
+    <string name="summary_dashboard_suggestions_disabled">Підказки в меню налаштувань вимкнено</string>
     <!-- Option defining the phone ringtone for slot1 on Muilti SIM device -->
-    <string name="ringtone1_title">Phone ringtone - SIM 1</string>
-    <string name="ringtone2_title">Phone ringtone - SIM 2</string>
+    <string name="ringtone1_title">Мелодія дзвінка - SIM 1</string>
+    <string name="ringtone2_title">Мелодія дзвінка - SIM 2</string>
     <!-- Swipe fp to dismiss notifications -->
-    <string name="fp_swipe_to_dismiss_notifications_title">Swipe fingerprint left or right to dismiss notifications</string>
-    <string name="fp_swipe_to_dismiss_notifications_summary">To dismiss your notifications, swipe left or right on the fingerprint sensor on the back of your phone.</string>
+    <string name="fp_swipe_to_dismiss_notifications_title">Проведіть пальцем по сканеру відбитка пальця вліво або вправо, щоб прибрати повідомлення</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">Для того, щоб прибрати ваші повідомлення, проведіть пальцем вліво або право по сканеру відбитку пальця.</string>
     <!-- Notification log -->
-    <string name="notification_log_summary">Show notifications history log</string>
+    <string name="notification_log_summary">Показати історію повідомлень</string>
     <!-- Expanded desktop -->
-    <string name="expanded_desktop_pref_title">Expanded desktop</string>
-    <string name="expanded_hide_nothing">Hide nothing</string>
-    <string name="expanded_hide_status">Hide status bar</string>
-    <string name="expanded_hide_navigation">Hide navigation bar</string>
-    <string name="expanded_hide_both">Hide both</string>
-    <string name="expanded_nothing_to_show">To add a custom per-app configuration for expanded state, set \"Enabled for all\" to the off position</string>
-    <string name="expanded_desktop_state">Expanded state</string>
-    <string name="expanded_enabled_for_all">Enabled for all</string>
-    <string name="expanded_user_configurable">User configurable</string>
-    <string name="expanded_desktop_style">Expanded desktop style</string>
-    <string name="expanded_desktop_style_description">Choose a default expanded desktop style</string>
-    <string name="expanded_desktop_title">Expanded desktop options</string>
+    <string name="expanded_desktop_pref_title">Розширений робочий стіл</string>
+    <string name="expanded_hide_nothing">Нічого не ховати</string>
+    <string name="expanded_hide_status">Приховати панель стану</string>
+    <string name="expanded_hide_navigation">Приховати панель навігації</string>
+    <string name="expanded_hide_both">Приховувати обидва</string>
+    <string name="expanded_nothing_to_show">Для додавання окремих конфігурацій розширеного екрану для кожної програми вимкніть опцію «Увімкнути для всіх»</string>
+    <string name="expanded_desktop_state">Розширений режим</string>
+    <string name="expanded_enabled_for_all">Увімкнено для всіх</string>
+    <string name="expanded_user_configurable">Налаштовується користувачем</string>
+    <string name="expanded_desktop_style">Режим розширеного робочого столу</string>
+    <string name="expanded_desktop_style_description">Виберіть типовий стиль розширеного робочого столу</string>
+    <string name="expanded_desktop_title">Параметри розширеного робочого столу</string>
     <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+    <string name="volume_link_notification_title">Зв\'язати гучність рінгтона і повідомлень</string>
     <!-- Increasing ring tone volume -->
-    <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
-    <string name="increasing_ring_min_volume_title">Start volume</string>
-    <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
+    <string name="increasing_ring_volume_option_title">Наростаюча гучність дзвінка</string>
+    <string name="increasing_ring_min_volume_title">Початкова гучність</string>
+    <string name="increasing_ring_ramp_up_time_title">Час наростання</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_data">Cellular data</string>
+    <string name="data_usage_app_restrict_data">Мобільні дані</string>
     <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
     <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
     <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
@@ -187,17 +187,6 @@
     <string name="aggressive_idle_summary">Enter device idle more frequently and wake up less</string>
     <string name="aggressive_standby_title">Extended apps standby</string>
     <string name="aggressive_standby_summary">Restrict apps from running the background</string>
-    <!-- Audio Panel view  -->
-    <string name="audio_panel_view_title">Volume panel</string>
-    <string name="audio_panel_view_summary">Customize volume panel dialog</string>
-    <string name="audio_panel_view_info">Active volume stream will be displayed on the screen even if disabled here. Volume streams enabled here would be displayed forcefully.</string>
-    <string name="audio_panel_view_media_title">Media</string>
-    <string name="audio_panel_view_ringer_title">Ring</string>
-    <string name="audio_panel_view_notification_title">Notification</string>
-    <string name="audio_panel_view_notification_disabled">Ring &amp; notification volumes are linked</string>
-    <string name="audio_panel_view_alarm_title">Alarm</string>
-    <string name="audio_panel_view_voice_title">Voice</string>
-    <string name="audio_panel_view_bt_sco_title">Bluetooth</string>
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
     <string name="status_deep_sleep">(Deep sleep: %1$d%2$s)</string>
 </resources>

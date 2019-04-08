@@ -187,17 +187,6 @@
     <string name="aggressive_idle_summary">ป้อนอุปกรณ์ที่ไม่ได้ใช้งานบ่อยและให้ทำงานน้อยลง</string>
     <string name="aggressive_standby_title">แอพสแตนด์บายเพิ่มเติม</string>
     <string name="aggressive_standby_summary">จำกัด แอพไม่ให้รันในพื้นหลัง</string>
-    <!-- Audio Panel view  -->
-    <string name="audio_panel_view_title">แผงควบคุมระดับเสียง</string>
-    <string name="audio_panel_view_summary">กำหนดไดอะล็อกของแผงควบคุมระดับเสียง</string>
-    <string name="audio_panel_view_info">ระดับปริมาณที่ใช้งานจะปรากฏบนหน้าจอแม้ว่าจะปิดการใช้งานที่นี่ ระดับปริมาณที่เปิดใช้ที่นี่จะแสดงผลทันที</string>
-    <string name="audio_panel_view_media_title">สื่อ</string>
-    <string name="audio_panel_view_ringer_title">เสียงเรียกเข้า</string>
-    <string name="audio_panel_view_notification_title">เสียงแจ้งเตือน</string>
-    <string name="audio_panel_view_notification_disabled">เชื่อมโยงระดับเสียงเรียกเข้า &amp; เสียงแจ้งเตือน</string>
-    <string name="audio_panel_view_alarm_title">ปลุก</string>
-    <string name="audio_panel_view_voice_title">โทร</string>
-    <string name="audio_panel_view_bt_sco_title">บลูทูธ</string>
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
-    <string name="status_deep_sleep">(Deep sleep: %1$d%2$s)</string>
+    <string name="status_deep_sleep">(ดีปสลีป Deep Sleep: %1$d%2$s)</string>
 </resources>
