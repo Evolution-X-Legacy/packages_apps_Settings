@@ -88,10 +88,10 @@ public class BuildNumberPreferenceController extends AbstractPreferenceControlle
                 StringBuilder sb = new StringBuilder();
                 sb.append(BidiFormatter.getInstance().unicodeWrap(
                         TextUtils.isEmpty(Build.VENDOR.BUILD_NUMBER_OVERRIDE) ? Build.DISPLAY : Build.VENDOR.BUILD_NUMBER_OVERRIDE));
-                String pixelExperienceVersion = getPixelExperienceVersion();
-                if (!pixelExperienceVersion.equals("")){
+                String EvolutionXVersion = getEvolutionXVersion();
+                if (!EvolutionXVersion.equals("")){
                     sb.append("\n");
-                    sb.append(pixelExperienceVersion);
+                    sb.append(EvolutionXVersion);
                 }
                 preference.setSummary(sb.toString());
                 preference.setEnabled(true);
@@ -101,9 +101,9 @@ public class BuildNumberPreferenceController extends AbstractPreferenceControlle
         }
     }
 
-    private String getPixelExperienceVersion(){
-        String buildDate = SystemProperties.get("org.pixelexperience.build_date","");
-        String buildType = SystemProperties.get("org.pixelexperience.build_type","unofficial").toUpperCase();
+    private String getEvolutionXVersion(){
+        String buildDate = SystemProperties.get("org.evolutionx.build_date","");
+        String buildType = SystemProperties.get("org.evolutionx.build_type","unofficial").toUpperCase();
         return buildDate.equals("") ? "" : "EvolutionX-" + buildDate + "-" + buildType;
     }
 

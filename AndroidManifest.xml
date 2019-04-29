@@ -3351,7 +3351,7 @@
 
         <!-- Evolution X settings -->
         <activity android:name=".Settings$ExtraSettingsActivity"
-                  android:label="@string/evolution_settings_title"
+                  android:label="@string/evox_settings_title"
                   android:icon="@drawable/ic_homepage_evolution"
                   android:taskAffinity="com.android.settings">
             <intent-filter android:priority="-1">
