@@ -102,6 +102,9 @@
     <string name="display_cutout_mode_title">โหมดคัตเอาท์ (รอยบาก)</string>
     <string name="display_cutout_mode_normal">ค่าเริ่มต้น</string>
     <string name="display_cutout_mode_hidden">ซ่อน</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
+    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
     <!-- Evolution X settings -->
     <string name="evolution_settings_title">การตั้งค่า Evolution X</string>
     <string name="evolution_settings_summary">เชื่อในวิวัฒนาการ</string>
@@ -119,9 +122,6 @@
     <string name="screenshot_sound_title">เสียงถ่ายภาพหน้าจอ</string>
     <!-- Charging vibration -->
     <string name="charging_vibro_title">สั่นเมื่อชาร์จแบตเตอรี่</string>
-    <!-- Proximity wake -->
-    <string name="proximity_wake_title">ป้องกันการปลุกโดยไม่ตั้งใจ</string>
-    <string name="proximity_wake_summary">ตรวจสอบเซ็นเซอร์ proximity ก่อนปลุกหน้าจอ</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">ปลดล็อคอย่างรวดเร็ว</string>
     <string name="unlock_quick_unlock_control_summary">ปลดล็อคโดยอัตโนมัติเมื่อป้อน PIN หรือ รหัสผ่านที่ถูกต้อง</string>
@@ -200,4 +200,7 @@
     <string name="screenshot_sound_summary">Camera shutter sound when taking screenshots</string>
     <!-- Running services -->
     <string name="background_processes_settings_title">Background processes</string>
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">Pocket detection</string>
+    <string name="pocket_judge_summary">Lock the screen and buttons when the device is in your pocket</string>
 </resources>
