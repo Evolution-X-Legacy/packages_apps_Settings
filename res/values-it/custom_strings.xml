@@ -172,32 +172,32 @@
     <string name="data_usage_app_restrict_wifi_summary">Abilita l\'uso dei dati del Wi\u2011Fi</string>
     <!-- Onehand UI mode -->
     <string name="one_hand_mode_title">Modalità una mano</string>
-    <string name="one_hand_mode_summary">Allow swiping across right or left on navbar to enable</string>
+    <string name="one_hand_mode_summary">Attiva lo scorrimento verso destra o sinistra sulla barra di navigazione per abilitare</string>
     <!-- Doze on charge -->
-    <string name="doze_on_charge_title">Always on when charging</string>
-    <string name="doze_on_charge_summary">Show time, notification icons, and other info when charging</string>
+    <string name="doze_on_charge_title">Schermo sempre attivo durante la ricarica</string>
+    <string name="doze_on_charge_summary">Visualizza l\'ora, le icone di notifica e altre informazioni durante la ricarica della batteria</string>
     <!-- Font picker -->
-    <string name="font_picker_title">Font</string>
-    <string name="font_picker_progress">Applying new font\u2026</string>
+    <string name="font_picker_title">Carattere</string>
+    <string name="font_picker_progress">Applicazione del nuovo carattere</string>
     <!-- Manage applications, package string displayed in app snippet -->
     <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
     <!-- Battery temp -->
-    <string name="battery_temp_title">Battery temperature</string>
+    <string name="battery_temp_title">Temperatura della batteria</string>
     <!-- Aggressive battery -->
-    <string name="aggressive_idle_title">Extended idle</string>
-    <string name="aggressive_idle_summary">Enter device idle more frequently and wake up less</string>
-    <string name="aggressive_standby_title">Extended apps standby</string>
-    <string name="aggressive_standby_summary">Restrict apps from running the background</string>
+    <string name="aggressive_idle_title">Estensione inattività</string>
+    <string name="aggressive_idle_summary">Immette il dispositivo inattivo più frequentemente per ridurre il risveglio</string>
+    <string name="aggressive_standby_title">App estese standby</string>
+    <string name="aggressive_standby_summary">Limita l\'uso di applicazioni in esecuzione in background</string>
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
-    <string name="status_deep_sleep">(Deep sleep: %1$d%2$s)</string>
+    <string name="status_deep_sleep">(Sospensione: %1$d%2$s)</string>
     <!-- Sound items summaries -->
-    <string name="dial_pad_tones_summary">When pressing numbers on phone dial pad</string>
-    <string name="screen_locking_sounds_summary">Play sound when locking or unlocking phone</string>
-    <string name="charging_sounds_summary">Play sound after plugging in phone</string>
-    <string name="charging_vibro_summary">Haptic feedback after plugging in phone</string>
-    <string name="touch_sounds_summary">When pressing buttons or navigation bar</string>
-    <string name="docking_sounds_summary">Play sound when you dock your phone</string>
-    <string name="screenshot_sound_summary">Camera shutter sound when taking screenshots</string>
+    <string name="dial_pad_tones_summary">Quando si preme i numeri sul tastierino del telefono</string>
+    <string name="screen_locking_sounds_summary">Riproduci il suono quando si blocca o sblocca il telefono</string>
+    <string name="charging_sounds_summary">Riproduci il suono dopo aver eseguito il log del telefono</string>
+    <string name="charging_vibro_summary">Esegue una vibrazione dopo l\'attivazione del telefono</string>
+    <string name="touch_sounds_summary">Pressione dei pulsanti o barra di navigazione</string>
+    <string name="docking_sounds_summary">Riproduci l\'audio quando si collega il telefono</string>
+    <string name="screenshot_sound_summary">Suono dello scatto della fotocamera quando si scattano le foto</string>
     <!-- Running services -->
-    <string name="background_processes_settings_title">Background processes</string>
+    <string name="background_processes_settings_title">Processi in background</string>
 </resources>
