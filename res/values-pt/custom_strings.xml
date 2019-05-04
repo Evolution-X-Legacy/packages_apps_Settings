@@ -102,6 +102,9 @@
     <string name="display_cutout_mode_title">Notch behavior</string>
     <string name="display_cutout_mode_normal">Default</string>
     <string name="display_cutout_mode_hidden">Hidden</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
+    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
     <!-- Evolution X settings -->
     <string name="evolution_settings_title">Evolution X</string>
     <string name="evolution_settings_summary">Keep evolving</string>
@@ -119,9 +122,6 @@
     <string name="screenshot_sound_title">Screenshot sound</string>
     <!-- Charging vibration -->
     <string name="charging_vibro_title">Charging vibration</string>
-    <!-- Proximity wake -->
-    <string name="proximity_wake_title">Prevent accidental wake-up</string>
-    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Quick unlock</string>
     <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
@@ -200,4 +200,7 @@
     <string name="screenshot_sound_summary">Camera shutter sound when taking screenshots</string>
     <!-- Running services -->
     <string name="background_processes_settings_title">Background processes</string>
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">Pocket detection</string>
+    <string name="pocket_judge_summary">Lock the screen and buttons when the device is in your pocket</string>
 </resources>
