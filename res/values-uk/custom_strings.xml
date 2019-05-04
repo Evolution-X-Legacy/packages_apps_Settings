@@ -25,7 +25,7 @@
     <string name="notification_light_title">Індикатор сповіщень</string>
     <string name="battery_light_title">Індикатор батареї</string>
     <!-- Manual provisioning support -->
-    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> є <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
     <string name="sim_disabled">вимкнено</string>
     <string name="sim_missing">відсутній або несправний</string>
     <string name="sim_enabler_need_disable_sim">SIM-карту буде деактивовано. Ви хочете продовжити?</string>
@@ -102,9 +102,12 @@
     <string name="display_cutout_mode_title">Налаштування вирізу</string>
     <string name="display_cutout_mode_normal">За замовчуванням</string>
     <string name="display_cutout_mode_hidden">Приховати виріз</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Повноекранні додатки</string>
+    <string name="display_cutout_force_fullscreen_summary">Змусити додатки ігнорувати виріз</string>
     <!-- Evolution X settings -->
-    <string name="evolution_settings_title">Evolution X</string>
-    <string name="evolution_settings_summary">Продовжуйте розвиватися</string>
+    <string name="evolution_settings_title">Параметри Evolution</string>
+    <string name="evolution_settings_summary">Все, що потрібно</string>
     <!-- Media gestures -->
     <string name="prevent_ringing_option_mute_no_media">Без звуку, без медіа</string>
     <string name="prevent_ringing_option_mute_no_media_summary">Ввімкнено (без звуку, без медіа)</string>
@@ -119,9 +122,6 @@
     <string name="screenshot_sound_title">Звук знімка екрану</string>
     <!-- Charging vibration -->
     <string name="charging_vibro_title">Вібрація при підкл. зарядки</string>
-    <!-- Proximity wake -->
-    <string name="proximity_wake_title">Запобігати випадкового пробудження</string>
-    <string name="proximity_wake_summary">Перевіряти датчик наближення перед розблокуванням екрану</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Швидке розблокування</string>
     <string name="unlock_quick_unlock_control_summary">Автоматичне розблокування при введенні правильного пароля чи PIN-коду</string>
@@ -167,37 +167,40 @@
     <string name="increasing_ring_ramp_up_time_title">Час наростання</string>
     <!-- Per-app data restrictions -->
     <string name="data_usage_app_restrict_data">Мобільні дані</string>
-    <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
-    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_data_summary">Увімкнути використання мобільних даних</string>
+    <string name="data_usage_app_restrict_wifi">Передача даних по Wi-Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Дозволити використовувати Wi-Fi</string>
     <!-- Onehand UI mode -->
-    <string name="one_hand_mode_title">One-handed Mode</string>
-    <string name="one_hand_mode_summary">Allow swiping across right or left on navbar to enable</string>
+    <string name="one_hand_mode_title">Режим керування однією рукою</string>
+    <string name="one_hand_mode_summary">Проведіть ліворуч або праворуч по панелі навігації для увімкнення</string>
     <!-- Doze on charge -->
-    <string name="doze_on_charge_title">Always on when charging</string>
-    <string name="doze_on_charge_summary">Show time, notification icons, and other info when charging</string>
+    <string name="doze_on_charge_title">Always on під час заряджання</string>
+    <string name="doze_on_charge_summary">Показувати час, значки сповіщення та іншу інформацію коли заряджається</string>
     <!-- Font picker -->
-    <string name="font_picker_title">Font</string>
-    <string name="font_picker_progress">Applying new font\u2026</string>
+    <string name="font_picker_title">Шрифт</string>
+    <string name="font_picker_progress">Застосування нового шрифту\u2026</string>
     <!-- Manage applications, package string displayed in app snippet -->
     <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
     <!-- Battery temp -->
-    <string name="battery_temp_title">Battery temperature</string>
+    <string name="battery_temp_title">Температура батареї</string>
     <!-- Aggressive battery -->
-    <string name="aggressive_idle_title">Extended idle</string>
-    <string name="aggressive_idle_summary">Enter device idle more frequently and wake up less</string>
-    <string name="aggressive_standby_title">Extended apps standby</string>
-    <string name="aggressive_standby_summary">Restrict apps from running the background</string>
+    <string name="aggressive_idle_title">Розширений режим очікування</string>
+    <string name="aggressive_idle_summary">Частіше входити в режим очікування і рідше прокидатися</string>
+    <string name="aggressive_standby_title">Розширені програми в режимі очікування</string>
+    <string name="aggressive_standby_summary">Обмежити роботу додатків в фоновому режимі</string>
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
-    <string name="status_deep_sleep">(Deep sleep: %1$d%2$s)</string>
+    <string name="status_deep_sleep">(Глибокий сон: %1$d%2$s)</string>
     <!-- Sound items summaries -->
-    <string name="dial_pad_tones_summary">When pressing numbers on phone dial pad</string>
-    <string name="screen_locking_sounds_summary">Play sound when locking or unlocking phone</string>
-    <string name="charging_sounds_summary">Play sound after plugging in phone</string>
-    <string name="charging_vibro_summary">Haptic feedback after plugging in phone</string>
-    <string name="touch_sounds_summary">When pressing buttons or navigation bar</string>
-    <string name="docking_sounds_summary">Play sound when you dock your phone</string>
-    <string name="screenshot_sound_summary">Camera shutter sound when taking screenshots</string>
+    <string name="dial_pad_tones_summary">При натисканні номерів на телефонну клавіатуру</string>
+    <string name="screen_locking_sounds_summary">Відтворення звуку під час блокування або розблокування телефону</string>
+    <string name="charging_sounds_summary">Відтворити звук після підключення телефону</string>
+    <string name="charging_vibro_summary">Зворотній зв\'язок після підключення телефону</string>
+    <string name="touch_sounds_summary">При натисканні кнопок або навігаційної панелі</string>
+    <string name="docking_sounds_summary">Відтворити звук, коли ви підключите телефон</string>
+    <string name="screenshot_sound_summary">Звук камери при зйомці скріншотів</string>
     <!-- Running services -->
-    <string name="background_processes_settings_title">Background processes</string>
+    <string name="background_processes_settings_title">Фонові процеси</string>
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">Pocket detection</string>
+    <string name="pocket_judge_summary">Lock the screen and buttons when the device is in your pocket</string>
 </resources>
