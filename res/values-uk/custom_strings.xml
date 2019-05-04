@@ -104,7 +104,7 @@
     <string name="display_cutout_mode_hidden">Приховати виріз</string>
     <!-- Evolution X settings -->
     <string name="evolution_settings_title">Параметри Evolution</string>
-    <string name="evolution_settings_summary">Продовжуйте розвиватися</string>
+    <string name="evolution_settings_summary">Все, що потрібно</string>
     <!-- Media gestures -->
     <string name="prevent_ringing_option_mute_no_media">Без звуку, без медіа</string>
     <string name="prevent_ringing_option_mute_no_media_summary">Ввімкнено (без звуку, без медіа)</string>
