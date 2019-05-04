@@ -103,8 +103,8 @@
     <string name="display_cutout_mode_normal">За замовчуванням</string>
     <string name="display_cutout_mode_hidden">Приховати виріз</string>
     <!-- Notch: Full screen apps -->
-    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
-    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
+    <string name="display_cutout_force_fullscreen_title">Повноекранні додатки</string>
+    <string name="display_cutout_force_fullscreen_summary">Змусити додатки ігнорувати виріз</string>
     <!-- Evolution X settings -->
     <string name="evolution_settings_title">Параметри Evolution</string>
     <string name="evolution_settings_summary">Все, що потрібно</string>
