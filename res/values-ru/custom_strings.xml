@@ -104,7 +104,7 @@
     <string name="display_cutout_mode_hidden">Скрыть вырез</string>
     <!-- Evolution X settings -->
     <string name="evolution_settings_title">Настройки Evolution</string>
-    <string name="evolution_settings_summary">Продолжайте развиваться</string>
+    <string name="evolution_settings_summary">Все, что нужно</string>
     <!-- Media gestures -->
     <string name="prevent_ringing_option_mute_no_media">Без звука, без мультимедиа</string>
     <string name="prevent_ringing_option_mute_no_media_summary">Включено (без звука, без мультимедиа)</string>
