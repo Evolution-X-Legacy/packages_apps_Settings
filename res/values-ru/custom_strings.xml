@@ -137,7 +137,7 @@
     <string name="summary_dashboard_conditions_disabled">Уведомления в главном меню выключены</string>
     <string name="dashboard_suggestions_title">Подсказки меню настроек</string>
     <string name="summary_dashboard_suggestions_enabled">Рекомендации в меню настроек включены</string>
-    <string name="summary_dashboard_suggestions_disabled">Подсказки в главном меню выключены</string>
+    <string name="summary_dashboard_suggestions_disabled">Подсказки в меню настроек выключены</string>
     <!-- Option defining the phone ringtone for slot1 on Muilti SIM device -->
     <string name="ringtone1_title">Мелодия звонка - SIM 1</string>
     <string name="ringtone2_title">Мелодия звонка - SIM 2</string>
