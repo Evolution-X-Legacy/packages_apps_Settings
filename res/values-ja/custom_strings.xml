@@ -103,41 +103,41 @@
     <string name="display_cutout_mode_normal">既定</string>
     <string name="display_cutout_mode_hidden">非表示</string>
     <!-- Notch: Full screen apps -->
-    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
-    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
+    <string name="display_cutout_force_fullscreen_title">全画面表示のアプリ</string>
+    <string name="display_cutout_force_fullscreen_summary">強制的にアプリのノッチ領域を無視する</string>
     <!-- Evolution X settings -->
     <string name="evolution_settings_title">Evolution X</string>
     <string name="evolution_settings_summary">Keep evolving</string>
     <!-- Media gestures -->
-    <string name="prevent_ringing_option_mute_no_media">Mute, no media</string>
-    <string name="prevent_ringing_option_mute_no_media_summary">On (mute, no media)</string>
-    <string name="full_gesture_mode_title">Enable full gesture mode</string>
-    <string name="full_gesture_mode_summary">This mode disables the back button and you can trigger a back button action by a left swipe on navbar. Right swipe still triggers the last-app and the overview apps scrolling. To go home you can tap on any navbar empty space, not only the home button. When keyboard is showing, long press on navbar to move the text cursor.</string>
-    <string name="full_gesture_mode_dt2s_title">Enable double tap to sleep</string>
-    <string name="full_gesture_mode_dt2s_summary">Double Tap on an empty navbar space but not the home button to switch the screen off.</string>
+    <string name="prevent_ringing_option_mute_no_media">ミュート、メディアなし</string>
+    <string name="prevent_ringing_option_mute_no_media_summary">ON (ミュート、メディアなし)</string>
+    <string name="full_gesture_mode_title">全てのジェスチャーモードを有効化</string>
+    <string name="full_gesture_mode_summary">このモードでは戻るボタンが無効になり、ナビゲーションバーの左スワイプで戻るアクションをすることができます。右スワイプはアプリ履歴アクションを起動しアプリ一覧をスクロールできます。ホームボタンだけでなくナビゲーションバーの空きエリアをタップしてもホームに戻れます。キーボード表示時はナビゲーションバー長押しでテキストカーソルに移動します。</string>
+    <string name="full_gesture_mode_dt2s_title">ダブルタップでスリープ機能を有効化</string>
+    <string name="full_gesture_mode_dt2s_summary">ホームキーだけでなくナビゲーションバーの空きエリアをダブルタップしてスリープする</string>
     <!-- Scramble PIN Layout on Lockscreen -->
-    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
-    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+    <string name="unlock_scramble_pin_layout_title">ランダムなレイアウト</string>
+    <string name="unlock_scramble_pin_layout_summary">端末のロック解除時に PIN レイアウトをランダムにする</string>
     <!-- Screenshot sound -->
-    <string name="screenshot_sound_title">Screenshot sound</string>
+    <string name="screenshot_sound_title">スクリーンショットの音</string>
     <!-- Charging vibration -->
-    <string name="charging_vibro_title">Charging vibration</string>
+    <string name="charging_vibro_title">充電時の振動</string>
     <!-- Proximity wake -->
-    <string name="proximity_wake_title">Prevent accidental wake-up</string>
-    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+    <string name="proximity_wake_title">偶発的なスリープ解除を防止</string>
+    <string name="proximity_wake_summary">スリープ解除する前に接近センサーで確認する</string>
     <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
-    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+    <string name="unlock_quick_unlock_control_title">クイックロック解除</string>
+    <string name="unlock_quick_unlock_control_summary">正しい PIN/パスワード が入力された時はロックを自動的に解除する</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Reset stats</string>
-    <string name="battery_stats_message">Battery history stats are going to be reset</string>
-    <string name="ok_string">Ok</string>
+    <string name="battery_stats_reset">統計のリセット</string>
+    <string name="battery_stats_message">バッテリの使用履歴はリセットされます</string>
+    <string name="ok_string">OK</string>
     <!-- ANBI -->
-    <string name="anbi_title">Accidental touch</string>
-    <string name="anbi_summary">Prevent interaction with navigation buttons while the screen is being touched</string>
-    <string name="dashboard_conditions_title">Dashboard conditions</string>
-    <string name="summary_dashboard_conditions_enabled">Dashboard conditions are enabled</string>
-    <string name="summary_dashboard_conditions_disabled">Dashboard conditions are disabled</string>
+    <string name="anbi_title">誤タッチ</string>
+    <string name="anbi_summary">画面がタッチされている間はナビゲーションボタンを無効化して誤操作を防ぐ</string>
+    <string name="dashboard_conditions_title">ダッシュボードの状態</string>
+    <string name="summary_dashboard_conditions_enabled">ダッシュボードの状態の表示が有効です</string>
+    <string name="summary_dashboard_conditions_disabled">ダッシュボードの状態の表示が無効です</string>
     <string name="dashboard_suggestions_title">Dashboard suggestions</string>
     <string name="summary_dashboard_suggestions_enabled">Dashboard suggestions are enabled</string>
     <string name="summary_dashboard_suggestions_disabled">Dashboard suggestions are disabled</string>
