@@ -122,6 +122,9 @@
     <string name="screenshot_sound_title">スクリーンショットの音</string>
     <!-- Charging vibration -->
     <string name="charging_vibro_title">充電時の振動</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Prevent accidental wake-up</string>
+    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">クイックロック解除</string>
     <string name="unlock_quick_unlock_control_summary">正しい PIN/パスワード が入力された時はロックを自動的に解除する</string>
@@ -200,7 +203,4 @@
     <string name="screenshot_sound_summary">スクリーンショットを撮った時のカメラ音</string>
     <!-- Running services -->
     <string name="background_processes_settings_title">バックグラウンドプロセス</string>
-    <!-- Pocket judge -->
-    <string name="pocket_judge_title">ポケット検出</string>
-    <string name="pocket_judge_summary">端末がポケット内にある時は画面とボタンをロックする</string>
 </resources>
