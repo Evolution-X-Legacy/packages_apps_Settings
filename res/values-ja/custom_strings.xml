@@ -201,6 +201,6 @@
     <!-- Running services -->
     <string name="background_processes_settings_title">バックグラウンドプロセス</string>
     <!-- Pocket judge -->
-    <string name="pocket_judge_title">Pocket detection</string>
-    <string name="pocket_judge_summary">Lock the screen and buttons when the device is in your pocket</string>
+    <string name="pocket_judge_title">ポケット検出</string>
+    <string name="pocket_judge_summary">端末がポケット内にある時は画面とボタンをロックする</string>
 </resources>
