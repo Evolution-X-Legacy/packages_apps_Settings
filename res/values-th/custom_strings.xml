@@ -102,6 +102,9 @@
     <string name="display_cutout_mode_title">โหมดคัตเอาท์ (รอยบาก)</string>
     <string name="display_cutout_mode_normal">ค่าเริ่มต้น</string>
     <string name="display_cutout_mode_hidden">ซ่อน</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
+    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
     <!-- Evolution X settings -->
     <string name="evolution_settings_title">การตั้งค่า Evolution X</string>
     <string name="evolution_settings_summary">เชื่อในวิวัฒนาการ</string>
