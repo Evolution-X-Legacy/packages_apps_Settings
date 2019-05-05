@@ -122,6 +122,9 @@
     <string name="screenshot_sound_title">Звук при снятии скриншота</string>
     <!-- Charging vibration -->
     <string name="charging_vibro_title">Вибрация при подкл. зарядки</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Prevent accidental wake-up</string>
+    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
     <string name="unlock_quick_unlock_control_summary">Разблокировать автоматически при вводе правильного ПИН-кода/пароля</string>
@@ -200,7 +203,4 @@
     <string name="screenshot_sound_summary">Звук камеры при захвате скриншотов</string>
     <!-- Running services -->
     <string name="background_processes_settings_title">Фоновые процессы</string>
-    <!-- Pocket judge -->
-    <string name="pocket_judge_title">Режим \"В кармане\"</string>
-    <string name="pocket_judge_summary">Заблокировать экран и кнопки когда устройство находится в кармане</string>
 </resources>
