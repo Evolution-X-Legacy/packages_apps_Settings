@@ -102,6 +102,9 @@
     <string name="display_cutout_mode_title">Comportamiento del Notch</string>
     <string name="display_cutout_mode_normal">Por defecto</string>
     <string name="display_cutout_mode_hidden">Oculto</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
+    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
     <!-- Evolution X settings -->
     <string name="evolution_settings_title">Evolution X</string>
     <string name="evolution_settings_summary">Cree en Evolution X</string>
