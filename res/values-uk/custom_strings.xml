@@ -123,8 +123,8 @@
     <!-- Charging vibration -->
     <string name="charging_vibro_title">Вібрація при підкл. зарядки</string>
     <!-- Proximity wake -->
-    <string name="proximity_wake_title">Prevent accidental wake-up</string>
-    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+    <string name="proximity_wake_title">Запобігати випадкового пробудження</string>
+    <string name="proximity_wake_summary">Перевіряти датчик наближення перед розблокуванням екрану</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Швидке розблокування</string>
     <string name="unlock_quick_unlock_control_summary">Автоматичне розблокування при введенні правильного пароля чи PIN-коду</string>
