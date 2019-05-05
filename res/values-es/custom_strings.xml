@@ -122,6 +122,9 @@
     <string name="screenshot_sound_title">Sonido de captura de pantalla</string>
     <!-- Charging vibration -->
     <string name="charging_vibro_title">Vibrar al cargar</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Prevent accidental wake-up</string>
+    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Desbloqueo rapido</string>
     <string name="unlock_quick_unlock_control_summary">Desbloquea automaticamente cuando el PIN/Contraseña introducidos es el correcto</string>
@@ -200,7 +203,4 @@
     <string name="screenshot_sound_summary">Camera shutter sound when taking screenshots</string>
     <!-- Running services -->
     <string name="background_processes_settings_title">Background processes</string>
-    <!-- Pocket judge -->
-    <string name="pocket_judge_title">Pocket detection</string>
-    <string name="pocket_judge_summary">Lock the screen and buttons when the device is in your pocket</string>
 </resources>
