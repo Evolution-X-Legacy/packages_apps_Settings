@@ -203,4 +203,7 @@
     <string name="screenshot_sound_summary">Camera shutter sound when taking screenshots</string>
     <!-- Running services -->
     <string name="background_processes_settings_title">Background processes</string>
+     <!-- Button that controls inversion of layout of navigation bar -->
+    <string name="nav_bar_layout_inverse_title">Diseño invertido</string>
+    <string name="nav_bar_layout_inverse_summary">Invertir el diseño de los botones de la barra de navegación</string>
 </resources>
