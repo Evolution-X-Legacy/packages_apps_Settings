@@ -173,6 +173,13 @@
         android:title="@string/pocket_judge_title"
         android:summary="@string/pocket_judge_summary" />
 
+    <com.evolution.settings.preferences.SystemSettingSwitchPreference
+        android:key="pocket_judge_allow_fp"
+        android:title="@string/pocket_judge_fp_title"
+        android:summary="@string/pocket_judge_fp_summary"
+        android:defaultValue="false"
+        android:dependency="pocket_judge" />
+
     <SwitchPreference
         android:key="tap_to_wake"
         android:title="@string/tap_to_wake"
