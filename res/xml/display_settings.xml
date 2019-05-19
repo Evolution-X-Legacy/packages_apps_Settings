@@ -76,6 +76,12 @@
         android:entryValues="@array/dark_theme_style_values"
         android:defaultValue="0" />
 
+    <net.margaritov.preference.colorpicker.ColorPickerPreference
+        android:key="accent_color"
+        android:title="@string/accent_color"
+        android:defaultValue="0xffffff"
+        android:persistent="false" />
+
     <ListPreference
         android:key="theme"
         android:title="@string/color_theme"
