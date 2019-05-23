@@ -39,12 +39,6 @@
         android:title="@string/lockscreen_media_art_title"
         android:defaultValue="true" />
 
-    <SwitchPreference
-        android:key="security_setting_lockdown_enabled"
-        android:title="@string/lockdown_settings_title"
-        android:summary="@string/lockdown_settings_summary"
-        settings:controller="com.android.settings.security.LockdownButtonPreferenceController"/>
-
     <!-- Face auto unlock -->
     <com.android.settings.custom.preference.SystemSettingSwitchPreference
         android:key="face_auto_unlock"
