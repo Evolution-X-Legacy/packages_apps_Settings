@@ -45,18 +45,11 @@ public class StatusbarSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
     private static final String TAG = "StatusbarSettings";
 
-    private static final String NETWORK_TRAFFIC_CATEGORY = "network_traffic";
-
     private static final int PULLDOWN_DIR_NONE = 0;
     private static final int PULLDOWN_DIR_RIGHT = 1;
     private static final int PULLDOWN_DIR_LEFT = 2;
 
     private ListPreference mQuickPulldown;
-    private PreferenceCategory mNetworkTrafficCategory;
-    private DropDownPreference mNetTrafficMode;
-    private SwitchPreference mNetTrafficAutohide;
-    private DropDownPreference mNetTrafficUnits;
-    private SwitchPreference mNetTrafficShowUnits;
 
     private static List<String> sNonIndexableKeys = new ArrayList<>();
 
@@ -66,8 +59,6 @@ public class StatusbarSettings extends SettingsPreferenceFragment implements
         addPreferencesFromResource(R.xml.statusbar_settings);
         final ContentResolver resolver = getActivity().getContentResolver();
 
-        mNetworkTrafficCategory = (PreferenceCategory) findPreference(NETWORK_TRAFFIC_CATEGORY);
-
         // TODO: Check notch
 
         mQuickPulldown =
@@ -76,30 +67,6 @@ public class StatusbarSettings extends SettingsPreferenceFragment implements
         int quickPulldownValue = Settings.System.getIntForUser(resolver,
                 Settings.System.STATUS_BAR_QUICK_QS_PULLDOWN, 0, UserHandle.USER_CURRENT);
         updateQuickPulldownSummary(quickPulldownValue);
-
-        mNetTrafficMode = (DropDownPreference)
-                findPreference(Settings.System.NETWORK_TRAFFIC_MODE);
-        mNetTrafficMode.setOnPreferenceChangeListener(this);
-        int mode = Settings.System.getIntForUser(resolver,
-                Settings.System.NETWORK_TRAFFIC_MODE, 0, UserHandle.USER_CURRENT);
-        mNetTrafficMode.setValue(String.valueOf(mode));
-
-        mNetTrafficAutohide = (SwitchPreference)
-                findPreference(Settings.System.NETWORK_TRAFFIC_AUTOHIDE);
-        mNetTrafficAutohide.setOnPreferenceChangeListener(this);
-
-        mNetTrafficUnits = (DropDownPreference)
-                findPreference(Settings.System.NETWORK_TRAFFIC_UNITS);
-        mNetTrafficUnits.setOnPreferenceChangeListener(this);
-        int units = Settings.System.getIntForUser(resolver,
-                Settings.System.NETWORK_TRAFFIC_UNITS, /* Mbps */ 1, UserHandle.USER_CURRENT);
-        mNetTrafficUnits.setValue(String.valueOf(units));
-
-        mNetTrafficShowUnits = (SwitchPreference)
-                findPreference(Settings.System.NETWORK_TRAFFIC_SHOW_UNITS);
-        mNetTrafficShowUnits.setOnPreferenceChangeListener(this);
-
-        updateNetworkTrafficEnabledStates(mode);
     }
 
     @Override
@@ -117,24 +84,8 @@ public class StatusbarSettings extends SettingsPreferenceFragment implements
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         if (preference == mQuickPulldown) {
             updateQuickPulldownSummary(Integer.parseInt((String) newValue));
-        }else if (preference == mNetTrafficMode) {
-            int mode = Integer.valueOf((String) newValue);
-            Settings.System.putInt(getActivity().getContentResolver(),
-                    Settings.System.NETWORK_TRAFFIC_MODE, mode);
-            updateNetworkTrafficEnabledStates(mode);
-        } else if (preference == mNetTrafficUnits) {
-            int units = Integer.valueOf((String) newValue);
-            Settings.System.putInt(getActivity().getContentResolver(),
-                    Settings.System.NETWORK_TRAFFIC_UNITS, units);
         }
         return true;
-    }
-
-    private void updateNetworkTrafficEnabledStates(int mode) {
-        final boolean enabled = mode != 0;
-        mNetTrafficAutohide.setEnabled(enabled);
-        mNetTrafficUnits.setEnabled(enabled);
-        mNetTrafficShowUnits.setEnabled(enabled);
     }
 
     private void updateQuickPulldownSummary(int value) {
