@@ -21,7 +21,7 @@
     <item>
         <shape android:shape="oval">
             <solid
-                android:color="@*android:color/accent_device_default_light" />
+                android:color="@color/homepage_evolution_background" />
             <size
                 android:width="@dimen/dashboard_tile_image_size"
                 android:height="@dimen/dashboard_tile_image_size" />
