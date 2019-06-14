@@ -24,6 +24,8 @@
     <color name="wifi_details_icon_color">#8AFFFFFF</color>
 
     <!-- Suggestion cards -->
-    <color name="suggestion_card_background">#ff313235</color>
+    <color name="suggestion_card_background">#ff3c4043</color>
+
+    <color name="search_bar_background">#ff3c4043</color>
 
 </resources>

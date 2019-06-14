@@ -35,16 +35,16 @@
             android:layout_margin="@dimen/search_bar_margin"
             app:cardCornerRadius="@dimen/search_bar_corner_radius"
             app:cardBackgroundColor="?android:attr/colorBackground"
-            app:cardElevation="2dp">
+            app:cardElevation="3dp">
             <Toolbar
                 android:id="@+id/search_action_bar"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/search_bar_height"
                 android:clickable="true"
                 android:alpha="0.85"
-                android:background="?android:attr/selectableItemBackground"
+                android:background="@drawable/search_bar_selected_background"
                 android:contentInsetStartWithNavigation="64dp"
-                android:navigationIcon="@drawable/ic_search_24dp"
+                android:navigationIcon="@drawable/ic_homepage_search"
                 android:theme="?android:attr/actionBarTheme">
                 <TextView
                     android:id="@+id/search_action_bar_title"

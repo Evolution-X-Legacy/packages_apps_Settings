@@ -123,11 +123,11 @@
     <!-- The following two margins need to match, with the caveat that
          the second should be negative. The second one ensures that the icons and text
          align despite the additional padding caused by the search bar's card background. -->
-    <dimen name="search_bar_margin">16dp</dimen>
-    <dimen name="search_bar_negative_margin">-16dp</dimen>
+    <dimen name="search_bar_margin">8dp</dimen>
+    <dimen name="search_bar_negative_margin">-8dp</dimen>
 
-    <dimen name="search_bar_height">50dp</dimen>
-    <dimen name="search_bar_corner_radius">2dp</dimen>
+    <dimen name="search_bar_height">48dp</dimen>
+    <dimen name="search_bar_corner_radius">8dp</dimen>
     <dimen name="search_bar_text_size">16dp</dimen>
 
     <!-- Dimensions for Wifi Assistant Card -->
@@ -317,7 +317,7 @@
     <dimen name="suggestion_card_outer_margin">14dp</dimen>
     <dimen name="suggestion_card_inner_margin">12dp</dimen>
     <dimen name="suggestion_card_padding_bottom_one_card">16dp</dimen>
-    <dimen name="suggestion_card_corner_radius">2dp</dimen>
+    <dimen name="suggestion_card_corner_radius">8dp</dimen>
     <dimen name="suggestion_card_icon_side_margin">12dp</dimen>
     <dimen name="suggestion_card_button_side_margin">8dp</dimen>
     <dimen name="suggestion_card_button_top_margin">16dp</dimen>
