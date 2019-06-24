@@ -100,6 +100,21 @@ import com.android.settings.wfd.WifiDisplaySettings;
 import com.android.settings.wifi.ConfigureWifiSettings;
 import com.android.settings.wifi.WifiSettings;
 
+import com.evolution.settings.fragments.BatteryCategory;
+import com.evolution.settings.fragments.ButtonSettings;
+import com.evolution.settings.fragments.CarrierSettings;
+import com.evolution.settings.fragments.ClockDateSettings;
+import com.evolution.settings.fragments.CustomGestureSettings;
+import com.evolution.settings.fragments.LockScreenSettings;
+import com.evolution.settings.fragments.MiscSettings;
+import com.evolution.settings.fragments.NotificationSettings;
+import com.evolution.settings.fragments.PowerMenuSettings;
+import com.evolution.settings.fragments.QuickSettings;
+import com.evolution.settings.fragments.StatusBarSettings;
+import com.evolution.settings.fragments.TrafficSettings;
+import com.evolution.settings.fragments.VolumePanel;
+import com.evolution.settings.fragments.VolumeSteps;
+
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
@@ -202,6 +217,22 @@ public class SearchIndexableResourcesImpl implements SearchIndexableResources {
 
         // LiveDisplay
         addIndex(LiveDisplaySettings.class);
+
+        //Evolution
+        addIndex(BatteryCategory.class);
+        addIndex(ButtonSettings.class);
+        addIndex(CarrierSettings.class);
+        addIndex(ClockDateSettings.class);
+        addIndex(CustomGestureSettings.class);
+        addIndex(LockScreenSettings.class);
+        addIndex(MiscSettings.class);
+        addIndex(NotificationSettings.class);
+        addIndex(PowerMenuSettings.class);
+        addIndex(QuickSettings.class);
+        addIndex(StatusBarSettings.class);
+        addIndex(TrafficSettings.class);
+        addIndex(VolumePanel.class);
+        addIndex(VolumeSteps.class);
     }
 
     @Override
