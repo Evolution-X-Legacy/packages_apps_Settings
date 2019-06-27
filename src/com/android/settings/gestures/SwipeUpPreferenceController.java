@@ -29,7 +29,6 @@ import android.support.v14.preference.SwitchPreference;
 import android.support.annotation.VisibleForTesting;
 import android.text.TextUtils;
 import android.view.WindowManagerGlobal;
-import com.android.internal.util.custom.NavbarUtils;
 
 import com.android.internal.R;
 import com.android.settings.core.BasePreferenceController;
@@ -78,7 +77,7 @@ public class SwipeUpPreferenceController extends BasePreferenceController
         } catch (RemoteException ex) {
             // no window manager? good luck with that
         }
-        if (!hasNav || !NavbarUtils.isEnabled(context) || !configEnabled) {
+        if (!hasNav || !configEnabled) {
             return false;
         }
 

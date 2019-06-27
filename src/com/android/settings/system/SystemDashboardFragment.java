@@ -46,8 +46,6 @@ public class SystemDashboardFragment extends DashboardFragment {
         // We do not want to display an advanced button if only one setting is hidden
         if (getVisiblePreferenceCount(screen) == screen.getInitialExpandedChildrenCount() + 1) {
             screen.setInitialExpandedChildrenCount(Integer.MAX_VALUE);
-        }else{
-            screen.setInitialExpandedChildrenCount(5);
         }
     }
 
