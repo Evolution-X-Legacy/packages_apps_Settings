@@ -45,7 +45,7 @@ public class FreeformWindowsPreferenceController extends DeveloperOptionsPrefere
 
     @Override
     public boolean isAvailable() {
-        return false;
+        return !TextUtils.equals(USER_BUILD_TYPE, getBuildType());
     }
 
     @Override
