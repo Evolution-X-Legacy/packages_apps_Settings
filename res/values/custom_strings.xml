@@ -241,7 +241,7 @@
     <string name="dark_theme_style_black">Black</string>
 
     <!-- Evolution X settings -->
-    <string name="evolution_settings_title">Evolution X</string>
+    <string name="evolution_settings_title" translatable="false">Evolution Xtras</string>
     <string name="evolution_settings_summary">The Evolution of Open source. #KeepEvolving</string>
 
     <!-- Notification log -->

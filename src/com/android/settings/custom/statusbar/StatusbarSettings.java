@@ -72,12 +72,6 @@ public class StatusbarSettings extends SettingsPreferenceFragment implements
     @Override
     public void onResume() {
         super.onResume();
-        // Adjust status bar preferences for RTL
-        if (getResources().getConfiguration().getLayoutDirection() == View.LAYOUT_DIRECTION_RTL) {
-            mQuickPulldown.setEntries(R.array.status_bar_quick_qs_pulldown_entries_rtl);
-            mQuickPulldown.setEntryValues(R.array.status_bar_quick_qs_pulldown_values_rtl);
-        }
-        // TODO: Check notch
     }
 
     @Override

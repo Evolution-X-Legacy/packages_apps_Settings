@@ -34,17 +34,6 @@
         android:title="@string/owner_info_settings_title"
         android:summary="@string/owner_info_settings_summary" />
 
-    <com.android.settings.custom.preference.SystemSettingSwitchPreference
-        android:key="lockscreen_media_metadata"
-        android:title="@string/lockscreen_media_art_title"
-        android:defaultValue="true" />
-
-    <com.evolution.settings.preferences.SystemSettingSwitchPreference
-        android:key="fp_unlock_keystore"
-        android:title="@string/fp_unlock_keystore_title"
-        android:summary="@string/fp_unlock_keystore_summary"
-        android:defaultValue="false" />
-
     <!-- Face auto unlock -->
     <com.android.settings.custom.preference.SystemSettingSwitchPreference
         android:key="face_auto_unlock"
@@ -56,6 +45,7 @@
         android:key="weather_lockscreen_key"
         android:title="@string/weather_title"
         settings:controller="com.android.settings.security.screenlock.WeatherPreferenceController">
+
         <com.android.settings.custom.preference.SystemSettingListPreference
             android:key="weather_lockscreen_unit"
             android:dialogTitle="@string/weather_unit"
@@ -64,6 +54,7 @@
             android:entries="@array/weather_unit_entries"
             android:entryValues="@array/weather_unit_values"
             android:defaultValue="@*android:integer/weather_lockscreen_default_unit" />
+
     </PreferenceCategory>
 
     <!-- Work profile settings are at the bottom with high order value to avoid users thinking that
