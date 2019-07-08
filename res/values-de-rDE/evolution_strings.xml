@@ -219,7 +219,7 @@
     <string name="dark_theme_style_default">Default</string>
     <string name="dark_theme_style_black">Black</string>
     <!-- Evolution X settings -->
-    <string name="evolution_settings_title">Entwicklung</string>
+    <string name="evolution_settings_title">Evolution X</string>
     <string name="evolution_settings_summary">Whatever it takes to customize your device</string>
     <!-- Notification log -->
     <string name="notification_log_summary">Show notifications history log</string>
