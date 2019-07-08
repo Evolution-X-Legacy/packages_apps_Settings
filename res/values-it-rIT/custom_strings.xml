@@ -210,24 +210,24 @@
     <string name="adj_intensity_title">Intensità</string>
     <string name="adj_contrast_title">Contrasto</string>
     <!-- LiveDisplay - Custom theme mode -->
-    <string name="systemui_theme_time">Automatic (time of the day)</string>
+    <string name="systemui_theme_time">Automatico (basato sull\'ora del giorno)</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="swipe_to_screenshot_gesture_title">Swipe to screenshot</string>
-    <string name="swipe_to_screenshot_gesture_summary">Swipe three fingers to take screenshot</string>
+    <string name="swipe_to_screenshot_gesture_title">Scorri per fare uno screenshot</string>
+    <string name="swipe_to_screenshot_gesture_summary">Scorri con tre dita per fare uno screenshot</string>
     <!-- Dark theme style -->
-    <string name="dark_theme_style_title">Dark theme style</string>
-    <string name="dark_theme_style_default">Default</string>
-    <string name="dark_theme_style_black">Black</string>
+    <string name="dark_theme_style_title">Stile tema scuro</string>
+    <string name="dark_theme_style_default">Predefinito</string>
+    <string name="dark_theme_style_black">Nero</string>
     <!-- Evolution X settings -->
     <string name="evolution_settings_title">Evolution X</string>
-    <string name="evolution_settings_summary">Whatever it takes to customize your device</string>
+    <string name="evolution_settings_summary">Qualunque cosa per personalizzare il tuo dispositivo</string>
     <!-- Notification log -->
-    <string name="notification_log_summary">Show notifications history log</string>
+    <string name="notification_log_summary">Visualizza il registro delle notifiche</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_data">Cellular data</string>
-    <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
-    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_data">Dati mobili</string>
+    <string name="data_usage_app_restrict_data_summary">Abilita l\'utilizzo dei dati mobili</string>
+    <string name="data_usage_app_restrict_wifi">Dati Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Abilita l\'uso dei dati del Wi\u2011Fi</string>
     <!-- Manage applications, package string displayed in app snippet -->
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
     <string name="status_deep_sleep">(Deep sleep: %1$d%2$s)</string>
