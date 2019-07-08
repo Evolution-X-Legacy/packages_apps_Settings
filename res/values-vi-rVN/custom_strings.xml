@@ -92,48 +92,48 @@
     <string name="weather_unit">Đơn vị nhiệt độ</string>
     <!-- Face auto unlock -->
     <string name="face_auto_unlock_title">Tự động mở khóa khuôn mặt</string>
-    <string name="face_auto_unlock_summary">Dismiss lock screen after face unlock</string>
+    <string name="face_auto_unlock_summary">Bỏ qua màn hình khóa sau khi mở khóa khuôn mặt</string>
     <!-- Thermal control per app -->
-    <string name="thermal_control_per_app">Optimization profile</string>
-    <string name="thermal_control_per_app_default">No optimization</string>
-    <string name="thermal_control_per_app_benchmark">Performance</string>
-    <string name="thermal_control_per_app_games">Games</string>
-    <string name="thermal_control_per_app_browser">Browser</string>
-    <string name="thermal_control_per_app_video_playback">Video playback</string>
-    <string name="thermal_control_per_app_dialer">Dialer</string>
-    <string name="thermal_control_per_app_camera">Camera</string>
+    <string name="thermal_control_per_app">Hồ sơ tối ưu hóa</string>
+    <string name="thermal_control_per_app_default">Không tối ưu hóa</string>
+    <string name="thermal_control_per_app_benchmark">Hiệu năng</string>
+    <string name="thermal_control_per_app_games">Trò chơi</string>
+    <string name="thermal_control_per_app_browser">Trình duyệt</string>
+    <string name="thermal_control_per_app_video_playback">Phát lại video</string>
+    <string name="thermal_control_per_app_dialer">Trình quay số</string>
+    <string name="thermal_control_per_app_camera">Máy ảnh</string>
     <!-- Notch behavior -->
-    <string name="display_cutout_mode_title">Notch behavior</string>
-    <string name="display_cutout_mode_normal">Default</string>
-    <string name="display_cutout_mode_hidden">Hidden</string>
+    <string name="display_cutout_mode_title">Cách hiển thị tai thỏ</string>
+    <string name="display_cutout_mode_normal">Mặc định</string>
+    <string name="display_cutout_mode_hidden">Ẩn</string>
     <!-- Notch: Full screen apps -->
-    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
-    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
+    <string name="display_cutout_force_fullscreen_title">Ứng dụng toàn màn hình</string>
+    <string name="display_cutout_force_fullscreen_summary">Buộc các ứng dụng bỏ qua không gian tai thỏ</string>
     <!-- In-call feedback -->
-    <string name="incall_feeedback_vibrate_title">Vibrate to indicate call status</string>
+    <string name="incall_feeedback_vibrate_title">Rung để chỉ trạng thái cuộc gọi</string>
     <!-- Fingerprint authentication vibration -->
-    <string name="fp_success_auth_vib_title">Fingerprint authentication</string>
-    <string name="fp_success_auth_vib_summary">Vibrate on successful fingerprint authentication</string>
+    <string name="fp_success_auth_vib_title">Xác thực dấu vân tay</string>
+    <string name="fp_success_auth_vib_summary">Rung khi xác thực dấu vân tay thành công</string>
     <!-- Double tap to sleep on status bar or lockscreen -->
-    <string name="status_bar_double_tap_to_sleep_title">Tap to sleep</string>
-    <string name="status_bar_double_tap_to_sleep_summary">Double-tap on the status bar or lockscreen to turn off the display</string>
+    <string name="status_bar_double_tap_to_sleep_title">Chạm để tắt màn hình</string>
+    <string name="status_bar_double_tap_to_sleep_summary">Chạm hai lần vào thanh trạng thái hoặc màn hình khoá để tắt màn hình</string>
     <!-- Lock screen cover art -->
-    <string name="lockscreen_media_art_title">Display media cover art</string>
+    <string name="lockscreen_media_art_title">Hiển thị ảnh bìa phương tiện</string>
     <!-- Button that controls inversion of layout of navigation bar -->
-    <string name="nav_bar_layout_inverse_title">Invert layout</string>
-    <string name="nav_bar_layout_inverse_summary">Invert layout of navigation bar buttons</string>
+    <string name="nav_bar_layout_inverse_title">Đảo ngược bố cục</string>
+    <string name="nav_bar_layout_inverse_summary">Đảo ngược bố cục của thanh điều hướng</string>
     <!-- Torch long press power button -->
-    <string name="torch_long_press_power_gesture_title">Long press for torch</string>
-    <string name="torch_long_press_power_gesture_desc">Activate the torch by long pressing the power button while the display is off</string>
-    <string name="torch_long_press_power_timeout_title">Automatically turn torch off</string>
-    <string name="torch_long_press_power_timeout_never">Never</string>
-    <string name="torch_long_press_power_timeout_1min">1 minute</string>
-    <string name="torch_long_press_power_timeout_2min">2 minutes</string>
-    <string name="torch_long_press_power_timeout_5min">5 minutes</string>
-    <string name="torch_long_press_power_timeout_10min">10 minutes</string>
+    <string name="torch_long_press_power_gesture_title">Nhấn giữ để bật đèn pin</string>
+    <string name="torch_long_press_power_gesture_desc">Bật đèn pin bằng cách nhấn giữ phím nguồn khi màn hình đang tắt</string>
+    <string name="torch_long_press_power_timeout_title">Tự động tắt đèn pin</string>
+    <string name="torch_long_press_power_timeout_never">Không bao giờ</string>
+    <string name="torch_long_press_power_timeout_1min">1 phút</string>
+    <string name="torch_long_press_power_timeout_2min">2 phút</string>
+    <string name="torch_long_press_power_timeout_5min">5 phút</string>
+    <string name="torch_long_press_power_timeout_10min">10 phút</string>
     <!-- Volume control playback -->
-    <string name="volbtn_music_controls_title">Control playback</string>
-    <string name="volbtn_music_controls_summary">Seek music tracks by long pressing the volume keys while the display is off</string>
+    <string name="volbtn_music_controls_title">Điều khiển phát lại</string>
+    <string name="volbtn_music_controls_summary">Chuyển bài hát bằng nhấn giữ các phím âm lượng khi màn hình đang tắt</string>
     <!-- Power menu on lockscreen -->
     <string name="lockscreen_power_menu_disabled_title">Disable on lock screen</string>
     <string name="lockscreen_power_menu_disabled_summary">Disable power menu on protected lock screen</string>
