@@ -63,14 +63,14 @@
     <string name="hardware_keys_action_search">Помічник пошуку</string>
     <string name="hardware_keys_action_voice_search">Голосовий пошук</string>
     <string name="hardware_keys_action_in_app_search">Пошук в додатку</string>
-    <string name="hardware_keys_action_launch_camera">Launch camera</string>
-    <string name="hardware_keys_action_sleep">Turn screen off</string>
-    <string name="hardware_keys_action_last_app">Last app</string>
-    <string name="hardware_keys_action_split_screen">Split screen</string>
-    <string name="hardware_keys_swipe_right_key_title">Swipe right</string>
-    <string name="hardware_keys_swipe_left_key_title">Swipe left</string>
-    <string name="hardware_keys_long_tap_key_title">Long tap</string>
-    <string name="hardware_keys_swipe_tap_title">Swipe action</string>
+    <string name="hardware_keys_action_launch_camera">Запустити камеру</string>
+    <string name="hardware_keys_action_sleep">Вимкнути екран</string>
+    <string name="hardware_keys_action_last_app">Останній додаток</string>
+    <string name="hardware_keys_action_split_screen">Розділення екрана</string>
+    <string name="hardware_keys_swipe_right_key_title">Свайп вправо</string>
+    <string name="hardware_keys_swipe_left_key_title">Свайп вліво</string>
+    <string name="hardware_keys_long_tap_key_title">Довгий дотик</string>
+    <string name="hardware_keys_swipe_tap_title">Свайп для дії</string>
     <string name="hardware_keys_long_tap_title">Long tap action</string>
     <string name="button_wake_title">Wake device</string>
     <string name="camera_sleep_on_release_title">Screen peek</string>
@@ -135,32 +135,32 @@
     <string name="volbtn_music_controls_title">Control playback</string>
     <string name="volbtn_music_controls_summary">Seek music tracks by long pressing the volume keys while the display is off</string>
     <!-- Power menu on lockscreen -->
-    <string name="lockscreen_power_menu_disabled_title">Disable on lock screen</string>
-    <string name="lockscreen_power_menu_disabled_summary">Disable power menu on protected lock screen</string>
+    <string name="lockscreen_power_menu_disabled_title">Вимикати на екрані блокування</string>
+    <string name="lockscreen_power_menu_disabled_summary">Вимкнути меню живлення на заблокованому екрані блокування</string>
     <!-- Others settings -->
-    <string name="others_settings_title">Others settings</string>
-    <string name="additional_buttons_title">Additional buttons</string>
+    <string name="others_settings_title">Інші налаштування</string>
+    <string name="additional_buttons_title">Додаткові кнопки</string>
     <!-- Status bar -->
-    <string name="status_bar_title">Status bar</string>
-    <string name="lockscreen_qs_disabled_title">Disable on lock screen</string>
-    <string name="lockscreen_qs_disabled_summary">Disable expanded status bar on protected lock screen</string>
-    <string name="status_bar_quick_qs_pulldown_title">Quick pulldown</string>
-    <string name="status_bar_quick_qs_pulldown_summary">%1$s edge of the status bar pulls down Quick Settings</string>
-    <string name="status_bar_quick_qs_pulldown_summary_left">Left</string>
-    <string name="status_bar_quick_qs_pulldown_summary_right">Right</string>
-    <string name="status_bar_quick_qs_pulldown_off">Off</string>
-    <string name="status_bar_quick_qs_pulldown_left">Left</string>
-    <string name="status_bar_quick_qs_pulldown_right">Right</string>
+    <string name="status_bar_title">Стасус бар</string>
+    <string name="lockscreen_qs_disabled_title">Вимикати на екрані блокування</string>
+    <string name="lockscreen_qs_disabled_summary">Вимкнути розширений рядок стану на заблокованому екрані</string>
+    <string name="status_bar_quick_qs_pulldown_title">Швидке розгортання</string>
+    <string name="status_bar_quick_qs_pulldown_summary">%1$s край рядка стану витягує швидкі налаштування</string>
+    <string name="status_bar_quick_qs_pulldown_summary_left">Зліва</string>
+    <string name="status_bar_quick_qs_pulldown_summary_right">Зправа</string>
+    <string name="status_bar_quick_qs_pulldown_off">Викл</string>
+    <string name="status_bar_quick_qs_pulldown_left">Зліва</string>
+    <string name="status_bar_quick_qs_pulldown_right">Зправа</string>
     <!-- Status bar - icons -->
-    <string name="status_bar_icons_title">Status bar icons</string>
-    <string name="status_bar_system_icons_title">System icons</string>
-    <string name="status_bar_system_icons_summary">Control which status bar icons are shown</string>
+    <string name="status_bar_icons_title">Значки статус бару</string>
+    <string name="status_bar_system_icons_title">Системні іконки</string>
+    <string name="status_bar_system_icons_summary">Керування відображенням іконок панелі статусу</string>
     <!-- Pocket judge -->
-    <string name="pocket_judge_title">Pocket detection</string>
-    <string name="pocket_judge_summary">Lock the screen and buttons when the device is in your pocket</string>
+    <string name="pocket_judge_title">Режим \"У кишені\"</string>
+    <string name="pocket_judge_summary">Заблокувати екран та кнопки коли пристрій знаходиться в кишені</string>
     <!-- LiveDisplay -->
-    <string name="live_display_summary">Optimize your screen based on time of day and ambient conditions to improve readability and reduce eyestrain</string>
-    <string name="live_display_mode">Display mode</string>
+    <string name="live_display_summary">Налаштовувати екран залежно від часу доби і умов освітлення для підвищення зручності читання і зменшення втоми очей</string>
+    <string name="live_display_mode">Режим відображення</string>
     <string name="live_display_color_temperature_title">Color temperature</string>
     <string name="live_display_color_temperature_summary">Day: <xliff:g id="day_temperature">%1$d</xliff:g>K  Night: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
