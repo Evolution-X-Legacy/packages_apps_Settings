@@ -220,60 +220,60 @@
     <string name="dark_theme_style_black">暗黑</string>
     <!-- Evolution X settings -->
     <string name="evolution_settings_title">Evolution X</string>
-    <string name="evolution_settings_summary">Whatever it takes to customize your device</string>
+    <string name="evolution_settings_summary">自定义您的设备</string>
     <!-- Notification log -->
-    <string name="notification_log_summary">Show notifications history log</string>
+    <string name="notification_log_summary">显示通知历史记录</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_data">Cellular data</string>
-    <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
-    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_data">移动数据</string>
+    <string name="data_usage_app_restrict_data_summary">启用移动数据流量使用统计</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi 数据</string>
+    <string name="data_usage_app_restrict_wifi_summary">启用 Wi\u2011Fi 的数据使用统计</string>
     <!-- Manage applications, package string displayed in app snippet -->
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
-    <string name="status_deep_sleep">(Deep sleep: %1$d%2$s)</string>
+    <string name="status_deep_sleep">(深度休眠: %1$d%2$s)</string>
     <!-- Media gestures -->
-    <string name="prevent_ringing_option_mute_no_media">Mute, no media</string>
-    <string name="prevent_ringing_option_mute_no_media_summary">On (mute, no media)</string>
-    <string name="full_gesture_mode_title">Enable full gesture mode</string>
-    <string name="full_gesture_mode_summary">This mode disables the back button and you can trigger a back button action by a left swipe on navbar. Right swipe still triggers the last-app and the overview apps scrolling. To go home you can tap on any navbar empty space, not only the home button. When keyboard is showing, long press on navbar to move the text cursor.</string>
-    <string name="full_gesture_mode_dt2s_title">Enable double tap to sleep</string>
-    <string name="full_gesture_mode_dt2s_summary">Tap on an empty navbar space but not the home button to switch the screen off.</string>
+    <string name="prevent_ringing_option_mute_no_media">静音，包括媒体音量</string>
+    <string name="prevent_ringing_option_mute_no_media_summary">开启（静音, 没有媒体音量）</string>
+    <string name="full_gesture_mode_title">启用全面屏手势模式</string>
+    <string name="full_gesture_mode_summary">此模式禁用后台按钮，您可以启动一个左滑动按钮操作。右滑动仍然触发最后一个应用和概览应用滚动。如果要返回，您可以点击任何导航栏的空间，不仅是主页按钮。当键盘显示时，长按导航栏移动文本光标。</string>
+    <string name="full_gesture_mode_dt2s_title">启用双击熄屏</string>
+    <string name="full_gesture_mode_dt2s_summary">点击一个空白的导航栏空间,，而不是点击主按钮来关闭屏幕。</string>
     <!-- Scramble PIN Layout on Lockscreen -->
-    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
-    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+    <string name="unlock_scramble_pin_layout_title">乱序布局</string>
+    <string name="unlock_scramble_pin_layout_summary">当解锁设备时使用 PIN 布局</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Reset stats</string>
-    <string name="battery_stats_message">Battery history stats are going to be reset</string>
-    <string name="ok_string">Ok</string>
-    <string name="fp_swipe_to_dismiss_notifications_title">Swipe fingerprint left or right to dismiss notifications</string>
-    <string name="fp_swipe_to_dismiss_notifications_summary">To dismiss your notifications, swipe left or right on the fingerprint sensor on the back of your phone.</string>
+    <string name="battery_stats_reset">重置统计信息</string>
+    <string name="battery_stats_message">电池的历史统计数据将被重置</string>
+    <string name="ok_string">确定</string>
+    <string name="fp_swipe_to_dismiss_notifications_title">向左或向右滑动以取消通知</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">要清除通知，请在手机背面的指纹传感器上向左或向右滑动</string>
     <!-- Custom light color -->
-    <string name="custom_light_title">Light color</string>
-    <string name="custom_light_on_time_title">Light ON time during led pulse (ms)</string>
-    <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)\"</string>
-    <string name="value_equals_default">def</string>
+    <string name="custom_light_title">指示灯颜色</string>
+    <string name="custom_light_on_time_title">呼吸灯闪烁时亮灯时间 (毫秒)</string>
+    <string name="custom_light_off_time_title">屏幕关闭时指示灯闪烁间隔时间 (毫秒)\"</string>
+    <string name="value_equals_default">默认</string>
     <!-- Battery temp -->
-    <string name="battery_temp_title">Battery temperature</string>
+    <string name="battery_temp_title">电池温度</string>
     <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+    <string name="volume_link_notification_title">关联铃声&amp; 通知的音量</string>
     <!-- Expanded desktop -->
-    <string name="expanded_desktop_pref_title">Expanded desktop</string>
-    <string name="expanded_hide_nothing">Hide nothing</string>
-    <string name="expanded_hide_status">Hide status bar</string>
-    <string name="expanded_hide_navigation">Hide navigation bar</string>
-    <string name="expanded_hide_both">Hide both</string>
-    <string name="expanded_nothing_to_show">To add a custom per-app configuration for expanded state, set \"Enabled for all\" to the off position</string>
-    <string name="expanded_desktop_state">Expanded state</string>
-    <string name="expanded_enabled_for_all">Enabled for all</string>
-    <string name="expanded_user_configurable">User configurable</string>
-    <string name="expanded_desktop_style">Expanded desktop style</string>
-    <string name="expanded_desktop_style_description">Choose a default expanded desktop style</string>
-    <string name="expanded_desktop_title">Expanded desktop options</string>
+    <string name="expanded_desktop_pref_title">扩展桌面</string>
+    <string name="expanded_hide_nothing">不隐藏</string>
+    <string name="expanded_hide_status">隐藏状态栏</string>
+    <string name="expanded_hide_navigation">隐藏导航栏</string>
+    <string name="expanded_hide_both">同时隐藏</string>
+    <string name="expanded_nothing_to_show">若要添加一个自定义的每应用配置，扩展状态，设置“全部启用”到关闭位置</string>
+    <string name="expanded_desktop_state">扩展状态栏</string>
+    <string name="expanded_enabled_for_all">全部启用</string>
+    <string name="expanded_user_configurable">用户配置</string>
+    <string name="expanded_desktop_style">扩展桌面的样式</string>
+    <string name="expanded_desktop_style_description">选择默认扩展桌面样式</string>
+    <string name="expanded_desktop_title">扩展桌面选项</string>
     <!-- Doze on Charge -->
-    <string name="doze_on_charge_title">Show when charging</string>
-    <string name="doze_on_charge_summary">Wake screen when charging</string>
+    <string name="doze_on_charge_title">充电时显示</string>
+    <string name="doze_on_charge_summary">充电时唤醒屏幕</string>
     <!-- Fingerprint unlock keystore -->
-    <string name="fp_unlock_keystore_title">FP unlock</string>
+    <string name="fp_unlock_keystore_title">指纹解锁</string>
     <string name="fp_unlock_keystore_summary">Unlock with fingerprint even after a reboot without PIN/Password/Pattern\nNote: Use at your own risk!</string>
     <!-- Aggressive battery -->
     <string name="aggressive_battery_title">Aggressive Battery</string>
