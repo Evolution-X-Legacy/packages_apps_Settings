@@ -42,7 +42,7 @@
     <string name="sub_deactivate_success">SIM deactivated.</string>
     <string name="sub_deactivate_failed">Deactivation failed.</string>
     <!-- Generic stuff used everywhere -->
-    <string name="reset">Réinitialiser</string>
+    <string name="reset">Reset</string>
     <!-- Buttons -->
     <string name="button_pref_title">Buttons</string>
     <string name="navigation_bar_title">Navigation bar</string>
