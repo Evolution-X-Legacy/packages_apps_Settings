@@ -17,23 +17,23 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Fingerprint location message -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Locate the fingerprint sensor on the front of your phone.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Locate the fingerprint sensor on the left side of your phone.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Locate the fingerprint sensor on the right side of your phone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Định vị cảm biến vân tay trên mặt trước điện thoại của bạn.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Định vị cảm biến vân tay trên cạnh trái điện thoại của bạn.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Định vị cảm biến vân tay trên cạnh phải điện thoại của bạn.</string>
     <!-- Notification light settings -->
-    <string name="lights_category_title">Light settings</string>
-    <string name="notification_light_title">Notification light</string>
-    <string name="battery_light_title">Battery light</string>
-    <string name="battery_low_pulse_title">Pulse if battery low</string>
+    <string name="lights_category_title">Cài đặt đèn</string>
+    <string name="notification_light_title">Đèn thông báo</string>
+    <string name="battery_light_title">Đèn báo pin</string>
+    <string name="battery_low_pulse_title">Nhấp nháy nếu pin yếu</string>
     <!-- Manual provisioning support -->
-    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
-    <string name="sim_disabled">disabled</string>
-    <string name="sim_missing">missing or faulty</string>
-    <string name="sim_enabler_need_disable_sim">SIM card will be deactivated. Do you want to continue?</string>
-    <string name="sim_enabler_will_disable_sim_title">Attention</string>
-    <string name="sim_enabler_need_switch_data_service">This SIM will be disabled and SIM <xliff:g id="slotid">%1$s</xliff:g> will be used for data services. Are you sure you want to continue?</string>
-    <string name="sim_enabler_airplane_on">Unable to perform the operation while airplane mode is on.</string>
-    <string name="sim_enabler_in_call">Unable to perform the operation while in call.</string>
+    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> là <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+    <string name="sim_disabled">đã tắt</string>
+    <string name="sim_missing">thiếu hoặc bị lỗi</string>
+    <string name="sim_enabler_need_disable_sim">Thẻ SIM sẽ bị huỷ kích hoạt. Bạn có muốn tiếp tục?</string>
+    <string name="sim_enabler_will_disable_sim_title">Chú ý</string>
+    <string name="sim_enabler_need_switch_data_service">Thẻ SIM này sẽ bị vô hiệu hoá và SIM <xliff:g id="slotid">%1$s</xliff:g> sẽ được dùng cho dịch vụ dữ liệu. Bạn có muốn tiếp tục không?</string>
+    <string name="sim_enabler_airplane_on">Không thể thực hiện thao tác trong khi đang bật chế độ máy bay.</string>
+    <string name="sim_enabler_in_call">Không thể thực hiện thao tác trong khi đang gọi.</string>
     <string name="sim_enabler_both_inactive">Can\'t disable all SIM cards</string>
     <string name="sim_enabler_enabling">Activating\u2026</string>
     <string name="sim_enabler_disabling">Deactivating\u2026</string>
@@ -83,15 +83,15 @@
     <string name="button_backlight_only_when_pressed_title">Illuminate buttons only when pressed</string>
     <string name="button_backlight_seekbar_title">Button brightness</string>
     <string name="backlight_timeout_title">Illumination timeout</string>
-    <string name="backlight_timeout_unlimited">Don\'t turn off</string>
-    <string name="backlight_summary_disabled">Disabled</string>
-    <string name="backlight_summary_enabled_with_timeout">Enabled for <xliff:g id="timeout">%s</xliff:g></string>
-    <string name="backlight_summary_enabled">Enabled</string>
+    <string name="backlight_timeout_unlimited">Không tắt</string>
+    <string name="backlight_summary_disabled">Đã tắt</string>
+    <string name="backlight_summary_enabled_with_timeout">Đã bật trong <xliff:g id="timeout">%s</xliff:g></string>
+    <string name="backlight_summary_enabled">Đã bật</string>
     <!-- Weather -->
-    <string name="weather_title">Weather</string>
-    <string name="weather_unit">Temperature unit</string>
+    <string name="weather_title">Thời tiết</string>
+    <string name="weather_unit">Đơn vị nhiệt độ</string>
     <!-- Face auto unlock -->
-    <string name="face_auto_unlock_title">Automatic face unlock</string>
+    <string name="face_auto_unlock_title">Tự động mở khóa khuôn mặt</string>
     <string name="face_auto_unlock_summary">Dismiss lock screen after face unlock</string>
     <!-- Thermal control per app -->
     <string name="thermal_control_per_app">Optimization profile</string>
