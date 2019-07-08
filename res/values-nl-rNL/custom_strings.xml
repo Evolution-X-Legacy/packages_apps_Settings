@@ -159,13 +159,8 @@
     <string name="pocket_judge_title">Broekzak detectie</string>
     <string name="pocket_judge_summary">Vergrendel het scherm en toetsen wanneer het toestel zich in uw broekzak bevindt</string>
     <!-- LiveDisplay -->
-    <string name="live_display_summary">Uw scherm optimaliseren aan de hand van tijdstip op de dag en lichtomstandigheden om de leesbaarheid te verbeteren en oogvermoeidheid te verminderen</string>
-    <string name="live_display_mode">Weergave modus</string>
-    <string name="live_display_color_temperature_title">Kleurtemperatuur</string>
-    <string name="live_display_color_temperature_summary">Overdag: <xliff:g id="day_temperature">%1$d</xliff:g> K, \'s nachts: <xliff:g id="night_temperature">%2$d</xliff:g> K</string>
-    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
-    <string name="live_display_day">Dag</string>
-    <string name="live_display_night">Nacht</string>
+    <string name="color_settings_title">Color settings</string>
+    <string name="color_settings_summary">Adjust and improve screen colors</string>
     <string name="live_display_outdoor_mode_title">Automatische buiten modus</string>
     <string name="live_display_outdoor_mode_summary">Helderheid en verzadiging automatisch verhogen bij helder zonlicht</string>
     <string name="live_display_low_power_title">Energieverbruik beperken</string>
