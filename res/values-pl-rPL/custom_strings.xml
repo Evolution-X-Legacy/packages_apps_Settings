@@ -123,7 +123,7 @@
     <string name="nav_bar_layout_inverse_title">Invert layout</string>
     <string name="nav_bar_layout_inverse_summary">Invert layout of navigation bar buttons</string>
     <!-- Torch long press power button -->
-    <string name="torch_long_press_power_gesture_title">Long press for torch</string>
+    <string name="torch_long_press_power_gesture_title">Przytrzymaj aby włączyć latarkę</string>
     <string name="torch_long_press_power_gesture_desc">Activate the torch by long pressing the power button while the display is off</string>
     <string name="torch_long_press_power_timeout_title">Automatically turn torch off</string>
     <string name="torch_long_press_power_timeout_never">Never</string>
@@ -243,38 +243,38 @@
     <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Reset stats</string>
-    <string name="battery_stats_message">Battery history stats are going to be reset</string>
-    <string name="ok_string">Ok</string>
-    <string name="fp_swipe_to_dismiss_notifications_title">Swipe fingerprint left or right to dismiss notifications</string>
-    <string name="fp_swipe_to_dismiss_notifications_summary">To dismiss your notifications, swipe left or right on the fingerprint sensor on the back of your phone.</string>
+    <string name="battery_stats_message">Statystyki użycia baterii zostaną zresetowane</string>
+    <string name="ok_string">OK</string>
+    <string name="fp_swipe_to_dismiss_notifications_title">Przesuń w prawo lub lewo po czytniku linii papilarnych aby usunąć powiadomienia</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">W celu usunięcia powiadomień przesuń palcem w lewo lub w prawo po czytniku linii papilarnych.</string>
     <!-- Custom light color -->
-    <string name="custom_light_title">Light color</string>
-    <string name="custom_light_on_time_title">Light ON time during led pulse (ms)</string>
-    <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)\"</string>
-    <string name="value_equals_default">def</string>
+    <string name="custom_light_title">Kolor LED</string>
+    <string name="custom_light_on_time_title">Czas świecenia LED podczas pulsowania (ms)</string>
+    <string name="custom_light_off_time_title">Czas nieświecenia LED podczas pulsowania (ms)\"</string>
+    <string name="value_equals_default">domyślne</string>
     <!-- Battery temp -->
-    <string name="battery_temp_title">Battery temperature</string>
+    <string name="battery_temp_title">Temperatura baterii</string>
     <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+    <string name="volume_link_notification_title">Połącz głośność dzwonka i powiadomień</string>
     <!-- Expanded desktop -->
-    <string name="expanded_desktop_pref_title">Expanded desktop</string>
-    <string name="expanded_hide_nothing">Hide nothing</string>
-    <string name="expanded_hide_status">Hide status bar</string>
-    <string name="expanded_hide_navigation">Hide navigation bar</string>
-    <string name="expanded_hide_both">Hide both</string>
-    <string name="expanded_nothing_to_show">To add a custom per-app configuration for expanded state, set \"Enabled for all\" to the off position</string>
-    <string name="expanded_desktop_state">Expanded state</string>
-    <string name="expanded_enabled_for_all">Enabled for all</string>
-    <string name="expanded_user_configurable">User configurable</string>
-    <string name="expanded_desktop_style">Expanded desktop style</string>
-    <string name="expanded_desktop_style_description">Choose a default expanded desktop style</string>
-    <string name="expanded_desktop_title">Expanded desktop options</string>
+    <string name="expanded_desktop_pref_title">Rozszerzony pulpit</string>
+    <string name="expanded_hide_nothing">Nic nie ukrywaj</string>
+    <string name="expanded_hide_status">Ukryj pasek stanu</string>
+    <string name="expanded_hide_navigation">Ukryj pasek nawigacyjny</string>
+    <string name="expanded_hide_both">Ukryj obydwa</string>
+    <string name="expanded_nothing_to_show">Aby dodać niestandardową konfigurację trybu rozszerzonego dla wybranej aplikacji, wyłącz opcję \"Włączone dla wszystkich\"</string>
+    <string name="expanded_desktop_state">Tryb rozszerzony</string>
+    <string name="expanded_enabled_for_all">Włączone dla wszystkich</string>
+    <string name="expanded_user_configurable">Konfigurowalne przez użytkownika</string>
+    <string name="expanded_desktop_style">Tryb rozszerzonego pulpitu</string>
+    <string name="expanded_desktop_style_description">Wybierz domyślny tryb rozszerzonego pulpitu</string>
+    <string name="expanded_desktop_title">Opcje rozszerzonego pulpitu</string>
     <!-- Doze on Charge -->
-    <string name="doze_on_charge_title">Show when charging</string>
-    <string name="doze_on_charge_summary">Wake screen when charging</string>
+    <string name="doze_on_charge_title">Pokaż podczas ładowania</string>
+    <string name="doze_on_charge_summary">Wybudź ekran podczas ładowania</string>
     <!-- Fingerprint unlock keystore -->
-    <string name="fp_unlock_keystore_title">FP unlock</string>
-    <string name="fp_unlock_keystore_summary">Unlock with fingerprint even after a reboot without PIN/Password/Pattern\nNote: Use at your own risk!</string>
+    <string name="fp_unlock_keystore_title">Odblokowywanie odciskiem palca</string>
+    <string name="fp_unlock_keystore_summary">Odblokuj urządzenie za pomocą odcisku palca po ponownym uruchomieniu, bez podawania kodu PIN/hasła/wzoru\nUwaga: na własne ryzyko!</string>
     <!-- Aggressive battery -->
     <string name="aggressive_battery_title">Rygorystyczne działania wobec baterii</string>
     <string name="aggressive_battery_summary">Bardziej rygorystyczne oszczędzanie baterii</string>
