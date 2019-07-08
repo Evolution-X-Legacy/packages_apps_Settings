@@ -143,137 +143,137 @@
     <!-- Status bar -->
     <string name="status_bar_title">Status bar</string>
     <string name="lockscreen_qs_disabled_title">Nonaktifkan pada layar kunci</string>
-    <string name="lockscreen_qs_disabled_summary">Disable expanded status bar on protected lock screen</string>
-    <string name="status_bar_quick_qs_pulldown_title">Quick pulldown</string>
-    <string name="status_bar_quick_qs_pulldown_summary">%1$s edge of the status bar pulls down Quick Settings</string>
-    <string name="status_bar_quick_qs_pulldown_summary_left">Left</string>
-    <string name="status_bar_quick_qs_pulldown_summary_right">Right</string>
-    <string name="status_bar_quick_qs_pulldown_off">Off</string>
-    <string name="status_bar_quick_qs_pulldown_left">Left</string>
-    <string name="status_bar_quick_qs_pulldown_right">Right</string>
+    <string name="lockscreen_qs_disabled_summary">Matikan bilah status diperluas di layar kunci terlindungi</string>
+    <string name="status_bar_quick_qs_pulldown_title">Keruntuhan cepat</string>
+    <string name="status_bar_quick_qs_pulldown_summary">Menarik %1$s tepi status bar ke bawah untuk Pengaturan Cepat</string>
+    <string name="status_bar_quick_qs_pulldown_summary_left">Kiri</string>
+    <string name="status_bar_quick_qs_pulldown_summary_right">Kanan</string>
+    <string name="status_bar_quick_qs_pulldown_off">Matikan</string>
+    <string name="status_bar_quick_qs_pulldown_left">Kiri</string>
+    <string name="status_bar_quick_qs_pulldown_right">Kanan</string>
     <!-- Status bar - icons -->
-    <string name="status_bar_icons_title">Status bar icons</string>
-    <string name="status_bar_system_icons_title">System icons</string>
-    <string name="status_bar_system_icons_summary">Control which status bar icons are shown</string>
+    <string name="status_bar_icons_title">Ikon status bar</string>
+    <string name="status_bar_system_icons_title">Ikon sistem</string>
+    <string name="status_bar_system_icons_summary">Kontrol yang bar status ikon ditampilkan</string>
     <!-- Pocket judge -->
-    <string name="pocket_judge_title">Pocket detection</string>
-    <string name="pocket_judge_summary">Lock the screen and buttons when the device is in your pocket</string>
+    <string name="pocket_judge_title">Deteksi dalam saku</string>
+    <string name="pocket_judge_summary">Kunci layar dan tombol ketika perangkat berada didalam saku</string>
     <!-- LiveDisplay -->
-    <string name="live_display_summary">Optimize your screen based on time of day and ambient conditions to improve readability and reduce eyestrain</string>
-    <string name="live_display_mode">Display mode</string>
-    <string name="live_display_color_temperature_title">Color temperature</string>
-    <string name="live_display_color_temperature_summary">Day: <xliff:g id="day_temperature">%1$d</xliff:g>K  Night: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
-    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
-    <string name="live_display_day">Day</string>
-    <string name="live_display_night">Night</string>
-    <string name="live_display_outdoor_mode_title">Automatic outdoor mode</string>
-    <string name="live_display_outdoor_mode_summary">Increase brightness and saturation automatically under bright sunlight</string>
-    <string name="live_display_low_power_title">Reduce power consumption</string>
-    <string name="live_display_low_power_summary">Adjust display for lowest power consumption without degradation</string>
-    <string name="live_display_enhance_color_title">Enhance colors</string>
-    <string name="live_display_enhance_color_summary">Improve color vibrance of flesh tones, scenery, and other images</string>
-    <string name="live_display_color_profile_title">Color profile</string>
-    <string name="live_display_color_profile_standard_title">Standard</string>
-    <string name="live_display_color_profile_standard_summary">Accurate colors and bright whites</string>
+    <string name="live_display_summary">Optimalkan layar berdasarkan waktu dan kondisi ruangan untuk meningkatkan keterbacaan dan mengurangi kelelahan mata</string>
+    <string name="live_display_mode">Mode tampilan</string>
+    <string name="live_display_color_temperature_title">Temperatur warna</string>
+    <string name="live_display_color_temperature_summary">Pagi: <xliff:g id="day_temperature">%1$d</xliff:g>K;  Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="derajat">%1$d</xliff:g>K</string>
+    <string name="live_display_day">Hari</string>
+    <string name="live_display_night">Malam</string>
+    <string name="live_display_outdoor_mode_title">Mode luar ruangan otomatis</string>
+    <string name="live_display_outdoor_mode_summary">Meningkatkan kecerahan dan saturasi secara otomatis saat dibawah sinar matahari</string>
+    <string name="live_display_low_power_title">Mengurangi konsumsi daya</string>
+    <string name="live_display_low_power_summary">Menyesuaikan tampilan untuk konsumsi daya terendah tanpa degradasi</string>
+    <string name="live_display_enhance_color_title">Meningkatkan warna</string>
+    <string name="live_display_enhance_color_summary">Meningkatkan vibran warna dari corak terang, pemandangan dan gambar lain</string>
+    <string name="live_display_color_profile_title">Profil warna</string>
+    <string name="live_display_color_profile_standard_title">Standar</string>
+    <string name="live_display_color_profile_standard_summary">Warna yang tepat dan putih terang</string>
     <string name="live_display_color_profile_natural_title">Natural</string>
-    <string name="live_display_color_profile_natural_summary">Realistic colors and flesh tones</string>
-    <string name="live_display_color_profile_dynamic_title">Dynamic</string>
-    <string name="live_display_color_profile_dynamic_summary">Enhanced colors and bright whites</string>
-    <string name="live_display_color_profile_cinema_title">Cinema</string>
-    <string name="live_display_color_profile_cinema_summary">Perfect color reproduction for video</string>
-    <string name="live_display_color_profile_astronomy_title">Astronomy</string>
-    <string name="live_display_color_profile_astronomy_summary">Deep red for preserving night vision</string>
-    <string name="live_display_color_profile_photography_title">Photography</string>
-    <string name="live_display_color_profile_photography_summary">Perfect color reproduction for photos</string>
-    <string name="live_display_color_profile_basic_title">Basic</string>
-    <string name="live_display_color_profile_basic_summary">Use the display uncalibrated</string>
-    <string name="live_display_color_profile_adaptive_title">Adaptive</string>
-    <string name="live_display_color_profile_adaptive_summary">Colors adapt to ambient conditions</string>
-    <string name="live_display_color_profile_reading_title">Reading</string>
-    <string name="live_display_color_profile_reading_summary">Warmer colors for less eye strain</string>
+    <string name="live_display_color_profile_natural_summary">Warna realistis dan warna kulit</string>
+    <string name="live_display_color_profile_dynamic_title">Dinamis</string>
+    <string name="live_display_color_profile_dynamic_summary">Peningkatan warna dan putih terang</string>
+    <string name="live_display_color_profile_cinema_title">Sinema</string>
+    <string name="live_display_color_profile_cinema_summary">Reproduksi warna yang sempurna untuk video</string>
+    <string name="live_display_color_profile_astronomy_title">Astronomi</string>
+    <string name="live_display_color_profile_astronomy_summary">Merah gelap untuk mempertahankan penglihatan malam</string>
+    <string name="live_display_color_profile_photography_title">Fotografi</string>
+    <string name="live_display_color_profile_photography_summary">Reproduksi warna yang sempurna untuk foto</string>
+    <string name="live_display_color_profile_basic_title">Tingkat Dasar</string>
+    <string name="live_display_color_profile_basic_summary">Gunakan tampilan yang belum dikalibrasi</string>
+    <string name="live_display_color_profile_adaptive_title">Adaptif</string>
+    <string name="live_display_color_profile_adaptive_summary">Warna beradaptasi dengan kondisi sekitar</string>
+    <string name="live_display_color_profile_reading_title">Membaca</string>
+    <string name="live_display_color_profile_reading_summary">Warna-warna hangat untuk mengurangi kelelahan mata</string>
     <string name="live_display_color_profile_srgb_title">sRGB</string>
-    <string name="live_display_color_profile_srgb_summary">Colors accurate to the sRGB color space</string>
+    <string name="live_display_color_profile_srgb_summary">Warna akurat ke ruang warna sRGB</string>
     <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
-    <string name="live_display_color_profile_dci_p3_summary">Colors accurate to the DCI-P3 color space</string>
-    <string name="live_display_reading_mode_title">Reading mode</string>
+    <string name="live_display_color_profile_dci_p3_summary">Warna akurat ke ruang warna DCI-P3</string>
+    <string name="live_display_reading_mode_title">Mode membaca</string>
     <string name="live_display_reading_mode_summary">Mode Grayscale untuk membaca jangka panjang</string>
     <string name="color_calibration_title">Kalibrasi warna</string>
     <string name="color_calibration_summary">Kalibrasi warna layar</string>
-    <string name="color_red_title">Red</string>
-    <string name="color_green_title">Green</string>
-    <string name="color_blue_title">Blue</string>
+    <string name="color_red_title">Merah</string>
+    <string name="color_green_title">Hijau</string>
+    <string name="color_blue_title">Biru</string>
     <!-- LiveDisplay : Picture Adjustment -->
-    <string name="picture_adjustment_title">Picture adjustment</string>
-    <string name="picture_adjustment_summary">Adjust hue, saturation, intensity, and contrast</string>
-    <string name="adj_hue_title">Hue</string>
+    <string name="picture_adjustment_title">Penyesuaian Gambar</string>
+    <string name="picture_adjustment_summary">Sesuaikan warna, saturasi, intensitas, dan kontras</string>
+    <string name="adj_hue_title">Corak</string>
     <string name="adj_saturation_title">Saturation</string>
     <string name="adj_intensity_title">Intensity</string>
-    <string name="adj_contrast_title">Contrast</string>
+    <string name="adj_contrast_title">Kontras</string>
     <!-- LiveDisplay - Custom theme mode -->
-    <string name="systemui_theme_time">Automatic (time of the day)</string>
+    <string name="systemui_theme_time">Otomatis (waktu dalam sehari)</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="swipe_to_screenshot_gesture_title">Swipe to screenshot</string>
-    <string name="swipe_to_screenshot_gesture_summary">Swipe three fingers to take screenshot</string>
+    <string name="swipe_to_screenshot_gesture_title">Gesek untuk menangkap layar</string>
+    <string name="swipe_to_screenshot_gesture_summary">Usap 3 jari untuk mengambil tangkapan layar</string>
     <!-- Dark theme style -->
-    <string name="dark_theme_style_title">Dark theme style</string>
+    <string name="dark_theme_style_title">Gaya tema gelap</string>
     <string name="dark_theme_style_default">Default</string>
-    <string name="dark_theme_style_black">Black</string>
+    <string name="dark_theme_style_black">Hitam</string>
     <!-- Evolution X settings -->
     <string name="evolution_settings_title">Evolution X</string>
-    <string name="evolution_settings_summary">Whatever it takes to customize your device</string>
+    <string name="evolution_settings_summary">Apa pun yang diperlukan untuk menyesuaikan perangkat Anda</string>
     <!-- Notification log -->
-    <string name="notification_log_summary">Show notifications history log</string>
+    <string name="notification_log_summary">Tampilkan log riwayat pemberitahuan</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_data">Cellular data</string>
-    <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
-    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_data">Data seluler</string>
+    <string name="data_usage_app_restrict_data_summary">Aktifkan penggunaan data seluler</string>
+    <string name="data_usage_app_restrict_wifi">Data Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Aktifkan penggunaan data Wi\u2011Fi</string>
     <!-- Manage applications, package string displayed in app snippet -->
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
-    <string name="status_deep_sleep">(Deep sleep: %1$d%2$s)</string>
+    <string name="status_deep_sleep">(Tidur nyenyak: %1$d%2$s)</string>
     <!-- Media gestures -->
-    <string name="prevent_ringing_option_mute_no_media">Mute, no media</string>
-    <string name="prevent_ringing_option_mute_no_media_summary">On (mute, no media)</string>
-    <string name="full_gesture_mode_title">Enable full gesture mode</string>
-    <string name="full_gesture_mode_summary">This mode disables the back button and you can trigger a back button action by a left swipe on navbar. Right swipe still triggers the last-app and the overview apps scrolling. To go home you can tap on any navbar empty space, not only the home button. When keyboard is showing, long press on navbar to move the text cursor.</string>
-    <string name="full_gesture_mode_dt2s_title">Enable double tap to sleep</string>
-    <string name="full_gesture_mode_dt2s_summary">Tap on an empty navbar space but not the home button to switch the screen off.</string>
+    <string name="prevent_ringing_option_mute_no_media">Diam, tidak ada media</string>
+    <string name="prevent_ringing_option_mute_no_media_summary">Hidup, (diam, tidak ada media)</string>
+    <string name="full_gesture_mode_title">Aktifkan mode penuh gerakan</string>
+    <string name="full_gesture_mode_summary">Mode ini juga akan menonaktifkan tombol kembali dan kamu akan dapat memicu aksi tombol kembali oleh usap kiri pada bilah navigasi. Usap kanan masih akan memicu tindakan aplikasi terakhir dan geseran kiri akan memindahkan aplikasi. Untuk ke beranda, kamu akan dapat mengetuk ruang kosong bilah navigasi, tidak hanya tombol beranda. ketika keyboard muncul, tekan lama bilah navigasi pindah ke kursor teks.</string>
+    <string name="full_gesture_mode_dt2s_title">Aktifkan ketuk dua kali untuk tidur</string>
+    <string name="full_gesture_mode_dt2s_summary">Tap ruang navbar kosong tetapi bukan tombol home untuk mematikan layar.</string>
     <!-- Scramble PIN Layout on Lockscreen -->
-    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
-    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+    <string name="unlock_scramble_pin_layout_title">Tata letak acak</string>
+    <string name="unlock_scramble_pin_layout_summary">Acak tata letak PIN saat membuka perangkat</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Reset stats</string>
-    <string name="battery_stats_message">Battery history stats are going to be reset</string>
-    <string name="ok_string">Ok</string>
-    <string name="fp_swipe_to_dismiss_notifications_title">Swipe fingerprint left or right to dismiss notifications</string>
-    <string name="fp_swipe_to_dismiss_notifications_summary">To dismiss your notifications, swipe left or right on the fingerprint sensor on the back of your phone.</string>
+    <string name="battery_stats_reset">Atur ulang statistik</string>
+    <string name="battery_stats_message">Statistik riwayat baterai akan diatur ulang</string>
+    <string name="ok_string">Oke</string>
+    <string name="fp_swipe_to_dismiss_notifications_title">Usap menggunakan sidik jari ke kiri atau ke kanan untuk menghapus pemberitahuan</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">Untuk mengabaikan pemberitahuan anda, gesek ke kiri atau kanan pada sensor sidik jari di bagian belakang telepon anda.</string>
     <!-- Custom light color -->
-    <string name="custom_light_title">Light color</string>
-    <string name="custom_light_on_time_title">Light ON time during led pulse (ms)</string>
-    <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)\"</string>
+    <string name="custom_light_title">Warna terang</string>
+    <string name="custom_light_on_time_title">Durasi lampu aktif selama led berkedip (ms)</string>
+    <string name="custom_light_off_time_title">Durasi lampu nonaktif selama led berkedip (ms)\"</string>
     <string name="value_equals_default">def</string>
     <!-- Battery temp -->
-    <string name="battery_temp_title">Battery temperature</string>
+    <string name="battery_temp_title">Temperatur baterai</string>
     <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+    <string name="volume_link_notification_title">Hubungkan volume dering &amp; pemberitahuan</string>
     <!-- Expanded desktop -->
-    <string name="expanded_desktop_pref_title">Expanded desktop</string>
-    <string name="expanded_hide_nothing">Hide nothing</string>
-    <string name="expanded_hide_status">Hide status bar</string>
-    <string name="expanded_hide_navigation">Hide navigation bar</string>
-    <string name="expanded_hide_both">Hide both</string>
-    <string name="expanded_nothing_to_show">To add a custom per-app configuration for expanded state, set \"Enabled for all\" to the off position</string>
-    <string name="expanded_desktop_state">Expanded state</string>
-    <string name="expanded_enabled_for_all">Enabled for all</string>
-    <string name="expanded_user_configurable">User configurable</string>
-    <string name="expanded_desktop_style">Expanded desktop style</string>
-    <string name="expanded_desktop_style_description">Choose a default expanded desktop style</string>
-    <string name="expanded_desktop_title">Expanded desktop options</string>
+    <string name="expanded_desktop_pref_title">Perluas desktop</string>
+    <string name="expanded_hide_nothing">Tidak menyembunyikan apapun</string>
+    <string name="expanded_hide_status">Menyembunyikan statusbar</string>
+    <string name="expanded_hide_navigation">Sembunyikan bar navigasi</string>
+    <string name="expanded_hide_both">Sembunyikan keduanya</string>
+    <string name="expanded_nothing_to_show">Untuk menambahkan konfigurasi kustom per-aplikasi untuk kondisi diperluas, atur \"Diaktifkan untuk semua\" ke posisi mati</string>
+    <string name="expanded_desktop_state">Kondisi diperluas</string>
+    <string name="expanded_enabled_for_all">Diaktifkan untuk semua</string>
+    <string name="expanded_user_configurable">Dapat dikonfigurasi pengguna</string>
+    <string name="expanded_desktop_style">Gaya desktop diperluas</string>
+    <string name="expanded_desktop_style_description">Pilih standar gaya dekstop diperluas</string>
+    <string name="expanded_desktop_title">Pilihan desktop diperluas</string>
     <!-- Doze on Charge -->
-    <string name="doze_on_charge_title">Show when charging</string>
-    <string name="doze_on_charge_summary">Wake screen when charging</string>
+    <string name="doze_on_charge_title">Hanya ketika pengisian</string>
+    <string name="doze_on_charge_summary">Layar menyala saat mengisi</string>
     <!-- Fingerprint unlock keystore -->
-    <string name="fp_unlock_keystore_title">FP unlock</string>
+    <string name="fp_unlock_keystore_title">Buka kunci dengan Sidik Jari</string>
     <string name="fp_unlock_keystore_summary">Unlock with fingerprint even after a reboot without PIN/Password/Pattern\nNote: Use at your own risk!</string>
     <!-- Aggressive battery -->
     <string name="aggressive_battery_title">Aggressive Battery</string>
