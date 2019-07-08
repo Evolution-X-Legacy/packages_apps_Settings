@@ -143,9 +143,9 @@
     <!-- Status bar -->
     <string name="status_bar_title">แถบสถานะ</string>
     <string name="lockscreen_qs_disabled_title">ปิดการใช้งานบนหน้าจอล็อค</string>
-    <string name="lockscreen_qs_disabled_summary">Disable expanded status bar on protected lock screen</string>
-    <string name="status_bar_quick_qs_pulldown_title">Quick pulldown</string>
-    <string name="status_bar_quick_qs_pulldown_summary">%1$s edge of the status bar pulls down Quick Settings</string>
+    <string name="lockscreen_qs_disabled_summary">ปิดการใช้งานแถบสถานะที่ถูกขยายบนหน้าจอล็อคที่ถูกป้องกัน</string>
+    <string name="status_bar_quick_qs_pulldown_title">ปัดลงอย่างเร็ว</string>
+    <string name="status_bar_quick_qs_pulldown_summary">ปัดขอบด้าน%1$sของแถบสถานะเพื่อเปิดแผงตั้งค่า</string>
     <string name="status_bar_quick_qs_pulldown_summary_left">Left</string>
     <string name="status_bar_quick_qs_pulldown_summary_right">Right</string>
     <string name="status_bar_quick_qs_pulldown_off">Off</string>
