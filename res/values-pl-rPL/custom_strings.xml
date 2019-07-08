@@ -276,24 +276,24 @@
     <string name="fp_unlock_keystore_title">FP unlock</string>
     <string name="fp_unlock_keystore_summary">Unlock with fingerprint even after a reboot without PIN/Password/Pattern\nNote: Use at your own risk!</string>
     <!-- Aggressive battery -->
-    <string name="aggressive_battery_title">Aggressive Battery</string>
-    <string name="aggressive_battery_summary">More strict battery savings</string>
-    <string name="aggressive_battery_warning_text">These are power saving features. They may interfere with services intended to run at idle, like navigation apps. You can whitelist these apps from being affected in the app battery settings.</string>
-    <string name="aggressive_idle_title">Aggressive Idle</string>
-    <string name="aggressive_idle_summary">Enter device idle more frequently and wake up less</string>
-    <string name="aggressive_standby_title">Aggressive Standby</string>
-    <string name="aggressive_standby_summary">Restrict apps from running the background</string>
-    <string name="aggressive_battery_saver_title">Auto-enable on battery saver </string>
-    <string name="aggressive_battery_saver_summary">Enable Aggressive Battery automatically when using battery saver</string>
+    <string name="aggressive_battery_title">Rygorystyczne działania wobec baterii</string>
+    <string name="aggressive_battery_summary">Bardziej rygorystyczne oszczędzanie baterii</string>
+    <string name="aggressive_battery_warning_text">Funkcje oszczędzania energii mogą zakłócać działanie usług przeznaczonych do pracy w trybie bezczynności, takich jak aplikacje nawigacyjne. Możesz oznaczyć te aplikacje na białej liście w ustawieniach baterii aplikacji.</string>
+    <string name="aggressive_idle_title">Agresywny tryb bezczynności</string>
+    <string name="aggressive_idle_summary">Wprowadź częściej urządzenie w tryb bezczynności i rzadziej wybudzaj</string>
+    <string name="aggressive_standby_title">Agresywny tryb czuwania</string>
+    <string name="aggressive_standby_summary">Ogranicz aplikacje do uruchamiania w tle</string>
+    <string name="aggressive_battery_saver_title">Automatyczne włączanie oszczędzania baterii </string>
+    <string name="aggressive_battery_saver_summary">Włącz Agresywną baterię automatycznie w trybie oszczędzania energii</string>
     <!-- Battery saving mode for Location - GPS will be disabled -->
-    <string name="location_mode_battery_saving_title">Battery saving mode</string>
-    <string name="location_mode_battery_saving_summary">Use only Wi\u2011Fi, Bluetooth, or mobile networks to determine location (less accurate)</string>
+    <string name="location_mode_battery_saving_title">Oszczędzanie baterii</string>
+    <string name="location_mode_battery_saving_summary">Używaj tylko Wi\u2011Fi, Bluetooth lub sieci mobilnej do lokalizacji (mniej dokładne)</string>
     <!-- Font picker -->
-    <string name="font_picker_title">System Font</string>
-    <string name="font_picker_progress">Applying new font\u2026</string>
-    <string name="disable_fonts_installed_title">Font picker is unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use the system font picker.</string>
+    <string name="font_picker_title">Czcionka systemowa</string>
+    <string name="font_picker_progress">Stosowanie nowej czcionki\u2026</string>
+    <string name="disable_fonts_installed_title">Wybór czcionek jest niedostępny w celu uniknięcia konfliktów z Substratum. Odinstaluj Substratum, jeśli chcesz używać innych czcionek.</string>
     <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
+    <string name="unlock_quick_unlock_control_title">Szybkie odblokowywanie</string>
     <string name="unlock_quick_unlock_control_summary">Odblokuj automatycznie kiedy zostanie podany prawidłowy PIN/hasło</string>
     <!-- Running services -->
     <string name="background_processes_settings_title">Procesy w tle</string>
@@ -303,6 +303,6 @@
     <string name="doze_trigger_title">Kiedy wyświetlić</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Dwukrotne tapnięcie</string>
-    <string name="doze_double_tap_title">Double tap to check phone</string>
-    <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
+    <string name="doze_double_tap_title">Dwukrotne tapnij w ekran, aby wyświetlić powiadomienia</string>
+    <string name="doze_double_tap_summary">Wyświetl powiadomienia po dwukrotnym tapnięciu</string>
 </resources>
