@@ -22,14 +22,14 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Individua il sensore d\'impronte digitali sul lato destro del tuo telefono.</string>
     <!-- Notification light settings -->
     <string name="lights_category_title">Impostazioni delle luci</string>
-    <string name="notification_light_title">Led di notifica</string>
+    <string name="notification_light_title">Notification light</string>
     <string name="battery_light_title">Indicatore led batteria</string>
     <string name="battery_low_pulse_title">Lampeggia con batteria scarica</string>
     <!-- Manual provisioning support -->
-    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> è <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
     <string name="sim_disabled">disattivato</string>
     <string name="sim_missing">mancante o difettoso</string>
-    <string name="sim_enabler_need_disable_sim">La scheda SIM verrà disattivata. Vuoi continuare?</string>
+    <string name="sim_enabler_need_disable_sim">SIM card will be deactivated. Do you want to continue?</string>
     <string name="sim_enabler_will_disable_sim_title">Attenzione</string>
     <string name="sim_enabler_need_switch_data_service">Questa SIM verrà disabilitata e la SIM <xliff:g id="slotid">%1$s</xliff:g> verrà utilizzata per i servizi dei dati. Sei sicuro di voler continuare?</string>
     <string name="sim_enabler_airplane_on">Impossibile eseguire l\'operazione mentre la modalità aereo è attiva.</string>
@@ -37,7 +37,7 @@
     <string name="sim_enabler_both_inactive">Impossibile disabilitare tutte le schede SIM</string>
     <string name="sim_enabler_enabling">Attivazione\u2026</string>
     <string name="sim_enabler_disabling">Disattivazione\u2026</string>
-    <string name="sub_activate_success">SIM attivata.</string>
+    <string name="sub_activate_success">SIM activated.</string>
     <string name="sub_activate_failed">Attivazione fallita.</string>
     <string name="sub_deactivate_success">SIM disattivata.</string>
     <string name="sub_deactivate_failed">Disattivazione fallita.</string>
@@ -47,7 +47,7 @@
     <string name="button_pref_title">Pulsanti</string>
     <string name="navigation_bar_title">Barra di navigazione</string>
     <string name="hardware_keys_power_key_title">Pulsante di spegnimento</string>
-    <string name="hardware_keys_home_key_title">Tasto home</string>
+    <string name="hardware_keys_home_key_title">Home button</string>
     <string name="hardware_keys_back_key_title">Pulsante Indietro</string>
     <string name="hardware_keys_menu_key_title">Pulsante Menu</string>
     <string name="hardware_keys_assist_key_title">Pulsante Cerca</string>
@@ -79,16 +79,16 @@
     <string name="camera_launch_summary">Una pressione prolungata e il successivo rilascio avvieranno la fotocamera</string>
     <!-- Key backlight -->
     <string name="button_backlight_title">Retroilluminazione</string>
-    <string name="button_backlight_enabled">Illumina pulsanti</string>
+    <string name="button_backlight_enabled">Illuminate buttons</string>
     <string name="button_backlight_only_when_pressed_title">Illumina i pulsanti solo quando vengono premuti</string>
     <string name="button_backlight_seekbar_title">Luminosità pulsanti</string>
     <string name="backlight_timeout_title">Tempo di illuminazione</string>
-    <string name="backlight_timeout_unlimited">Non spegnere</string>
+    <string name="backlight_timeout_unlimited">Don\'t turn off</string>
     <string name="backlight_summary_disabled">Disabilitato</string>
     <string name="backlight_summary_enabled_with_timeout">Attivata per <xliff:g id="timeout">%s</xliff:g></string>
     <string name="backlight_summary_enabled">Attivata</string>
     <!-- Weather -->
-    <string name="weather_title">Meteo</string>
+    <string name="weather_title">Weather</string>
     <string name="weather_unit">Unità della temperatura</string>
     <!-- Face auto unlock -->
     <string name="face_auto_unlock_title">Sblocco automatico con il viso</string>
@@ -118,7 +118,7 @@
     <string name="status_bar_double_tap_to_sleep_title">Tocca per spegnere lo schermo</string>
     <string name="status_bar_double_tap_to_sleep_summary">Tocca due volte la barra di stato o la schermata di sblocco per spegnere lo schermo</string>
     <!-- Lock screen cover art -->
-    <string name="lockscreen_media_art_title">Mostra copertina album</string>
+    <string name="lockscreen_media_art_title">Display media cover art</string>
     <!-- Button that controls inversion of layout of navigation bar -->
     <string name="nav_bar_layout_inverse_title">Inverti layout</string>
     <string name="nav_bar_layout_inverse_summary">Inverti disposizione dei pulsanti della barra di navigazione</string>
@@ -126,11 +126,11 @@
     <string name="torch_long_press_power_gesture_title">Premi a lungo per la torcia</string>
     <string name="torch_long_press_power_gesture_desc">Attiva la torcia tenendo premuto a lungo il pulsante d\'accensione quando lo schermo è spento</string>
     <string name="torch_long_press_power_timeout_title">Spegni automaticamente la torcia</string>
-    <string name="torch_long_press_power_timeout_never">Mai</string>
+    <string name="torch_long_press_power_timeout_never">Never</string>
     <string name="torch_long_press_power_timeout_1min">1 minuto</string>
-    <string name="torch_long_press_power_timeout_2min">2 minuti</string>
-    <string name="torch_long_press_power_timeout_5min">5 minuti</string>
-    <string name="torch_long_press_power_timeout_10min">10 minuti</string>
+    <string name="torch_long_press_power_timeout_2min">2 minutes</string>
+    <string name="torch_long_press_power_timeout_5min">5 minutes</string>
+    <string name="torch_long_press_power_timeout_10min">10 minutes</string>
     <!-- Volume control playback -->
     <string name="volbtn_music_controls_title">Controllo di riproduzione</string>
     <string name="volbtn_music_controls_summary">Cambia la traccia musicale premendo a lungo i tasti del volume quando lo schermo è spento</string>
@@ -159,13 +159,8 @@
     <string name="pocket_judge_title">Rilevamento tasca</string>
     <string name="pocket_judge_summary">Blocca lo schermo e i pulsanti quando il dispositivo è in tasca</string>
     <!-- LiveDisplay -->
-    <string name="live_display_summary">Ottimizza lo schermo in base all\'ora del giorno e alle condizioni ambientali per migliorare la leggibilità e ridurre l\'affaticamento degli occhi</string>
-    <string name="live_display_mode">Modalità Visualizzazione</string>
-    <string name="live_display_color_temperature_title">Temperatura del colore</string>
-    <string name="live_display_color_temperature_summary">Giorno: <xliff:g id="day_temperature">%1$d</xliff:g>K  Notte: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
-    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
-    <string name="live_display_day">Giorno</string>
-    <string name="live_display_night">Notte</string>
+    <string name="color_settings_title">Impostazioni colore</string>
+    <string name="color_settings_summary">Regola e migliora i colori dello schermo</string>
     <string name="live_display_outdoor_mode_title">Modalità outdoor automatica</string>
     <string name="live_display_outdoor_mode_summary">Aumentare luminosità e saturazione automaticamente in ambienti molto illuminati</string>
     <string name="live_display_low_power_title">Riduci il consumo energetico</string>
@@ -183,10 +178,10 @@
     <string name="live_display_color_profile_cinema_summary">Riproduzione del colore perfetto per i video</string>
     <string name="live_display_color_profile_astronomy_title">Astronomia</string>
     <string name="live_display_color_profile_astronomy_summary">Rosso profondo per la visione notturna</string>
-    <string name="live_display_color_profile_photography_title">Fotografia</string>
+    <string name="live_display_color_profile_photography_title">Photography</string>
     <string name="live_display_color_profile_photography_summary">Riproduzione colore perfetta per foto</string>
     <string name="live_display_color_profile_basic_title">Basilare</string>
-    <string name="live_display_color_profile_basic_summary">Usa schermo non calibrato</string>
+    <string name="live_display_color_profile_basic_summary">Use the display uncalibrated</string>
     <string name="live_display_color_profile_adaptive_title">Adattivo</string>
     <string name="live_display_color_profile_adaptive_summary">I colori si adattano alle condizioni ambientali</string>
     <string name="live_display_color_profile_reading_title">Lettura</string>
@@ -194,14 +189,14 @@
     <string name="live_display_color_profile_srgb_title">sRGB</string>
     <string name="live_display_color_profile_srgb_summary">Colori accurati allo spazio di colore sRGB</string>
     <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
-    <string name="live_display_color_profile_dci_p3_summary">Colori fedeli allo spazio colore DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">Colors accurate to the DCI-P3 color space</string>
     <string name="live_display_reading_mode_title">Modalità lettura</string>
     <string name="live_display_reading_mode_summary">Modalità scala di grigi per lettura a lungo termine</string>
     <string name="color_calibration_title">Calibrazione colore</string>
-    <string name="color_calibration_summary">Calibra colori a schermo</string>
+    <string name="color_calibration_summary">Calibrate on-screen colors</string>
     <string name="color_red_title">Rosso</string>
     <string name="color_green_title">Verde</string>
-    <string name="color_blue_title">Blu</string>
+    <string name="color_blue_title">Blue</string>
     <!-- LiveDisplay : Picture Adjustment -->
     <string name="picture_adjustment_title">Regolazione immagine</string>
     <string name="picture_adjustment_summary">Regola tonalità, saturazione, intensità e contrasto</string>
@@ -217,14 +212,14 @@
     <!-- Dark theme style -->
     <string name="dark_theme_style_title">Stile tema scuro</string>
     <string name="dark_theme_style_default">Predefinito</string>
-    <string name="dark_theme_style_black">Nero</string>
+    <string name="dark_theme_style_black">Black</string>
     <!-- Evolution X settings -->
     <string name="evolution_settings_title">Evolution X</string>
     <string name="evolution_settings_summary">L\'evoluzione dell\'open source. Keep Evolving</string>
     <!-- Notification log -->
     <string name="notification_log_summary">Visualizza il registro delle notifiche</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_data">Dati mobili</string>
+    <string name="data_usage_app_restrict_data">Cellular data</string>
     <string name="data_usage_app_restrict_data_summary">Abilita l\'utilizzo dei dati mobili</string>
     <string name="data_usage_app_restrict_wifi">Dati Wi\u2011Fi</string>
     <string name="data_usage_app_restrict_wifi_summary">Abilita l\'uso dei dati del Wi\u2011Fi</string>
@@ -248,16 +243,16 @@
     <string name="fp_swipe_to_dismiss_notifications_title">Scorri a sinistra o destra sul sensore d\'impronte per rimuovere le notifiche</string>
     <string name="fp_swipe_to_dismiss_notifications_summary">Per ignorare le notifiche, scorrere verso sinistra o destra sul sensore di impronte digitali sul retro del telefono.</string>
     <!-- Custom light color -->
-    <string name="custom_light_title">Colore LED</string>
-    <string name="custom_light_on_time_title">Durata impulso del led acceso (ms)</string>
+    <string name="custom_light_title">Light color</string>
+    <string name="custom_light_on_time_title">Light ON time during led pulse (ms)</string>
     <string name="custom_light_off_time_title">Durata dell\'impulso del LED spento (ms)</string>
     <string name="value_equals_default">predefinito</string>
     <!-- Battery temp -->
     <string name="battery_temp_title">Temperatura della batteria</string>
     <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Collega volume suoneria e notifiche</string>
+    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
     <!-- Expanded desktop -->
-    <string name="expanded_desktop_pref_title">Desktop esteso</string>
+    <string name="expanded_desktop_pref_title">Expanded desktop</string>
     <string name="expanded_hide_nothing">Non nascondere nulla</string>
     <string name="expanded_hide_status">Nascondi la barra di stato</string>
     <string name="expanded_hide_navigation">Nascondi la barra di navigazione</string>
@@ -266,7 +261,7 @@
     <string name="expanded_desktop_state">Stato schermo esteso</string>
     <string name="expanded_enabled_for_all">Attivato per tutti</string>
     <string name="expanded_user_configurable">Configurabile dall\'utente</string>
-    <string name="expanded_desktop_style">Stile desktop esteso</string>
+    <string name="expanded_desktop_style">Expanded desktop style</string>
     <string name="expanded_desktop_style_description">Scegli lo stile predefinito dello schermo esteso</string>
     <string name="expanded_desktop_title">Impostazioni schermo esteso</string>
     <!-- Doze on Charge -->
@@ -298,7 +293,7 @@
     <!-- Running services -->
     <string name="background_processes_settings_title">Processi in background</string>
     <!-- Battery estimates -->
-    <string name="battery_estimates_title">Stima della batteria</string>
+    <string name="battery_estimates_title">Battery Estimates in QS</string>
     <string name="battery_estimates_summary">Mostra la durata stimata della batteria nel pannello</string>
     <string name="doze_trigger_title">Quando mostrare</string>
     <!-- Doze on double tap -->
