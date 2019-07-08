@@ -220,7 +220,7 @@
     <string name="dark_theme_style_black">Μαύρο</string>
     <!-- Evolution X settings -->
     <string name="evolution_settings_title">Evolution X</string>
-    <string name="evolution_settings_summary">Οτιδήποτε χρειάζεται για να προσαρμόσετε τη συσκευή σας</string>
+    <string name="evolution_settings_summary">The Evolution of open source. Keep Evolving</string>
     <!-- Notification log -->
     <string name="notification_log_summary">Δείτε όλο το αρχείο ειδοποιήσεων</string>
     <!-- Per-app data restrictions -->
