@@ -182,14 +182,14 @@
     <string name="live_display_color_profile_cinema_title">Кіно</string>
     <string name="live_display_color_profile_cinema_summary">Ідеальна передача кольору для відео</string>
     <string name="live_display_color_profile_astronomy_title">Астрономія</string>
-    <string name="live_display_color_profile_astronomy_summary">Deep red for preserving night vision</string>
-    <string name="live_display_color_profile_photography_title">Photography</string>
-    <string name="live_display_color_profile_photography_summary">Perfect color reproduction for photos</string>
-    <string name="live_display_color_profile_basic_title">Basic</string>
-    <string name="live_display_color_profile_basic_summary">Use the display uncalibrated</string>
-    <string name="live_display_color_profile_adaptive_title">Adaptive</string>
-    <string name="live_display_color_profile_adaptive_summary">Colors adapt to ambient conditions</string>
-    <string name="live_display_color_profile_reading_title">Reading</string>
+    <string name="live_display_color_profile_astronomy_summary">Глибокий червоний для збереження видимості вночі</string>
+    <string name="live_display_color_profile_photography_title">Фотографія</string>
+    <string name="live_display_color_profile_photography_summary">Ідеальне кольоровідтворення для фотографій</string>
+    <string name="live_display_color_profile_basic_title">Базовий</string>
+    <string name="live_display_color_profile_basic_summary">Використовувати невідкалібрований екран</string>
+    <string name="live_display_color_profile_adaptive_title">Адаптивний</string>
+    <string name="live_display_color_profile_adaptive_summary">Адаптація кольору до навколишнього середовища</string>
+    <string name="live_display_color_profile_reading_title">Читання</string>
     <string name="live_display_color_profile_reading_summary">Warmer colors for less eye strain</string>
     <string name="live_display_color_profile_srgb_title">sRGB</string>
     <string name="live_display_color_profile_srgb_summary">Colors accurate to the sRGB color space</string>
@@ -255,38 +255,38 @@
     <!-- Battery temp -->
     <string name="battery_temp_title">Battery temperature</string>
     <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+    <string name="volume_link_notification_title">Зв\'язати гучність рінгтона і повідомлень</string>
     <!-- Expanded desktop -->
-    <string name="expanded_desktop_pref_title">Expanded desktop</string>
-    <string name="expanded_hide_nothing">Hide nothing</string>
-    <string name="expanded_hide_status">Hide status bar</string>
-    <string name="expanded_hide_navigation">Hide navigation bar</string>
-    <string name="expanded_hide_both">Hide both</string>
-    <string name="expanded_nothing_to_show">To add a custom per-app configuration for expanded state, set \"Enabled for all\" to the off position</string>
-    <string name="expanded_desktop_state">Expanded state</string>
-    <string name="expanded_enabled_for_all">Enabled for all</string>
-    <string name="expanded_user_configurable">User configurable</string>
-    <string name="expanded_desktop_style">Expanded desktop style</string>
-    <string name="expanded_desktop_style_description">Choose a default expanded desktop style</string>
-    <string name="expanded_desktop_title">Expanded desktop options</string>
+    <string name="expanded_desktop_pref_title">Розширений робочий стіл</string>
+    <string name="expanded_hide_nothing">Нічого не ховати</string>
+    <string name="expanded_hide_status">Приховати панель стану</string>
+    <string name="expanded_hide_navigation">Приховати панель навігації</string>
+    <string name="expanded_hide_both">Приховувати обидва</string>
+    <string name="expanded_nothing_to_show">Для додавання окремих конфігурацій розширеного екрану для кожної програми вимкніть опцію «Увімкнути для всіх»</string>
+    <string name="expanded_desktop_state">Розширений режим</string>
+    <string name="expanded_enabled_for_all">Увімкнено для всіх</string>
+    <string name="expanded_user_configurable">Налаштовується користувачем</string>
+    <string name="expanded_desktop_style">Режим розширеного робочого столу</string>
+    <string name="expanded_desktop_style_description">Виберіть типовий стиль розширеного робочого столу</string>
+    <string name="expanded_desktop_title">Параметри розширеного робочого столу</string>
     <!-- Doze on Charge -->
-    <string name="doze_on_charge_title">Show when charging</string>
-    <string name="doze_on_charge_summary">Wake screen when charging</string>
+    <string name="doze_on_charge_title">Показувати при зарядці</string>
+    <string name="doze_on_charge_summary">Ввімкнення екрану при зарядці</string>
     <!-- Fingerprint unlock keystore -->
-    <string name="fp_unlock_keystore_title">FP unlock</string>
-    <string name="fp_unlock_keystore_summary">Unlock with fingerprint even after a reboot without PIN/Password/Pattern\nNote: Use at your own risk!</string>
+    <string name="fp_unlock_keystore_title">Розблокування сканером відбитків</string>
+    <string name="fp_unlock_keystore_summary">Розблокувати пристрій сканером відбитків після перезавантаження без PIN-коду/Паролю/, Графічного паролю\nПримітка: на свій страх і ризик!</string>
     <!-- Aggressive battery -->
-    <string name="aggressive_battery_title">Aggressive Battery</string>
-    <string name="aggressive_battery_summary">More strict battery savings</string>
-    <string name="aggressive_battery_warning_text">These are power saving features. They may interfere with services intended to run at idle, like navigation apps. You can whitelist these apps from being affected in the app battery settings.</string>
-    <string name="aggressive_idle_title">Aggressive Idle</string>
-    <string name="aggressive_idle_summary">Enter device idle more frequently and wake up less</string>
-    <string name="aggressive_standby_title">Aggressive Standby</string>
-    <string name="aggressive_standby_summary">Restrict apps from running the background</string>
-    <string name="aggressive_battery_saver_title">Auto-enable on battery saver </string>
-    <string name="aggressive_battery_saver_summary">Enable Aggressive Battery automatically when using battery saver</string>
+    <string name="aggressive_battery_title">Агресивне енергозбереження</string>
+    <string name="aggressive_battery_summary">Більш суворе збереження заряду батареї</string>
+    <string name="aggressive_battery_warning_text">Це функції енергозбережения. Ввімкнення цих режимів може створити завади службам, призначеним для роботи в режимі очікування, наприклад, навігаційним додаткам. Ви можете включити ці додатки в білий список в налаштуваннях батареї додатку.</string>
+    <string name="aggressive_idle_title">Агресивний режим очікування</string>
+    <string name="aggressive_idle_summary">Частіше входити в режим очікування і рідше прокидатися</string>
+    <string name="aggressive_standby_title">Обмеження роботи в фоні</string>
+    <string name="aggressive_standby_summary">Обмежити роботу додатків в фоновому режимі</string>
+    <string name="aggressive_battery_saver_title">Автоматичне увімкнення в режимі збереження енергії</string>
+    <string name="aggressive_battery_saver_summary">Ввімкнути агресивне енергозбереження автоматично в режимі збереження батареї</string>
     <!-- Battery saving mode for Location - GPS will be disabled -->
-    <string name="location_mode_battery_saving_title">Battery saving mode</string>
+    <string name="location_mode_battery_saving_title">Режим енергозбереження</string>
     <string name="location_mode_battery_saving_summary">Use only Wi\u2011Fi, Bluetooth, or mobile networks to determine location (less accurate)</string>
     <!-- Font picker -->
     <string name="font_picker_title">System Font</string>
