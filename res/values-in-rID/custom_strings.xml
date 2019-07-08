@@ -17,24 +17,24 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Fingerprint location message -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Locate the fingerprint sensor on the front of your phone.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Locate the fingerprint sensor on the left side of your phone.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Locate the fingerprint sensor on the right side of your phone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Temukan lokasi pemindai sidik jari di bagian depan telepon anda.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Tentukan lokasi sensor sidik jari di samping kiri telepon anda.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Temukan lokasi pemindai sidik jari di sisi kanan telepon anda.</string>
     <!-- Notification light settings -->
-    <string name="lights_category_title">Light settings</string>
-    <string name="notification_light_title">Notification light</string>
-    <string name="battery_light_title">Battery light</string>
-    <string name="battery_low_pulse_title">Pulse if battery low</string>
+    <string name="lights_category_title">Setelan lampu</string>
+    <string name="notification_light_title">Lampu Pemberitahuan</string>
+    <string name="battery_light_title">Lampu baterai</string>
+    <string name="battery_low_pulse_title">Kedip jika baterai lemah</string>
     <!-- Manual provisioning support -->
-    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
-    <string name="sim_disabled">disabled</string>
-    <string name="sim_missing">missing or faulty</string>
-    <string name="sim_enabler_need_disable_sim">SIM card will be deactivated. Do you want to continue?</string>
-    <string name="sim_enabler_will_disable_sim_title">Attention</string>
-    <string name="sim_enabler_need_switch_data_service">This SIM will be disabled and SIM <xliff:g id="slotid">%1$s</xliff:g> will be used for data services. Are you sure you want to continue?</string>
-    <string name="sim_enabler_airplane_on">Unable to perform the operation while airplane mode is on.</string>
-    <string name="sim_enabler_in_call">Unable to perform the operation while in call.</string>
-    <string name="sim_enabler_both_inactive">Can\'t disable all SIM cards</string>
+    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s </xliff:g> adalah <xliff:g id="status" example="disabled">%2$s </xliff:g></string>
+    <string name="sim_disabled">dinonaktifkan</string>
+    <string name="sim_missing">hilang atau rusak</string>
+    <string name="sim_enabler_need_disable_sim">Kartu SIM akan dinonaktifkan. Apakah Anda ingin melanjutkan?</string>
+    <string name="sim_enabler_will_disable_sim_title">Perhatian</string>
+    <string name="sim_enabler_need_switch_data_service">SIM ini akan dinonaktifkan dan SIM <xliff:g id="slotid">%1$s </xliff:g> akan digunakan untuk layanan data. Apakah Anda yakin ingin melanjutkan?</string>
+    <string name="sim_enabler_airplane_on">Tidak dapat melakukan operasi saat mode pesawat aktif.</string>
+    <string name="sim_enabler_in_call">Tidak dapat melakukan operasi saat dalam panggilan.</string>
+    <string name="sim_enabler_both_inactive">Tidak dapat menonaktifkan semua kartu SIM</string>
     <string name="sim_enabler_enabling">Activating\u2026</string>
     <string name="sim_enabler_disabling">Deactivating\u2026</string>
     <string name="sub_activate_success">SIM activated.</string>
