@@ -3,3 +3,5 @@ files:
     translation: /res/values-%android_code%/evolution_strings.xml
   - source: /res/values/custom_plurals.xml
     translation: /res/values-%android_code%/evolution_plurals.xml
+  - source: res/values/projekt_strings.xml
+    translation: res/values-%android_code%/projekt_strings.xml
