@@ -287,22 +287,22 @@
     <string name="aggressive_battery_saver_summary">Při použití spořiče baterie automaticky aktivovat funkci \"Agresivní baterie\"</string>
     <!-- Battery saving mode for Location - GPS will be disabled -->
     <string name="location_mode_battery_saving_title">Úsporný režim baterie</string>
-    <string name="location_mode_battery_saving_summary">Use only Wi\u2011Fi, Bluetooth, or mobile networks to determine location (less accurate)</string>
+    <string name="location_mode_battery_saving_summary">K určování polohy používat pouze Wi-Fi, Bluetooth nebo mobilní sítě (méně přesné)</string>
     <!-- Font picker -->
-    <string name="font_picker_title">System Font</string>
-    <string name="font_picker_progress">Applying new font\u2026</string>
-    <string name="disable_fonts_installed_title">Font picker is unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use the system font picker.</string>
+    <string name="font_picker_title">Systémové písmo</string>
+    <string name="font_picker_progress">Aplikuji nové písmo\u2026</string>
+    <string name="disable_fonts_installed_title">Výběr písma není k dispozici, aby se předešlo konfliktům se Substratum. Pokud chcete použít systémové písmo, odinstalujte Substratum.</string>
     <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
-    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+    <string name="unlock_quick_unlock_control_title">Rychlé odemknutí</string>
+    <string name="unlock_quick_unlock_control_summary">Automatické odemknutí pokud je zadán správný PIN/heslo</string>
     <!-- Running services -->
-    <string name="background_processes_settings_title">Background processes</string>
+    <string name="background_processes_settings_title">Procesy na pozadí</string>
     <!-- Battery estimates -->
-    <string name="battery_estimates_title">Battery Estimates in QS</string>
-    <string name="battery_estimates_summary">Show the estimated battery life in QS panel</string>
-    <string name="doze_trigger_title">When to show</string>
+    <string name="battery_estimates_title">Odhady baterie v QS</string>
+    <string name="battery_estimates_summary">Zobrazit odhadovanou výdrž baterie v panelu QS</string>
+    <string name="doze_trigger_title">Kdy zobrazit</string>
     <!-- Doze on double tap -->
-    <string name="double_tap_title">Double tap</string>
-    <string name="doze_double_tap_title">Double tap to check phone</string>
-    <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
+    <string name="double_tap_title">Dvojí poklepání</string>
+    <string name="doze_double_tap_title">Dvojitým klepnutím zkontrolujte telefon</string>
+    <string name="doze_double_tap_summary">Pulzující oznámení dvojitým poklepáním</string>
 </resources>
