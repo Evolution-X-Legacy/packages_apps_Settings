@@ -141,7 +141,7 @@
     <string name="others_settings_title">その他の設定</string>
     <string name="additional_buttons_title">追加のボタン</string>
     <!-- Status bar -->
-    <string name="status_bar_title">ステータスバー</string>
+    <string name="status_bar_title">システムアイコン</string>
     <string name="lockscreen_qs_disabled_title">ロック画面では無効化</string>
     <string name="lockscreen_qs_disabled_summary">保護されたロック画面でステータスバーを無効化する</string>
     <string name="status_bar_quick_qs_pulldown_title">クイックプルダウン</string>
@@ -159,13 +159,8 @@
     <string name="pocket_judge_title">ポケット検出</string>
     <string name="pocket_judge_summary">端末がポケット内にある時は画面とボタンをロックする</string>
     <!-- LiveDisplay -->
-    <string name="live_display_summary">画面を見やすく目の疲れを軽減するために時間と周囲の環境に合わせて画面を最適化する</string>
-    <string name="live_display_mode">表示モード</string>
-    <string name="live_display_color_temperature_title">色温度</string>
-    <string name="live_display_color_temperature_summary">昼: <xliff:g id="day_temperature">%1$d</xliff:g>K  夜: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
-    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
-    <string name="live_display_day">昼</string>
-    <string name="live_display_night">夜</string>
+    <string name="color_settings_title">色の設定</string>
+    <string name="color_settings_summary">画面の色を調整し向上させる</string>
     <string name="live_display_outdoor_mode_title">自動屋外モード</string>
     <string name="live_display_outdoor_mode_summary">明るい日差しが照射する環境下で明るさと彩度を自動的に向上させる</string>
     <string name="live_display_low_power_title">消費電力を削減</string>
@@ -298,7 +293,7 @@
     <!-- Running services -->
     <string name="background_processes_settings_title">バックグラウンドプロセス</string>
     <!-- Battery estimates -->
-    <string name="battery_estimates_title">クイック設定内のバッテリー予想稼働時間</string>
+    <string name="battery_estimates_title">予想稼働時間表示</string>
     <string name="battery_estimates_summary">クイック設定内にバッテリーの予想稼働時間を表示する</string>
     <string name="doze_trigger_title">表示するタイミング</string>
     <!-- Doze on double tap -->
