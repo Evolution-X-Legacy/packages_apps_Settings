@@ -21,7 +21,7 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Найдите сканер отпечатков пальцев на левой грани телефона.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Найдите сканер отпечатков пальцев на правой грани телефона.</string>
     <!-- Notification light settings -->
-    <string name="lights_category_title">Настройки яркости</string>
+    <string name="lights_category_title">Настройки индикации</string>
     <string name="notification_light_title">Индикация уведомлений</string>
     <string name="battery_light_title">Индикация батареи</string>
     <string name="battery_low_pulse_title">Мигать при низком уровне заряда</string>
