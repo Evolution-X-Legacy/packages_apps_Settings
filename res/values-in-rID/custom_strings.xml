@@ -76,73 +76,73 @@
     <string name="camera_sleep_on_release_title">Layar peek</string>
     <string name="camera_sleep_on_release_summary">Menahan setengah akan membuat layar tetap menyala hanya ketika tombol tertekan</string>
     <string name="camera_launch_title">Luncurkan kamera</string>
-    <string name="camera_launch_summary">A longpress and release will launch camera</string>
+    <string name="camera_launch_summary">Tekan lama dan lepas akan meluncurkan kamera</string>
     <!-- Key backlight -->
-    <string name="button_backlight_title">Backlight</string>
-    <string name="button_backlight_enabled">Illuminate buttons</string>
-    <string name="button_backlight_only_when_pressed_title">Illuminate buttons only when pressed</string>
-    <string name="button_backlight_seekbar_title">Button brightness</string>
-    <string name="backlight_timeout_title">Illumination timeout</string>
-    <string name="backlight_timeout_unlimited">Don\'t turn off</string>
-    <string name="backlight_summary_disabled">Disabled</string>
-    <string name="backlight_summary_enabled_with_timeout">Enabled for <xliff:g id="timeout">%s</xliff:g></string>
-    <string name="backlight_summary_enabled">Enabled</string>
+    <string name="button_backlight_title">Lampu latar</string>
+    <string name="button_backlight_enabled">Cahaya tombol</string>
+    <string name="button_backlight_only_when_pressed_title">Nyalakan tombol hanya jika ditekan</string>
+    <string name="button_backlight_seekbar_title">Kecerahan tombol</string>
+    <string name="backlight_timeout_title">Batas waktu Penerangan</string>
+    <string name="backlight_timeout_unlimited">Jangan Matikan</string>
+    <string name="backlight_summary_disabled">Dinonaktifkan</string>
+    <string name="backlight_summary_enabled_with_timeout">Diaktifkan untuk <xliff:g id="waktu habis">%s</xliff:g></string>
+    <string name="backlight_summary_enabled">Diaktifkan</string>
     <!-- Weather -->
-    <string name="weather_title">Weather</string>
-    <string name="weather_unit">Temperature unit</string>
+    <string name="weather_title">Cuaca</string>
+    <string name="weather_unit">Satuan temperatur</string>
     <!-- Face auto unlock -->
-    <string name="face_auto_unlock_title">Automatic face unlock</string>
-    <string name="face_auto_unlock_summary">Dismiss lock screen after face unlock</string>
+    <string name="face_auto_unlock_title">Membuka kunci dengan wajah otomatis</string>
+    <string name="face_auto_unlock_summary">Lewati kunci layar setelah terbuka dengan wajah</string>
     <!-- Thermal control per app -->
-    <string name="thermal_control_per_app">Optimization profile</string>
-    <string name="thermal_control_per_app_default">No optimization</string>
-    <string name="thermal_control_per_app_benchmark">Performance</string>
+    <string name="thermal_control_per_app">Profil pengoptimalan</string>
+    <string name="thermal_control_per_app_default">Tidak ada optimisasi</string>
+    <string name="thermal_control_per_app_benchmark">Performa</string>
     <string name="thermal_control_per_app_games">Games</string>
-    <string name="thermal_control_per_app_browser">Browser</string>
-    <string name="thermal_control_per_app_video_playback">Video playback</string>
-    <string name="thermal_control_per_app_dialer">Dialer</string>
-    <string name="thermal_control_per_app_camera">Camera</string>
+    <string name="thermal_control_per_app_browser">Peramban</string>
+    <string name="thermal_control_per_app_video_playback">Pemutar Video</string>
+    <string name="thermal_control_per_app_dialer">Telepon</string>
+    <string name="thermal_control_per_app_camera">Kamera</string>
     <!-- Notch behavior -->
-    <string name="display_cutout_mode_title">Notch behavior</string>
+    <string name="display_cutout_mode_title">Perilaku Notch</string>
     <string name="display_cutout_mode_normal">Default</string>
-    <string name="display_cutout_mode_hidden">Hidden</string>
+    <string name="display_cutout_mode_hidden">Tersembunyi</string>
     <!-- Notch: Full screen apps -->
-    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
-    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
+    <string name="display_cutout_force_fullscreen_title">Aplikasi layar penuh</string>
+    <string name="display_cutout_force_fullscreen_summary">Paksa aplikasi untuk mengabaikan jarak notch</string>
     <!-- In-call feedback -->
-    <string name="incall_feeedback_vibrate_title">Vibrate to indicate call status</string>
+    <string name="incall_feeedback_vibrate_title">Bergetar untuk mengindikasikan status panggilan</string>
     <!-- Fingerprint authentication vibration -->
-    <string name="fp_success_auth_vib_title">Fingerprint authentication</string>
-    <string name="fp_success_auth_vib_summary">Vibrate on successful fingerprint authentication</string>
+    <string name="fp_success_auth_vib_title">Otentikasi sidik jari</string>
+    <string name="fp_success_auth_vib_summary">Getar pada otentikasi sidik jari yang berhasil</string>
     <!-- Double tap to sleep on status bar or lockscreen -->
-    <string name="status_bar_double_tap_to_sleep_title">Tap to sleep</string>
-    <string name="status_bar_double_tap_to_sleep_summary">Double-tap on the status bar or lockscreen to turn off the display</string>
+    <string name="status_bar_double_tap_to_sleep_title">Ketuk untuk tidur</string>
+    <string name="status_bar_double_tap_to_sleep_summary">Ketuk dua kali pada status bar atau layar kunci untuk mematikan layar</string>
     <!-- Lock screen cover art -->
-    <string name="lockscreen_media_art_title">Display media cover art</string>
+    <string name="lockscreen_media_art_title">Tampilkan sampul media</string>
     <!-- Button that controls inversion of layout of navigation bar -->
-    <string name="nav_bar_layout_inverse_title">Invert layout</string>
-    <string name="nav_bar_layout_inverse_summary">Invert layout of navigation bar buttons</string>
+    <string name="nav_bar_layout_inverse_title">Tukar tata letak</string>
+    <string name="nav_bar_layout_inverse_summary">Tukar tata letak tombol bilah navigasi</string>
     <!-- Torch long press power button -->
-    <string name="torch_long_press_power_gesture_title">Long press for torch</string>
-    <string name="torch_long_press_power_gesture_desc">Activate the torch by long pressing the power button while the display is off</string>
-    <string name="torch_long_press_power_timeout_title">Automatically turn torch off</string>
-    <string name="torch_long_press_power_timeout_never">Never</string>
-    <string name="torch_long_press_power_timeout_1min">1 minute</string>
-    <string name="torch_long_press_power_timeout_2min">2 minutes</string>
-    <string name="torch_long_press_power_timeout_5min">5 minutes</string>
-    <string name="torch_long_press_power_timeout_10min">10 minutes</string>
+    <string name="torch_long_press_power_gesture_title">Tekan lama untuk senter</string>
+    <string name="torch_long_press_power_gesture_desc">Aktifkan senter dengan menekan lama tombol daya saat layar mati</string>
+    <string name="torch_long_press_power_timeout_title">Matikan senter secara otomatis</string>
+    <string name="torch_long_press_power_timeout_never">Jangan pernah</string>
+    <string name="torch_long_press_power_timeout_1min">1 menit</string>
+    <string name="torch_long_press_power_timeout_2min">2 menit</string>
+    <string name="torch_long_press_power_timeout_5min">5 menit</string>
+    <string name="torch_long_press_power_timeout_10min">10 menit</string>
     <!-- Volume control playback -->
-    <string name="volbtn_music_controls_title">Control playback</string>
-    <string name="volbtn_music_controls_summary">Seek music tracks by long pressing the volume keys while the display is off</string>
+    <string name="volbtn_music_controls_title">Kontrol pemutaran</string>
+    <string name="volbtn_music_controls_summary">Mencari trek musik dengan menekan lama tombol volume saat layar mati</string>
     <!-- Power menu on lockscreen -->
     <string name="lockscreen_power_menu_disabled_title">Nonaktifkan pada layar kunci</string>
-    <string name="lockscreen_power_menu_disabled_summary">Disable power menu on protected lock screen</string>
+    <string name="lockscreen_power_menu_disabled_summary">Matikan menu power saat layar terkunci</string>
     <!-- Others settings -->
-    <string name="others_settings_title">Others settings</string>
-    <string name="additional_buttons_title">Additional buttons</string>
+    <string name="others_settings_title">Pengaturan Lain</string>
+    <string name="additional_buttons_title">Tombol tambahan</string>
     <!-- Status bar -->
     <string name="status_bar_title">Status bar</string>
-    <string name="lockscreen_qs_disabled_title">Disable on lock screen</string>
+    <string name="lockscreen_qs_disabled_title">Nonaktifkan pada layar kunci</string>
     <string name="lockscreen_qs_disabled_summary">Disable expanded status bar on protected lock screen</string>
     <string name="status_bar_quick_qs_pulldown_title">Quick pulldown</string>
     <string name="status_bar_quick_qs_pulldown_summary">%1$s edge of the status bar pulls down Quick Settings</string>
@@ -196,9 +196,9 @@
     <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
     <string name="live_display_color_profile_dci_p3_summary">Colors accurate to the DCI-P3 color space</string>
     <string name="live_display_reading_mode_title">Reading mode</string>
-    <string name="live_display_reading_mode_summary">Grayscale mode for long-term reading</string>
-    <string name="color_calibration_title">Color calibration</string>
-    <string name="color_calibration_summary">Calibrate on-screen colors</string>
+    <string name="live_display_reading_mode_summary">Mode Grayscale untuk membaca jangka panjang</string>
+    <string name="color_calibration_title">Kalibrasi warna</string>
+    <string name="color_calibration_summary">Kalibrasi warna layar</string>
     <string name="color_red_title">Red</string>
     <string name="color_green_title">Green</string>
     <string name="color_blue_title">Blue</string>
