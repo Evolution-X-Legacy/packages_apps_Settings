@@ -45,7 +45,7 @@
     <string name="reset">Επαναφορά</string>
     <!-- Buttons -->
     <string name="button_pref_title">Κουμπιά</string>
-    <string name="navigation_bar_title">Μπάρα πλοήγησης</string>
+    <string name="navigation_bar_title">Γραμμή πλοήγησης</string>
     <string name="hardware_keys_power_key_title">Πλήκτρο Ενεργοποίησης/Απενεργοποίησης</string>
     <string name="hardware_keys_home_key_title">Πλήκτρο αρχικής οθόνης</string>
     <string name="hardware_keys_back_key_title">Πλήκτρο επιστροφής</string>
@@ -121,7 +121,7 @@
     <string name="lockscreen_media_art_title">Προβολή εξώφυλλου άλμπουμ</string>
     <!-- Button that controls inversion of layout of navigation bar -->
     <string name="nav_bar_layout_inverse_title">Αντιστροφή διάταξης</string>
-    <string name="nav_bar_layout_inverse_summary">Αντιστροφή διάταξης της μπάρας πλοήγησης</string>
+    <string name="nav_bar_layout_inverse_summary">Αντιστροφή διάταξης της γραμμής πλοήγησης</string>
     <!-- Torch long press power button -->
     <string name="torch_long_press_power_gesture_title">Παρατεταμένη πίεση για φακό</string>
     <string name="torch_long_press_power_gesture_desc">Ενεργοποιήστε το φακό πατώντας παρατεταμένα το πλήκτρο ισχύος όταν η οθόνη είναι ανενεργή</string>
