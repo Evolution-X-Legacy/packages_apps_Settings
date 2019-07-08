@@ -67,10 +67,10 @@
     <string name="hardware_keys_action_sleep">ปิดหน้าจอ</string>
     <string name="hardware_keys_action_last_app">แอปล่าสุด</string>
     <string name="hardware_keys_action_split_screen">แบ่งหน้าจอ</string>
-    <string name="hardware_keys_swipe_right_key_title">Swipe right</string>
-    <string name="hardware_keys_swipe_left_key_title">Swipe left</string>
-    <string name="hardware_keys_long_tap_key_title">Long tap</string>
-    <string name="hardware_keys_swipe_tap_title">Swipe action</string>
+    <string name="hardware_keys_swipe_right_key_title">ปัดไปทางขวา</string>
+    <string name="hardware_keys_swipe_left_key_title">ปัดไปทางซ้าย</string>
+    <string name="hardware_keys_long_tap_key_title">แตะค้างไว้</string>
+    <string name="hardware_keys_swipe_tap_title">การปัด</string>
     <string name="hardware_keys_long_tap_title">Long tap action</string>
     <string name="button_wake_title">Wake device</string>
     <string name="camera_sleep_on_release_title">Screen peek</string>
@@ -133,16 +133,16 @@
     <string name="torch_long_press_power_timeout_10min">10 minutes</string>
     <!-- Volume control playback -->
     <string name="volbtn_music_controls_title">Control playback</string>
-    <string name="volbtn_music_controls_summary">Seek music tracks by long pressing the volume keys while the display is off</string>
+    <string name="volbtn_music_controls_summary">ค้นหาเพลงด้วยการกดปุ่มปรับระดับเสียงในขณะที่ปิดหน้าจอ</string>
     <!-- Power menu on lockscreen -->
     <string name="lockscreen_power_menu_disabled_title">Disable on lock screen</string>
-    <string name="lockscreen_power_menu_disabled_summary">Disable power menu on protected lock screen</string>
+    <string name="lockscreen_power_menu_disabled_summary">ปิดการใช้งานเมนูพาวเวอร์บนหน้าจอล็อคที่ถูกป้องกัน</string>
     <!-- Others settings -->
-    <string name="others_settings_title">Others settings</string>
-    <string name="additional_buttons_title">Additional buttons</string>
+    <string name="others_settings_title">การตั้งค่าอื่นๆ</string>
+    <string name="additional_buttons_title">ปุ่มเพิ่มเติม</string>
     <!-- Status bar -->
-    <string name="status_bar_title">Status bar</string>
-    <string name="lockscreen_qs_disabled_title">Disable on lock screen</string>
+    <string name="status_bar_title">แถบสถานะ</string>
+    <string name="lockscreen_qs_disabled_title">ปิดการใช้งานบนหน้าจอล็อค</string>
     <string name="lockscreen_qs_disabled_summary">Disable expanded status bar on protected lock screen</string>
     <string name="status_bar_quick_qs_pulldown_title">Quick pulldown</string>
     <string name="status_bar_quick_qs_pulldown_summary">%1$s edge of the status bar pulls down Quick Settings</string>
