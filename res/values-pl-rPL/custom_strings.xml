@@ -215,34 +215,34 @@
     <string name="swipe_to_screenshot_gesture_title">Swipe to screenshot</string>
     <string name="swipe_to_screenshot_gesture_summary">Swipe three fingers to take screenshot</string>
     <!-- Dark theme style -->
-    <string name="dark_theme_style_title">Dark theme style</string>
-    <string name="dark_theme_style_default">Default</string>
-    <string name="dark_theme_style_black">Black</string>
+    <string name="dark_theme_style_title">Styl ciemnego motywu</string>
+    <string name="dark_theme_style_default">Domyślny</string>
+    <string name="dark_theme_style_black">Czarny</string>
     <!-- Evolution X settings -->
     <string name="evolution_settings_title">Evolution X</string>
-    <string name="evolution_settings_summary">Whatever it takes to customize your device</string>
+    <string name="evolution_settings_summary">Dostosuj cokolwiek potrzebujesz</string>
     <!-- Notification log -->
-    <string name="notification_log_summary">Show notifications history log</string>
+    <string name="notification_log_summary">Pokaż okno dialogowe powiadomienia</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_data">Cellular data</string>
-    <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
-    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_data">Transmisja danych komórkowych</string>
+    <string name="data_usage_app_restrict_data_summary">Włącz użycie danych komórkowych</string>
+    <string name="data_usage_app_restrict_wifi">Dane Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Włącz użycie danych Wi\u2011Fi</string>
     <!-- Manage applications, package string displayed in app snippet -->
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
-    <string name="status_deep_sleep">(Deep sleep: %1$d%2$s)</string>
+    <string name="status_deep_sleep">(Głęboki sen: %1$d%2$s)</string>
     <!-- Media gestures -->
-    <string name="prevent_ringing_option_mute_no_media">Mute, no media</string>
-    <string name="prevent_ringing_option_mute_no_media_summary">On (mute, no media)</string>
-    <string name="full_gesture_mode_title">Enable full gesture mode</string>
-    <string name="full_gesture_mode_summary">This mode disables the back button and you can trigger a back button action by a left swipe on navbar. Right swipe still triggers the last-app and the overview apps scrolling. To go home you can tap on any navbar empty space, not only the home button. When keyboard is showing, long press on navbar to move the text cursor.</string>
-    <string name="full_gesture_mode_dt2s_title">Enable double tap to sleep</string>
-    <string name="full_gesture_mode_dt2s_summary">Tap on an empty navbar space but not the home button to switch the screen off.</string>
+    <string name="prevent_ringing_option_mute_no_media">Wyciszony, brak dźwięku multimediów</string>
+    <string name="prevent_ringing_option_mute_no_media_summary">Włączone (wyciszony, brak dźwięku multimediów)</string>
+    <string name="full_gesture_mode_title">Włącz tryb gestów pełnoekranowych</string>
+    <string name="full_gesture_mode_summary">Ten tryb wyłącza przycisk cofania, możesz cofnąć przesuwając po lewej części paska nawigacyjnego. Przesunięcie po prawej części dalej włącza ostatnią aplikację oraz przewijanie aplikacji. Aby wrócić do ekranu domowego możesz nacisnąć wolną przestrzeń na pasku nawigacyjnym. Długie przyciśnięcie paska nawigacyjnego pozwala przesuwać kursor, gdy klawiatura jest widoczna.</string>
+    <string name="full_gesture_mode_dt2s_title">Włącz usypianie dwuklikiem</string>
+    <string name="full_gesture_mode_dt2s_summary">Dotknij pustego miejsca na pasku nawigacji (nie w przycisk ekranu głównego) aby zablokować urządzenie.</string>
     <!-- Scramble PIN Layout on Lockscreen -->
-    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
-    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+    <string name="unlock_scramble_pin_layout_title">Pomieszany układ</string>
+    <string name="unlock_scramble_pin_layout_summary">Pomieszaj układ cyfr przy wpisywaniu kodu PIN</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Reset stats</string>
+    <string name="battery_stats_reset">Zresetuj statystyki</string>
     <string name="battery_stats_message">Statystyki użycia baterii zostaną zresetowane</string>
     <string name="ok_string">OK</string>
     <string name="fp_swipe_to_dismiss_notifications_title">Przesuń w prawo lub lewo po czytniku linii papilarnych aby usunąć powiadomienia</string>
