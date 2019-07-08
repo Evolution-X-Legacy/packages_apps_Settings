@@ -135,7 +135,7 @@
     <string name="volbtn_music_controls_title">Điều khiển phát lại</string>
     <string name="volbtn_music_controls_summary">Chuyển bài hát bằng nhấn giữ các phím âm lượng khi màn hình đang tắt</string>
     <!-- Power menu on lockscreen -->
-    <string name="lockscreen_power_menu_disabled_title">Disable on lock screen</string>
+    <string name="lockscreen_power_menu_disabled_title">Vô hiệu hóa trên màn hình khóa</string>
     <string name="lockscreen_power_menu_disabled_summary">Disable power menu on protected lock screen</string>
     <!-- Others settings -->
     <string name="others_settings_title">Others settings</string>
