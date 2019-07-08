@@ -17,19 +17,19 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Fingerprint location message -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Locate the fingerprint sensor on the front of your phone.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Locate the fingerprint sensor on the left side of your phone.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Locate the fingerprint sensor on the right side of your phone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Εντοπίστε τον αισθητήρα δακτυλικού αποτυπώματος στο εμπρόσθιο μέρος του τηλεφώνου σας.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Εντοπίστε τον αισθητήρα δακτυλικού αποτυπώματος στην αριστερή πλευρά του τηλεφώνου σας.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Εντοπίστε τον αισθητήρα δακτυλικού αποτυπώματος στη δεξιά πλευρά του τηλεφώνου σας.</string>
     <!-- Notification light settings -->
-    <string name="lights_category_title">Light settings</string>
-    <string name="notification_light_title">Notification light</string>
-    <string name="battery_light_title">Battery light</string>
-    <string name="battery_low_pulse_title">Pulse if battery low</string>
+    <string name="lights_category_title">Ρυθμίσεις φωτισμού</string>
+    <string name="notification_light_title">Φωτεινός παλμός ειδοποίησης</string>
+    <string name="battery_light_title">Φωτεινή ένδειξη μπαταρίας</string>
+    <string name="battery_low_pulse_title">Αναβόσβησε όταν η στάθμη της μπαταρίας είναι χαμηλή</string>
     <!-- Manual provisioning support -->
-    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
-    <string name="sim_disabled">disabled</string>
-    <string name="sim_missing">missing or faulty</string>
-    <string name="sim_enabler_need_disable_sim">SIM card will be deactivated. Do you want to continue?</string>
+    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> είναι <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+    <string name="sim_disabled">απενεργοποιημένο</string>
+    <string name="sim_missing">απούσα ή ελαττωματική</string>
+    <string name="sim_enabler_need_disable_sim">Η κάρτα SIM θα απενεργοποιηθεί. Θέλετε να συνεχίσετε;</string>
     <string name="sim_enabler_will_disable_sim_title">Attention</string>
     <string name="sim_enabler_need_switch_data_service">This SIM will be disabled and SIM <xliff:g id="slotid">%1$s</xliff:g> will be used for data services. Are you sure you want to continue?</string>
     <string name="sim_enabler_airplane_on">Unable to perform the operation while airplane mode is on.</string>
