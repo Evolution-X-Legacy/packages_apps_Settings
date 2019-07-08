@@ -5,3 +5,5 @@ files:
     translation: /res/values-%android_code%/custom_plurals.xml
   - source: /res/values/projekt_strings.xml
     translation: /res/values-%android_code%/projekt_strings.xml
+  - source: /res/values/custom_strings.xml
+    translation: /res/values-%two_letters_code%/custom_strings.xml
