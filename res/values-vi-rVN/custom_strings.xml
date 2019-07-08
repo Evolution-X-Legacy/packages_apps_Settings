@@ -136,21 +136,21 @@
     <string name="volbtn_music_controls_summary">Chuyển bài hát bằng nhấn giữ các phím âm lượng khi màn hình đang tắt</string>
     <!-- Power menu on lockscreen -->
     <string name="lockscreen_power_menu_disabled_title">Vô hiệu hóa trên màn hình khóa</string>
-    <string name="lockscreen_power_menu_disabled_summary">Disable power menu on protected lock screen</string>
+    <string name="lockscreen_power_menu_disabled_summary">Vô hiệu hoá menu nguồn trên màn hình khoá bảo mật</string>
     <!-- Others settings -->
-    <string name="others_settings_title">Others settings</string>
-    <string name="additional_buttons_title">Additional buttons</string>
+    <string name="others_settings_title">Các cài đặt khác</string>
+    <string name="additional_buttons_title">Các nút bổ sung</string>
     <!-- Status bar -->
-    <string name="status_bar_title">Status bar</string>
-    <string name="lockscreen_qs_disabled_title">Disable on lock screen</string>
-    <string name="lockscreen_qs_disabled_summary">Disable expanded status bar on protected lock screen</string>
-    <string name="status_bar_quick_qs_pulldown_title">Quick pulldown</string>
-    <string name="status_bar_quick_qs_pulldown_summary">%1$s edge of the status bar pulls down Quick Settings</string>
-    <string name="status_bar_quick_qs_pulldown_summary_left">Left</string>
-    <string name="status_bar_quick_qs_pulldown_summary_right">Right</string>
-    <string name="status_bar_quick_qs_pulldown_off">Off</string>
-    <string name="status_bar_quick_qs_pulldown_left">Left</string>
-    <string name="status_bar_quick_qs_pulldown_right">Right</string>
+    <string name="status_bar_title">Thanh trạng thái</string>
+    <string name="lockscreen_qs_disabled_title">Vô hiệu hóa trên màn hình khóa</string>
+    <string name="lockscreen_qs_disabled_summary">Vô hiệu hoá thanh trạng thái mở rộng trên màn hình khoá có bảo mật</string>
+    <string name="status_bar_quick_qs_pulldown_title">Kéo xuống nhanh</string>
+    <string name="status_bar_quick_qs_pulldown_summary">Kéo từ cạnh %1$s thanh trạng thái xuống để truy cập cài đặt nhanh</string>
+    <string name="status_bar_quick_qs_pulldown_summary_left">Trái</string>
+    <string name="status_bar_quick_qs_pulldown_summary_right">Phải</string>
+    <string name="status_bar_quick_qs_pulldown_off">Tắt</string>
+    <string name="status_bar_quick_qs_pulldown_left">Trái</string>
+    <string name="status_bar_quick_qs_pulldown_right">Phải</string>
     <!-- Status bar - icons -->
     <string name="status_bar_icons_title">Status bar icons</string>
     <string name="status_bar_system_icons_title">System icons</string>
