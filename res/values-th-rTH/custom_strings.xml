@@ -143,29 +143,29 @@
     <!-- Status bar -->
     <string name="status_bar_title">แถบสถานะ</string>
     <string name="lockscreen_qs_disabled_title">ปิดการใช้งานบนหน้าจอล็อค</string>
-    <string name="lockscreen_qs_disabled_summary">Disable expanded status bar on protected lock screen</string>
-    <string name="status_bar_quick_qs_pulldown_title">Quick pulldown</string>
-    <string name="status_bar_quick_qs_pulldown_summary">%1$s edge of the status bar pulls down Quick Settings</string>
-    <string name="status_bar_quick_qs_pulldown_summary_left">Left</string>
-    <string name="status_bar_quick_qs_pulldown_summary_right">Right</string>
-    <string name="status_bar_quick_qs_pulldown_off">Off</string>
-    <string name="status_bar_quick_qs_pulldown_left">Left</string>
-    <string name="status_bar_quick_qs_pulldown_right">Right</string>
+    <string name="lockscreen_qs_disabled_summary">ปิดการใช้งานแถบสถานะที่ถูกขยายบนหน้าจอล็อคที่ถูกป้องกัน</string>
+    <string name="status_bar_quick_qs_pulldown_title">ปัดลงอย่างเร็ว</string>
+    <string name="status_bar_quick_qs_pulldown_summary">ปัดขอบด้าน%1$sของแถบสถานะเพื่อเปิดแผงตั้งค่า</string>
+    <string name="status_bar_quick_qs_pulldown_summary_left">ซ้าย</string>
+    <string name="status_bar_quick_qs_pulldown_summary_right">ขวา</string>
+    <string name="status_bar_quick_qs_pulldown_off">ปิด</string>
+    <string name="status_bar_quick_qs_pulldown_left">ซ้าย</string>
+    <string name="status_bar_quick_qs_pulldown_right">ขวา</string>
     <!-- Status bar - icons -->
-    <string name="status_bar_icons_title">Status bar icons</string>
-    <string name="status_bar_system_icons_title">System icons</string>
-    <string name="status_bar_system_icons_summary">Control which status bar icons are shown</string>
+    <string name="status_bar_icons_title">ไอคอนแถบสถานะ</string>
+    <string name="status_bar_system_icons_title">ไอคอนระบบ</string>
+    <string name="status_bar_system_icons_summary">ควบคุมไอคอนที่จะแสดงบนแถบสถานะ</string>
     <!-- Pocket judge -->
-    <string name="pocket_judge_title">Pocket detection</string>
-    <string name="pocket_judge_summary">Lock the screen and buttons when the device is in your pocket</string>
+    <string name="pocket_judge_title">สำรวจรายการ</string>
+    <string name="pocket_judge_summary">ล็อคหน้าจอและปุ่มต่างๆ เมื่ออุปกรณ์อยู่ในกระเป๋าของคุณ</string>
     <!-- LiveDisplay -->
-    <string name="live_display_summary">Optimize your screen based on time of day and ambient conditions to improve readability and reduce eyestrain</string>
-    <string name="live_display_mode">Display mode</string>
-    <string name="live_display_color_temperature_title">Color temperature</string>
-    <string name="live_display_color_temperature_summary">Day: <xliff:g id="day_temperature">%1$d</xliff:g>K  Night: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_summary">ปรับหน้าความสว่างหน้าจอตามเวลาและแสงโดยรอบเพื่อทำให้อ่านได้ง่ายขึ้นและลดอาการปวดตา</string>
+    <string name="live_display_mode">โหมดการแสดงผล</string>
+    <string name="live_display_color_temperature_title">อุณหภูมิสี</string>
+    <string name="live_display_color_temperature_summary">กลางวัน: <xliff:g id="day_temperature">%1$d</xliff:g>K  กลางคืน: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
-    <string name="live_display_day">Day</string>
-    <string name="live_display_night">Night</string>
+    <string name="live_display_day">กลางวัน</string>
+    <string name="live_display_night">กลางคืน</string>
     <string name="live_display_outdoor_mode_title">Automatic outdoor mode</string>
     <string name="live_display_outdoor_mode_summary">Increase brightness and saturation automatically under bright sunlight</string>
     <string name="live_display_low_power_title">Reduce power consumption</string>
