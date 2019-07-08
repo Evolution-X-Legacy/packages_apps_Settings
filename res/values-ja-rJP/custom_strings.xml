@@ -220,7 +220,7 @@
     <string name="dark_theme_style_black">ブラック</string>
     <!-- Evolution X settings -->
     <string name="evolution_settings_title">Evolution X</string>
-    <string name="evolution_settings_summary">The Evolution of open source. Keep Evolving</string>
+    <string name="evolution_settings_summary">オープンソースの発展。進化し続けよう。</string>
     <!-- Notification log -->
     <string name="notification_log_summary">通知履歴ログを表示する</string>
     <!-- Per-app data restrictions -->
