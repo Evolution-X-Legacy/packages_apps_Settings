@@ -118,22 +118,22 @@
     <string name="status_bar_double_tap_to_sleep_title">Двойное нажатие для сна</string>
     <string name="status_bar_double_tap_to_sleep_summary">Дважды коснитесь строки состояния или экрана блокировки, чтобы перевести устройство в спящий режим</string>
     <!-- Lock screen cover art -->
-    <string name="lockscreen_media_art_title">Display media cover art</string>
+    <string name="lockscreen_media_art_title">Отображать музыкальные обложки</string>
     <!-- Button that controls inversion of layout of navigation bar -->
-    <string name="nav_bar_layout_inverse_title">Invert layout</string>
-    <string name="nav_bar_layout_inverse_summary">Invert layout of navigation bar buttons</string>
+    <string name="nav_bar_layout_inverse_title">Инвертировать порядок кнопок</string>
+    <string name="nav_bar_layout_inverse_summary">Поменять местами кнопки навигационной панели</string>
     <!-- Torch long press power button -->
-    <string name="torch_long_press_power_gesture_title">Long press for torch</string>
-    <string name="torch_long_press_power_gesture_desc">Activate the torch by long pressing the power button while the display is off</string>
-    <string name="torch_long_press_power_timeout_title">Automatically turn torch off</string>
-    <string name="torch_long_press_power_timeout_never">Never</string>
-    <string name="torch_long_press_power_timeout_1min">1 minute</string>
-    <string name="torch_long_press_power_timeout_2min">2 minutes</string>
-    <string name="torch_long_press_power_timeout_5min">5 minutes</string>
-    <string name="torch_long_press_power_timeout_10min">10 minutes</string>
+    <string name="torch_long_press_power_gesture_title">Долгое нажатие для включения фонарика</string>
+    <string name="torch_long_press_power_gesture_desc">Включать фонарик длительным нажатием кнопки питания при выключенном экране</string>
+    <string name="torch_long_press_power_timeout_title">Автоматическое выключение фонарика</string>
+    <string name="torch_long_press_power_timeout_never">Никогда</string>
+    <string name="torch_long_press_power_timeout_1min">1 минута</string>
+    <string name="torch_long_press_power_timeout_2min">2 минуты</string>
+    <string name="torch_long_press_power_timeout_5min">5 минут</string>
+    <string name="torch_long_press_power_timeout_10min">10 минут</string>
     <!-- Volume control playback -->
-    <string name="volbtn_music_controls_title">Control playback</string>
-    <string name="volbtn_music_controls_summary">Seek music tracks by long pressing the volume keys while the display is off</string>
+    <string name="volbtn_music_controls_title">Управление плеером</string>
+    <string name="volbtn_music_controls_summary">Переключать музыкальные треки долгим нажатием кнопок громкости при выключенном экране</string>
     <!-- Power menu on lockscreen -->
     <string name="lockscreen_power_menu_disabled_title">Отключать на экране блокировки</string>
     <string name="lockscreen_power_menu_disabled_summary">Отключить меню питания на заблокированном экране</string>
@@ -190,70 +190,70 @@
     <string name="live_display_color_profile_adaptive_title">Адаптивный</string>
     <string name="live_display_color_profile_adaptive_summary">Цвета адаптируются к условиям окружающей среды</string>
     <string name="live_display_color_profile_reading_title">Чтение</string>
-    <string name="live_display_color_profile_reading_summary">Warmer colors for less eye strain</string>
+    <string name="live_display_color_profile_reading_summary">Теплые цвета для уменьшения напряжения глаз</string>
     <string name="live_display_color_profile_srgb_title">sRGB</string>
-    <string name="live_display_color_profile_srgb_summary">Colors accurate to the sRGB color space</string>
+    <string name="live_display_color_profile_srgb_summary">Цвета, схожие с пространством sRGB</string>
     <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
-    <string name="live_display_color_profile_dci_p3_summary">Colors accurate to the DCI-P3 color space</string>
-    <string name="live_display_reading_mode_title">Reading mode</string>
-    <string name="live_display_reading_mode_summary">Grayscale mode for long-term reading</string>
-    <string name="color_calibration_title">Color calibration</string>
-    <string name="color_calibration_summary">Calibrate on-screen colors</string>
-    <string name="color_red_title">Red</string>
-    <string name="color_green_title">Green</string>
-    <string name="color_blue_title">Blue</string>
+    <string name="live_display_color_profile_dci_p3_summary">Цвета, схожие с пространством DCI-P3</string>
+    <string name="live_display_reading_mode_title">Режим чтения</string>
+    <string name="live_display_reading_mode_summary">Режим оттенков серого для долговременного чтения</string>
+    <string name="color_calibration_title">Калибровка цвета</string>
+    <string name="color_calibration_summary">Калибровка цветов экрана</string>
+    <string name="color_red_title">Красный</string>
+    <string name="color_green_title">Зеленый</string>
+    <string name="color_blue_title">Синий</string>
     <!-- LiveDisplay : Picture Adjustment -->
-    <string name="picture_adjustment_title">Picture adjustment</string>
-    <string name="picture_adjustment_summary">Adjust hue, saturation, intensity, and contrast</string>
-    <string name="adj_hue_title">Hue</string>
-    <string name="adj_saturation_title">Saturation</string>
-    <string name="adj_intensity_title">Intensity</string>
-    <string name="adj_contrast_title">Contrast</string>
+    <string name="picture_adjustment_title">Настройка изображения</string>
+    <string name="picture_adjustment_summary">Регулировка оттенка, насыщенности, интенсивности и контрастности</string>
+    <string name="adj_hue_title">Оттенок</string>
+    <string name="adj_saturation_title">Насыщенность</string>
+    <string name="adj_intensity_title">Интенсивность</string>
+    <string name="adj_contrast_title">Контрастность</string>
     <!-- LiveDisplay - Custom theme mode -->
-    <string name="systemui_theme_time">Automatic (time of the day)</string>
+    <string name="systemui_theme_time">Автоматически (время суток)</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="swipe_to_screenshot_gesture_title">Swipe to screenshot</string>
-    <string name="swipe_to_screenshot_gesture_summary">Swipe three fingers to take screenshot</string>
+    <string name="swipe_to_screenshot_gesture_title">Жест тремя пальцами</string>
+    <string name="swipe_to_screenshot_gesture_summary">Проведите тремя пальцами для создания скриншота</string>
     <!-- Dark theme style -->
-    <string name="dark_theme_style_title">Dark theme style</string>
-    <string name="dark_theme_style_default">Default</string>
-    <string name="dark_theme_style_black">Black</string>
+    <string name="dark_theme_style_title">Стиль тёмной темы</string>
+    <string name="dark_theme_style_default">По умолчанию</string>
+    <string name="dark_theme_style_black">Чёрный</string>
     <!-- Evolution X settings -->
     <string name="evolution_settings_title">Evolution X</string>
-    <string name="evolution_settings_summary">Whatever it takes to customize your device</string>
+    <string name="evolution_settings_summary">Все, что нужно для настройки вашего устройства</string>
     <!-- Notification log -->
-    <string name="notification_log_summary">Show notifications history log</string>
+    <string name="notification_log_summary">Показать историю уведомлений</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_data">Cellular data</string>
-    <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
-    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_data">Передача данных</string>
+    <string name="data_usage_app_restrict_data_summary">Включить использование мобильных данных</string>
+    <string name="data_usage_app_restrict_wifi">Данные Wi-Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Включить использование данных Wi-Fi</string>
     <!-- Manage applications, package string displayed in app snippet -->
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
-    <string name="status_deep_sleep">(Deep sleep: %1$d%2$s)</string>
+    <string name="status_deep_sleep">(Глубокий сон: %1$d%2$s)</string>
     <!-- Media gestures -->
-    <string name="prevent_ringing_option_mute_no_media">Mute, no media</string>
-    <string name="prevent_ringing_option_mute_no_media_summary">On (mute, no media)</string>
-    <string name="full_gesture_mode_title">Enable full gesture mode</string>
-    <string name="full_gesture_mode_summary">This mode disables the back button and you can trigger a back button action by a left swipe on navbar. Right swipe still triggers the last-app and the overview apps scrolling. To go home you can tap on any navbar empty space, not only the home button. When keyboard is showing, long press on navbar to move the text cursor.</string>
-    <string name="full_gesture_mode_dt2s_title">Enable double tap to sleep</string>
-    <string name="full_gesture_mode_dt2s_summary">Tap on an empty navbar space but not the home button to switch the screen off.</string>
+    <string name="prevent_ringing_option_mute_no_media">Без звука, без мультимедиа</string>
+    <string name="prevent_ringing_option_mute_no_media_summary">Включено (без звука, без мультимедиа)</string>
+    <string name="full_gesture_mode_title">Включить режим полноэкранных жестов</string>
+    <string name="full_gesture_mode_summary">Этот режим отключает кнопку \"Назад\" и вы можете вызвать действие кнопки \"Назад\" с помощью свайпа влево на панели навигации. Правый свайп по-прежнему вызывает последнее приложение и обзор недавних приложений. Чтобы вернуться на домашний экран, вы можете нажать на любое пустое место панели навигации, а не только на кнопку \"Домой\". Когда клавиатура активна, то удерживаете нажатие на панели навигации для того, чтобы переместить курсор.</string>
+    <string name="full_gesture_mode_dt2s_title">Включить двойное нажатие для сна</string>
+    <string name="full_gesture_mode_dt2s_summary">Дважды нажмите на пустое пространство в панели навигации чтобы выключить экран.</string>
     <!-- Scramble PIN Layout on Lockscreen -->
-    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
-    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+    <string name="unlock_scramble_pin_layout_title">Перемешать кнопки</string>
+    <string name="unlock_scramble_pin_layout_summary">Переставить кнопки ввода PIN-кода в случайном порядке</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Reset stats</string>
-    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+    <string name="battery_stats_reset">Сбросить статистику</string>
+    <string name="battery_stats_message">История использования батареи будет удалена</string>
     <string name="ok_string">Ok</string>
-    <string name="fp_swipe_to_dismiss_notifications_title">Swipe fingerprint left or right to dismiss notifications</string>
-    <string name="fp_swipe_to_dismiss_notifications_summary">To dismiss your notifications, swipe left or right on the fingerprint sensor on the back of your phone.</string>
+    <string name="fp_swipe_to_dismiss_notifications_title">Проведите пальцем по сканеру отпечатка пальца влево или вправо, чтобы очистить уведомления</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">Чтобы очистить ваши уведомления, проведите пальцем влево или право по сканеру отпечатка пальца.</string>
     <!-- Custom light color -->
-    <string name="custom_light_title">Light color</string>
-    <string name="custom_light_on_time_title">Light ON time during led pulse (ms)</string>
-    <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)\"</string>
-    <string name="value_equals_default">def</string>
+    <string name="custom_light_title">Цвет светодиода</string>
+    <string name="custom_light_on_time_title">Время свечения светодиода (мс)</string>
+    <string name="custom_light_off_time_title">Длительность затухания светодиода (мс)</string>
+    <string name="value_equals_default">по умолчанию</string>
     <!-- Battery temp -->
-    <string name="battery_temp_title">Battery temperature</string>
+    <string name="battery_temp_title">Температура батареи</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Связать громкость уведомлений и рингтона</string>
     <!-- Expanded desktop -->
