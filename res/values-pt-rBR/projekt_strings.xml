@@ -18,9 +18,9 @@
    <!-- Force authorize substratum packages -->
    <string name="force_authorize_substratum_packages_title">forçar_autorização_substratum_pacotes_nome
 Forçar autorização de pacotes substratum</string>
-   <string name="force_authorize_substratum_packages_summary">Allow theme apps from unknown sources</string>
+   <string name="force_authorize_substratum_packages_summary">Permitir aplicativos de temas de fontes desconhecidas</string>
    <!-- Manage applications: show substratum overlays -->
-   <string name="filter_substratum_apps">Substratum overlays</string>
+   <string name="filter_substratum_apps">Camadas do substratum</string>
    <string name="menu_show_substratum">mostrar_menu_substratum</string>
    <string name="menu_hide_substratum">esconder_menu_substratum</string>
 </resources>
