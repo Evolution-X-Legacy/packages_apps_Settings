@@ -159,8 +159,8 @@
     <string name="pocket_judge_title">Detekce uložení v kapse</string>
     <string name="pocket_judge_summary">Zamknout obrazovku a tlačítka když je zařízení v kapse</string>
     <!-- LiveDisplay -->
-    <string name="color_settings_title">Color settings</string>
-    <string name="color_settings_summary">Adjust and improve screen colors</string>
+    <string name="color_settings_title">Nastavení barev</string>
+    <string name="color_settings_summary">Upravte a vylepšete barvy obrazovky</string>
     <string name="live_display_outdoor_mode_title">Automatický režim venku</string>
     <string name="live_display_outdoor_mode_summary">Automaticky zvýšit jas a sytost za slunečného světla</string>
     <string name="live_display_low_power_title">Snížit spotřebu energie</string>
