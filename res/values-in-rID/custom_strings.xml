@@ -159,8 +159,8 @@
     <string name="pocket_judge_title">Deteksi dalam saku</string>
     <string name="pocket_judge_summary">Kunci layar dan tombol ketika perangkat berada didalam saku</string>
     <!-- LiveDisplay -->
-    <string name="color_settings_title">Color settings</string>
-    <string name="color_settings_summary">Adjust and improve screen colors</string>
+    <string name="color_settings_title">Pengaturan warna</string>
+    <string name="color_settings_summary">Sesuaikan dan tingkatkan warna layar</string>
     <string name="live_display_outdoor_mode_title">Mode luar ruangan otomatis</string>
     <string name="live_display_outdoor_mode_summary">Meningkatkan kecerahan dan saturasi secara otomatis saat dibawah sinar matahari</string>
     <string name="live_display_low_power_title">Mengurangi konsumsi daya</string>
