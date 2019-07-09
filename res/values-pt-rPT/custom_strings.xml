@@ -109,6 +109,7 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">display_cutout_force_fullscreen_title
 Notch: Aplicações em ecrã cheio</string>
+    <string name="display_cutout_force_fullscreen_summary">Ignore notch space for selected applications</string>
     <!-- In-call feedback -->
     <string name="incall_feeedback_vibrate_title">Vibrar para indicar estado da chamada</string>
     <!-- Fingerprint authentication vibration -->
@@ -159,6 +160,8 @@ Notch: Aplicações em ecrã cheio</string>
     <string name="pocket_judge_title">Pocket detection</string>
     <string name="pocket_judge_summary">Lock the screen and buttons when the device is in your pocket</string>
     <!-- LiveDisplay -->
+    <string name="color_settings_title">Color settings</string>
+    <string name="color_settings_summary">Adjust and improve screen colors</string>
     <string name="live_display_outdoor_mode_title">Modo de exterior automático</string>
     <string name="live_display_outdoor_mode_summary">Aumentar o brilho e saturação automaticamente sob luz solar intensa</string>
     <string name="live_display_low_power_title">Reduzir o consumo de energia</string>
