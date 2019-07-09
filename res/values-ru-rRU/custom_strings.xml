@@ -159,8 +159,8 @@
     <string name="pocket_judge_title">Режим \"В кармане\"</string>
     <string name="pocket_judge_summary">Заблокировать экран и кнопки когда устройство находится в кармане</string>
     <!-- LiveDisplay -->
-    <string name="color_settings_title">Color settings</string>
-    <string name="color_settings_summary">Adjust and improve screen colors</string>
+    <string name="color_settings_title">Настройки цвета</string>
+    <string name="color_settings_summary">Отрегулировать и улучшить цвета экрана</string>
     <string name="live_display_outdoor_mode_title">Автоматический режим \"На улице\"</string>
     <string name="live_display_outdoor_mode_summary">Увеличить яркость и насыщенность автоматически при ярком солнечном свете</string>
     <string name="live_display_low_power_title">Снизить энергопотребление</string>
