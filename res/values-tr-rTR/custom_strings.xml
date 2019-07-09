@@ -159,8 +159,8 @@
     <string name="pocket_judge_title">Cep algılama</string>
     <string name="pocket_judge_summary">Cihaz cebinizde olduğu zaman ekranı ve tuşları kilitler</string>
     <!-- LiveDisplay -->
-    <string name="color_settings_title">Color settings</string>
-    <string name="color_settings_summary">Adjust and improve screen colors</string>
+    <string name="color_settings_title">Renk ayarları</string>
+    <string name="color_settings_summary">Ekran renklerini ayarlayın ve iyileştirin</string>
     <string name="live_display_outdoor_mode_title">Otomatik dış mekan modu</string>
     <string name="live_display_outdoor_mode_summary">Parlak güneş ışığı altında otomatik parlaklığı ve doygunluğu arttırır</string>
     <string name="live_display_low_power_title">Güç tüketimini azaltma</string>
