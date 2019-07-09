@@ -220,7 +220,7 @@
     <string name="dark_theme_style_black">Černý</string>
     <!-- Evolution X settings -->
     <string name="evolution_settings_title">Evolution X</string>
-    <string name="evolution_settings_summary">The Evolution of open source. Keep Evolving</string>
+    <string name="evolution_settings_summary">Vývoj otevřeného zdrojového kódu. Pokračujte ve vývoji</string>
     <!-- Notification log -->
     <string name="notification_log_summary">Zobrazit protokol historie oznámení</string>
     <!-- Per-app data restrictions -->
