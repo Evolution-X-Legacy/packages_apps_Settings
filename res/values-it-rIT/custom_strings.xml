@@ -159,8 +159,8 @@
     <string name="pocket_judge_title">Rilevamento tasca</string>
     <string name="pocket_judge_summary">Blocca lo schermo e i pulsanti quando il dispositivo è in tasca</string>
     <!-- LiveDisplay -->
-    <string name="color_settings_title">Color settings</string>
-    <string name="color_settings_summary">Adjust and improve screen colors</string>
+    <string name="color_settings_title">Impostazioni colore</string>
+    <string name="color_settings_summary">Regola e migliora i colori dello schermo</string>
     <string name="live_display_outdoor_mode_title">Modalità outdoor automatica</string>
     <string name="live_display_outdoor_mode_summary">Aumentare luminosità e saturazione automaticamente in ambienti molto illuminati</string>
     <string name="live_display_low_power_title">Riduci il consumo energetico</string>
