@@ -159,8 +159,8 @@
     <string name="pocket_judge_title">ポケット検出</string>
     <string name="pocket_judge_summary">端末がポケット内にある時は画面とボタンをロックする</string>
     <!-- LiveDisplay -->
-    <string name="color_settings_title">Color settings</string>
-    <string name="color_settings_summary">Adjust and improve screen colors</string>
+    <string name="color_settings_title">色の設定</string>
+    <string name="color_settings_summary">画面の色を調整し向上させる</string>
     <string name="live_display_outdoor_mode_title">自動屋外モード</string>
     <string name="live_display_outdoor_mode_summary">明るい日差しが照射する環境下で明るさと彩度を自動的に向上させる</string>
     <string name="live_display_low_power_title">消費電力を削減</string>
