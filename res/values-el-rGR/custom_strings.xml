@@ -159,8 +159,8 @@
     <string name="pocket_judge_title">Ανίχνευση τσέπης</string>
     <string name="pocket_judge_summary">Κλείδωμα της συσκευής και των φυσικών κουμπιών όταν αυτή βρίσκεται στη τσέπη σας</string>
     <!-- LiveDisplay -->
-    <string name="color_settings_title">Color settings</string>
-    <string name="color_settings_summary">Adjust and improve screen colors</string>
+    <string name="color_settings_title">Ρυθμίσεις χρωμάτων</string>
+    <string name="color_settings_summary">Ρύθμιση και βελτίωση χρώματος οθόνης</string>
     <string name="live_display_outdoor_mode_title">Αυτόματη λειτουργία εξωτερικού χώρου</string>
     <string name="live_display_outdoor_mode_summary">Αυτόματη αύξηση της φωτεινότητας και του κορεσμού κάτω από έντονο ηλιακό φως</string>
     <string name="live_display_low_power_title">Μείωση της κατανάλωσης ενέργειας</string>
