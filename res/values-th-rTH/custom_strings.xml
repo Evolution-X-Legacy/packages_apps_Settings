@@ -159,8 +159,8 @@
     <string name="pocket_judge_title">สำรวจรายการ</string>
     <string name="pocket_judge_summary">ล็อคหน้าจอและปุ่มต่างๆ เมื่ออุปกรณ์อยู่ในกระเป๋าของคุณ</string>
     <!-- LiveDisplay -->
-    <string name="color_settings_title">Color settings</string>
-    <string name="color_settings_summary">Adjust and improve screen colors</string>
+    <string name="color_settings_title">การตั้งค่าสี</string>
+    <string name="color_settings_summary">ปรับและปรับปรุงสีของหน้าจอ</string>
     <string name="live_display_outdoor_mode_title">โหมดกลางแจ้งอัตโนมัติ</string>
     <string name="live_display_outdoor_mode_summary">เพิ่มความสว่างและความอิ่มตัวของสีโดยอัตโนมัติภายใต้แสงแดด</string>
     <string name="live_display_low_power_title">ลดการใช้พลังงาน</string>
