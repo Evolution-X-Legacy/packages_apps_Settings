@@ -159,8 +159,8 @@
     <string name="pocket_judge_title">Phát hiện trong túi</string>
     <string name="pocket_judge_summary">Khoá màn hình và các phím khi thiết bị trong túi của bạn</string>
     <!-- LiveDisplay -->
-    <string name="color_settings_title">Color settings</string>
-    <string name="color_settings_summary">Adjust and improve screen colors</string>
+    <string name="color_settings_title">Cài đặt màu</string>
+    <string name="color_settings_summary">Điều chỉnh và cải thiện màu sắc màn hình</string>
     <string name="live_display_outdoor_mode_title">Tự động điều chỉnh khi ra ngoài trời</string>
     <string name="live_display_outdoor_mode_summary">Tự động tăng độ sáng và độ bão hòa dưới ánh sáng mặt trời</string>
     <string name="live_display_low_power_title">Giảm tiêu thụ pin</string>
