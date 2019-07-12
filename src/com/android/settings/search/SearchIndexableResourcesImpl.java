@@ -100,7 +100,6 @@ import com.android.settings.wfd.WifiDisplaySettings;
 import com.android.settings.wifi.ConfigureWifiSettings;
 import com.android.settings.wifi.WifiSettings;
 
-import com.evolution.settings.fragments.BatteryCategory;
 import com.evolution.settings.fragments.ButtonSettings;
 import com.evolution.settings.fragments.CarrierSettings;
 import com.evolution.settings.fragments.ClockDateSettings;
@@ -220,7 +219,6 @@ public class SearchIndexableResourcesImpl implements SearchIndexableResources {
         addIndex(LiveDisplaySettings.class);
 
         //Evolution
-        addIndex(BatteryCategory.class);
         addIndex(ButtonSettings.class);
         addIndex(CarrierSettings.class);
         addIndex(ClockDateSettings.class);
