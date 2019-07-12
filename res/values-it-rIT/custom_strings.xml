@@ -129,7 +129,7 @@
     <string name="torch_long_press_power_timeout_never">Never</string>
     <string name="torch_long_press_power_timeout_1min">1 minuto</string>
     <string name="torch_long_press_power_timeout_2min">2 minutes</string>
-    <string name="torch_long_press_power_timeout_5min">5 minuti</string>
+    <string name="torch_long_press_power_timeout_5min">5 minutes</string>
     <string name="torch_long_press_power_timeout_10min">10 minutes</string>
     <!-- Volume control playback -->
     <string name="volbtn_music_controls_title">Controllo di riproduzione</string>
@@ -219,7 +219,7 @@
     <!-- Notification log -->
     <string name="notification_log_summary">Visualizza il registro delle notifiche</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_data">Dati mobili</string>
+    <string name="data_usage_app_restrict_data">Cellular data</string>
     <string name="data_usage_app_restrict_data_summary">Abilita l\'utilizzo dei dati mobili</string>
     <string name="data_usage_app_restrict_wifi">Dati Wi\u2011Fi</string>
     <string name="data_usage_app_restrict_wifi_summary">Abilita l\'uso dei dati del Wi\u2011Fi</string>
