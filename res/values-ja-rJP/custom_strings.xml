@@ -293,7 +293,7 @@
     <!-- Running services -->
     <string name="background_processes_settings_title">バックグラウンドプロセス</string>
     <!-- Battery estimates -->
-    <string name="battery_estimates_title">クイック設定内のバッテリー予想稼働時間</string>
+    <string name="battery_estimates_title">予想稼働時間表示</string>
     <string name="battery_estimates_summary">クイック設定内にバッテリーの予想稼働時間を表示する</string>
     <string name="doze_trigger_title">表示するタイミング</string>
     <!-- Doze on double tap -->
