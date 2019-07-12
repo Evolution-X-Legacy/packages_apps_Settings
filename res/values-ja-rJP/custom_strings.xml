@@ -141,7 +141,7 @@
     <string name="others_settings_title">その他の設定</string>
     <string name="additional_buttons_title">追加のボタン</string>
     <!-- Status bar -->
-    <string name="status_bar_title">ステータスバー</string>
+    <string name="status_bar_title">システムアイコン</string>
     <string name="lockscreen_qs_disabled_title">ロック画面では無効化</string>
     <string name="lockscreen_qs_disabled_summary">保護されたロック画面でステータスバーを無効化する</string>
     <string name="status_bar_quick_qs_pulldown_title">クイックプルダウン</string>
