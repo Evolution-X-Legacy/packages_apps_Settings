@@ -204,8 +204,6 @@
     <string name="adj_saturation_title">Verzadiging</string>
     <string name="adj_intensity_title">Intensiteit</string>
     <string name="adj_contrast_title">Contrast</string>
-    <!-- LiveDisplay - Custom theme mode -->
-    <string name="systemui_theme_time">Automatisch (tijdstip van de dag)</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="swipe_to_screenshot_gesture_title">Swipe voor screenshot</string>
     <string name="swipe_to_screenshot_gesture_summary">Screenshot maken door met drie vingers over het scherm te vegen</string>
