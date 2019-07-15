@@ -17,11 +17,11 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Fingerprint location message -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Localiza el sensor de huellas digitales en el frontal del teléfono.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Localiza el sensor de huellas digitales en el lado izquierdo del teléfono.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Localiza el sensor de huellas digitales en el lado derecho del teléfono.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Localiza el sensor de huella digital en el frontal del teléfono.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Localiza el sensor de huell digital en el lado izquierdo de tu teléfono.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Localiza el sensor de huella digital en el lado derecho de tu teléfono.</string>
     <!-- Notification light settings -->
-    <string name="lights_category_title">Configuraciones de luz</string>
+    <string name="lights_category_title">Ajustes de LED</string>
     <string name="notification_light_title">Luz de notificación</string>
     <string name="battery_light_title">Indicador de batería</string>
     <string name="battery_low_pulse_title">Pulsar si la batería es baja</string>
@@ -204,8 +204,6 @@
     <string name="adj_saturation_title">Saturación</string>
     <string name="adj_intensity_title">Intensidad</string>
     <string name="adj_contrast_title">Contraste</string>
-    <!-- LiveDisplay - Custom theme mode -->
-    <string name="systemui_theme_time">Automático (hora del día)</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="swipe_to_screenshot_gesture_title">Deslizar para capturar pantalla</string>
     <string name="swipe_to_screenshot_gesture_summary">Deslizar con tres dedos para capturar pantalla</string>
@@ -214,90 +212,90 @@
     <string name="dark_theme_style_default">Predeterminado</string>
     <string name="dark_theme_style_black">Negro</string>
     <!-- Evolution X settings -->
-    <string name="evolution_settings_title">Evolution X</string>
-    <string name="evolution_settings_summary">The Evolution of Open source. #KeepEvolving</string>
+    <string name="evolution_settings_title">Evolución X</string>
+    <string name="evolution_settings_summary">La evolución del código abierto. #KeepEvolving</string>
     <!-- Notification log -->
-    <string name="notification_log_summary">Show notifications history log</string>
+    <string name="notification_log_summary">Mostrar el registro de historial de notificaciones</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_data">Cellular data</string>
-    <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
-    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_data">Datos moviles</string>
+    <string name="data_usage_app_restrict_data_summary">Activar uso de datos moviles</string>
+    <string name="data_usage_app_restrict_wifi">Datos Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Activar uso de datos Wi\u2011Fi</string>
     <!-- Manage applications, package string displayed in app snippet -->
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
-    <string name="status_deep_sleep">(Deep sleep: %1$d%2$s)</string>
+    <string name="status_deep_sleep">(Sueño profundo: %1$d%2$s)</string>
     <!-- Media gestures -->
-    <string name="prevent_ringing_option_mute_no_media">Mute, no media</string>
-    <string name="prevent_ringing_option_mute_no_media_summary">On (mute, no media)</string>
-    <string name="full_gesture_mode_title">Enable full gesture mode</string>
-    <string name="full_gesture_mode_summary">This mode disables the back button and you can trigger a back button action by a left swipe on navbar. Right swipe still triggers the last-app and the overview apps scrolling. To go home you can tap on any navbar empty space, not only the home button. When keyboard is showing, long press on navbar to move the text cursor.</string>
-    <string name="full_gesture_mode_dt2s_title">Enable double tap to sleep</string>
-    <string name="full_gesture_mode_dt2s_summary">Tap on an empty navbar space but not the home button to switch the screen off.</string>
+    <string name="prevent_ringing_option_mute_no_media">Silenciar, no media</string>
+    <string name="prevent_ringing_option_mute_no_media_summary">Encendido (Silenciar, no media)</string>
+    <string name="full_gesture_mode_title">Activar modo de gestos completo</string>
+    <string name="full_gesture_mode_summary">Este modo desactiva el boton de volver asi que puedes hacer la accion de volver deslizando hacia la izquierda en la barra de navegacion. Deslizar hacia la derecha manda a la aplicacion anterior y al desplazamiento entre recientes. Para ir al inicio puedes tocar en cualquier espacio vacio de la barra de navegacion, no solo en el boton inicio. Cuando el teclado esta en uso, manten en la barra de navegacion y mueve hacia los lados para mover el cursor.</string>
+    <string name="full_gesture_mode_dt2s_title">Activar doble toque para dormir</string>
+    <string name="full_gesture_mode_dt2s_summary">Doble toque en un espacio vacio en la barra de navegacion para apagar la pantalla.</string>
     <!-- Scramble PIN Layout on Lockscreen -->
-    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
-    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+    <string name="unlock_scramble_pin_layout_title">Disposición aleatoria</string>
+    <string name="unlock_scramble_pin_layout_summary">Cambiar la disposición de los números del PIN para desbloquear el dispositivo</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Reset stats</string>
-    <string name="battery_stats_message">Battery history stats are going to be reset</string>
-    <string name="ok_string">Ok</string>
-    <string name="fp_swipe_to_dismiss_notifications_title">Swipe fingerprint left or right to dismiss notifications</string>
-    <string name="fp_swipe_to_dismiss_notifications_summary">To dismiss your notifications, swipe left or right on the fingerprint sensor on the back of your phone.</string>
+    <string name="battery_stats_reset">Reiniciar estadísticas</string>
+    <string name="battery_stats_message">El historial de la bateria sera reiniciado</string>
+    <string name="ok_string">Aceptar</string>
+    <string name="fp_swipe_to_dismiss_notifications_title">Deslizar en el lector de huellas a la izquierda/derecha para borrar notificaciones</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">Para borrar notificaciones, desliza hacia la izquierda/derecha en el lector de huellas.</string>
     <!-- Custom light color -->
-    <string name="custom_light_title">Light color</string>
-    <string name="custom_light_on_time_title">Light ON time during led pulse (ms)</string>
-    <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)\"</string>
+    <string name="custom_light_title">Color claro</string>
+    <string name="custom_light_on_time_title">Tiempo de encendido durante el pulso led (ms)</string>
+    <string name="custom_light_off_time_title">Tiempo de apagado claro durante el pulso led (ms)\"</string>
     <string name="value_equals_default">def</string>
     <!-- Battery temp -->
-    <string name="battery_temp_title">Battery temperature</string>
+    <string name="battery_temp_title">Temperatura de la batería:</string>
     <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+    <string name="volume_link_notification_title">Juntar volumen de llamada &amp; notificaciones</string>
     <!-- Expanded desktop -->
-    <string name="expanded_desktop_pref_title">Expanded desktop</string>
-    <string name="expanded_hide_nothing">Hide nothing</string>
-    <string name="expanded_hide_status">Hide status bar</string>
-    <string name="expanded_hide_navigation">Hide navigation bar</string>
-    <string name="expanded_hide_both">Hide both</string>
-    <string name="expanded_nothing_to_show">To add a custom per-app configuration for expanded state, set \"Enabled for all\" to the off position</string>
-    <string name="expanded_desktop_state">Expanded state</string>
-    <string name="expanded_enabled_for_all">Enabled for all</string>
-    <string name="expanded_user_configurable">User configurable</string>
-    <string name="expanded_desktop_style">Expanded desktop style</string>
-    <string name="expanded_desktop_style_description">Choose a default expanded desktop style</string>
-    <string name="expanded_desktop_title">Expanded desktop options</string>
+    <string name="expanded_desktop_pref_title">Escritorio expandido</string>
+    <string name="expanded_hide_nothing">No esconder nada</string>
+    <string name="expanded_hide_status">Esconder barra de estado</string>
+    <string name="expanded_hide_navigation">Esconder barra de navegacion</string>
+    <string name="expanded_hide_both">Ocultar ambos</string>
+    <string name="expanded_nothing_to_show">Para personalizar esto por aplicacion, desactiva el \"Activado para todas\"</string>
+    <string name="expanded_desktop_state">Escritorio expandido</string>
+    <string name="expanded_enabled_for_all">Activado para todos</string>
+    <string name="expanded_user_configurable">Configurable por usuario</string>
+    <string name="expanded_desktop_style">Estilo de escritorio expandido</string>
+    <string name="expanded_desktop_style_description">Elegir estilo por defecto de escritorio expandido</string>
+    <string name="expanded_desktop_title">Opciones de escritorio expandido</string>
     <!-- Doze on Charge -->
-    <string name="doze_on_charge_title">Show when charging</string>
-    <string name="doze_on_charge_summary">Wake screen when charging</string>
+    <string name="doze_on_charge_title">Solo cuando se está cargando</string>
+    <string name="doze_on_charge_summary">Despertar pantalla al cargar</string>
     <!-- Fingerprint unlock keystore -->
-    <string name="fp_unlock_keystore_title">FP unlock</string>
-    <string name="fp_unlock_keystore_summary">Unlock with fingerprint even after a reboot without PIN/Password/Pattern\nNote: Use at your own risk!</string>
+    <string name="fp_unlock_keystore_title">Desbloqueo FP</string>
+    <string name="fp_unlock_keystore_summary">Desbloquear con lector de huellas despues de un reinicio sin PIN/Contraseña/Patron\nNota: a tu propio riesgo!</string>
     <!-- Aggressive battery -->
-    <string name="aggressive_battery_title">Aggressive Battery</string>
-    <string name="aggressive_battery_summary">More strict battery savings</string>
-    <string name="aggressive_battery_warning_text">These are power saving features. They may interfere with services intended to run at idle, like navigation apps. You can whitelist these apps from being affected in the app battery settings.</string>
-    <string name="aggressive_idle_title">Aggressive Idle</string>
-    <string name="aggressive_idle_summary">Enter device idle more frequently and wake up less</string>
-    <string name="aggressive_standby_title">Aggressive Standby</string>
-    <string name="aggressive_standby_summary">Restrict apps from running the background</string>
-    <string name="aggressive_battery_saver_title">Auto-enable on battery saver </string>
-    <string name="aggressive_battery_saver_summary">Enable Aggressive Battery automatically when using battery saver</string>
+    <string name="aggressive_battery_title">Batería Agresiva</string>
+    <string name="aggressive_battery_summary">Ahorro de batería más estricto</string>
+    <string name="aggressive_battery_warning_text">Estas son características de ahorro de energía. Pueden interferir con los servicios destinados a funcionar en inactividad, como aplicaciones de navegación. Puede elegir a estas aplicaciones de ser afectadas en la configuración de la batería de la aplicación.</string>
+    <string name="aggressive_idle_title">AEC agresivo</string>
+    <string name="aggressive_idle_summary">Introduce el dispositivo inactivo más frecuentemente y despierte menos</string>
+    <string name="aggressive_standby_title">Standby agresivo</string>
+    <string name="aggressive_standby_summary">Restringir aplicaciones de ejecutar el fondo</string>
+    <string name="aggressive_battery_saver_title">Auto-activar en el ahorro de batería </string>
+    <string name="aggressive_battery_saver_summary">Activar la batería agresiva automáticamente al usar el ahorro de batería</string>
     <!-- Battery saving mode for Location - GPS will be disabled -->
-    <string name="location_mode_battery_saving_title">Battery saving mode</string>
-    <string name="location_mode_battery_saving_summary">Use only Wi\u2011Fi, Bluetooth, or mobile networks to determine location (less accurate)</string>
+    <string name="location_mode_battery_saving_title">Modo de ahorro de batería</string>
+    <string name="location_mode_battery_saving_summary">Usar sólo Wi\u2011Fi, Bluetooth o redes móviles para determinar la ubicación (menos preciso)</string>
     <!-- Font picker -->
-    <string name="font_picker_title">System Font</string>
-    <string name="font_picker_progress">Applying new font\u2026</string>
-    <string name="disable_fonts_installed_title">Font picker is unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use the system font picker.</string>
+    <string name="font_picker_title">Iconos del sistema</string>
+    <string name="font_picker_progress">Aplicando nueva fuente\u2026</string>
+    <string name="disable_fonts_installed_title">El selector de fuentes no está disponible para evitar conflictos con Substratum. Desinstala si quieres usar el selector de fuentes del sistema.</string>
     <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
-    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+    <string name="unlock_quick_unlock_control_title">Desbloqueo rapido</string>
+    <string name="unlock_quick_unlock_control_summary">Desbloquea automaticamente cuando el PIN/Contraseña introducidos es el correcto</string>
     <!-- Running services -->
-    <string name="background_processes_settings_title">Background processes</string>
+    <string name="background_processes_settings_title">Ningún proceso en 2do plano</string>
     <!-- Battery estimates -->
-    <string name="battery_estimates_title">Battery Estimates in QS</string>
-    <string name="battery_estimates_summary">Show the estimated battery life in QS panel</string>
-    <string name="doze_trigger_title">When to show</string>
+    <string name="battery_estimates_title">Estimaciones de batería en QS</string>
+    <string name="battery_estimates_summary">Mostrar la vida estimada de la batería en el panel QS</string>
+    <string name="doze_trigger_title">Cuándo mostrar</string>
     <!-- Doze on double tap -->
-    <string name="double_tap_title">Double tap</string>
-    <string name="doze_double_tap_title">Double tap to check phone</string>
-    <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
+    <string name="double_tap_title">Doble toque</string>
+    <string name="doze_double_tap_title">Doble toque para comprobar el teléfono</string>
+    <string name="doze_double_tap_summary">Notificaciones de pulso por doble toque</string>
 </resources>
