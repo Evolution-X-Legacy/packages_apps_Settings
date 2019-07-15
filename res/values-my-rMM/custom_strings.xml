@@ -204,8 +204,6 @@
     <string name="adj_saturation_title">တောက်ပမှုပြင်းအား</string>
     <string name="adj_intensity_title">အလင်းတောက်ပမှု</string>
     <string name="adj_contrast_title">အလင်းအမှောင်</string>
-    <!-- LiveDisplay - Custom theme mode -->
-    <string name="systemui_theme_time">နေ့ညအလိုက် အလိုအလျောက်ပြောင်းလဲစေမည်။</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="swipe_to_screenshot_gesture_title">ဖိဆွဲ၍ Screenshot ယူခြင်း</string>
     <string name="swipe_to_screenshot_gesture_summary">Screenshot ရယူရန် လက်သုံးချောင်းအသုံးပြု၍ ဖိဆွဲပါ။</string>
