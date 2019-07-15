@@ -204,8 +204,6 @@
     <string name="adj_saturation_title">Saturação</string>
     <string name="adj_intensity_title">Intensidade</string>
     <string name="adj_contrast_title">Contraste</string>
-    <!-- LiveDisplay - Custom theme mode -->
-    <string name="systemui_theme_time">Automático (baseado na hora do dia)</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="swipe_to_screenshot_gesture_title">Deslize para capturar a tela</string>
     <string name="swipe_to_screenshot_gesture_summary">Deslize três dedos para tirar uma captura de tela</string>
