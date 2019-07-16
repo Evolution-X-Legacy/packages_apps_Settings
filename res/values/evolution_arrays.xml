@@ -141,6 +141,12 @@
         <item>org.evolutionx.overlay.accent.qocean</item>
         <item>org.evolutionx.overlay.accent.qorchid</item>
         <item>org.evolutionx.overlay.accent.qspace</item>
+        <item>com.potato.overlay.accent.armygreen</item>
+        <item>com.potato.overlay.accent.deepred</item>
+        <item>com.potato.overlay.accent.fadedpink</item>
+        <item>com.potato.overlay.accent.grey</item>
+        <item>com.potato.overlay.accent.kindaindigo</item>
+        <item>com.potato.overlay.accent.pinkred</item>
     </string-array>
     <string-array name="allowed_themes_when_light" translatable="false">
         <item>org.pixelexperience.overlay.accent.black</item>
