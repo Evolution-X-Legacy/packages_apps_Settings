@@ -298,8 +298,8 @@
     <string name="doze_double_tap_title">Просмотр времени и уведомлений двойным нажатием</string>
     <string name="doze_double_tap_summary">Потяните уведомления двойным нажатием</string>
     <!-- Selinux -->
-    <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">Disabled</string>
-    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status">Статус SELinux</string>
+    <string name="selinux_status_disabled">Запрещен</string>
+    <string name="selinux_status_permissive">Рекомендуемый</string>
     <string name="selinux_status_enforcing">Enforcing</string>
 </resources>
