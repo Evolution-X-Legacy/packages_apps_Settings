@@ -212,7 +212,6 @@
     <string name="dark_theme_style_default">Προεπιλογή</string>
     <string name="dark_theme_style_black">Μαύρο</string>
     <!-- Evolution X settings -->
-    <string name="evolution_settings_title">Evolution X</string>
     <string name="evolution_settings_summary">Η εξέλιξη στο ανοιχτό λογισμικό. #KeepEvolving</string>
     <!-- Notification log -->
     <string name="notification_log_summary">Δείτε όλο το αρχείο ειδοποιήσεων</string>
@@ -298,4 +297,9 @@
     <string name="double_tap_title">Διπλό πάτημα</string>
     <string name="doze_double_tap_title">Διπλό πάτημα για έλεγχο</string>
     <string name="doze_double_tap_summary">Ειδοποιήσεις παλμών με διπλό πάτημα</string>
+    <!-- Selinux -->
+    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
 </resources>
