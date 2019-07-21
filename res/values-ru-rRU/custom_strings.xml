@@ -212,7 +212,6 @@
     <string name="dark_theme_style_default">По умолчанию</string>
     <string name="dark_theme_style_black">Чёрный</string>
     <!-- Evolution X settings -->
-    <string name="evolution_settings_title">Настройки Evolution X</string>
     <string name="evolution_settings_summary">Нажми на меня! #KeepEvolving</string>
     <!-- Notification log -->
     <string name="notification_log_summary">Показать историю уведомлений</string>
@@ -298,4 +297,9 @@
     <string name="double_tap_title">Двойное нажатие</string>
     <string name="doze_double_tap_title">Просмотр времени и уведомлений двойным нажатием</string>
     <string name="doze_double_tap_summary">Потяните уведомления двойным нажатием</string>
+    <!-- Selinux -->
+    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
 </resources>
