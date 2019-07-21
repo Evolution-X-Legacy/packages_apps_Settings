@@ -212,7 +212,6 @@
     <string name="dark_theme_style_default">既定</string>
     <string name="dark_theme_style_black">ブラック</string>
     <!-- Evolution X settings -->
-    <string name="evolution_settings_title">Evolution X</string>
     <string name="evolution_settings_summary">オープンソースの発展。進化し続けよう。</string>
     <!-- Notification log -->
     <string name="notification_log_summary">通知履歴ログを表示する</string>
@@ -298,4 +297,9 @@
     <string name="double_tap_title">ダブルタップ</string>
     <string name="doze_double_tap_title">ダブルタップで端末を確認</string>
     <string name="doze_double_tap_summary">ダブルタップで通知を点滅させる</string>
+    <!-- Selinux -->
+    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
 </resources>
