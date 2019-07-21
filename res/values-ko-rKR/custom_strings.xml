@@ -212,7 +212,6 @@
     <string name="dark_theme_style_default">Default</string>
     <string name="dark_theme_style_black">Black</string>
     <!-- Evolution X settings -->
-    <string name="evolution_settings_title">Evolution X</string>
     <string name="evolution_settings_summary">The Evolution of open source. Keep Evolving</string>
     <!-- Notification log -->
     <string name="notification_log_summary">Show notifications history log</string>
@@ -298,4 +297,9 @@
     <string name="double_tap_title">Double tap</string>
     <string name="doze_double_tap_title">Double tap to check phone</string>
     <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
+    <!-- Selinux -->
+    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
 </resources>
