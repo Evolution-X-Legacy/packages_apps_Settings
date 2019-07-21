@@ -212,7 +212,6 @@
     <string name="dark_theme_style_default">За замовчуванням</string>
     <string name="dark_theme_style_black">Чорний</string>
     <!-- Evolution X settings -->
-    <string name="evolution_settings_title">Evolution X</string>
     <string name="evolution_settings_summary">Еволюція відкритого вихідного коду. Продовжуйте розвиватися</string>
     <!-- Notification log -->
     <string name="notification_log_summary">Показати історію повідомлень</string>
@@ -298,4 +297,9 @@
     <string name="double_tap_title">Подвійний дотик</string>
     <string name="doze_double_tap_title">Перегляд часу і повідомлень подвійним натисканням</string>
     <string name="doze_double_tap_summary">Потягніть повідомлення подвійним натисканням</string>
+    <!-- Selinux -->
+    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
 </resources>
