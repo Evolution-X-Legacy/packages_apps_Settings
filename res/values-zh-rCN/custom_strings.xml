@@ -177,7 +177,7 @@
     <string name="live_display_color_profile_cinema_title">影院</string>
     <string name="live_display_color_profile_cinema_summary">完美重现视频色彩</string>
     <string name="live_display_color_profile_astronomy_title">天文</string>
-    <string name="live_display_color_profile_astronomy_summary">夜视的深红色</string>
+    <string name="live_display_color_profile_astronomy_summary">深红色以保护夜间视力</string>
     <string name="live_display_color_profile_photography_title">摄影</string>
     <string name="live_display_color_profile_photography_summary">针对照片的完美色彩重现</string>
     <string name="live_display_color_profile_basic_title">基本</string>
@@ -212,7 +212,6 @@
     <string name="dark_theme_style_default">默认</string>
     <string name="dark_theme_style_black">黑色</string>
     <!-- Evolution X settings -->
-    <string name="evolution_settings_title">Evolution X</string>
     <string name="evolution_settings_summary">开源进化论 进化无止境</string>
     <!-- Notification log -->
     <string name="notification_log_summary">显示历史通知记录</string>
@@ -269,7 +268,7 @@
     <string name="fp_unlock_keystore_title">指纹解锁</string>
     <string name="fp_unlock_keystore_summary">在重启后用指纹解锁设备，无须数字/密码/图案\n注意：风险自负！</string>
     <!-- Aggressive battery -->
-    <string name="aggressive_battery_title">极限省电</string>
+    <string name="aggressive_battery_title">主动省电</string>
     <string name="aggressive_battery_summary">更严格的电量节省措施</string>
     <string name="aggressive_battery_warning_text">这些是省电功能。它们可能影响后台运行的服务，如导航应用。您可以添加白名单使之正常运行。</string>
     <string name="aggressive_idle_title">Idle主动调整</string>
@@ -280,7 +279,7 @@
     <string name="aggressive_battery_saver_summary">当使用省电模式时自动开启极限省电</string>
     <!-- Battery saving mode for Location - GPS will be disabled -->
     <string name="location_mode_battery_saving_title">省电模式</string>
-    <string name="location_mode_battery_saving_summary">仅使用 Wi-Fi、蓝牙和移动网络来测定位置（粗略）</string>
+    <string name="location_mode_battery_saving_summary">仅使用 Wi-Fi、蓝牙和移动网络来测定位置（精准度低）</string>
     <!-- Font picker -->
     <string name="font_picker_title">系统字体</string>
     <string name="font_picker_progress">正在应用新字体\u2026</string>
@@ -297,5 +296,10 @@
     <!-- Doze on double tap -->
     <string name="double_tap_title">双击</string>
     <string name="doze_double_tap_title">双击来查看手机</string>
-    <string name="doze_double_tap_summary">双击下拉通知</string>
+    <string name="doze_double_tap_summary">双击快速显示通知</string>
+    <!-- Selinux -->
+    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
 </resources>
