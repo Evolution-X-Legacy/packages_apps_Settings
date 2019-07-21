@@ -212,8 +212,7 @@
     <string name="dark_theme_style_default">ค่าเริ่มต้น</string>
     <string name="dark_theme_style_black">สีดำ</string>
     <!-- Evolution X settings -->
-    <string name="evolution_settings_title">Evolution X</string>
-    <string name="evolution_settings_summary">Evolution ของโอเพ่นซอร์ส  Evolving อย่างต่อเนื่อง</string>
+    <string name="evolution_settings_summary">แถบสถานะ, การแจ้งเตือน, แถบการตั้งค่าด่วน</string>
     <!-- Notification log -->
     <string name="notification_log_summary">แสดงบันทึกประวัติการแจ้งเตือน</string>
     <!-- Per-app data restrictions -->
@@ -298,4 +297,9 @@
     <string name="double_tap_title">แตะสองครั้ง</string>
     <string name="doze_double_tap_title">แตะสองครั้งเพื่อตรวจสอบโทรศัพท์</string>
     <string name="doze_double_tap_summary">ตรวจสอบการแจ้งเตือนด้วยการแตะสองครั้ง</string>
+    <!-- Selinux -->
+    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
 </resources>
