@@ -212,7 +212,6 @@
     <string name="dark_theme_style_default">預設</string>
     <string name="dark_theme_style_black">黑色</string>
     <!-- Evolution X settings -->
-    <string name="evolution_settings_title">Evolution X</string>
     <string name="evolution_settings_summary">開源進化論。Keep Evolving</string>
     <!-- Notification log -->
     <string name="notification_log_summary">顯示通知歷史紀錄</string>
@@ -299,4 +298,9 @@
     <string name="double_tap_title">輕觸兩下</string>
     <string name="doze_double_tap_title">輕觸兩下來察看手機</string>
     <string name="doze_double_tap_summary">輕觸兩下時閃爍通知</string>
+    <!-- Selinux -->
+    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
 </resources>
