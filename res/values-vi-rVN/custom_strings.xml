@@ -298,8 +298,8 @@
     <string name="doze_double_tap_title">Chạm 2 lần để kiểm tra điện thoại</string>
     <string name="doze_double_tap_summary">Thông báo xung bằng cách chạm hai lần</string>
     <!-- Selinux -->
-    <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">Disabled</string>
-    <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
+    <string name="selinux_status">Trạng thái SELinux</string>
+    <string name="selinux_status_disabled">Đã vô hiệu</string>
+    <string name="selinux_status_permissive">Cho phép</string>
+    <string name="selinux_status_enforcing">Thực thi</string>
 </resources>
