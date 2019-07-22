@@ -99,12 +99,12 @@
     <string name="thermal_control_per_app_benchmark">ක්‍රියාකාරීත්වය</string>
     <string name="thermal_control_per_app_games">තරග</string>
     <string name="thermal_control_per_app_browser">බ්‍රවුසරය</string>
-    <string name="thermal_control_per_app_video_playback">Video playback</string>
-    <string name="thermal_control_per_app_dialer">Dialer</string>
-    <string name="thermal_control_per_app_camera">Camera</string>
+    <string name="thermal_control_per_app_video_playback">වීඩියෝ ප්ලේබෑක්</string>
+    <string name="thermal_control_per_app_dialer">ඩයලර්</string>
+    <string name="thermal_control_per_app_camera">කැමරාව</string>
     <!-- Notch behavior -->
-    <string name="display_cutout_mode_title">Notch behavior</string>
-    <string name="display_cutout_mode_normal">Default</string>
+    <string name="display_cutout_mode_title">නොච් එකේ හැසිරීම</string>
+    <string name="display_cutout_mode_normal">සාමාන්‍යය</string>
     <string name="display_cutout_mode_hidden">Hidden</string>
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
