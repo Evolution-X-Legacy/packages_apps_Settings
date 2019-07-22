@@ -91,14 +91,14 @@
     <string name="weather_title">කාලගුණය</string>
     <string name="weather_unit">උෂ්ණත්ව ඒකකය</string>
     <!-- Face auto unlock -->
-    <string name="face_auto_unlock_title">Automatic face unlock</string>
-    <string name="face_auto_unlock_summary">Dismiss lock screen after face unlock</string>
+    <string name="face_auto_unlock_title">ස්ව්‍යංක්‍රීය ෆේස් අන් ලොක්</string>
+    <string name="face_auto_unlock_summary">ෆේස් අන් ලොක් එකට පසු ලොක් ස්ක්‍රීන් එක ඉවත් කිරීම</string>
     <!-- Thermal control per app -->
-    <string name="thermal_control_per_app">Optimization profile</string>
-    <string name="thermal_control_per_app_default">No optimization</string>
-    <string name="thermal_control_per_app_benchmark">Performance</string>
-    <string name="thermal_control_per_app_games">Games</string>
-    <string name="thermal_control_per_app_browser">Browser</string>
+    <string name="thermal_control_per_app">ප්‍රශස්තිකරණ ගිණුම</string>
+    <string name="thermal_control_per_app_default">ප්‍රශස්තිකරණයක් නොමැත</string>
+    <string name="thermal_control_per_app_benchmark">ක්‍රියාකාරීත්වය</string>
+    <string name="thermal_control_per_app_games">තරග</string>
+    <string name="thermal_control_per_app_browser">බ්‍රවුසරය</string>
     <string name="thermal_control_per_app_video_playback">Video playback</string>
     <string name="thermal_control_per_app_dialer">Dialer</string>
     <string name="thermal_control_per_app_camera">Camera</string>
