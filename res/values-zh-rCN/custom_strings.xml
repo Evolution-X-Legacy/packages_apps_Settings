@@ -298,8 +298,8 @@
     <string name="doze_double_tap_title">双击来查看手机</string>
     <string name="doze_double_tap_summary">双击快速显示通知</string>
     <!-- Selinux -->
-    <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">Disabled</string>
-    <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
+    <string name="selinux_status">SELinux 状态</string>
+    <string name="selinux_status_disabled">已禁用</string>
+    <string name="selinux_status_permissive">许可</string>
+    <string name="selinux_status_enforcing">执行中</string>
 </resources>
