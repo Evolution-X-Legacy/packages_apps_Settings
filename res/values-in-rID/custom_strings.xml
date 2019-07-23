@@ -298,8 +298,8 @@
     <string name="doze_double_tap_title">Ketuk dua kali untuk memeriksa telepon</string>
     <string name="doze_double_tap_summary">Pemberitahuan pulsa dengan ketukan ganda</string>
     <!-- Selinux -->
-    <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status">Status SELinux</string>
+    <string name="selinux_status_disabled">Dimatikan</string>
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
 </resources>
