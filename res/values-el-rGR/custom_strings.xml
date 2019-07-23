@@ -298,8 +298,8 @@
     <string name="doze_double_tap_title">Διπλό πάτημα για έλεγχο</string>
     <string name="doze_double_tap_summary">Ειδοποιήσεις παλμών με διπλό πάτημα</string>
     <!-- Selinux -->
-    <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">Disabled</string>
-    <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
+    <string name="selinux_status">Κατάσταση SELinux</string>
+    <string name="selinux_status_disabled">Απενεργοποιημένο</string>
+    <string name="selinux_status_permissive">Ανεκτικό</string>
+    <string name="selinux_status_enforcing">Επιβεβλημένο</string>
 </resources>
