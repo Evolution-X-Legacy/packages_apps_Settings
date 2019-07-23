@@ -105,55 +105,55 @@
     <!-- Notch behavior -->
     <string name="display_cutout_mode_title">නොච් එකේ හැසිරීම</string>
     <string name="display_cutout_mode_normal">සාමාන්‍යය</string>
-    <string name="display_cutout_mode_hidden">Hidden</string>
+    <string name="display_cutout_mode_hidden">සැගවුණු</string>
     <!-- Notch: Full screen apps -->
-    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
-    <string name="display_cutout_force_fullscreen_summary">Ignore notch space for selected applications</string>
+    <string name="display_cutout_force_fullscreen_title">ෆුල් ස්ක්‍රීන් ඇප්ස්</string>
+    <string name="display_cutout_force_fullscreen_summary">තෝරාගත් ඇප් සදහා නොච් එක දෙපස අත්හිටුවන්න</string>
     <!-- In-call feedback -->
-    <string name="incall_feeedback_vibrate_title">Vibrate to indicate call status</string>
+    <string name="incall_feeedback_vibrate_title">ඇමතුමේ තත්වය හෙළි කිරීමට වයිබ්‍රේට් වීම</string>
     <!-- Fingerprint authentication vibration -->
-    <string name="fp_success_auth_vib_title">Fingerprint authentication</string>
-    <string name="fp_success_auth_vib_summary">Vibrate on successful fingerprint authentication</string>
+    <string name="fp_success_auth_vib_title">ඇගිලි සලකුණු සත්‍යාපනය</string>
+    <string name="fp_success_auth_vib_summary">නිවැරදි ඇගිලි සලකුණු සත්‍යාපනයේ දී වයිබ්‍රේට් වීම</string>
     <!-- Double tap to sleep on status bar or lockscreen -->
-    <string name="status_bar_double_tap_to_sleep_title">Tap to sleep</string>
-    <string name="status_bar_double_tap_to_sleep_summary">Double-tap on the status bar or lockscreen to turn off the display</string>
+    <string name="status_bar_double_tap_to_sleep_title">ස්ලීප් පහසුකම සදහා ටැප් කරන්න</string>
+    <string name="status_bar_double_tap_to_sleep_summary">ලොක් ස්ක්‍රීන් එක මත හෝ ස්ටේටස් බාර් එක මත දෙවරක් ටැප් කිරීමෙන් තිරය නිවීම</string>
     <!-- Lock screen cover art -->
-    <string name="lockscreen_media_art_title">Display media cover art</string>
+    <string name="lockscreen_media_art_title">මීඩියා කවර් එක පෙන්නන්න</string>
     <!-- Button that controls inversion of layout of navigation bar -->
-    <string name="nav_bar_layout_inverse_title">Invert layout</string>
-    <string name="nav_bar_layout_inverse_summary">Invert layout of navigation bar buttons</string>
+    <string name="nav_bar_layout_inverse_title">ආකෘතිය කණපිට හරවන්න</string>
+    <string name="nav_bar_layout_inverse_summary">නැවිගේශන් බාර් එකේ ආකෘතිය කණපිට හරවන්න</string>
     <!-- Torch long press power button -->
-    <string name="torch_long_press_power_gesture_title">Long press for torch</string>
-    <string name="torch_long_press_power_gesture_desc">Activate the torch by long pressing the power button while the display is off</string>
-    <string name="torch_long_press_power_timeout_title">Automatically turn torch off</string>
-    <string name="torch_long_press_power_timeout_never">Never</string>
-    <string name="torch_long_press_power_timeout_1min">1 minute</string>
-    <string name="torch_long_press_power_timeout_2min">2 minutes</string>
-    <string name="torch_long_press_power_timeout_5min">5 minutes</string>
-    <string name="torch_long_press_power_timeout_10min">10 minutes</string>
+    <string name="torch_long_press_power_gesture_title">ටොර්ච් එක සක්‍රිය කිරීමට ඔබාගෙන සිටින්න</string>
+    <string name="torch_long_press_power_gesture_desc">තිරය නිවී තිබියදී ටොර්ච් එක සක්‍රිය කිරීමට පවර් බටන් එක ඔබාගෙන සිටින්න</string>
+    <string name="torch_long_press_power_timeout_title">ස්වයංක්‍රීයව ටොර්ච් එක නිවීම</string>
+    <string name="torch_long_press_power_timeout_never">එසේ සිදු නොවන්න</string>
+    <string name="torch_long_press_power_timeout_1min">මිනිත්තු 1</string>
+    <string name="torch_long_press_power_timeout_2min">මිනිත්තු 2</string>
+    <string name="torch_long_press_power_timeout_5min">මිනිත්තු 5</string>
+    <string name="torch_long_press_power_timeout_10min">මිනිත්තු 10</string>
     <!-- Volume control playback -->
-    <string name="volbtn_music_controls_title">Control playback</string>
-    <string name="volbtn_music_controls_summary">Seek music tracks by long pressing the volume keys while the display is off</string>
+    <string name="volbtn_music_controls_title">ප්ලේබෑක් එක හැසිරවීම</string>
+    <string name="volbtn_music_controls_summary">තිරය නිවී තිබියදී මීළඟ හො පෙර සිංදුවට සවන් දීමට වොලියුම් වැඩි හො අඩු බටන් ඔබාගෙන සිටින්න</string>
     <!-- Power menu on lockscreen -->
-    <string name="lockscreen_power_menu_disabled_title">Disable on lock screen</string>
-    <string name="lockscreen_power_menu_disabled_summary">Disable power menu on protected lock screen</string>
+    <string name="lockscreen_power_menu_disabled_title">ලොක ස්ක්‍රීන් එක මත අවලංගු කරන්න</string>
+    <string name="lockscreen_power_menu_disabled_summary">ප්‍රොටෙක්ටඩ් ලොක් ස්ක්‍රීන් එක මත පවර් මෙනුව අවලංගු කරන්න</string>
     <!-- Others settings -->
-    <string name="others_settings_title">Others settings</string>
-    <string name="additional_buttons_title">Additional buttons</string>
+    <string name="others_settings_title">අනෙකුත් සෙටින්ස්</string>
+    <string name="additional_buttons_title">අමතර බටන්ස්</string>
     <!-- Status bar -->
-    <string name="status_bar_title">Status bar</string>
-    <string name="lockscreen_qs_disabled_title">Disable on lock screen</string>
-    <string name="lockscreen_qs_disabled_summary">Disable expanded status bar on protected lock screen</string>
-    <string name="status_bar_quick_qs_pulldown_title">Quick pulldown</string>
-    <string name="status_bar_quick_qs_pulldown_summary">%1$s edge of the status bar pulls down Quick Settings</string>
-    <string name="status_bar_quick_qs_pulldown_summary_left">Left</string>
-    <string name="status_bar_quick_qs_pulldown_summary_right">Right</string>
-    <string name="status_bar_quick_qs_pulldown_off">Off</string>
-    <string name="status_bar_quick_qs_pulldown_left">Left</string>
-    <string name="status_bar_quick_qs_pulldown_right">Right</string>
+    <string name="status_bar_title">ස්ටේටස් බාර්</string>
+    <string name="lockscreen_qs_disabled_title">ලොක් ස්ක්‍රීන් එක මත අවලංගු කරන්න</string>
+    <string name="lockscreen_qs_disabled_summary">ප්‍රොටෙක්ටඩ් ලොක් ස්ක්‍රීන් එක මත ස්ටේටස් බාර් එක දිග හැරීම අවලංගු කරන්න</string>
+    <string name="status_bar_quick_qs_pulldown_title">ඉක්මන් පහළට ඇදීම</string>
+    <string name="status_bar_quick_qs_pulldown_summary">තත්ව තීරුවේ %1$s කෙළවරින් ඉක්මන් සැකසීම් පහළට ඇදෙනු ඇත</string>
+    <string name="status_bar_quick_qs_pulldown_summary_left">වම</string>
+    <string name="status_bar_quick_qs_pulldown_summary_right">දකුණු</string>
+    <string name="status_bar_quick_qs_pulldown_off">අක්‍රිය</string>
+    <string name="status_bar_quick_qs_pulldown_left">වම</string>
+    <string name="status_bar_quick_qs_pulldown_right">දකුණු</string>
     <!-- Status bar - icons -->
-    <string name="status_bar_icons_title">Status bar icons</string>
-    <string name="status_bar_system_icons_title">System icons</string>
+    <string name="status_bar_icons_title">ස්ටේටස් බාර් අයිකන්</string>
+    <string name="status_bar_system_icons_title">සිස්ටම් අයිකන</string>
     <string name="status_bar_system_icons_summary">Control which status bar icons are shown</string>
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Pocket detection</string>
