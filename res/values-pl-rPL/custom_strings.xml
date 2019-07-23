@@ -298,8 +298,8 @@
     <string name="doze_double_tap_title">Dwukrotne tapnij w ekran, aby wyświetlić powiadomienia</string>
     <string name="doze_double_tap_summary">Wyświetl powiadomienia po dwukrotnym tapnięciu</string>
     <!-- Selinux -->
-    <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">Disabled</string>
-    <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
+    <string name="selinux_status">Status SELinux</string>
+    <string name="selinux_status_disabled">Wyłączone</string>
+    <string name="selinux_status_permissive">Pobłażliwy</string>
+    <string name="selinux_status_enforcing">Restrykcyjny</string>
 </resources>
