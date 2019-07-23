@@ -300,6 +300,6 @@
     <!-- Selinux -->
     <string name="selinux_status">Status SELinux</string>
     <string name="selinux_status_disabled">Dimatikan</string>
-    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_permissive">Permisif</string>
     <string name="selinux_status_enforcing">Enforcing</string>
 </resources>
