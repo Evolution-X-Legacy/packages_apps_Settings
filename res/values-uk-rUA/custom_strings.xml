@@ -159,8 +159,8 @@
     <string name="pocket_judge_title">Режим \"У кишені\"</string>
     <string name="pocket_judge_summary">Заблокувати екран та кнопки коли пристрій знаходиться в кишені</string>
     <!-- LiveDisplay -->
-    <string name="color_settings_title">Color settings</string>
-    <string name="color_settings_summary">Adjust and improve screen colors</string>
+    <string name="color_settings_title">Налаштування кольору</string>
+    <string name="color_settings_summary">Налаштувати чи покращити кольори екрану</string>
     <string name="live_display_outdoor_mode_title">Автоматичний режим «На вулиці»</string>
     <string name="live_display_outdoor_mode_summary">Збільшити яскравість та насиченість автоматично при яскравому сонячному світлі</string>
     <string name="live_display_low_power_title">Зменшення споживання енергії</string>
@@ -298,8 +298,8 @@
     <string name="doze_double_tap_title">Перегляд часу і повідомлень подвійним натисканням</string>
     <string name="doze_double_tap_summary">Потягніть повідомлення подвійним натисканням</string>
     <!-- Selinux -->
-    <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">Disabled</string>
-    <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
+    <string name="selinux_status">Статус SELinux</string>
+    <string name="selinux_status_disabled">Вимкнено</string>
+    <string name="selinux_status_permissive">Дозволено</string>
+    <string name="selinux_status_enforcing">Примусово</string>
 </resources>
