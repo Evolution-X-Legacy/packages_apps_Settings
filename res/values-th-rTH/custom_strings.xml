@@ -298,8 +298,8 @@
     <string name="doze_double_tap_title">แตะสองครั้งเพื่อตรวจสอบโทรศัพท์</string>
     <string name="doze_double_tap_summary">ตรวจสอบการแจ้งเตือนด้วยการแตะสองครั้ง</string>
     <!-- Selinux -->
-    <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">Disabled</string>
-    <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
+    <string name="selinux_status">สถานะ SELinux</string>
+    <string name="selinux_status_disabled">ปิดใช้งาน</string>
+    <string name="selinux_status_permissive">อนุญาต</string>
+    <string name="selinux_status_enforcing">บังคับใช้</string>
 </resources>
