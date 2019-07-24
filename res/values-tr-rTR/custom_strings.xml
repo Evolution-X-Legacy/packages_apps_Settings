@@ -289,9 +289,6 @@
     <string name="unlock_quick_unlock_control_summary">Doğru PIN/şifre girildiğinde otomatik olarak kilidi açar</string>
     <!-- Running services -->
     <string name="background_processes_settings_title">Arkaplan işlemleri</string>
-    <!-- Battery estimates -->
-    <string name="battery_estimates_title">Tahmini pil ömrü</string>
-    <string name="battery_estimates_summary">Tahmini pil ömrünü hızlı ayarlar panelinde göster</string>
     <string name="doze_trigger_title">Ne zaman göster</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Çift dokunma</string>
