@@ -289,9 +289,6 @@
     <string name="unlock_quick_unlock_control_summary">ปลดล็อคโดยอัตโนมัติเมื่อป้อน PIN หรือ รหัสผ่านที่ถูกต้อง</string>
     <!-- Running services -->
     <string name="background_processes_settings_title">กระบวนการพื้นหลัง</string>
-    <!-- Battery estimates -->
-    <string name="battery_estimates_title">การประมาณแบตเตอรี่ในแถบการตั้งค่าด่วน</string>
-    <string name="battery_estimates_summary">แสดงอายุการใช้งานแบตเตอรี่โดยประมาณในแผงการตั้งค่าด่วน</string>
     <string name="doze_trigger_title">เมื่อใดจะแสดง</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">แตะสองครั้ง</string>
