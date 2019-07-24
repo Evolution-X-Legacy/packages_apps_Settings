@@ -289,9 +289,6 @@
     <string name="unlock_quick_unlock_control_summary">Αυτόματο ξεκλείδωμα όταν το PIN ή ο κωδικός είναι σωστός</string>
     <!-- Running services -->
     <string name="background_processes_settings_title">Διεργασίες παρασκηνίου</string>
-    <!-- Battery estimates -->
-    <string name="battery_estimates_title">Υπολογισμός μπαταρίας στις γρήγορες ρυθμίσεις</string>
-    <string name="battery_estimates_summary">Προβολή μπαταρίας στις γρήγορες ρυθμίσεις</string>
     <string name="doze_trigger_title">Πότε να εμφανίζεται</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Διπλό πάτημα</string>
