@@ -341,10 +341,6 @@
     <!-- Running services -->
     <string name="background_processes_settings_title">Background processes</string>
 
-    <!-- Battery estimates -->
-    <string name="battery_estimates_title">Battery Estimates in QS</string>
-    <string name="battery_estimates_summary">Show the estimated battery life in QS panel</string>
-
     <string name="doze_trigger_title">When to show</string>
 
     <!-- Doze on double tap -->
