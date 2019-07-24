@@ -289,9 +289,6 @@
     <string name="unlock_quick_unlock_control_summary">Tự động mở khóa khi nhập đúng mật khẩu/PIN</string>
     <!-- Running services -->
     <string name="background_processes_settings_title">Tiến trình nền</string>
-    <!-- Battery estimates -->
-    <string name="battery_estimates_title">Ước tính pin còn lại trên QS</string>
-    <string name="battery_estimates_summary">Hiện ước tính pin còn lại trên bảng cài đặt nhanh</string>
     <string name="doze_trigger_title">Khi nào nên hiển thị</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Chạm 2 lần</string>
