@@ -289,9 +289,6 @@
     <string name="unlock_quick_unlock_control_summary">输入正确的 PIN 码或密码时自动解锁</string>
     <!-- Running services -->
     <string name="background_processes_settings_title">后台进程</string>
-    <!-- Battery estimates -->
-    <string name="battery_estimates_title">快速设置中的电池预估</string>
-    <string name="battery_estimates_summary">在快速设置面板中显示电池预估续航时间</string>
     <string name="doze_trigger_title">显示时机</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">双击</string>
