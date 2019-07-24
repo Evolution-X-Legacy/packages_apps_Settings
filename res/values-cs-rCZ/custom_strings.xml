@@ -289,9 +289,6 @@
     <string name="unlock_quick_unlock_control_summary">Automatické odemknutí pokud je zadán správný PIN/heslo</string>
     <!-- Running services -->
     <string name="background_processes_settings_title">Procesy na pozadí</string>
-    <!-- Battery estimates -->
-    <string name="battery_estimates_title">Odhady baterie v QS</string>
-    <string name="battery_estimates_summary">Zobrazit odhadovanou výdrž baterie v panelu QS</string>
     <string name="doze_trigger_title">Kdy zobrazit</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Dvojí poklepání</string>
