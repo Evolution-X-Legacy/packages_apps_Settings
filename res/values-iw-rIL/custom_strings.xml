@@ -289,9 +289,6 @@
     <string name="unlock_quick_unlock_control_summary">פתח אוטומטית כאשר הסיסמה/קוד מוכנס</string>
     <!-- Running services -->
     <string name="background_processes_settings_title">תהליכים הרצים ברקע</string>
-    <!-- Battery estimates -->
-    <string name="battery_estimates_title">אומדני סוללות בהגדרות מהירות</string>
-    <string name="battery_estimates_summary">הצג את חיי הסוללה המשוערים בחלונית הגדרות מהירות</string>
     <string name="doze_trigger_title">מתי להציג</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">הקשה כפולה</string>
