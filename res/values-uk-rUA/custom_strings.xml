@@ -289,9 +289,6 @@
     <string name="unlock_quick_unlock_control_summary">Автоматичне розблокування при введенні правильного пароля чи PIN-коду</string>
     <!-- Running services -->
     <string name="background_processes_settings_title">Фонові процеси</string>
-    <!-- Battery estimates -->
-    <string name="battery_estimates_title">Оцінка залишку батареї в швидких настройках</string>
-    <string name="battery_estimates_summary">Показувати оцінку життя батареї в панелі швидких налаштувань</string>
     <string name="doze_trigger_title">Коли показувати</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Подвійний дотик</string>
