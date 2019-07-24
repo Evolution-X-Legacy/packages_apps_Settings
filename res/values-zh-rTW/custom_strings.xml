@@ -290,9 +290,6 @@
     <string name="unlock_quick_unlock_control_summary">當輸入正確 PIN 碼及密碼時自動解鎖</string>
     <!-- Running services -->
     <string name="background_processes_settings_title">背景處理程序</string>
-    <!-- Battery estimates -->
-    <string name="battery_estimates_title">顯示電池可用時間</string>
-    <string name="battery_estimates_summary">在快速設定面板顯示電池預計可用時間</string>
     <string name="doze_trigger_title">顯示時機</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">輕觸兩下</string>
