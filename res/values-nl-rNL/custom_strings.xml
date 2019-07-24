@@ -289,9 +289,6 @@
     <string name="unlock_quick_unlock_control_summary">Ontgrendel automatisch wanneer de juiste PIN/wachtwoord is ingevuld</string>
     <!-- Running services -->
     <string name="background_processes_settings_title">Achtergrondprocessen</string>
-    <!-- Battery estimates -->
-    <string name="battery_estimates_title">Resterende accuduur in Snelle instellingen</string>
-    <string name="battery_estimates_summary">Toon de geschatte resterende accuduur in Snelle instellingen</string>
     <string name="doze_trigger_title">Wanneer te tonen</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Dubbel tikken</string>
