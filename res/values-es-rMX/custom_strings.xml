@@ -289,9 +289,6 @@
     <string name="unlock_quick_unlock_control_summary">Desbloquea automaticamente cuando el PIN/Contraseña introducidos es el correcto</string>
     <!-- Running services -->
     <string name="background_processes_settings_title">Ningún proceso en 2do plano</string>
-    <!-- Battery estimates -->
-    <string name="battery_estimates_title">Estimaciones de batería en QS</string>
-    <string name="battery_estimates_summary">Mostrar la vida estimada de la batería en el panel QS</string>
     <string name="doze_trigger_title">Cuándo mostrar</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Doble toque</string>
