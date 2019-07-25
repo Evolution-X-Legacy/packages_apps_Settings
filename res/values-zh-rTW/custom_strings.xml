@@ -218,8 +218,8 @@
     <!-- Per-app data restrictions -->
     <string name="data_usage_app_restrict_data">行動數據</string>
     <string name="data_usage_app_restrict_data_summary">啟用行動數據用量統計</string>
-    <string name="data_usage_app_restrict_vpn">VPN data</string>
-    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
+    <string name="data_usage_app_restrict_vpn">VPN數據</string>
+    <string name="data_usage_app_restrict_vpn_summary">啟用VPN數據</string>
     <string name="data_usage_app_restrict_wifi">Wi-Fi 數據</string>
     <string name="data_usage_app_restrict_wifi_summary">啟用 Wi-Fi 用量統計</string>
     <!-- Manage applications, package string displayed in app snippet -->
@@ -298,10 +298,10 @@
     <string name="doze_double_tap_title">輕觸兩下來察看手機</string>
     <string name="doze_double_tap_summary">輕觸兩下時閃爍通知</string>
     <!-- Selinux -->
-    <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">Disabled</string>
-    <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
+    <string name="selinux_status">SELinux狀態</string>
+    <string name="selinux_status_disabled">已停用</string>
+    <string name="selinux_status_permissive">寬容模式</string>
+    <string name="selinux_status_enforcing">強制模式</string>
     <!-- Sizes for pattern lockscreen -->
     <string name="lock_settings_picker_pattern_size_message">Choose a pattern size</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
@@ -309,6 +309,6 @@
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
     <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
     <!-- Lock screen vibrate settings -->
-    <string name="lockscreen_vibrate_enabled_title">Vibrate</string>
-    <string name="lockscreen_vibrate_enabled_head">Vibrate when unlocking</string>
+    <string name="lockscreen_vibrate_enabled_title">震動</string>
+    <string name="lockscreen_vibrate_enabled_head">解鎖時震動</string>
 </resources>
