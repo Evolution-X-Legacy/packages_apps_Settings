@@ -298,7 +298,7 @@
     <string name="doze_double_tap_summary">Thông báo xung bằng cách chạm hai lần</string>
     <!-- Selinux -->
     <string name="selinux_status">Trạng thái SELinux</string>
-    <string name="selinux_status_disabled">Đã vô hiệu</string>
+    <string name="selinux_status_disabled">Đã tắt</string>
     <string name="selinux_status_permissive">Cho phép</string>
     <string name="selinux_status_enforcing">Thực thi</string>
     <!-- Sizes for pattern lockscreen -->
