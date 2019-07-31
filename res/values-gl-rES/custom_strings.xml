@@ -109,8 +109,6 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Aplicacións a pantalla completa</string>
     <string name="display_cutout_force_fullscreen_summary">Ignore notch space for selected applications</string>
-    <!-- In-call feedback -->
-    <string name="incall_feeedback_vibrate_title">Vibrar pra indicar o estatus da chamada</string>
     <!-- Fingerprint authentication vibration -->
     <string name="fp_success_auth_vib_title">Autentificación coa pegada dactilar</string>
     <string name="fp_success_auth_vib_summary">Vibrar cando a autenticación coa pegada dactilar foi correcta</string>
