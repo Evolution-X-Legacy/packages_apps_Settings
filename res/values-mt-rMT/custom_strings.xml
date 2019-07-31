@@ -115,9 +115,6 @@
     <!-- Fingerprint authentication vibration -->
     <string name="fp_success_auth_vib_title">Awtentikazzjoni tal-fingerprint</string>
     <string name="fp_success_auth_vib_summary">Ivvibra ma\' awtentikazzjoni tal-fingerprint li rnexxa</string>
-    <!-- Double tap to sleep on status bar or lockscreen -->
-    <string name="status_bar_double_tap_to_sleep_title">Agħfas biex torqod</string>
-    <string name="status_bar_double_tap_to_sleep_summary">Agħfas dopju fuq l-istatus bar jew lockscreen sabiex titfi l-iskirn</string>
     <!-- Lock screen cover art -->
     <string name="lockscreen_media_art_title">Uri media cover art</string>
     <!-- Button that controls inversion of layout of navigation bar -->
