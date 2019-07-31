@@ -115,9 +115,6 @@
     <!-- Fingerprint authentication vibration -->
     <string name="fp_success_auth_vib_title">אימות טביעת אצבע</string>
     <string name="fp_success_auth_vib_summary">רטט אחרי אימות טביעת האצבע</string>
-    <!-- Double tap to sleep on status bar or lockscreen -->
-    <string name="status_bar_double_tap_to_sleep_title">הקש בכדי לכבות את המסך</string>
-    <string name="status_bar_double_tap_to_sleep_summary">הקש פעמיים על שורת המצב או על מסך נעילה בכדי לכבות את המסך</string>
     <!-- Lock screen cover art -->
     <string name="lockscreen_media_art_title">הצג תמונת אלבום/מדיה</string>
     <!-- Button that controls inversion of layout of navigation bar -->
