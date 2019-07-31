@@ -115,9 +115,6 @@
     <!-- Fingerprint authentication vibration -->
     <string name="fp_success_auth_vib_title">การตรวจสอบลายนิ้วมือ</string>
     <string name="fp_success_auth_vib_summary">สั่นเมื่อทำการตรวจสอบลายนิ้วมือสำเร็จ</string>
-    <!-- Double tap to sleep on status bar or lockscreen -->
-    <string name="status_bar_double_tap_to_sleep_title">แตะเพื่อปิดจอ</string>
-    <string name="status_bar_double_tap_to_sleep_summary">แตะสองครั้งที่แถบสถานะเพื่อปิดหน้าจอ</string>
     <!-- Lock screen cover art -->
     <string name="lockscreen_media_art_title">แสดงหน้าปกสื่อ</string>
     <!-- Button that controls inversion of layout of navigation bar -->
@@ -246,7 +243,7 @@
     <string name="custom_light_title">สีของไฟ:</string>
     <string name="custom_light_on_time_title">ระยะเวลาที่เปิดไฟ (วินาที)</string>
     <string name="custom_light_off_time_title">ระยะเวลาที่ปิดไฟ (วินาที)</string>
-    <string name="value_equals_default">def</string>
+    <string name="value_equals_default">ค่าเริ่มต้น</string>
     <!-- Battery temp -->
     <string name="battery_temp_title">อุณหภูมิแบตเตอรี่</string>
     <!-- Volume link notification -->
@@ -312,13 +309,13 @@
     <string name="lockscreen_vibrate_enabled_title">สั่น</string>
     <string name="lockscreen_vibrate_enabled_head">สั่นเมื่อปลดล็อก</string>
     <!-- Notification sound timeout -->
-    <string name="app_notification_sound_timeout_title">Minimum time between notification sounds</string>
-    <string name="app_notification_sound_timeout_summary_template">Allow sounds or vibration no more than once every <xliff:g id="duration">%1$s</xliff:g></string>
-    <string name="app_notification_sound_timeout_value_none">No restriction</string>
-    <string name="app_notification_sound_timeout_value_10_seconds">10 seconds</string>
-    <string name="app_notification_sound_timeout_value_30_seconds">30 seconds</string>
-    <string name="app_notification_sound_timeout_value_1_minute">1 minute</string>
-    <string name="app_notification_sound_timeout_value_5_minutes">5 minutes</string>
-    <string name="app_notification_sound_timeout_value_15_minutes">10 minutes</string>
-    <string name="app_notification_sound_timeout_value_30_minutes">30 minutes</string>
+    <string name="app_notification_sound_timeout_title">ระยะเวลาขั้นต่ำระหว่างเสียงการแจ้งเตือน</string>
+    <string name="app_notification_sound_timeout_summary_template">อนุญาตให้มีเสียงหรือการสั่นไม่เกินหนึ่งครั้งทุก <xliff:g id="duration">%1$s</xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">ไม่จำกัด</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 วินาที</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 วินาที</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 นาที</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 นาที</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 นาที</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 นาที</string>
 </resources>
