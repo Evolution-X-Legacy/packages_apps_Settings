@@ -115,9 +115,6 @@
     <!-- Fingerprint authentication vibration -->
     <string name="fp_success_auth_vib_title">Autentificación coa pegada dactilar</string>
     <string name="fp_success_auth_vib_summary">Vibrar cando a autenticación coa pegada dactilar foi correcta</string>
-    <!-- Double tap to sleep on status bar or lockscreen -->
-    <string name="status_bar_double_tap_to_sleep_title">Dobre toque pra apagar a pantalla</string>
-    <string name="status_bar_double_tap_to_sleep_summary">Dobre toque na barra de estado pra apagar a visualización</string>
     <!-- Lock screen cover art -->
     <string name="lockscreen_media_art_title">Amosar a portada do álbum</string>
     <!-- Button that controls inversion of layout of navigation bar -->
