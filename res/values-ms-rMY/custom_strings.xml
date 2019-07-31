@@ -109,8 +109,6 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Aplikasi skrin penuh</string>
     <string name="display_cutout_force_fullscreen_summary">Ignore notch space for selected applications</string>
-    <!-- In-call feedback -->
-    <string name="incall_feeedback_vibrate_title">Getar untuk nyatakan status panggilan</string>
     <!-- Fingerprint authentication vibration -->
     <string name="fp_success_auth_vib_title">Pengesahan cap jari</string>
     <string name="fp_success_auth_vib_summary">Getar apabila berjaya pengesahan cap jari</string>
