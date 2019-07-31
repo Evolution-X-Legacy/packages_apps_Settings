@@ -17,8 +17,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Evolution X version -->
-    <string name="evolution_version">Evolution X version</string>
-    <string name="evolution_version_default">Unknown</string>
+    <string name="evolution_version">เวอร์ชันของ Evolution X</string>
+    <string name="evolution_version_default">ไม่ทราบ</string>
     <!-- Fingerprint location message -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front">ค้นหาเซ็นเซอร์ลายนิ้วมือที่ด้านหน้าของโทรศัพท์ของคุณ</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left">ค้นหาเซ็นเซอร์ลายนิ้วมือที่ด้านซ้ายของโทรศัพท์ของคุณ</string>
@@ -29,7 +29,7 @@
     <string name="battery_light_title">ไฟแจ้งเตือนแบตเตอรี่</string>
     <string name="battery_low_pulse_title">กระพริบเมื่อแบตเตอรีต่ำ</string>
     <!-- Manual provisioning support -->
-    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> คือ <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
     <string name="sim_disabled">ปิดการใช้งาน</string>
     <string name="sim_missing">สูญหาย หรือ ชำรุด</string>
     <string name="sim_enabler_need_disable_sim">ซิมการ์ดจะถูกปิด คุณต้องการทำต่อหรือไม่?</string>
