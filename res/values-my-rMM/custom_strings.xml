@@ -115,9 +115,6 @@
     <!-- Fingerprint authentication vibration -->
     <string name="fp_success_auth_vib_title">လက်ဗွေရာအသုံးပြုသည့် လုံခြုံရေး</string>
     <string name="fp_success_auth_vib_summary">လက်ဗွေရာဖြင့် ဖုန်းကိုဖွင့်ရာတွင် ပွင့်သွားသည့်အခါ ဖုန်းကို တုန်ခါစေမည်။</string>
-    <!-- Double tap to sleep on status bar or lockscreen -->
-    <string name="status_bar_double_tap_to_sleep_title">ဖုန်း မျက်နှာပြင်ကို ပိတ်ရန် တို့ထိပါ။</string>
-    <string name="status_bar_double_tap_to_sleep_summary">Double-tap on the status bar or lockscreen to turn off the display</string>
     <!-- Lock screen cover art -->
     <string name="lockscreen_media_art_title">သီချင်း၏ မျက်နှာဖုံးအား ပြသမည်</string>
     <!-- Button that controls inversion of layout of navigation bar -->
