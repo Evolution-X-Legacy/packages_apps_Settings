@@ -5,3 +5,5 @@ files:
     translation: /%original_path%-%android_code%/%original_file_name%
   - source: /**/values/projekt_strings.xml
     translation: /%original_path%-%android_code%/%original_file_name%
+  - source: /res/values/strings.xml
+    translation: /%original_path%-%android_code%/%original_file_name%
