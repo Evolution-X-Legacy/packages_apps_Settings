@@ -109,8 +109,6 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Поўнаэкранныя праграмы</string>
     <string name="display_cutout_force_fullscreen_summary">Ignore notch space for selected applications</string>
-    <!-- In-call feedback -->
-    <string name="incall_feeedback_vibrate_title">Вібрацыя для індыкацыі статусу выкліку</string>
     <!-- Fingerprint authentication vibration -->
     <string name="fp_success_auth_vib_title">Аўтэнтыфікацыя па адбітку пальца</string>
     <string name="fp_success_auth_vib_summary">Вібраваць пры паспяховай аўтэнтыфікацыі па адбітку пальцаў</string>
