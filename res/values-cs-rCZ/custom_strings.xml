@@ -109,8 +109,6 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Aplikace přes celou obrazovku</string>
     <string name="display_cutout_force_fullscreen_summary">Přinutit aplikace ignorovat výřez</string>
-    <!-- In-call feedback -->
-    <string name="incall_feeedback_vibrate_title">Vibrace při volání</string>
     <!-- Fingerprint authentication vibration -->
     <string name="fp_success_auth_vib_title">Ověření pomocí otisku prstu</string>
     <string name="fp_success_auth_vib_summary">Vibrovat při úspěšném ověření otisku prstu</string>
