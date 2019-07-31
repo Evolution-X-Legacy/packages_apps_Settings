@@ -115,9 +115,6 @@
     <!-- Fingerprint authentication vibration -->
     <string name="fp_success_auth_vib_title">Ταυτοποίηση με χρήση δακτυλικών αποτυπωμάτων</string>
     <string name="fp_success_auth_vib_summary">Δόνηση σε επιτυχές έλεγχο δαχτυλικού αποτυπώματος</string>
-    <!-- Double tap to sleep on status bar or lockscreen -->
-    <string name="status_bar_double_tap_to_sleep_title">Πατήστε για αναστολή</string>
-    <string name="status_bar_double_tap_to_sleep_summary">Πατήστε δύο φορές στη γραμμή κατάστασης ή την οθόνη κλειδώματος για αναστολή της συσκευής</string>
     <!-- Lock screen cover art -->
     <string name="lockscreen_media_art_title">Προβολή εξώφυλλου άλμπουμ</string>
     <!-- Button that controls inversion of layout of navigation bar -->
