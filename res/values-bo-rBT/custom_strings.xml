@@ -109,8 +109,6 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">བརྙན་ཤེལ་ཁ་གང་པའི་ཉེར་སྤྱོད། </string>
     <string name="display_cutout_force_fullscreen_summary">བཙན་ཤེད་ཀྱིས་བརྙན་ཤེལ་གྱི་ཉག་ག་སྣང་མེད་བྱེད་པ།</string>
-    <!-- In-call feedback -->
-    <string name="incall_feeedback_vibrate_title">འདར་འགུལ་བྱས་ཏེ་ཁ་པར་འབྱོར་མིན་གྱི་གནས་ཚུལ་སྟོན་པ། </string>
     <!-- Fingerprint authentication vibration -->
     <string name="fp_success_auth_vib_title">མཛུབ་གུའི་ཞིབ་བཤེར། </string>
     <string name="fp_success_auth_vib_summary">མཛུབ་གུའི་ཞིབ་བཤེར་ལེགས་འགྲུབ་བྱུང་དུས་འདར་འགུལ་བྱེད་པ། </string>
