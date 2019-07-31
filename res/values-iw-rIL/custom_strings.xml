@@ -109,8 +109,6 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">יישומים במסך מלא</string>
     <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
-    <!-- In-call feedback -->
-    <string name="incall_feeedback_vibrate_title">הפעל רטט ע\'\'מ לסמן סיום שיחה</string>
     <!-- Fingerprint authentication vibration -->
     <string name="fp_success_auth_vib_title">אימות טביעת אצבע</string>
     <string name="fp_success_auth_vib_summary">רטט אחרי אימות טביעת האצבע</string>
