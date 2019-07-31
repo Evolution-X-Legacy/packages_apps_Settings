@@ -109,8 +109,6 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">全屏应用</string>
     <string name="display_cutout_force_fullscreen_summary">强制应用忽略全面屏上缘</string>
-    <!-- In-call feedback -->
-    <string name="incall_feeedback_vibrate_title">接通时振动</string>
     <!-- Fingerprint authentication vibration -->
     <string name="fp_success_auth_vib_title">指纹验证</string>
     <string name="fp_success_auth_vib_summary">验证指纹身份成功时振动</string>
