@@ -109,8 +109,6 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">แอพแบบเต็มหน้าจอ</string>
     <string name="display_cutout_force_fullscreen_summary">บังคับแอปพลิเคชันให้ละเว้นรอยบาก</string>
-    <!-- In-call feedback -->
-    <string name="incall_feeedback_vibrate_title">สั่นเพื่อระบุสถานะการโทร</string>
     <!-- Fingerprint authentication vibration -->
     <string name="fp_success_auth_vib_title">การตรวจสอบลายนิ้วมือ</string>
     <string name="fp_success_auth_vib_summary">สั่นเมื่อทำการตรวจสอบลายนิ้วมือสำเร็จ</string>
