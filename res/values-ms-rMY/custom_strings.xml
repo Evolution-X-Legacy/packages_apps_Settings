@@ -115,9 +115,6 @@
     <!-- Fingerprint authentication vibration -->
     <string name="fp_success_auth_vib_title">Pengesahan cap jari</string>
     <string name="fp_success_auth_vib_summary">Getar apabila berjaya pengesahan cap jari</string>
-    <!-- Double tap to sleep on status bar or lockscreen -->
-    <string name="status_bar_double_tap_to_sleep_title">Ketik untuk tidur</string>
-    <string name="status_bar_double_tap_to_sleep_summary">Ketik dua kali distatus bar untuk tutup paparan</string>
     <!-- Lock screen cover art -->
     <string name="lockscreen_media_art_title">Paparkan seni cover media</string>
     <!-- Button that controls inversion of layout of navigation bar -->
