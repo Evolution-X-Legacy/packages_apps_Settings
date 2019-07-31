@@ -115,9 +115,6 @@
     <!-- Fingerprint authentication vibration -->
     <string name="fp_success_auth_vib_title">Автентифікація відбитком пальця</string>
     <string name="fp_success_auth_vib_summary">Вібрувати при успішному розпізнаванні відбитку пальця</string>
-    <!-- Double tap to sleep on status bar or lockscreen -->
-    <string name="status_bar_double_tap_to_sleep_title">Торкніться для сну</string>
-    <string name="status_bar_double_tap_to_sleep_summary">Двічі торкніться рядка стану або блокування екрана, щоб перевести пристрій в сплячий режим</string>
     <!-- Lock screen cover art -->
     <string name="lockscreen_media_art_title">Показувати обкладинку мультимедіа</string>
     <!-- Button that controls inversion of layout of navigation bar -->
