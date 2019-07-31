@@ -115,9 +115,6 @@
     <!-- Fingerprint authentication vibration -->
     <string name="fp_success_auth_vib_title">Fingerprint authentication</string>
     <string name="fp_success_auth_vib_summary">Vibrate on successful fingerprint authentication</string>
-    <!-- Double tap to sleep on status bar or lockscreen -->
-    <string name="status_bar_double_tap_to_sleep_title">ನಿದ್ರಿಸಲು ಜೋಡಿವತ್ತು</string>
-    <string name="status_bar_double_tap_to_sleep_summary">ಪ್ರದರ್ಶನವನ್ನು ನಂದಿಸಲು ಸ್ಥಿತಿ ಪಟ್ಟಿ ಮೇಲೆ ಜೋಡಿವತ್ತ್ತಿ</string>
     <!-- Lock screen cover art -->
     <string name="lockscreen_media_art_title">Display media cover art</string>
     <!-- Button that controls inversion of layout of navigation bar -->
