@@ -109,8 +109,6 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Apps b\'skrin sħiħ</string>
     <string name="display_cutout_force_fullscreen_summary">Injora l-ispazju tan-notch għall-applikazzjonijiet magħżula</string>
-    <!-- In-call feedback -->
-    <string name="incall_feeedback_vibrate_title">Ivvibra biex tindika l-istat tat-telefonata</string>
     <!-- Fingerprint authentication vibration -->
     <string name="fp_success_auth_vib_title">Awtentikazzjoni tal-fingerprint</string>
     <string name="fp_success_auth_vib_summary">Ivvibra ma\' awtentikazzjoni tal-fingerprint li rnexxa</string>
