@@ -115,9 +115,6 @@
     <!-- Fingerprint authentication vibration -->
     <string name="fp_success_auth_vib_title">ඇගිලි සලකුණු සත්‍යාපනය</string>
     <string name="fp_success_auth_vib_summary">නිවැරදි ඇගිලි සලකුණු සත්‍යාපනයේ දී වයිබ්‍රේට් වීම</string>
-    <!-- Double tap to sleep on status bar or lockscreen -->
-    <string name="status_bar_double_tap_to_sleep_title">ස්ලීප් පහසුකම සදහා ටැප් කරන්න</string>
-    <string name="status_bar_double_tap_to_sleep_summary">ලොක් ස්ක්‍රීන් එක මත හෝ ස්ටේටස් බාර් එක මත දෙවරක් ටැප් කිරීමෙන් තිරය නිවීම</string>
     <!-- Lock screen cover art -->
     <string name="lockscreen_media_art_title">මීඩියා කවර් එක පෙන්නන්න</string>
     <!-- Button that controls inversion of layout of navigation bar -->
