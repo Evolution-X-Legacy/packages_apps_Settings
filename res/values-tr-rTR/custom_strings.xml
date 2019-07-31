@@ -109,8 +109,6 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Tam ekran uygulamaları</string>
     <string name="display_cutout_force_fullscreen_summary">Uygulamaları çentik alanını yoksaymaya zorla</string>
-    <!-- In-call feedback -->
-    <string name="incall_feeedback_vibrate_title">Arama durumunu göstermek için titret</string>
     <!-- Fingerprint authentication vibration -->
     <string name="fp_success_auth_vib_title">Parmak izi doğrulama</string>
     <string name="fp_success_auth_vib_summary">Başarılı parmak izi kimlik doğrulanmasında titret</string>
