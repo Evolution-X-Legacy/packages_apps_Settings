@@ -115,9 +115,6 @@
     <!-- Fingerprint authentication vibration -->
     <string name="fp_success_auth_vib_title">Xác thực dấu vân tay</string>
     <string name="fp_success_auth_vib_summary">Rung khi xác thực dấu vân tay thành công</string>
-    <!-- Double tap to sleep on status bar or lockscreen -->
-    <string name="status_bar_double_tap_to_sleep_title">Chạm để tắt màn hình</string>
-    <string name="status_bar_double_tap_to_sleep_summary">Chạm hai lần vào thanh trạng thái hoặc màn hình khoá để tắt màn hình</string>
     <!-- Lock screen cover art -->
     <string name="lockscreen_media_art_title">Hiển thị ảnh bìa phương tiện</string>
     <!-- Button that controls inversion of layout of navigation bar -->
