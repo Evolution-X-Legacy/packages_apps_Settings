@@ -109,8 +109,6 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Εφαρμογές πλήρης οθόνης</string>
     <string name="display_cutout_force_fullscreen_summary">Εξαναγκασμένη αγνόηση εγκοπής στην οθόνη από τις εφαρμογές</string>
-    <!-- In-call feedback -->
-    <string name="incall_feeedback_vibrate_title">Ένδειξη κατάστασης κλήσης με δόνηση</string>
     <!-- Fingerprint authentication vibration -->
     <string name="fp_success_auth_vib_title">Ταυτοποίηση με χρήση δακτυλικών αποτυπωμάτων</string>
     <string name="fp_success_auth_vib_summary">Δόνηση σε επιτυχές έλεγχο δαχτυλικού αποτυπώματος</string>
