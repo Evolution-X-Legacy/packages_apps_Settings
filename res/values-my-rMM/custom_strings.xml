@@ -109,8 +109,6 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">မျက်နှာပြင်အပြည့်ပေါ်ပေးသည့် အက်ပ်များ</string>
     <string name="display_cutout_force_fullscreen_summary">Ignore notch space for selected applications</string>
-    <!-- In-call feedback -->
-    <string name="incall_feeedback_vibrate_title">ဖုန်း၀င်သွားသည့်အခါ ဖုန်းကို တုန်ခါရန် သို့  တုန်ခါမှုမရှိရန် ပေးထားမှု ရှိမရှိ</string>
     <!-- Fingerprint authentication vibration -->
     <string name="fp_success_auth_vib_title">လက်ဗွေရာအသုံးပြုသည့် လုံခြုံရေး</string>
     <string name="fp_success_auth_vib_summary">လက်ဗွေရာဖြင့် ဖုန်းကိုဖွင့်ရာတွင် ပွင့်သွားသည့်အခါ ဖုန်းကို တုန်ခါစေမည်။</string>
