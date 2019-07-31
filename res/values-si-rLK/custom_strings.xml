@@ -109,8 +109,6 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">ෆුල් ස්ක්‍රීන් ඇප්ස්</string>
     <string name="display_cutout_force_fullscreen_summary">තෝරාගත් ඇප් සදහා නොච් එක දෙපස අත්හිටුවන්න</string>
-    <!-- In-call feedback -->
-    <string name="incall_feeedback_vibrate_title">ඇමතුමේ තත්වය හෙළි කිරීමට වයිබ්‍රේට් වීම</string>
     <!-- Fingerprint authentication vibration -->
     <string name="fp_success_auth_vib_title">ඇගිලි සලකුණු සත්‍යාපනය</string>
     <string name="fp_success_auth_vib_summary">නිවැරදි ඇගිලි සලකුණු සත්‍යාපනයේ දී වයිබ්‍රේට් වීම</string>
