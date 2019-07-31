@@ -116,9 +116,6 @@ Notch: Aplicações em ecrã cheio</string>
     <!-- Fingerprint authentication vibration -->
     <string name="fp_success_auth_vib_title">Autenticação por impressão digital</string>
     <string name="fp_success_auth_vib_summary">Vibrar na autenticação bem sucedida da impressão digital</string>
-    <!-- Double tap to sleep on status bar or lockscreen -->
-    <string name="status_bar_double_tap_to_sleep_title">Toque duplo para desligar ecrã</string>
-    <string name="status_bar_double_tap_to_sleep_summary">Dê um toque duplo na barra de estado para desligar o ecrã</string>
     <!-- Lock screen cover art -->
     <string name="lockscreen_media_art_title">Mostrar capa do álbum</string>
     <!-- Button that controls inversion of layout of navigation bar -->
