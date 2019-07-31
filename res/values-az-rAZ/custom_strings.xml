@@ -16,6 +16,9 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Evolution X version -->
+    <string name="evolution_version">Evolution X version</string>
+    <string name="evolution_version_default">Unknown</string>
     <!-- Fingerprint location message -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Telefonunuzun ön tərəfindəki barmaq izi sensorunu tapın.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Telefonunuzun sol tərəfindəki barmaq izi sensorunu tapın.</string>
