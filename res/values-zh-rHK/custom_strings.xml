@@ -115,9 +115,6 @@
     <!-- Fingerprint authentication vibration -->
     <string name="fp_success_auth_vib_title">指紋認證</string>
     <string name="fp_success_auth_vib_summary">振動成功的指紋認證</string>
-    <!-- Double tap to sleep on status bar or lockscreen -->
-    <string name="status_bar_double_tap_to_sleep_title">點按即可入睡</string>
-    <string name="status_bar_double_tap_to_sleep_summary">雙擊狀態欄或鎖定屏幕以關閉顯示屏</string>
     <!-- Lock screen cover art -->
     <string name="lockscreen_media_art_title">顯示媒體封面</string>
     <!-- Button that controls inversion of layout of navigation bar -->
