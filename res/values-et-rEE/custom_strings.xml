@@ -17,8 +17,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Evolution X version -->
-    <string name="evolution_version">Evolution X version</string>
-    <string name="evolution_version_default">Unknown</string>
+    <string name="evolution_version">Evolution X versioon</string>
+    <string name="evolution_version_default">Tundmatu</string>
     <!-- Fingerprint location message -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Leidke enda telefoni esiküljel olev sõrmejäljeandur.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Leidke enda telefoni vasakul küljel olev sõrmejäljeandur.</string>
@@ -210,112 +210,112 @@
     <string name="dark_theme_style_default">Vaikimisi</string>
     <string name="dark_theme_style_black">Must</string>
     <!-- Evolution X settings -->
-    <string name="evolution_settings_summary">The Evolution of Open source. #KeepEvolving</string>
+    <string name="evolution_settings_summary">Vajuta minule! #KeepEvolving</string>
     <!-- Notification log -->
-    <string name="notification_log_summary">Show notifications history log</string>
+    <string name="notification_log_summary">Kuva teate ajaloo logi</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_data">Cellular data</string>
-    <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
-    <string name="data_usage_app_restrict_vpn">VPN data</string>
-    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
-    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_data">Mobiilne andmeside</string>
+    <string name="data_usage_app_restrict_data_summary">Luba mobiilse andmeside kasutus</string>
+    <string name="data_usage_app_restrict_vpn">VPN andmed</string>
+    <string name="data_usage_app_restrict_vpn_summary">Lubage VPN andmete kasutus</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi andmeside</string>
+    <string name="data_usage_app_restrict_wifi_summary">Luba Wi\u2011Fi andmeside kasutus</string>
     <!-- Manage applications, package string displayed in app snippet -->
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
-    <string name="status_deep_sleep">(Deep sleep: %1$d%2$s)</string>
+    <string name="status_deep_sleep">(Sügav uni: %1$d%2$s)</string>
     <!-- Media gestures -->
-    <string name="prevent_ringing_option_mute_no_media">Mute, no media</string>
-    <string name="prevent_ringing_option_mute_no_media_summary">On (mute, no media)</string>
-    <string name="full_gesture_mode_title">Enable full gesture mode</string>
-    <string name="full_gesture_mode_summary">This mode disables the back button and you can trigger a back button action by a left swipe on navbar. Right swipe still triggers the last-app and the overview apps scrolling. To go home you can tap on any navbar empty space, not only the home button. When keyboard is showing, long press on navbar to move the text cursor.</string>
-    <string name="full_gesture_mode_dt2s_title">Enable double tap to sleep</string>
-    <string name="full_gesture_mode_dt2s_summary">Tap on an empty navbar space but not the home button to switch the screen off.</string>
+    <string name="prevent_ringing_option_mute_no_media">Vaigista, meedia puudub</string>
+    <string name="prevent_ringing_option_mute_no_media_summary">Sees (vaigista, meedia puudub)</string>
+    <string name="full_gesture_mode_title">Luba täielik žestirežiim</string>
+    <string name="full_gesture_mode_summary">See režiim blokeerib tagasi-nupu ja saate käivitada nuppuklahvi abil vasakpoolse nihutamise nupu tagasi. Parempoolne pühkimine käivitab endiselt viimase rakenduse ja rakenduste kerimise. Kodu juurde minemiseks võite puudutada mis tahes naviriba tühja ruumi, mitte ainult kodu nuppu. Kui klaviatuur kuvatakse, vajutage teksti kursori liigutamiseks pikalt klahvile.</string>
+    <string name="full_gesture_mode_dt2s_title">Luba topeltkoputus uinumiseks</string>
+    <string name="full_gesture_mode_dt2s_summary">Puudutage tühja naviriba, aga mitte avakuva nuppu ekraani väljalülitamiseks.</string>
     <!-- Scramble PIN Layout on Lockscreen -->
-    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
-    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+    <string name="unlock_scramble_pin_layout_title">Segatud paigutus</string>
+    <string name="unlock_scramble_pin_layout_summary">Sega PIN paigutust seadme lahtilukustamisel</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Reset stats</string>
-    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+    <string name="battery_stats_reset">Nulli näidud</string>
+    <string name="battery_stats_message">Akukasutamise ajalugu nullitakse</string>
     <string name="ok_string">Ok</string>
-    <string name="fp_swipe_to_dismiss_notifications_title">Swipe fingerprint left or right to dismiss notifications</string>
-    <string name="fp_swipe_to_dismiss_notifications_summary">To dismiss your notifications, swipe left or right on the fingerprint sensor on the back of your phone.</string>
+    <string name="fp_swipe_to_dismiss_notifications_title">Pühkige sõrmejälge vasakule või paremale, et teatised tagasi lükata</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">Teatiste tagasilükkamiseks libistage sõrme sõrmejälje anduril telefoni tagaküljel vasakule või paremale.</string>
     <!-- Custom light color -->
-    <string name="custom_light_title">Light color</string>
-    <string name="custom_light_on_time_title">Light ON time during led pulse (ms)</string>
-    <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)\"</string>
-    <string name="value_equals_default">def</string>
+    <string name="custom_light_title">Valguse värv</string>
+    <string name="custom_light_on_time_title">Valguse sisselülitusaeg impulsi ajal (ms)</string>
+    <string name="custom_light_off_time_title">Valguse väljalülitusaeg juhitud impulsi ajal (ms)\"</string>
+    <string name="value_equals_default">vaikimisi</string>
     <!-- Battery temp -->
-    <string name="battery_temp_title">Battery temperature</string>
+    <string name="battery_temp_title">Aku temperatuur</string>
     <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+    <string name="volume_link_notification_title">Ühenda helina &amp; teadete helitugevus</string>
     <!-- Expanded desktop -->
-    <string name="expanded_desktop_pref_title">Expanded desktop</string>
-    <string name="expanded_hide_nothing">Hide nothing</string>
-    <string name="expanded_hide_status">Hide status bar</string>
-    <string name="expanded_hide_navigation">Hide navigation bar</string>
-    <string name="expanded_hide_both">Hide both</string>
-    <string name="expanded_nothing_to_show">To add a custom per-app configuration for expanded state, set \"Enabled for all\" to the off position</string>
-    <string name="expanded_desktop_state">Expanded state</string>
-    <string name="expanded_enabled_for_all">Enabled for all</string>
-    <string name="expanded_user_configurable">User configurable</string>
-    <string name="expanded_desktop_style">Expanded desktop style</string>
-    <string name="expanded_desktop_style_description">Choose a default expanded desktop style</string>
-    <string name="expanded_desktop_title">Expanded desktop options</string>
+    <string name="expanded_desktop_pref_title">Laiendatud töölaud</string>
+    <string name="expanded_hide_nothing">Ära peida midagi</string>
+    <string name="expanded_hide_status">Peida olekuriba</string>
+    <string name="expanded_hide_navigation">Peida navigeerimisriba</string>
+    <string name="expanded_hide_both">Peida mõlemad</string>
+    <string name="expanded_nothing_to_show">Kohandatud rakenduse konfiguratsiooni lisamiseks laiendatud olekusse seadke \"Lubatud kõigile\" välja lülitatud asendisse</string>
+    <string name="expanded_desktop_state">Laiendatud olek</string>
+    <string name="expanded_enabled_for_all">Lubatud kõigile</string>
+    <string name="expanded_user_configurable">Kasutaja seadistatav</string>
+    <string name="expanded_desktop_style">Laiendatud töölaua stiil</string>
+    <string name="expanded_desktop_style_description">Valige vaikimisi laiendatud töölaua stiil</string>
+    <string name="expanded_desktop_title">Laiendatud töölaua valikud</string>
     <!-- Doze on Charge -->
-    <string name="doze_on_charge_title">Show when charging</string>
-    <string name="doze_on_charge_summary">Wake screen when charging</string>
+    <string name="doze_on_charge_title">Näita, kui laeb</string>
+    <string name="doze_on_charge_summary">Ärata ekraan laadimisel</string>
     <!-- Fingerprint unlock keystore -->
-    <string name="fp_unlock_keystore_title">FP unlock</string>
-    <string name="fp_unlock_keystore_summary">Unlock with fingerprint even after a reboot without PIN/Password/Pattern\nNote: Use at your own risk!</string>
+    <string name="fp_unlock_keystore_title">Sõrmejäljega avamine</string>
+    <string name="fp_unlock_keystore_summary">Avage sõrmejäljega pärast taaskäivitust ilma PIN/Parooli/Mustrita\nMärkus: kasutage omal vastutusel!</string>
     <!-- Aggressive battery -->
-    <string name="aggressive_battery_title">Aggressive Battery</string>
-    <string name="aggressive_battery_summary">More strict battery savings</string>
-    <string name="aggressive_battery_warning_text">These are power saving features. They may interfere with services intended to run at idle, like navigation apps. You can whitelist these apps from being affected in the app battery settings.</string>
-    <string name="aggressive_idle_title">Aggressive Idle</string>
-    <string name="aggressive_idle_summary">Enter device idle more frequently and wake up less</string>
-    <string name="aggressive_standby_title">Aggressive Standby</string>
-    <string name="aggressive_standby_summary">Restrict apps from running the background</string>
-    <string name="aggressive_battery_saver_title">Auto-enable on battery saver </string>
-    <string name="aggressive_battery_saver_summary">Enable Aggressive Battery automatically when using battery saver</string>
+    <string name="aggressive_battery_title">Agressiivne aku</string>
+    <string name="aggressive_battery_summary">Range aku säästmine</string>
+    <string name="aggressive_battery_warning_text">Need on energiasäästufunktsioonid. Nad võivad segada teenuseid, mis on mõeldud töötama tühikäigul, nagu navigeerimisrakendused. Patare rakenduse seadetes saab neid rakendusi mõjutada.</string>
+    <string name="aggressive_idle_title">Agressiivne ooterežiim</string>
+    <string name="aggressive_idle_summary">Sisestage seade sagedamini tühikäigul ja äratage vähem</string>
+    <string name="aggressive_standby_title">Agressiivne ooterežiim</string>
+    <string name="aggressive_standby_summary">Piirake rakendusi taustal</string>
+    <string name="aggressive_battery_saver_title">Auto-luba akusäästja </string>
+    <string name="aggressive_battery_saver_summary">Aktiveerige aku säästmisel aku automaatselt</string>
     <!-- Battery saving mode for Location - GPS will be disabled -->
-    <string name="location_mode_battery_saving_title">Battery saving mode</string>
-    <string name="location_mode_battery_saving_summary">Use only Wi\u2011Fi, Bluetooth, or mobile networks to determine location (less accurate)</string>
+    <string name="location_mode_battery_saving_title">Aku säästmise režiim</string>
+    <string name="location_mode_battery_saving_summary">Kasutage asukoha määramiseks ainult Wi\u2011Fi, Bluetooth või mobiilsidevõrke (vähem täpne)</string>
     <!-- Font picker -->
-    <string name="font_picker_title">System Font</string>
-    <string name="font_picker_progress">Applying new font\u2026</string>
-    <string name="disable_fonts_installed_title">Font picker is unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use the system font picker.</string>
+    <string name="font_picker_title">Süsteemifont</string>
+    <string name="font_picker_progress">Uue fondi kasutamine\u2026</string>
+    <string name="disable_fonts_installed_title">Substratumiga konfliktide vältimiseks pole fontide valija saadaval. Kui soovite süsteemi fontide valijat kasutada, eemaldage see.</string>
     <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
-    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+    <string name="unlock_quick_unlock_control_title">Kiiravamine</string>
+    <string name="unlock_quick_unlock_control_summary">Ava automaatselt kui õige PIN/parool on sisestatud</string>
     <!-- Running services -->
-    <string name="background_processes_settings_title">Background processes</string>
-    <string name="doze_trigger_title">When to show</string>
+    <string name="background_processes_settings_title">Tausta protsessid</string>
+    <string name="doze_trigger_title">Millal näidata</string>
     <!-- Doze on double tap -->
-    <string name="double_tap_title">Double tap</string>
-    <string name="doze_double_tap_title">Double tap to check phone</string>
-    <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
+    <string name="double_tap_title">Topeltpuudutus</string>
+    <string name="doze_double_tap_title">Telefoni vaatamiseks topeltpuudutage</string>
+    <string name="doze_double_tap_summary">Tõmmake teatised topeltpuudutusega</string>
     <!-- Selinux -->
-    <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">Disabled</string>
-    <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
+    <string name="selinux_status">SELinux\'i olek</string>
+    <string name="selinux_status_disabled">Keelatud</string>
+    <string name="selinux_status_permissive">Lubav</string>
+    <string name="selinux_status_enforcing">Sundiv</string>
     <!-- Sizes for pattern lockscreen -->
-    <string name="lock_settings_picker_pattern_size_message">Choose a pattern size</string>
+    <string name="lock_settings_picker_pattern_size_message">Vali mustri suurus</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
-    <string name="lockpattern_settings_enable_error_path_title">Show pattern error</string>
+    <string name="lockpattern_settings_enable_error_path_title">Näita mustrit tõrget</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
-    <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
+    <string name="lockpattern_settings_enable_dots_title">Näita mustri punkte</string>
     <!-- Lock screen vibrate settings -->
-    <string name="lockscreen_vibrate_enabled_title">Vibrate</string>
-    <string name="lockscreen_vibrate_enabled_head">Vibrate when unlocking</string>
+    <string name="lockscreen_vibrate_enabled_title">Vibreeri</string>
+    <string name="lockscreen_vibrate_enabled_head">Vibreeri lahtilukustamisel</string>
     <!-- Notification sound timeout -->
-    <string name="app_notification_sound_timeout_title">Minimum time between notification sounds</string>
-    <string name="app_notification_sound_timeout_summary_template">Allow sounds or vibration no more than once every <xliff:g id="duration">%1$s</xliff:g></string>
-    <string name="app_notification_sound_timeout_value_none">No restriction</string>
-    <string name="app_notification_sound_timeout_value_10_seconds">10 seconds</string>
-    <string name="app_notification_sound_timeout_value_30_seconds">30 seconds</string>
-    <string name="app_notification_sound_timeout_value_1_minute">1 minute</string>
-    <string name="app_notification_sound_timeout_value_5_minutes">5 minutes</string>
-    <string name="app_notification_sound_timeout_value_15_minutes">10 minutes</string>
-    <string name="app_notification_sound_timeout_value_30_minutes">30 minutes</string>
+    <string name="app_notification_sound_timeout_title">Väikseim aeg teavitushelide vahel</string>
+    <string name="app_notification_sound_timeout_summary_template">Ära luba heli või vibratsiooni rohkem kui üks kord iga <xliff:g id="duration">%1$s </xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">Piiranguid ei ole</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 sekundit</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 sekundit</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 minut</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 minutit</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 minutit</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 minutit</string>
 </resources>
