@@ -16,10 +16,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
    <!-- Force authorize substratum packages -->
-   <string name="force_authorize_substratum_packages_title">Force authorize every theme app</string>
-   <string name="force_authorize_substratum_packages_summary">Allow theme apps from unknown sources</string>
+   <string name="force_authorize_substratum_packages_title">Teema rakendusi jõuga autoriseerima</string>
+   <string name="force_authorize_substratum_packages_summary">Luba teemarakendusi tundmatutelt allikatelt</string>
    <!-- Manage applications: show substratum overlays -->
-   <string name="filter_substratum_apps">Substratum overlays</string>
-   <string name="menu_show_substratum">Show overlays</string>
-   <string name="menu_hide_substratum">Hide overlays</string>
+   <string name="filter_substratum_apps">Substratumi ülekatted</string>
+   <string name="menu_show_substratum">Näita ülekatteid</string>
+   <string name="menu_hide_substratum">Peida ülekatted</string>
 </resources>
