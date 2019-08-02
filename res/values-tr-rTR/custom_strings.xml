@@ -17,8 +17,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Evolution X version -->
-    <string name="evolution_version">Evolution X version</string>
-    <string name="evolution_version_default">Unknown</string>
+    <string name="evolution_version">Evolution X sürümü</string>
+    <string name="evolution_version_default">Bilinmiyor</string>
     <!-- Fingerprint location message -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Telefonunuzun önünde bulunan parmak izi sensörünü bulun.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Telefonunuzun sol tarafında bulunan parmak izi sensörünü bulun.</string>
@@ -309,13 +309,13 @@
     <string name="lockscreen_vibrate_enabled_title">Titreşim</string>
     <string name="lockscreen_vibrate_enabled_head">Kilidi açarken titret</string>
     <!-- Notification sound timeout -->
-    <string name="app_notification_sound_timeout_title">Minimum time between notification sounds</string>
-    <string name="app_notification_sound_timeout_summary_template">Allow sounds or vibration no more than once every <xliff:g id="duration">%1$s</xliff:g></string>
-    <string name="app_notification_sound_timeout_value_none">No restriction</string>
-    <string name="app_notification_sound_timeout_value_10_seconds">10 seconds</string>
-    <string name="app_notification_sound_timeout_value_30_seconds">30 seconds</string>
-    <string name="app_notification_sound_timeout_value_1_minute">1 minute</string>
-    <string name="app_notification_sound_timeout_value_5_minutes">5 minutes</string>
-    <string name="app_notification_sound_timeout_value_15_minutes">10 minutes</string>
-    <string name="app_notification_sound_timeout_value_30_minutes">30 minutes</string>
+    <string name="app_notification_sound_timeout_title">Bildirim sesleri arasında en az zaman</string>
+    <string name="app_notification_sound_timeout_summary_template">Her <xliff:g id="duration">%1$s</xliff:g>\'de bir defadan fazla olmayacak şekilde ses veya titreşime izin ver</string>
+    <string name="app_notification_sound_timeout_value_none">Kısıtlama yok</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 saniye</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 saniye</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 dakika</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 dakika</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 dakika</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 dakika</string>
 </resources>
