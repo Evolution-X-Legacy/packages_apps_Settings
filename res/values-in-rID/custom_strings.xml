@@ -17,8 +17,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Evolution X version -->
-    <string name="evolution_version">Evolution X version</string>
-    <string name="evolution_version_default">Unknown</string>
+    <string name="evolution_version">Versi Evolution X</string>
+    <string name="evolution_version_default">Tidak diketahui</string>
     <!-- Fingerprint location message -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Temukan lokasi pemindai sidik jari di bagian depan telepon anda.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Tentukan lokasi sensor sidik jari di samping kiri telepon anda.</string>
@@ -100,7 +100,7 @@
     <string name="thermal_control_per_app">Profil pengoptimalan</string>
     <string name="thermal_control_per_app_default">Tidak ada optimisasi</string>
     <string name="thermal_control_per_app_benchmark">Performa</string>
-    <string name="thermal_control_per_app_games">Games</string>
+    <string name="thermal_control_per_app_games">Permainan</string>
     <string name="thermal_control_per_app_browser">Peramban</string>
     <string name="thermal_control_per_app_video_playback">Pemutar Video</string>
     <string name="thermal_control_per_app_dialer">Pemanggil</string>
@@ -139,7 +139,7 @@
     <string name="others_settings_title">Pengaturan Lain</string>
     <string name="additional_buttons_title">Tombol tambahan</string>
     <!-- Status bar -->
-    <string name="status_bar_title">Status bar</string>
+    <string name="status_bar_title">Bar Status</string>
     <string name="lockscreen_qs_disabled_title">Nonaktifkan pada layar kunci</string>
     <string name="lockscreen_qs_disabled_summary">Matikan bilah status diperluas di layar kunci terlindungi</string>
     <string name="status_bar_quick_qs_pulldown_title">Keruntuhan cepat</string>
@@ -281,7 +281,7 @@
     <string name="location_mode_battery_saving_title">Mode hemat baterai</string>
     <string name="location_mode_battery_saving_summary">Gunakan hanya Wi\u2011Fi, Bluetooth, atau jaringan seluler untuk menentukan lokasi (kurang akurat)</string>
     <!-- Font picker -->
-    <string name="font_picker_title">System Font</string>
+    <string name="font_picker_title">Huruf Sistem</string>
     <string name="font_picker_progress">Menerapkan font baru\u2026</string>
     <string name="disable_fonts_installed_title">Pemilih huruf tidak tersedia untuk menghindari konflik dengan Substratum. Copot pemasangan jika Anda ingin menggunakan pemilih huruf dari sistem.</string>
     <!-- Quick unlock -->
@@ -309,13 +309,13 @@
     <string name="lockscreen_vibrate_enabled_title">Getar</string>
     <string name="lockscreen_vibrate_enabled_head">Bergetar saat membuka kunci</string>
     <!-- Notification sound timeout -->
-    <string name="app_notification_sound_timeout_title">Minimum time between notification sounds</string>
-    <string name="app_notification_sound_timeout_summary_template">Allow sounds or vibration no more than once every <xliff:g id="duration">%1$s</xliff:g></string>
-    <string name="app_notification_sound_timeout_value_none">No restriction</string>
-    <string name="app_notification_sound_timeout_value_10_seconds">10 seconds</string>
-    <string name="app_notification_sound_timeout_value_30_seconds">30 seconds</string>
-    <string name="app_notification_sound_timeout_value_1_minute">1 minute</string>
-    <string name="app_notification_sound_timeout_value_5_minutes">5 minutes</string>
-    <string name="app_notification_sound_timeout_value_15_minutes">10 minutes</string>
-    <string name="app_notification_sound_timeout_value_30_minutes">30 minutes</string>
+    <string name="app_notification_sound_timeout_title">Waktu minimum antara suara pemberitahuan</string>
+    <string name="app_notification_sound_timeout_summary_template">Biarkan suara atau getaran tidak lebih dari sekali setiap<xliff:g id="duration">%1$s</xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">Tidak ada pembatasan</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 detik</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 detik</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 menit</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 menit</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 menit</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 menit</string>
 </resources>
