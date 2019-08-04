@@ -237,6 +237,10 @@
     <string name="evolution_settings_title" translatable="false">Evolution Xtras</string>
     <string name="evolution_settings_summary">The Evolution of Open source. #KeepEvolving</string>
 
+    <!-- Evolution X version -->
+    <string name="evolution_version">Evolution X version</string>
+    <string name="evolution_version_default">Unknown</string>
+
     <!-- Notification log -->
     <string name="notification_log_summary">Show notifications history log</string>
 
