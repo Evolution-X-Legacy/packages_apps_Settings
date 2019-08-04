@@ -17,8 +17,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Evolution X version -->
-    <string name="evolution_version">Evolution X version</string>
-    <string name="evolution_version_default">Unknown</string>
+    <string name="evolution_version">Evolution X 版本</string>
+    <string name="evolution_version_default">未知</string>
     <!-- Fingerprint location message -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front">您可以在手机正面找到指纹传感器</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left">您可以在手机左侧找到指纹传感器</string>
@@ -184,9 +184,9 @@
     <string name="live_display_color_profile_adaptive_summary">颜色根据环境条件自适应</string>
     <string name="live_display_color_profile_reading_title">阅读</string>
     <string name="live_display_color_profile_reading_summary">使用暖色调以减少视疲劳</string>
-    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_title">sRGB色彩标准</string>
     <string name="live_display_color_profile_srgb_summary">颜色校准到 sRGB 色彩空间</string>
-    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3色彩标准</string>
     <string name="live_display_color_profile_dci_p3_summary">色彩精确到 DCI-P3 色域</string>
     <string name="live_display_reading_mode_title">阅读模式</string>
     <string name="live_display_reading_mode_summary">适合长时间阅读的灰度模式</string>
@@ -309,13 +309,13 @@
     <string name="lockscreen_vibrate_enabled_title">振动</string>
     <string name="lockscreen_vibrate_enabled_head">解锁时振动</string>
     <!-- Notification sound timeout -->
-    <string name="app_notification_sound_timeout_title">Minimum time between notification sounds</string>
-    <string name="app_notification_sound_timeout_summary_template">Allow sounds or vibration no more than once every <xliff:g id="duration">%1$s</xliff:g></string>
-    <string name="app_notification_sound_timeout_value_none">No restriction</string>
-    <string name="app_notification_sound_timeout_value_10_seconds">10 seconds</string>
-    <string name="app_notification_sound_timeout_value_30_seconds">30 seconds</string>
-    <string name="app_notification_sound_timeout_value_1_minute">1 minute</string>
-    <string name="app_notification_sound_timeout_value_5_minutes">5 minutes</string>
-    <string name="app_notification_sound_timeout_value_15_minutes">10 minutes</string>
-    <string name="app_notification_sound_timeout_value_30_minutes">30 minutes</string>
+    <string name="app_notification_sound_timeout_title">最短通知铃声间隔</string>
+    <string name="app_notification_sound_timeout_summary_template">每 <xliff:g id="duration">%1$s</xliff:g> 允许一次响铃或振动</string>
+    <string name="app_notification_sound_timeout_value_none">无限制</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 秒</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 秒</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 分钟</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 分钟</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 分钟</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 分钟</string>
 </resources>
