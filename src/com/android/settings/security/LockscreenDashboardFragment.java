@@ -17,14 +17,26 @@
 package com.android.settings.security;
 
 import android.content.Context;
+import android.os.UserHandle;
 import android.provider.SearchIndexableResource;
 import android.support.annotation.VisibleForTesting;
 
+import com.android.internal.hardware.AmbientDisplayConfiguration;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.R;
 import com.android.settings.dashboard.DashboardFragment;
+import com.android.settings.display.AmbientDisplayAlwaysOnPreferenceController;
+import com.android.settings.display.AmbientDisplayAlwaysOnPreferenceController.OnPreferenceChangedCallback;
+import com.android.settings.display.AmbientDisplayCustomPreferenceController;
+import com.android.settings.display.AmbientDisplayNotificationsPreferenceController;
+import com.android.settings.gestures.DoubleTapScreenPreferenceController;
+import com.android.settings.gestures.PickupGesturePreferenceController;
 import com.android.settings.notification.LockScreenNotificationPreferenceController;
+import com.android.settings.overlay.FeatureFactory;
 import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settings.search.Indexable;
+import com.android.settings.security.OwnerInfoPreferenceController.OwnerInfoCallback;
+import com.android.settings.security.screenlock.LockScreenPreferenceController;
 import com.android.settings.users.AddUserWhenLockedPreferenceController;
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.lifecycle.Lifecycle;
@@ -53,6 +65,7 @@ public class LockscreenDashboardFragment extends DashboardFragment
     static final String KEY_ADD_USER_FROM_LOCK_SCREEN =
             "security_lockscreen_add_users_when_locked";
 
+    private AmbientDisplayConfiguration mConfig;
     private OwnerInfoPreferenceController mOwnerInfoPreferenceController;
 
     @Override
@@ -73,6 +86,18 @@ public class LockscreenDashboardFragment extends DashboardFragment
     @Override
     public int getHelpResource() {
         return R.string.help_url_lockscreen;
+    }
+
+    @Override
+    public void onAttach(Context context) {
+        super.onAttach(context);
+        use(AmbientDisplayAlwaysOnPreferenceController.class)
+            .setConfig(getConfig(context))
+            .setCallback(this::updatePreferenceStates);
+        use(AmbientDisplayNotificationsPreferenceController.class).setConfig(getConfig(context));
+        use(DoubleTapScreenPreferenceController.class).setConfig(getConfig(context));
+        use(PickupGesturePreferenceController.class).setConfig(getConfig(context));
+        addPreferenceController(new AmbientDisplayCustomPreferenceController(context));
     }
 
     @Override
@@ -134,4 +159,11 @@ public class LockscreenDashboardFragment extends DashboardFragment
                     return niks;
                 }
             };
+
+    private AmbientDisplayConfiguration getConfig(Context context) {
+        if (mConfig == null) {
+            mConfig = new AmbientDisplayConfiguration(context);
+        }
+        return mConfig;
+    }
 }
