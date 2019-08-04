@@ -41,10 +41,11 @@
         android:summary="@string/face_auto_unlock_summary"
         android:defaultValue="@*android:bool/config_autoFaceUnlockEnabledByDefault" />
 
-    <SwitchPreference
-        android:key="security_setting_lockdown_enabled"
+    <com.evolution.settings.preferences.SystemSettingSwitchPreference
+        android:key="powermenu_lockdown"
         android:title="@string/lockdown_settings_title"
-        android:summary="@string/lockdown_settings_summary" />
+        android:summary="@string/lockdown_settings_summary"
+        android:defaultValue="false" />
 
     <PreferenceCategory
         android:key="weather_lockscreen_key"
