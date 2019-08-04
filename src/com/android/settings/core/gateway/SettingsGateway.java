@@ -75,6 +75,7 @@ import com.android.settings.deviceinfo.PublicVolumeSettings;
 import com.android.settings.deviceinfo.StorageDashboardFragment;
 import com.android.settings.deviceinfo.StorageSettings;
 import com.android.settings.deviceinfo.aboutphone.MyDeviceInfoFragment;
+import com.android.settings.deviceinfo.firmwareversion.FirmwareVersionSettings;
 import com.android.settings.display.NightDisplaySettings;
 import com.android.settings.dream.DreamSettings;
 import com.android.settings.enterprise.EnterprisePrivacySettings;
@@ -177,6 +178,7 @@ public class SettingsGateway {
             DeviceInfoSettings.class.getName(),
             MyDeviceInfoFragment.class.getName(),
             ManageApplications.class.getName(),
+            FirmwareVersionSettings.class.getName(),
             ManageAssist.class.getName(),
             ProcessStatsUi.class.getName(),
             NotificationStation.class.getName(),

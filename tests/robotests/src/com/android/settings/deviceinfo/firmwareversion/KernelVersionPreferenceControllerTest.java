@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017 The Android Open Source Project
+ * Copyright (C) 2019 The Android Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,39 +16,36 @@
 
 package com.android.settings.deviceinfo.firmwareversion;
 
-import static com.android.settings.deviceinfo.firmwareversion.BuildNumberDialogController.BUILD_NUMBER_VALUE_ID;
-import static org.mockito.Mockito.verify;
+import static com.google.common.truth.Truth.assertThat;
 
-import android.os.Build;
-import android.text.BidiFormatter;
+import android.content.Context;
 
-import com.android.settings.testutils.SettingsRobolectricTestRunner;
+import com.android.settingslib.DeviceInfoUtils;
 
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
+import org.robolectric.RobolectricTestRunner;
+import org.robolectric.RuntimeEnvironment;
 
-@RunWith(SettingsRobolectricTestRunner.class)
-public class BuildNumberDialogControllerTest {
+@RunWith(RobolectricTestRunner.class)
+public class KernelVersionPreferenceControllerTest {
 
-    @Mock
-    private FirmwareVersionDialogFragment mDialog;
 
-    private BuildNumberDialogController mController;
+    private Context mContext;
+    private KernelVersionPreferenceController mController;
 
     @Before
     public void setup() {
         MockitoAnnotations.initMocks(this);
-        mController = new BuildNumberDialogController(mDialog);
+        mContext = RuntimeEnvironment.application;
+        mController = new KernelVersionPreferenceController(mContext, "key");
     }
 
     @Test
-    public void initialize_shouldUpdateBuildNumberToDialog() {
-        mController.initialize();
-
-        verify(mDialog)
-            .setText(BUILD_NUMBER_VALUE_ID, BidiFormatter.getInstance().unicodeWrap(Build.DISPLAY));
+    public void getSummary_shouldGetKernalVersion() {
+        assertThat(mController.getSummary()).isEqualTo(
+                DeviceInfoUtils.getFormattedKernelVersion(mContext));
     }
 }

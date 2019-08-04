@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017 The Android Open Source Project
+ * Copyright (C) 2019 The Android Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -18,13 +18,15 @@ package com.android.settings.deviceinfo.firmwareversion;
 
 import android.content.Context;
 import android.os.Build;
+import android.text.BidiFormatter;
 
 import com.android.settings.core.BasePreferenceController;
 
-public class FirmwareVersionPreferenceController extends BasePreferenceController {
+public class SimpleBuildNumberPreferenceController extends BasePreferenceController {
 
-    public FirmwareVersionPreferenceController(Context context, String key) {
-        super(context, key);
+    public SimpleBuildNumberPreferenceController(Context context,
+            String preferenceKey) {
+        super(context, preferenceKey);
     }
 
     @Override
@@ -34,6 +36,6 @@ public class FirmwareVersionPreferenceController extends BasePreferenceControlle
 
     @Override
     public CharSequence getSummary() {
-        return Build.VERSION.RELEASE;
+        return BidiFormatter.getInstance().unicodeWrap(Build.DISPLAY);
     }
 }

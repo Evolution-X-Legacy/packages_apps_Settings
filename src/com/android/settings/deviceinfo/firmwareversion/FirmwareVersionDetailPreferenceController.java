@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017 The Android Open Source Project
+ * Copyright (C) 2019 The Android Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -19,43 +19,61 @@ package com.android.settings.deviceinfo.firmwareversion;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
+import android.os.Build.VERSION;
 import android.os.SystemClock;
 import android.os.UserHandle;
 import android.os.UserManager;
 import android.support.annotation.VisibleForTesting;
+import android.support.v7.preference.Preference;
+import android.text.TextUtils;
 import android.util.Log;
-import android.view.View;
 
+import com.android.internal.app.PlatLogoActivity;
 import com.android.settings.R;
+import com.android.settings.Utils;
+import com.android.settings.core.BasePreferenceController;
 import com.android.settingslib.RestrictedLockUtils;
 
-public class FirmwareVersionDialogController implements View.OnClickListener {
+public class FirmwareVersionDetailPreferenceController extends BasePreferenceController {
 
     private static final String TAG = "firmwareDialogCtrl";
     private static final int DELAY_TIMER_MILLIS = 500;
     private static final int ACTIVITY_TRIGGER_COUNT = 3;
 
-    @VisibleForTesting
-    static final int FIRMWARE_VERSION_VALUE_ID = R.id.firmware_version_value;
-    @VisibleForTesting
-    static final int FIRMWARE_VERSION_LABEL_ID = R.id.firmware_version_label;
-
-    private final FirmwareVersionDialogFragment mDialog;
-    private final Context mContext;
     private final UserManager mUserManager;
     private final long[] mHits = new long[ACTIVITY_TRIGGER_COUNT];
 
     private RestrictedLockUtils.EnforcedAdmin mFunDisallowedAdmin;
     private boolean mFunDisallowedBySystem;
 
-    public FirmwareVersionDialogController(FirmwareVersionDialogFragment dialog) {
-        mDialog = dialog;
-        mContext = dialog.getContext();
+    public FirmwareVersionDetailPreferenceController(Context context, String key) {
+        super(context, key);
         mUserManager = (UserManager) mContext.getSystemService(Context.USER_SERVICE);
+        initializeAdminPermissions();
     }
 
     @Override
-    public void onClick(View v) {
+    public int getAvailabilityStatus() {
+        return AVAILABLE;
+    }
+
+    @Override
+    public boolean isSliceable() {
+        return true;
+    }
+
+    @Override
+    public CharSequence getSummary() {
+        return VERSION.RELEASE;
+    }
+
+    public boolean handlePreferenceTreeClick(Preference preference) {
+        if (!TextUtils.equals(preference.getKey(), getPreferenceKey())) {
+            return false;
+        }
+        if (Utils.isMonkeyRunning()) {
+            return false;
+        }
         arrayCopy();
         mHits[mHits.length - 1] = SystemClock.uptimeMillis();
         if (mHits[0] >= (SystemClock.uptimeMillis() - DELAY_TIMER_MILLIS)) {
@@ -65,7 +83,7 @@ public class FirmwareVersionDialogController implements View.OnClickListener {
                             mFunDisallowedAdmin);
                 }
                 Log.d(TAG, "Sorry, no fun for you!");
-                return;
+                return true;
             }
 
             final Intent intent = new Intent(Intent.ACTION_MAIN)
@@ -77,21 +95,7 @@ public class FirmwareVersionDialogController implements View.OnClickListener {
                 Log.e(TAG, "Unable to start activity " + intent.toString());
             }
         }
-    }
-
-    /**
-     * Populates the Android version field in the dialog and registers click listeners.
-     */
-    public void initialize() {
-        initializeAdminPermissions();
-        registerClickListeners();
-
-        mDialog.setText(FIRMWARE_VERSION_VALUE_ID, Build.VERSION.RELEASE);
-    }
-
-    private void registerClickListeners() {
-        mDialog.registerClickListener(FIRMWARE_VERSION_LABEL_ID, this /* listener */);
-        mDialog.registerClickListener(FIRMWARE_VERSION_VALUE_ID, this /* listener */);
+        return true;
     }
 
     /**
