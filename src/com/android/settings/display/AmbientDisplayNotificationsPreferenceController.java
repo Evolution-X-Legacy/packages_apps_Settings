@@ -30,8 +30,6 @@ import com.android.settings.R;
 import com.android.settings.core.TogglePreferenceController;
 import com.android.settings.overlay.FeatureFactory;
 import com.android.settings.search.DatabaseIndexingUtils;
-import com.android.settings.search.InlineSwitchPayload;
-import com.android.settings.search.ResultPayload;
 import com.android.settingslib.core.instrumentation.MetricsFeatureProvider;
 
 public class AmbientDisplayNotificationsPreferenceController extends
@@ -93,17 +91,5 @@ public class AmbientDisplayNotificationsPreferenceController extends
     @Override
     public boolean isSliceable() {
         return TextUtils.equals(getPreferenceKey(), "ambient_display_notification");
-    }
-
-    @Override
-    //TODO (b/69808376): Remove result payload
-    public ResultPayload getResultPayload() {
-        final Intent intent = DatabaseIndexingUtils.buildSearchResultPageIntent(mContext,
-                AmbientDisplaySettings.class.getName(), KEY_AMBIENT_DISPLAY_NOTIFICATIONS,
-                mContext.getString(R.string.ambient_display_screen_title));
-
-        return new InlineSwitchPayload(Settings.Secure.DOZE_ENABLED,
-                ResultPayload.SettingsSource.SECURE, ON /* onValue */, intent, isAvailable(),
-                ON /* defaultValue */);
     }
 }

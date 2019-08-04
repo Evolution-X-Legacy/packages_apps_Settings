@@ -45,7 +45,6 @@ import com.android.settings.development.DevelopmentSettingsDashboardFragment;
 import com.android.settings.deviceinfo.DeviceInfoSettings;
 import com.android.settings.deviceinfo.StorageDashboardFragment;
 import com.android.settings.deviceinfo.StorageSettings;
-import com.android.settings.display.AmbientDisplaySettings;
 import com.android.settings.display.AutoBrightnessSettings;
 import com.android.settings.display.NightDisplaySettings;
 import com.android.settings.display.ScreenZoomSettings;
@@ -143,7 +142,6 @@ public class SearchIndexableResourcesImpl implements SearchIndexableResources {
         addIndex(ScreenZoomSettings.class);
         addIndex(DisplaySettings.class);
         addIndex(AutoBrightnessSettings.class);
-        addIndex(AmbientDisplaySettings.class);
         addIndex(WallpaperTypeSettings.class);
         addIndex(AppAndNotificationDashboardFragment.class);
         addIndex(SoundSettings.class);

@@ -25,8 +25,6 @@ import com.android.internal.hardware.AmbientDisplayConfiguration;
 import com.android.settings.R;
 import com.android.settings.core.TogglePreferenceController;
 import com.android.settings.search.DatabaseIndexingUtils;
-import com.android.settings.search.InlineSwitchPayload;
-import com.android.settings.search.ResultPayload;
 
 public class AmbientDisplayAlwaysOnPreferenceController extends TogglePreferenceController {
 
@@ -97,16 +95,5 @@ public class AmbientDisplayAlwaysOnPreferenceController extends TogglePreference
 
     public static boolean accessibilityInversionEnabled(AmbientDisplayConfiguration config) {
         return config.accessibilityInversionEnabled(MY_USER);
-    }
-
-    @Override
-    public ResultPayload getResultPayload() {
-        final Intent intent = DatabaseIndexingUtils.buildSearchResultPageIntent(mContext,
-                AmbientDisplaySettings.class.getName(), getPreferenceKey(),
-                mContext.getString(R.string.ambient_display_screen_title));
-
-        return new InlineSwitchPayload(Settings.Secure.DOZE_ALWAYS_ON,
-                ResultPayload.SettingsSource.SECURE, ON /* onValue */, intent, isAvailable(),
-                ON /* defaultValue */);
     }
 }

@@ -429,6 +429,7 @@
     <string name="connected_device_connections_title">Connection preferences</string>
     <!-- Title for Bluetooth preference to open paired but no connection list [CHAR LIMIT=none]-->
     <string name="connected_device_previously_connected_title">Previously connected devices</string>
+    <string name="previous_connected_see_all">See all</string>
 
     <!-- Date & time settings screen title -->
     <string name="date_and_time">Date &amp; time</string>
@@ -869,6 +870,7 @@
     <string name="decryption_settings_summary" product="tablet">Device not encrypted</string>
     <!-- Security Settings screen setting option title for the item to take you to the lock screen preference screen [CHAR LIMIT=60] -->
     <string name="lockscreen_settings_title">Lock screen preferences</string>
+    <string name="lockscreen_settings_what_to_show_category">What to show</string>
 
     <!-- Main Settings screen setting option summary text for the item tot ake you to the security and location screen -->
     <string name="security_settings_summary">Set My Location, screen unlock, SIM card lock, credential storage lock</string>
