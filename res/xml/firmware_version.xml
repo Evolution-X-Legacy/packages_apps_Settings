@@ -29,6 +29,12 @@
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController" />
 
     <Preference
+        android:title="@string/evolution_version"
+        android:key="os_evolution_version"
+        android:summary="@string/summary_placeholder"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.EvolutionVersionDetailPreferenceController" />
+
+    <Preference
         android:title="@string/security_patch"
         android:key="security_key"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.SecurityPatchLevelPreferenceController" />
