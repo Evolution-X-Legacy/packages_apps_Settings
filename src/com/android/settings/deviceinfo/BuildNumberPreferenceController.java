@@ -37,6 +37,7 @@ import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.R;
 import com.android.settings.Utils;
 import com.android.settings.core.PreferenceControllerMixin;
+import com.android.settings.deviceinfo.DeviceModelPreferenceController;
 import com.android.settings.overlay.FeatureFactory;
 import com.android.settings.password.ChooseLockSettingsHelper;
 import com.android.settingslib.RestrictedLockUtils;
@@ -94,6 +95,8 @@ public class BuildNumberPreferenceController extends AbstractPreferenceControlle
                     sb.append("\n");
                     sb.append(EvolutionVersion);
                 }
+                sb.append("\n");
+                sb.append(DeviceModelPreferenceController.getDeviceModel());
                 preference.setSummary(sb.toString());
                 preference.setEnabled(true);
             } catch (Exception e) {
@@ -103,9 +106,10 @@ public class BuildNumberPreferenceController extends AbstractPreferenceControlle
     }
 
     private String getEvolutionVersion(){
+        String evoVersion = SystemProperties.get("org.evolutionx.build_version","");
         String buildDate = SystemProperties.get("org.evolutionx.build_date","");
         String buildType = SystemProperties.get("org.evolutionx.build_type","unofficial").toUpperCase();
-        return buildDate.equals("") ? "" : "EvolutionX-" + buildDate + "-" + buildType;
+        return buildDate.equals("") ? "" : "EvolutionX-" + evoVersion + "-" + buildDate + "-" + buildType;
     }
 
     @Override
