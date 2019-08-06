@@ -129,6 +129,7 @@ public class AppNotificationSettings extends NotificationSettingsBase {
     @Override
     public void onPause() {
         super.onPause();
+        mNm.forcePulseLedLight(-1, -1, -1);
         final Window window = getActivity().getWindow();
         final WindowManager.LayoutParams attrs = window.getAttributes();
         attrs.privateFlags &= ~PRIVATE_FLAG_HIDE_NON_SYSTEM_OVERLAY_WINDOWS;
@@ -143,12 +144,6 @@ public class AppNotificationSettings extends NotificationSettingsBase {
     @Override
     protected int getPreferenceScreenResId() {
         return R.xml.app_notification_settings;
-    }
-
-    @Override
-    public void onPause() {
-        super.onPause();
-        mNm.forcePulseLedLight(-1, -1, -1);
     }
 
     @Override
