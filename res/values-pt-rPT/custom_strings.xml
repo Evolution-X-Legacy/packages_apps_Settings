@@ -112,7 +112,7 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">display_cutout_force_fullscreen_title
 Notch: Aplicações em ecrã cheio</string>
-    <string name="display_cutout_force_fullscreen_summary">Ignorar o entalhe nas aplicações seleccionadas</string>
+    <string name="display_cutout_force_fullscreen_summary">Ignorar o \"notch\" nas aplicações seleccionadas</string>
     <!-- Fingerprint authentication vibration -->
     <string name="fp_success_auth_vib_title">Autenticação por impressão digital</string>
     <string name="fp_success_auth_vib_summary">Vibrar na autenticação bem sucedida da impressão digital</string>
