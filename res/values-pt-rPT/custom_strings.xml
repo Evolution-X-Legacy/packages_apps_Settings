@@ -110,8 +110,7 @@
     <string name="display_cutout_mode_normal">Predefinição</string>
     <string name="display_cutout_mode_hidden">Ocultos</string>
     <!-- Notch: Full screen apps -->
-    <string name="display_cutout_force_fullscreen_title">display_cutout_force_fullscreen_title
-Notch: Aplicações em ecrã cheio</string>
+    <string name="display_cutout_force_fullscreen_title">Aplicações em ecrã cheio</string>
     <string name="display_cutout_force_fullscreen_summary">Ignorar o \"notch\" nas aplicações seleccionadas</string>
     <!-- Fingerprint authentication vibration -->
     <string name="fp_success_auth_vib_title">Autenticação por impressão digital</string>
