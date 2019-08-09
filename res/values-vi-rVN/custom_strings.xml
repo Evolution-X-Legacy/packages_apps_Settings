@@ -297,8 +297,8 @@
     <!-- Selinux -->
     <string name="selinux_status">Trạng thái SELinux</string>
     <string name="selinux_status_disabled">Đã tắt</string>
-    <string name="selinux_status_permissive">Cho phép</string>
-    <string name="selinux_status_enforcing">Thực thi</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
     <!-- Sizes for pattern lockscreen -->
     <string name="lock_settings_picker_pattern_size_message">Chọn một kích cỡ mẫu hình</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
@@ -318,4 +318,6 @@
     <string name="app_notification_sound_timeout_value_5_minutes">5 phút</string>
     <string name="app_notification_sound_timeout_value_15_minutes">10 phút</string>
     <string name="app_notification_sound_timeout_value_30_minutes">30 phút</string>
+    <!-- From Q Beta 5 -->
+    <string name="previous_connected_see_all">See all</string>
 </resources>
