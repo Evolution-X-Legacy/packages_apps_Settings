@@ -24,8 +24,6 @@ import android.text.TextUtils;
 
 import com.android.settings.R;
 
-import android.os.SystemProperties;
-
 import com.android.settings.deviceinfo.DeviceModelPreferenceController;
 
 public class BuildNumberDialogController {
@@ -39,27 +37,11 @@ public class BuildNumberDialogController {
         mDialog = dialog;
     }
 
-    private String getEvolutionVersion(){
-        String buildDate = SystemProperties.get("org.evolutionx.build_date","");
-        String buildType = SystemProperties.get("org.evolutionx.build_type","unofficial").toUpperCase();
-        return buildDate.equals("") ? "" : "EvolutionX-" + buildDate + "-" + buildType;
-    }
-
     /**
      * Updates the build number to the dialog.
      */
     public void initialize() {
-
-        StringBuilder sb = new StringBuilder();
-        sb.append(BidiFormatter.getInstance().unicodeWrap(
-                TextUtils.isEmpty(Build.VENDOR.BUILD_NUMBER_OVERRIDE) ? Build.DISPLAY : Build.VENDOR.BUILD_NUMBER_OVERRIDE));
-        String EvolutionVersion = getEvolutionVersion();
-        if (!EvolutionVersion.equals("")){
-            sb.append("\n");
-            sb.append(EvolutionVersion);
-        }
-        sb.append("\n");
-        sb.append(DeviceModelPreferenceController.getDeviceModel());
-        mDialog.setText(BUILD_NUMBER_VALUE_ID, sb.toString());
+        mDialog.setText(BUILD_NUMBER_VALUE_ID,
+                BidiFormatter.getInstance().unicodeWrap(Build.DISPLAY));
     }
 }

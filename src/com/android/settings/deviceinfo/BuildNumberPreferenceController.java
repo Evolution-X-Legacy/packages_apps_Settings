@@ -47,8 +47,6 @@ import com.android.settingslib.core.lifecycle.LifecycleObserver;
 import com.android.settingslib.core.lifecycle.events.OnResume;
 import com.android.settingslib.development.DevelopmentSettingsEnabler;
 
-import android.os.SystemProperties;
-
 public class BuildNumberPreferenceController extends AbstractPreferenceController implements
         PreferenceControllerMixin, LifecycleObserver, OnResume {
 
@@ -89,23 +87,12 @@ public class BuildNumberPreferenceController extends AbstractPreferenceControlle
                 StringBuilder sb = new StringBuilder();
                 sb.append(BidiFormatter.getInstance().unicodeWrap(
                         TextUtils.isEmpty(Build.VENDOR.BUILD_NUMBER_OVERRIDE) ? Build.DISPLAY : Build.VENDOR.BUILD_NUMBER_OVERRIDE));
-                String EvolutionVersion = getEvolutionVersion();
-                if (!EvolutionVersion.equals("")){
-                    sb.append("\n");
-                    sb.append(EvolutionVersion);
-                }
                 preference.setSummary(sb.toString());
                 preference.setEnabled(true);
             } catch (Exception e) {
                 preference.setSummary(R.string.device_info_default);
             }
         }
-    }
-
-    private String getEvolutionVersion(){
-        String buildDate = SystemProperties.get("org.evolutionx.build_date","");
-        String buildType = SystemProperties.get("org.evolutionx.build_type","unofficial").toUpperCase();
-        return buildDate.equals("") ? "" : "EvolutionX-" + buildDate + "-" + buildType;
     }
 
     @Override
