@@ -16,9 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Evolution X version -->
-    <string name="evolution_version">Έκδοση Evolution X</string>
-    <string name="evolution_version_default">Άγνωστο</string>
     <!-- Fingerprint location message -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Εντοπίστε τον αισθητήρα δακτυλικού αποτυπώματος στο εμπρόσθιο μέρος του τηλεφώνου σας.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Εντοπίστε τον αισθητήρα δακτυλικού αποτυπώματος στην αριστερή πλευρά του τηλεφώνου σας.</string>
@@ -211,6 +208,9 @@
     <string name="dark_theme_style_black">Μαύρο</string>
     <!-- Evolution X settings -->
     <string name="evolution_settings_summary">Η εξέλιξη στο ανοιχτό λογισμικό. #KeepEvolving</string>
+    <!-- Evolution X version -->
+    <string name="evolution_version">Έκδοση Evolution X</string>
+    <string name="evolution_version_default">Άγνωστο</string>
     <!-- Notification log -->
     <string name="notification_log_summary">Δείτε όλο το αρχείο ειδοποιήσεων</string>
     <!-- Per-app data restrictions -->
