@@ -16,9 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Evolution X version -->
-    <string name="evolution_version">Evolution X versioon</string>
-    <string name="evolution_version_default">Tundmatu</string>
     <!-- Fingerprint location message -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Leidke enda telefoni esiküljel olev sõrmejäljeandur.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Leidke enda telefoni vasakul küljel olev sõrmejäljeandur.</string>
@@ -211,6 +208,9 @@
     <string name="dark_theme_style_black">Must</string>
     <!-- Evolution X settings -->
     <string name="evolution_settings_summary">Vajuta minule! #KeepEvolving</string>
+    <!-- Evolution X version -->
+    <string name="evolution_version">Evolution X versioon</string>
+    <string name="evolution_version_default">Tundmatu</string>
     <!-- Notification log -->
     <string name="notification_log_summary">Kuva teate ajaloo logi</string>
     <!-- Per-app data restrictions -->
@@ -319,5 +319,5 @@
     <string name="app_notification_sound_timeout_value_15_minutes">10 minutit</string>
     <string name="app_notification_sound_timeout_value_30_minutes">30 minutit</string>
     <!-- From Q Beta 5 -->
-    <string name="previous_connected_see_all">See all</string>
+    <string name="previous_connected_see_all">Vaata kõiki</string>
 </resources>
