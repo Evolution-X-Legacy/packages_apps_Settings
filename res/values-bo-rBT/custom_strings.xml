@@ -16,9 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Evolution X version -->
-    <string name="evolution_version">Evolution X version</string>
-    <string name="evolution_version_default">Unknown</string>
     <!-- Fingerprint location message -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front">ཉིད་ཀྱིས་ཁ་པར་སྟེང་ནས་མཛུབ་རིས་བརྒྱུད་སྤྲོད་ཆས་རྙེད་ཐུབ།</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left">ཉིད་ཀྱིས་ཁ་པར་གྱི་གཡོན་ངོས་ནས་མཛུབ་རིས་བརྒྱུད་སྤྲོད་ཆས་རྙེད་ཐུབ།</string>
@@ -211,6 +208,9 @@
     <string name="dark_theme_style_black">ནག་པོ།</string>
     <!-- Evolution X settings -->
     <string name="evolution_settings_summary">The Evolution of Open source. #KeepEvolving</string>
+    <!-- Evolution X version -->
+    <string name="evolution_version">Evolution X version</string>
+    <string name="evolution_version_default">Unknown</string>
     <!-- Notification log -->
     <string name="notification_log_summary">Show notifications history log</string>
     <!-- Per-app data restrictions -->
