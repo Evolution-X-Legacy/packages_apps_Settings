@@ -16,9 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Evolution X version -->
-    <string name="evolution_version">Verze Evolution X</string>
-    <string name="evolution_version_default">Neznámá</string>
     <!-- Fingerprint location message -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Vyhledejte snímač otisků prstů na přední straně telefonu.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Vyhledejte snímač otisků prstů na levé straně telefonu.</string>
@@ -211,6 +208,9 @@
     <string name="dark_theme_style_black">Černý</string>
     <!-- Evolution X settings -->
     <string name="evolution_settings_summary">Vývoj otevřeného zdrojového kódu. Pokračujte ve vývoji</string>
+    <!-- Evolution X version -->
+    <string name="evolution_version">Verze Evolution X</string>
+    <string name="evolution_version_default">Neznámá</string>
     <!-- Notification log -->
     <string name="notification_log_summary">Zobrazit protokol historie oznámení</string>
     <!-- Per-app data restrictions -->
