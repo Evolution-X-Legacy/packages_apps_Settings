@@ -16,9 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Evolution X version -->
-    <string name="evolution_version">เวอร์ชันของ Evolution X</string>
-    <string name="evolution_version_default">ไม่ทราบ</string>
     <!-- Fingerprint location message -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front">ค้นหาเซ็นเซอร์ลายนิ้วมือที่ด้านหน้าของโทรศัพท์ของคุณ</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left">ค้นหาเซ็นเซอร์ลายนิ้วมือที่ด้านซ้ายของโทรศัพท์ของคุณ</string>
@@ -211,6 +208,9 @@
     <string name="dark_theme_style_black">สีดำ</string>
     <!-- Evolution X settings -->
     <string name="evolution_settings_summary">แถบสถานะ, การแจ้งเตือน, แถบการตั้งค่าด่วน</string>
+    <!-- Evolution X version -->
+    <string name="evolution_version">เวอร์ชันของ Evolution X</string>
+    <string name="evolution_version_default">ไม่ทราบ</string>
     <!-- Notification log -->
     <string name="notification_log_summary">แสดงบันทึกประวัติการแจ้งเตือน</string>
     <!-- Per-app data restrictions -->
