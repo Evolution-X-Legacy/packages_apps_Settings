@@ -16,9 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Evolution X version -->
-    <string name="evolution_version">Versione Evolution X</string>
-    <string name="evolution_version_default">Sconosciuto</string>
     <!-- Fingerprint location message -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Individua il sensore d\'impronte digitali sulla parte anteriore del tuo telefono.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Individua il sensore d\'impronte digitali sul lato sinistro del tuo telefono.</string>
@@ -211,6 +208,9 @@
     <string name="dark_theme_style_black">Nero</string>
     <!-- Evolution X settings -->
     <string name="evolution_settings_summary">L\'evoluzione dell\'open source. Keep Evolving</string>
+    <!-- Evolution X version -->
+    <string name="evolution_version">Versione Evolution X</string>
+    <string name="evolution_version_default">Sconosciuto</string>
     <!-- Notification log -->
     <string name="notification_log_summary">Visualizza il registro delle notifiche</string>
     <!-- Per-app data restrictions -->
