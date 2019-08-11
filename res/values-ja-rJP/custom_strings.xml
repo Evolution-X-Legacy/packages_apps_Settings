@@ -16,9 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Evolution X version -->
-    <string name="evolution_version">Evolution X バージョン</string>
-    <string name="evolution_version_default">不明</string>
     <!-- Fingerprint location message -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front">端末前面にある指紋認証センサーを探します</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left">端末左側にある指紋認証センサーを探します</string>
@@ -211,6 +208,9 @@
     <string name="dark_theme_style_black">ブラック</string>
     <!-- Evolution X settings -->
     <string name="evolution_settings_summary">オープンソースの発展。進化し続けよう。</string>
+    <!-- Evolution X version -->
+    <string name="evolution_version">Evolution X バージョン</string>
+    <string name="evolution_version_default">不明</string>
     <!-- Notification log -->
     <string name="notification_log_summary">通知履歴ログを表示する</string>
     <!-- Per-app data restrictions -->
