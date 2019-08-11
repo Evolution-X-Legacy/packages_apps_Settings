@@ -16,9 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Evolution X version -->
-    <string name="evolution_version">Evolution X sürümü</string>
-    <string name="evolution_version_default">Bilinmiyor</string>
     <!-- Fingerprint location message -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Telefonunuzun önünde bulunan parmak izi sensörünü bulun.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Telefonunuzun sol tarafında bulunan parmak izi sensörünü bulun.</string>
@@ -211,6 +208,9 @@
     <string name="dark_theme_style_black">Siyah</string>
     <!-- Evolution X settings -->
     <string name="evolution_settings_summary">Açık kaynak evrimi. Gelişmeye devam et</string>
+    <!-- Evolution X version -->
+    <string name="evolution_version">Evolution X sürümü</string>
+    <string name="evolution_version_default">Bilinmiyor</string>
     <!-- Notification log -->
     <string name="notification_log_summary">Bildirim geçmişi günlüğünü göster</string>
     <!-- Per-app data restrictions -->
@@ -319,5 +319,5 @@
     <string name="app_notification_sound_timeout_value_15_minutes">10 dakika</string>
     <string name="app_notification_sound_timeout_value_30_minutes">30 dakika</string>
     <!-- From Q Beta 5 -->
-    <string name="previous_connected_see_all">See all</string>
+    <string name="previous_connected_see_all">Tümünü göster</string>
 </resources>
