@@ -16,9 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Evolution X version -->
-    <string name="evolution_version">Evolution X 版本</string>
-    <string name="evolution_version_default">未知</string>
     <!-- Fingerprint location message -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front">您可以在手机正面找到指纹传感器</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left">您可以在手机左侧找到指纹传感器</string>
@@ -211,6 +208,9 @@
     <string name="dark_theme_style_black">黑色</string>
     <!-- Evolution X settings -->
     <string name="evolution_settings_summary">开源进化论 进化无止境</string>
+    <!-- Evolution X version -->
+    <string name="evolution_version">Evolution X 版本</string>
+    <string name="evolution_version_default">未知</string>
     <!-- Notification log -->
     <string name="notification_log_summary">显示历史通知记录</string>
     <!-- Per-app data restrictions -->
