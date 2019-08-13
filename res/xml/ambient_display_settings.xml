@@ -62,32 +62,26 @@
             android:summary="@string/doze_summary"
             settings:controller="com.android.settings.display.AmbientDisplayNotificationsPreferenceController" />
 
+        <!-- Ambient music ticker -->
+        <Preference
+            android:key="force_ambient_for_media_pref"
+            android:fragment="com.evolution.settings.fragments.AmbientTicker"
+            android:title="@string/force_ambient_for_media_pref_title"
+            android:summary="@string/force_ambient_for_media_pref_summary"
+            settings:userRestriction="no_ambient_display" />
+
+        <!-- Double tap to check phone -->
+        <Preference
+            android:key="double_tap"
+            android:fragment="com.android.settings.gestures.DoubleTapAmbient"
+            android:title="@string/doze_double_tap_title"
+            android:summary="@string/doze_double_tap_summary"
+            settings:userRestriction="no_ambient_display" />
+
         <Preference
             android:key="ambient_display_custom"
             android:title="@string/advanced_settings" />
 
     </PreferenceCategory>
-
-    <PreferenceCategory
-        android:key="double_tap"
-        android:title="@string/double_tap_title" >
-
-        <com.evolution.settings.preferences.SystemSettingSwitchPreference
-            android:key="doze_trigger_doubletap"
-            android:defaultValue="false"
-            android:title="@string/doze_double_tap_title"
-            android:summary="@string/doze_double_tap_summary" />
-
-    </PreferenceCategory>
-
-    <PreferenceCategory android:key="divider" />
-
-    <!-- Ambient music ticker -->
-    <Preference
-        android:key="force_ambient_for_media_pref"
-        android:fragment="com.evolution.settings.fragments.AmbientTicker"
-        android:title="@string/force_ambient_for_media_pref_title"
-        android:summary="@string/force_ambient_for_media_pref_summary"
-        settings:userRestriction="no_ambient_display" />
 
 </PreferenceScreen>
