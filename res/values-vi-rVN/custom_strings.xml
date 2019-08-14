@@ -24,7 +24,7 @@
     <string name="lights_category_title">Cài đặt đèn</string>
     <string name="notification_light_title">Đèn thông báo</string>
     <string name="battery_light_title">Đèn báo pin</string>
-    <string name="battery_low_pulse_title">Nhấp nháy nếu pin yếu</string>
+    <string name="battery_low_pulse_title">Nhấp nháy khi pin yếu</string>
     <!-- Manual provisioning support -->
     <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> là <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
     <string name="sim_disabled">đã tắt</string>
@@ -320,4 +320,13 @@
     <string name="app_notification_sound_timeout_value_30_minutes">30 phút</string>
     <!-- From Q Beta 5 -->
     <string name="previous_connected_see_all">Xem tất cả</string>
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Smart Charging</string>
+    <string name="smart_charging_summary">Set maximum charging level</string>
+    <string name="smart_charging_switch_title">Use Smart charging</string>
+    <string name="smart_charging_level_title">Stop trigger level</string>
+    <string name="smart_charging_resume_level_title">Start trigger level</string>
+    <string name="smart_charging_reset_stats_title">Reset battery statistics</string>
+    <string name="smart_charging_reset_stats_summary">Reset battery statistics after reaching user defined charging level</string>
+    <string name="smart_charging_footer">Smart Charging allows you to set maximum charging level to extend the lifespan of your battery</string>
 </resources>
