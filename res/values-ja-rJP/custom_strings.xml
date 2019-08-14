@@ -207,7 +207,7 @@
     <string name="dark_theme_style_default">既定</string>
     <string name="dark_theme_style_black">ブラック</string>
     <!-- Evolution X settings -->
-    <string name="evolution_settings_summary">オープンソースの発展。進化し続けよう。</string>
+    <string name="evolution_settings_summary">オープンソースの進化 #KeepEvolving</string>
     <!-- Evolution X version -->
     <string name="evolution_version">Evolution X バージョン</string>
     <string name="evolution_version_default">不明</string>
@@ -321,12 +321,18 @@
     <!-- From Q Beta 5 -->
     <string name="previous_connected_see_all">全て表示</string>
     <!-- Smart charging -->
-    <string name="smart_charging_title">Smart Charging</string>
-    <string name="smart_charging_summary">Set maximum charging level</string>
-    <string name="smart_charging_switch_title">Use Smart charging</string>
-    <string name="smart_charging_level_title">Stop trigger level</string>
-    <string name="smart_charging_resume_level_title">Start trigger level</string>
-    <string name="smart_charging_reset_stats_title">Reset battery statistics</string>
-    <string name="smart_charging_reset_stats_summary">Reset battery statistics after reaching user defined charging level</string>
-    <string name="smart_charging_footer">Smart Charging allows you to set maximum charging level to extend the lifespan of your battery</string>
+    <string name="smart_charging_title">スマート充電</string>
+    <string name="smart_charging_summary">最大充電レベルを設定する</string>
+    <string name="smart_charging_switch_title">スマート充電の使用</string>
+    <string name="smart_charging_level_title">充電停止レベル</string>
+    <string name="smart_charging_resume_level_title">充電開始レベル</string>
+    <string name="smart_charging_reset_stats_title">バッテリーの統計情報をリセット</string>
+    <string name="smart_charging_reset_stats_summary">ユーザーが決定した充電レベルに到達後バッテリーの統計情報をリセットする</string>
+    <string name="smart_charging_footer">スマート充電を使用すると最大充電レベルを設定することでバッテリー寿命を延ばすことができます</string>
+    <!-- Advanced night mode brightness -->
+    <string name="night_brightness_value_title">夜の場合は明るさを下げる</string>
+    <string name="night_auto_value_disabled">無効</string>
+    <string name="night_auto_value_min">最低輝度</string>
+    <string name="night_bright_low">低輝度</string>
+    <string name="night_bright_midlow">やや低輝度</string>
 </resources>
