@@ -319,20 +319,20 @@
     <string name="app_notification_sound_timeout_value_15_minutes">10 分钟</string>
     <string name="app_notification_sound_timeout_value_30_minutes">30 分钟</string>
     <!-- From Q Beta 5 -->
-    <string name="previous_connected_see_all">See all</string>
+    <string name="previous_connected_see_all">查看全部</string>
     <!-- Smart charging -->
-    <string name="smart_charging_title">Smart Charging</string>
-    <string name="smart_charging_summary">Set maximum charging level</string>
-    <string name="smart_charging_switch_title">Use Smart charging</string>
-    <string name="smart_charging_level_title">Stop trigger level</string>
-    <string name="smart_charging_resume_level_title">Start trigger level</string>
-    <string name="smart_charging_reset_stats_title">Reset battery statistics</string>
-    <string name="smart_charging_reset_stats_summary">Reset battery statistics after reaching user defined charging level</string>
-    <string name="smart_charging_footer">Smart Charging allows you to set maximum charging level to extend the lifespan of your battery</string>
+    <string name="smart_charging_title">智能充电</string>
+    <string name="smart_charging_summary">设置充电最高电量</string>
+    <string name="smart_charging_switch_title">智能充电</string>
+    <string name="smart_charging_level_title">停止触发级别</string>
+    <string name="smart_charging_resume_level_title">开始触发级别</string>
+    <string name="smart_charging_reset_stats_title">重置电池统计信息</string>
+    <string name="smart_charging_reset_stats_summary">在达到用户定义充电量之后重置电池统计</string>
+    <string name="smart_charging_footer">智能充电允许您设置最大充电电量，以延长电池的使用寿命</string>
     <!-- Advanced night mode brightness -->
-    <string name="night_brightness_value_title">Lower brightness if Night Light</string>
-    <string name="night_auto_value_disabled">Disabled</string>
-    <string name="night_auto_value_min">Minimum brightness</string>
-    <string name="night_bright_low">Low brightness</string>
-    <string name="night_bright_midlow">Mid low brightness</string>
+    <string name="night_brightness_value_title">处于夜间模式时降低亮度</string>
+    <string name="night_auto_value_disabled">已禁用</string>
+    <string name="night_auto_value_min">最低亮度</string>
+    <string name="night_bright_low">低亮度</string>
+    <string name="night_bright_midlow">中低亮度</string>
 </resources>
