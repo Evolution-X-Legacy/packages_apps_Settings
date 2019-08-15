@@ -330,9 +330,9 @@
     <string name="smart_charging_reset_stats_summary">Скиньте статистику акумулятора після досягнення визначеного користувачем рівня зарядки</string>
     <string name="smart_charging_footer">«Розумне» заряджання дозволяє встановити максимальний рівень зарядки для продовження терміну служби батареї</string>
     <!-- Advanced night mode brightness -->
-    <string name="night_brightness_value_title">Lower brightness if Night Light</string>
-    <string name="night_auto_value_disabled">Disabled</string>
-    <string name="night_auto_value_min">Minimum brightness</string>
-    <string name="night_bright_low">Low brightness</string>
-    <string name="night_bright_midlow">Mid low brightness</string>
+    <string name="night_brightness_value_title">Зниження яскравості при використанні нічного режиму</string>
+    <string name="night_auto_value_disabled">Вимкнено</string>
+    <string name="night_auto_value_min">Мінімальна яскравість</string>
+    <string name="night_bright_low">Низька яскравість</string>
+    <string name="night_bright_midlow">Середня яскравість</string>
 </resources>
