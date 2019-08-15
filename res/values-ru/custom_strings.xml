@@ -271,4 +271,7 @@
     <string name="custom_light_on_time_title">Длительность свечения светодиода (мс)</string>
     <string name="custom_light_off_time_title">Длительность затухания светодиода (мс)</string>
     <string name="value_equals_default">умолч.</string>
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">Разрешить клиентам использовать VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Разрешить устройствам, подключенным к этой точке доступа использовать VPN соединение</string>
 </resources>
