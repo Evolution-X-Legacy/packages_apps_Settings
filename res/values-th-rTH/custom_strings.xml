@@ -321,12 +321,18 @@
     <!-- From Q Beta 5 -->
     <string name="previous_connected_see_all">ดูทั้งหมด</string>
     <!-- Smart charging -->
-    <string name="smart_charging_title">Smart Charging</string>
-    <string name="smart_charging_summary">Set maximum charging level</string>
-    <string name="smart_charging_switch_title">Use Smart charging</string>
-    <string name="smart_charging_level_title">Stop trigger level</string>
-    <string name="smart_charging_resume_level_title">Start trigger level</string>
-    <string name="smart_charging_reset_stats_title">Reset battery statistics</string>
-    <string name="smart_charging_reset_stats_summary">Reset battery statistics after reaching user defined charging level</string>
-    <string name="smart_charging_footer">Smart Charging allows you to set maximum charging level to extend the lifespan of your battery</string>
+    <string name="smart_charging_title">การชาร์จอัจฉริยะ</string>
+    <string name="smart_charging_summary">ตั้งค่าระดับการชาร์จสูงสุด</string>
+    <string name="smart_charging_switch_title">ใช้การชาร์จอัจฉริยะ</string>
+    <string name="smart_charging_level_title">หยุดระดับการชาร์จอัจฉริยะ</string>
+    <string name="smart_charging_resume_level_title">เริ่มระดับการชาร์จอัจฉริยะ</string>
+    <string name="smart_charging_reset_stats_title">ล้างค่าสถิติแบตเตอรี่</string>
+    <string name="smart_charging_reset_stats_summary">รีเซ็ตสถิติแบตเตอรี่หลังจากถึงระดับการชาร์จที่ผู้ใช้กำหนด</string>
+    <string name="smart_charging_footer">การชาร์จอัจฉริยะช่วยให้คุณตั้งค่าระดับการชาร์จสูงสุดเพื่อยืดอายุการใช้งานแบตเตอรี่ของคุณ</string>
+    <!-- Advanced night mode brightness -->
+    <string name="night_brightness_value_title">ลดความสว่างแสงตอนกลางคืน</string>
+    <string name="night_auto_value_disabled">ปิดใช้งาน</string>
+    <string name="night_auto_value_min">ความสว่างต่ำที่สุด</string>
+    <string name="night_bright_low">ความสว่างต่ำ</string>
+    <string name="night_bright_midlow">ความสว่างปานกลาง</string>
 </resources>
