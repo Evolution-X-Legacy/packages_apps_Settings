@@ -321,12 +321,18 @@
     <!-- From Q Beta 5 -->
     <string name="previous_connected_see_all">Εμφάνιση όλων</string>
     <!-- Smart charging -->
-    <string name="smart_charging_title">Smart Charging</string>
-    <string name="smart_charging_summary">Set maximum charging level</string>
-    <string name="smart_charging_switch_title">Use Smart charging</string>
-    <string name="smart_charging_level_title">Stop trigger level</string>
-    <string name="smart_charging_resume_level_title">Start trigger level</string>
-    <string name="smart_charging_reset_stats_title">Reset battery statistics</string>
-    <string name="smart_charging_reset_stats_summary">Reset battery statistics after reaching user defined charging level</string>
-    <string name="smart_charging_footer">Smart Charging allows you to set maximum charging level to extend the lifespan of your battery</string>
+    <string name="smart_charging_title">Έξυπνη φόρτιση</string>
+    <string name="smart_charging_summary">Ορίστε το μέγιστο επίπεδο φόρτισης</string>
+    <string name="smart_charging_switch_title">Χρήση έξυπνης φόρτισης</string>
+    <string name="smart_charging_level_title">Σταματήστε το επίπεδο ενεργοποίησης</string>
+    <string name="smart_charging_resume_level_title">Ξεκινήστε το επίπεδο ενεργοποίησης</string>
+    <string name="smart_charging_reset_stats_title">Επαναφορά στατιστικών μπαταρίας</string>
+    <string name="smart_charging_reset_stats_summary">Επαναφέρετε τα στατιστικά στοιχεία της μπαταρίας αφού φτάσετε στο επίπεδο φόρτισης που καθορίζεται από το χρήστη</string>
+    <string name="smart_charging_footer">Η έξυπνη φόρτιση σας επιτρέπει να ρυθμίσετε το μέγιστο επίπεδο φόρτισης για να παρατείνετε τη διάρκεια ζωής της μπαταρίας σας</string>
+    <!-- Advanced night mode brightness -->
+    <string name="night_brightness_value_title">Μείωση φωτεινότητας κατά την ενεργοποίηση του νυχτερινού φωτός</string>
+    <string name="night_auto_value_disabled">Απενεργοποιημένο</string>
+    <string name="night_auto_value_min">Ελάχιστη φωτεινότητα</string>
+    <string name="night_bright_low">Χαμηλή φωτεινότητα</string>
+    <string name="night_bright_midlow">Μέτρια φωτεινότητα</string>
 </resources>
