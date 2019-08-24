@@ -336,6 +336,6 @@
     <string name="night_bright_low">ความสว่างต่ำ</string>
     <string name="night_bright_midlow">ความสว่างปานกลาง</string>
     <!-- Hotspot extras -->
-    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
-    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
+    <string name="tethering_allow_vpn_upstreams_title">อนุญาตให้ลูกค้าใช้ VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">อนุญาตให้ไคลเอ็นต์ฮอตสปอตใช้การเชื่อมต่อ VPN ของอุปกรณ์นี้\u2019 สำหรับการเชื่อมต่ออัปสตรีม</string>
 </resources>
