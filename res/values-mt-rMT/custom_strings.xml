@@ -153,6 +153,8 @@
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Sejbien tal-but</string>
     <string name="pocket_judge_summary">Itfi l-iskrin u l-buttuni meta l-apparat qiegħed fil-but</string>
+    <string name="pocket_judge_fp_title">Allow FP in pocket mode</string>
+    <string name="pocket_judge_fp_summary">Listen for fingerprint when pocket detection is active</string>
     <!-- LiveDisplay -->
     <string name="color_settings_title">Settings tal-kulur</string>
     <string name="color_settings_summary">Aġġusta u tejjeb l-kulur tal-iskrin</string>
@@ -202,10 +204,11 @@
     <!-- Three-fingers-swipe to screenshot -->
     <string name="swipe_to_screenshot_gesture_title">Isswipja għal screenshot</string>
     <string name="swipe_to_screenshot_gesture_summary">Isswipja tletti swaba biex tieħu screenshot</string>
-    <!-- Dark theme style -->
+    <!-- System theme -->
     <string name="dark_theme_style_title">Stil ta\' tema skura</string>
     <string name="dark_theme_style_default">Default</string>
     <string name="dark_theme_style_black">Iswed</string>
+    <string name="accent_color">Accent color</string>
     <!-- Evolution X settings -->
     <string name="evolution_settings_summary">The Evolution of open source. Keep Evolving</string>
     <!-- Evolution X version -->
@@ -338,4 +341,7 @@
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
     <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
+    <!-- Android debugging notification -->
+    <string name="adb_notify">Debugging notify</string>
+    <string name="adb_notify_summary">Display a notification when USB or network debugging is enabled</string>
 </resources>
