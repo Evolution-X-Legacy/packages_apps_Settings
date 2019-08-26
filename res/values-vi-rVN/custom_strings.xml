@@ -153,6 +153,8 @@
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Phát hiện trong túi</string>
     <string name="pocket_judge_summary">Khoá màn hình và các phím khi thiết bị trong túi của bạn</string>
+    <string name="pocket_judge_fp_title">Allow FP in pocket mode</string>
+    <string name="pocket_judge_fp_summary">Listen for fingerprint when pocket detection is active</string>
     <!-- LiveDisplay -->
     <string name="color_settings_title">Cài đặt màu</string>
     <string name="color_settings_summary">Điều chỉnh và cải thiện màu sắc màn hình</string>
@@ -202,10 +204,11 @@
     <!-- Three-fingers-swipe to screenshot -->
     <string name="swipe_to_screenshot_gesture_title">Vuốt để chụp ảnh màn hình</string>
     <string name="swipe_to_screenshot_gesture_summary">Vuốt ba ngón tay để chụp màn hình</string>
-    <!-- Dark theme style -->
+    <!-- System theme -->
     <string name="dark_theme_style_title">Chế độ nền tối</string>
     <string name="dark_theme_style_default">Mặc định</string>
     <string name="dark_theme_style_black">Màu đen</string>
+    <string name="accent_color">Accent color</string>
     <!-- Evolution X settings -->
     <string name="evolution_settings_summary">Sự phát triển của nguồn mở. #KeepEvolving</string>
     <!-- Evolution X version -->
@@ -338,4 +341,7 @@
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Cho phép khách sử dụng VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Cho phép hotspot các máy khách sử dụng các kết nối VPN của thiết bị\u2019 này để kết nối ngược dòng</string>
+    <!-- Android debugging notification -->
+    <string name="adb_notify">Debugging notify</string>
+    <string name="adb_notify_summary">Display a notification when USB or network debugging is enabled</string>
 </resources>
