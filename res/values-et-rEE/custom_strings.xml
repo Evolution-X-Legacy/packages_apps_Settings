@@ -153,8 +153,8 @@
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Tasku tuvastamine</string>
     <string name="pocket_judge_summary">Lukustage ekraan ja nupud, kui seade on taskus</string>
-    <string name="pocket_judge_fp_title">Allow FP in pocket mode</string>
-    <string name="pocket_judge_fp_summary">Listen for fingerprint when pocket detection is active</string>
+    <string name="pocket_judge_fp_title">Luba FP taskurežiimis</string>
+    <string name="pocket_judge_fp_summary">Kui tasku tuvastamine on aktiivne, jälgige sõrmejälge</string>
     <!-- LiveDisplay -->
     <string name="color_settings_title">Värvi seaded</string>
     <string name="color_settings_summary">Reguleerida ja parandada ekraani värve</string>
@@ -208,7 +208,7 @@
     <string name="dark_theme_style_title">Tume teema stiil</string>
     <string name="dark_theme_style_default">Vaikimisi</string>
     <string name="dark_theme_style_black">Must</string>
-    <string name="accent_color">Accent color</string>
+    <string name="accent_color">Rõhuvärv</string>
     <!-- Evolution X settings -->
     <string name="evolution_settings_summary">Vajuta minule! #KeepEvolving</string>
     <!-- Evolution X version -->
@@ -342,6 +342,6 @@
     <string name="tethering_allow_vpn_upstreams_title">Luba klientidel kasutada VPN-e</string>
     <string name="tethering_allow_vpn_upstreams_summary">Luba leviala klientidel kasutada selle seadm\u2019e VPN-ühendusi ülesvoolu ühenduvuseks</string>
     <!-- Android debugging notification -->
-    <string name="adb_notify">Debugging notify</string>
-    <string name="adb_notify_summary">Display a notification when USB or network debugging is enabled</string>
+    <string name="adb_notify">Silumise teavitus</string>
+    <string name="adb_notify_summary">Kuva teavitus, kui USB või võrgu silumine on lubatud</string>
 </resources>
