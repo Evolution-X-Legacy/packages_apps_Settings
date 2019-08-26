@@ -153,6 +153,8 @@
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Режим \"В кармане\"</string>
     <string name="pocket_judge_summary">Заблокировать экран и кнопки когда устройство находится в кармане</string>
+    <string name="pocket_judge_fp_title">Allow FP in pocket mode</string>
+    <string name="pocket_judge_fp_summary">Listen for fingerprint when pocket detection is active</string>
     <!-- LiveDisplay -->
     <string name="color_settings_title">Настройки цвета</string>
     <string name="color_settings_summary">Отрегулировать и улучшить цвета экрана</string>
@@ -202,10 +204,11 @@
     <!-- Three-fingers-swipe to screenshot -->
     <string name="swipe_to_screenshot_gesture_title">Жест тремя пальцами</string>
     <string name="swipe_to_screenshot_gesture_summary">Проведите тремя пальцами для создания снимка экрана</string>
-    <!-- Dark theme style -->
+    <!-- System theme -->
     <string name="dark_theme_style_title">Стиль тёмной темы</string>
     <string name="dark_theme_style_default">По умолчанию</string>
     <string name="dark_theme_style_black">Чёрный</string>
+    <string name="accent_color">Accent color</string>
     <!-- Evolution X settings -->
     <string name="evolution_settings_summary">Нажми на меня! #KeepEvolving</string>
     <!-- Evolution X version -->
@@ -338,4 +341,7 @@
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Разрешить клиентам использовать VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Разрешить клиентам hotspot использовать это устройство\u2019с VPN соединениями для подключения к исходному потоку</string>
+    <!-- Android debugging notification -->
+    <string name="adb_notify">Debugging notify</string>
+    <string name="adb_notify_summary">Display a notification when USB or network debugging is enabled</string>
 </resources>
