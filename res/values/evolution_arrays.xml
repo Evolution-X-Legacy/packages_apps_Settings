@@ -136,11 +136,6 @@
         <item>org.pixelexperience.overlay.accent.red</item>
         <item>org.pixelexperience.overlay.accent.yellow</item>
         <item>org.pixelexperience.overlay.accent.teal</item>
-        <item>org.evolutionx.overlay.accent.pixelblue</item>
-        <item>org.evolutionx.overlay.accent.qcinnamon</item>
-        <item>org.evolutionx.overlay.accent.qocean</item>
-        <item>org.evolutionx.overlay.accent.qorchid</item>
-        <item>org.evolutionx.overlay.accent.qspace</item>
     </string-array>
     <string-array name="allowed_themes_when_light" translatable="false">
         <item>org.pixelexperience.overlay.accent.black</item>
