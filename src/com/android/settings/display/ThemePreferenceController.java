@@ -33,9 +33,7 @@ import com.android.settings.wrapper.OverlayManagerWrapper.OverlayInfo;
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.instrumentation.MetricsFeatureProvider;
 
-import java.util.Arrays;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import java.util.Objects;
 
@@ -49,10 +47,6 @@ public class ThemePreferenceController extends AbstractPreferenceController impl
     private final MetricsFeatureProvider mMetricsFeatureProvider;
     private final OverlayManagerWrapper mOverlayService;
     private final PackageManager mPackageManager;
-    private final String[] mAllAllowedAccents;
-    private final String[] mAllowedAccents;
-    private final String[] mAllowedAccentsWhenLight;
-    private final String[] mAllowedAccentsWhenDark;
 
     public ThemePreferenceController(Context context) {
         this(context, ServiceManager.getService(Context.OVERLAY_SERVICE) != null
@@ -63,14 +57,6 @@ public class ThemePreferenceController extends AbstractPreferenceController impl
     ThemePreferenceController(Context context, OverlayManagerWrapper overlayManager) {
         super(context);
         mOverlayService = overlayManager;
-        mAllowedAccents = mContext.getResources().getStringArray(R.array.allowed_themes);
-        mAllowedAccentsWhenLight = mContext.getResources().getStringArray(R.array.allowed_themes_when_light);
-        mAllowedAccentsWhenDark = mContext.getResources().getStringArray(R.array.allowed_themes_when_dark);
-        List<String> allAccents = new ArrayList<>();
-        Collections.addAll(allAccents, mAllowedAccents);
-        Collections.addAll(allAccents, mAllowedAccentsWhenLight);
-        Collections.addAll(allAccents, mAllowedAccentsWhenDark);
-        mAllAllowedAccents = allAccents.toArray(new String[allAccents.size()]);
         mPackageManager = context.getPackageManager();
         mMetricsFeatureProvider = FeatureFactory.getFactory(context).getMetricsFeatureProvider();
     }
@@ -91,14 +77,10 @@ public class ThemePreferenceController extends AbstractPreferenceController impl
     @Override
     public void updateState(Preference preference) {
         ListPreference pref = (ListPreference) preference;
-        String[] pkgs = getAvailableAccents();
+        String[] pkgs = getAvailableThemes();
         CharSequence[] labels = new CharSequence[pkgs.length];
         for (int i = 0; i < pkgs.length; i++) {
             try {
-                if (pkgs[i].equals("0")){
-                    labels[i] = mContext.getString(R.string.default_theme);
-                    continue;
-                }
                 labels[i] = mPackageManager.getApplicationInfo(pkgs[i], 0)
                         .loadLabel(mPackageManager);
             } catch (NameNotFoundException e) {
@@ -107,11 +89,11 @@ public class ThemePreferenceController extends AbstractPreferenceController impl
         }
         pref.setEntries(labels);
         pref.setEntryValues(pkgs);
-        String current = getCurrentAccent();
+        String theme = getCurrentTheme();
         CharSequence themeLabel = null;
 
         for (int i = 0; i < pkgs.length; i++) {
-            if (TextUtils.equals(pkgs[i], current)) {
+            if (TextUtils.equals(pkgs[i], theme)) {
                 themeLabel = labels[i];
                 break;
             }
@@ -122,32 +104,21 @@ public class ThemePreferenceController extends AbstractPreferenceController impl
         }
 
         pref.setSummary(themeLabel);
-        pref.setValue(current);
+        pref.setValue(theme);
     }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-        String current = getCurrentAccent();
+        String current = getTheme();
         if (Objects.equals(newValue, current)) {
             return true;
         }
-        disableAllAccents();
-        if (Objects.equals(newValue, "0")) {
-            return true;
-        }
-        mOverlayService.setEnabled((String) newValue, true, UserHandle.myUserId());
+        mOverlayService.setEnabledExclusiveInCategory((String) newValue, UserHandle.myUserId());
         return true;
     }
 
-    private boolean isValidAccent(OverlayInfo oi, boolean darkThemeCheck) {
-        if (darkThemeCheck){
-            boolean isUsingDarkTheme = isUsingDarkTheme();
-            if (!Arrays.asList(mAllowedAccents).contains(oi.packageName) &&
-                !Arrays.asList(isUsingDarkTheme ?
-                    mAllowedAccentsWhenDark : mAllowedAccentsWhenLight).contains(oi.packageName)){
-                return false;
-            }
-        }else if (!Arrays.asList(mAllAllowedAccents).contains(oi.packageName)){
+    private boolean isTheme(OverlayInfo oi) {
+        if (!OverlayInfo.CATEGORY_THEME.equals(oi.category)) {
             return false;
         }
         try {
@@ -158,58 +129,40 @@ public class ThemePreferenceController extends AbstractPreferenceController impl
         }
     }
 
-    private void disableAllAccents() {
+    private String getTheme() {
         List<OverlayInfo> infos = mOverlayService.getOverlayInfosForTarget("android",
                 UserHandle.myUserId());
         for (int i = 0, size = infos.size(); i < size; i++) {
-            if (infos.get(i).isEnabled() && isValidAccent(infos.get(i), false)) {
-                mOverlayService.setEnabled(infos.get(i).packageName, false, UserHandle.myUserId());
-            }
-        }
-    }
-
-    private String getCurrentAccent() {
-        List<OverlayInfo> infos = mOverlayService.getOverlayInfosForTarget("android",
-                UserHandle.myUserId());
-        for (int i = 0, size = infos.size(); i < size; i++) {
-            if (infos.get(i).isEnabled() && isValidAccent(infos.get(i), true)) {
+            if (infos.get(i).isEnabled() && isTheme(infos.get(i))) {
                 return infos.get(i).packageName;
             }
         }
-        return "0";
+        return null;
     }
 
     @Override
     public boolean isAvailable() {
         if (mOverlayService == null) return false;
-        String[] themes = getAvailableAccents();
+        String[] themes = getAvailableThemes();
         return themes != null && themes.length > 1;
     }
 
+
     @VisibleForTesting
-    String[] getAvailableAccents() {
+    String getCurrentTheme() {
+        return getTheme();
+    }
+
+    @VisibleForTesting
+    String[] getAvailableThemes() {
         List<OverlayInfo> infos = mOverlayService.getOverlayInfosForTarget("android",
                 UserHandle.myUserId());
         List<String> pkgs = new ArrayList<>(infos.size());
-        pkgs.add("0");
         for (int i = 0, size = infos.size(); i < size; i++) {
-            if (isValidAccent(infos.get(i), true)) {
+            if (isTheme(infos.get(i))) {
                 pkgs.add(infos.get(i).packageName);
             }
         }
         return pkgs.toArray(new String[pkgs.size()]);
-    }
-
-    private boolean isUsingDarkTheme() {
-        List<OverlayInfo> infos = mOverlayService.getOverlayInfosForTarget("android",
-                UserHandle.myUserId());
-        for (int i = 0, size = infos.size(); i < size; i++) {
-            if (infos.get(i).isEnabled() &&
-                    (infos.get(i).packageName.equals("com.android.system.theme.dark") ||
-                    infos.get(i).packageName.equals("com.android.system.theme.black"))) {
-                return true;
-            }
-        }
-        return false;
     }
 }
