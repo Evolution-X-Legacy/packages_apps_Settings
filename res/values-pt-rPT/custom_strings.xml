@@ -204,11 +204,10 @@
     <!-- Three-fingers-swipe to screenshot -->
     <string name="swipe_to_screenshot_gesture_title">Deslizar para capturar o ecrã</string>
     <string name="swipe_to_screenshot_gesture_summary">Deslizar três dedos para realizar uma captura de ecrã</string>
-    <!-- System theme -->
+    <!-- Dark theme style -->
     <string name="dark_theme_style_title">Estilo do tema escuro</string>
     <string name="dark_theme_style_default">Padrão</string>
     <string name="dark_theme_style_black">Preto</string>
-    <string name="accent_color">Accent color</string>
     <!-- Evolution X settings -->
     <string name="evolution_settings_summary">The Evolution of open source. Keep Evolving</string>
     <!-- Evolution X version -->
