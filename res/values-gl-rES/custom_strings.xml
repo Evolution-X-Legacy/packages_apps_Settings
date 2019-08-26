@@ -202,10 +202,11 @@
     <!-- Three-fingers-swipe to screenshot -->
     <string name="swipe_to_screenshot_gesture_title">Deslizar pra capturar a pantalla</string>
     <string name="swipe_to_screenshot_gesture_summary">Deslizar tres dedos pra capturar a pantalla</string>
-    <!-- Dark theme style -->
+    <!-- System theme -->
     <string name="dark_theme_style_title">Estilo do tema escuro</string>
     <string name="dark_theme_style_default">Por defecto</string>
     <string name="dark_theme_style_black">Negro</string>
+    <string name="accent_color">Accent color</string>
     <!-- Evolution X settings -->
     <string name="evolution_settings_summary">The Evolution of Open source. #KeepEvolving</string>
     <!-- Evolution X version -->
@@ -338,4 +339,7 @@
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
     <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
+    <!-- Android debugging notification -->
+    <string name="adb_notify">Debugging notify</string>
+    <string name="adb_notify_summary">Display a notification when USB or network debugging is enabled</string>
 </resources>
