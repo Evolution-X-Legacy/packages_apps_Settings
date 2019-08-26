@@ -202,10 +202,11 @@
     <!-- Three-fingers-swipe to screenshot -->
     <string name="swipe_to_screenshot_gesture_title">ปัดนิ้วเพื่อจับภาพหน้าจอ</string>
     <string name="swipe_to_screenshot_gesture_summary">ใช้สามนิ้วปัดเพื่อถ่ายภาพหน้าจอ</string>
-    <!-- Dark theme style -->
+    <!-- System theme -->
     <string name="dark_theme_style_title">ลักษณะธีมมืด</string>
     <string name="dark_theme_style_default">ค่าเริ่มต้น</string>
     <string name="dark_theme_style_black">สีดำ</string>
+    <string name="accent_color">Accent color</string>
     <!-- Evolution X settings -->
     <string name="evolution_settings_summary">แถบสถานะ, การแจ้งเตือน, แถบการตั้งค่าด่วน</string>
     <!-- Evolution X version -->
@@ -336,6 +337,9 @@
     <string name="night_bright_low">ความสว่างต่ำ</string>
     <string name="night_bright_midlow">ความสว่างปานกลาง</string>
     <!-- Hotspot extras -->
-    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
-    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
+    <string name="tethering_allow_vpn_upstreams_title">อนุญาตให้ลูกค้าใช้ VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">อนุญาตให้ไคลเอ็นต์ฮอตสปอตใช้การเชื่อมต่อ VPN ของอุปกรณ์นี้\u2019 สำหรับการเชื่อมต่ออัปสตรีม</string>
+    <!-- Android debugging notification -->
+    <string name="adb_notify">Debugging notify</string>
+    <string name="adb_notify_summary">Display a notification when USB or network debugging is enabled</string>
 </resources>
