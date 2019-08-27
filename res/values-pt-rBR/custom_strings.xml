@@ -153,8 +153,8 @@
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Detectar quando estiver no bolso</string>
     <string name="pocket_judge_summary">Bloquear a tela e os botões quando o dispositivo estiver no bolso</string>
-    <string name="pocket_judge_fp_title">Allow FP in pocket mode</string>
-    <string name="pocket_judge_fp_summary">Listen for fingerprint when pocket detection is active</string>
+    <string name="pocket_judge_fp_title">Permitir FP no modo bolso</string>
+    <string name="pocket_judge_fp_summary">Procurar por impressão digital quando a detecção de bolso estiver ativa</string>
     <!-- LiveDisplay -->
     <string name="color_settings_title">Configurações de cor</string>
     <string name="color_settings_summary">Ajustar e melhorar as cores da tela</string>
@@ -341,6 +341,6 @@
     <string name="tethering_allow_vpn_upstreams_title">Permitir que clientes usem VPNs</string>
     <string name="tethering_allow_vpn_upstreams_summary">Permitir que os clientes de hotspot usem este dispositivo\u2019 para conexões VPN de alta velocidade</string>
     <!-- Android debugging notification -->
-    <string name="adb_notify">Debugging notify</string>
-    <string name="adb_notify_summary">Display a notification when USB or network debugging is enabled</string>
+    <string name="adb_notify">Notificação de depuração</string>
+    <string name="adb_notify_summary">Exibir uma notificação quando a depuração via USB ou rede estiver ativada</string>
 </resources>
