@@ -153,8 +153,8 @@
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Ανίχνευση τσέπης</string>
     <string name="pocket_judge_summary">Κλείδωμα της συσκευής και των κουμπιών όταν βρίσκεται στη τσέπη σας</string>
-    <string name="pocket_judge_fp_title">Allow FP in pocket mode</string>
-    <string name="pocket_judge_fp_summary">Listen for fingerprint when pocket detection is active</string>
+    <string name="pocket_judge_fp_title">Επιτρέψτε των αισθητήρα δακτυλικών αποτυπωμάτων στην λειτουργία τσέπης</string>
+    <string name="pocket_judge_fp_summary">Ακούστε για δακτυλικό αποτύπωμα όταν η λειτουργία τσέπης είναι ενεργοποιημένη</string>
     <!-- LiveDisplay -->
     <string name="color_settings_title">Ρυθμίσεις χρωμάτων</string>
     <string name="color_settings_summary">Ρύθμιση και βελτίωση χρώματος οθόνης</string>
@@ -341,6 +341,6 @@
     <string name="tethering_allow_vpn_upstreams_title">Επιτρέψτε στους πελάτες να χρησιμοποιούν VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Επιτρέψτε στους πελάτες hotspot να χρησιμοποιούν αυτή τη συσκευή\u2019 με συνδέσεις VPN για σύνδεση upstream</string>
     <!-- Android debugging notification -->
-    <string name="adb_notify">Debugging notify</string>
-    <string name="adb_notify_summary">Display a notification when USB or network debugging is enabled</string>
+    <string name="adb_notify">Ειδοποίηση εντοπισμού σφαλμάτων</string>
+    <string name="adb_notify_summary">Εμφάνιση ειδοποίησης όταν ο εντοπισμός σφαλμάτων μέσω USB ή δικτύου είναι ενεργοποιημένος</string>
 </resources>
