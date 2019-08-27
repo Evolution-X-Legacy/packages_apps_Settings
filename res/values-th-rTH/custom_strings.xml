@@ -153,8 +153,8 @@
     <!-- Pocket judge -->
     <string name="pocket_judge_title">สำรวจรายการ</string>
     <string name="pocket_judge_summary">ล็อคหน้าจอและปุ่มต่างๆ เมื่ออุปกรณ์อยู่ในกระเป๋าของคุณ</string>
-    <string name="pocket_judge_fp_title">Allow FP in pocket mode</string>
-    <string name="pocket_judge_fp_summary">Listen for fingerprint when pocket detection is active</string>
+    <string name="pocket_judge_fp_title">อนุญาตการตรวจสอบลายนิ้วมือในโหมดพกพา</string>
+    <string name="pocket_judge_fp_summary">ใช้การตรวจสอบลายนิ้วมือเมื่อเปิดใช้งานการตรวจจับการพกพา</string>
     <!-- LiveDisplay -->
     <string name="color_settings_title">การตั้งค่าสี</string>
     <string name="color_settings_summary">ปรับและปรับปรุงสีของหน้าจอ</string>
