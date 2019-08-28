@@ -344,12 +344,12 @@
     <string name="adb_notify">Thông báo gỡ lỗi</string>
     <string name="adb_notify_summary">Hiển thị thông báo khi tính năng gỡ lỗi qua USB hoặc mạng được bật</string>
     <!-- Display : Rotation -->
-    <string name="display_rotation_title">Rotation</string>
-    <string name="display_rotation_disabled">Disabled</string>
-    <string name="display_rotation_unit">degrees</string>
-    <string name="display_rotation_category_title">Rotation modes</string>
-    <string name="display_rotation_0_title">0 degrees</string>
-    <string name="display_rotation_90_title">90 degrees</string>
-    <string name="display_rotation_180_title">180 degrees</string>
-    <string name="display_rotation_270_title">270 degrees</string>
+    <string name="display_rotation_title">Xoay</string>
+    <string name="display_rotation_disabled">Đã tắt</string>
+    <string name="display_rotation_unit">độ</string>
+    <string name="display_rotation_category_title">Chế độ xoay</string>
+    <string name="display_rotation_0_title">0 độ</string>
+    <string name="display_rotation_90_title">90 độ</string>
+    <string name="display_rotation_180_title">180 độ</string>
+    <string name="display_rotation_270_title">270 độ</string>
 </resources>
