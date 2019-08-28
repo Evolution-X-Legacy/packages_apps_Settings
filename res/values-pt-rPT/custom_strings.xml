@@ -153,8 +153,8 @@
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Detetor de bolso</string>
     <string name="pocket_judge_summary">Bloquear o ecrã e os botões quando o dispositivos está no bolso</string>
-    <string name="pocket_judge_fp_title">Allow FP in pocket mode</string>
-    <string name="pocket_judge_fp_summary">Listen for fingerprint when pocket detection is active</string>
+    <string name="pocket_judge_fp_title">Permitir FP no modo bolso</string>
+    <string name="pocket_judge_fp_summary">Procurar por impressão digital quando a detecção de bolso estiver ativa</string>
     <!-- LiveDisplay -->
     <string name="color_settings_title">Definições de cor</string>
     <string name="color_settings_summary">Ajustes e melhorias das cores do ecrã</string>
@@ -321,11 +321,11 @@
     <string name="app_notification_sound_timeout_value_15_minutes">10 minutos</string>
     <string name="app_notification_sound_timeout_value_30_minutes">30 minutos</string>
     <!-- From Q Beta 5 -->
-    <string name="previous_connected_see_all">See all</string>
+    <string name="previous_connected_see_all">Ver todos</string>
     <!-- Smart charging -->
-    <string name="smart_charging_title">Smart Charging</string>
-    <string name="smart_charging_summary">Set maximum charging level</string>
-    <string name="smart_charging_switch_title">Use Smart charging</string>
+    <string name="smart_charging_title">Carga inteligente</string>
+    <string name="smart_charging_summary">Definir o nível máximo de carregamento</string>
+    <string name="smart_charging_switch_title">Usar carregamento inteligente</string>
     <string name="smart_charging_level_title">Stop trigger level</string>
     <string name="smart_charging_resume_level_title">Start trigger level</string>
     <string name="smart_charging_reset_stats_title">Reset battery statistics</string>
