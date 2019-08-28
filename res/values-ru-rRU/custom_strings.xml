@@ -344,12 +344,12 @@
     <string name="adb_notify">Уведомление об отладке</string>
     <string name="adb_notify_summary">Показывать уведомление о включении отладки по USB или по сети</string>
     <!-- Display : Rotation -->
-    <string name="display_rotation_title">Rotation</string>
-    <string name="display_rotation_disabled">Disabled</string>
-    <string name="display_rotation_unit">degrees</string>
-    <string name="display_rotation_category_title">Rotation modes</string>
-    <string name="display_rotation_0_title">0 degrees</string>
-    <string name="display_rotation_90_title">90 degrees</string>
-    <string name="display_rotation_180_title">180 degrees</string>
-    <string name="display_rotation_270_title">270 degrees</string>
+    <string name="display_rotation_title">Поворот экрана</string>
+    <string name="display_rotation_disabled">Отключен</string>
+    <string name="display_rotation_unit">градусов</string>
+    <string name="display_rotation_category_title">Режимы поворота экрана</string>
+    <string name="display_rotation_0_title">0 градусов</string>
+    <string name="display_rotation_90_title">90 градусов</string>
+    <string name="display_rotation_180_title">180 градусов</string>
+    <string name="display_rotation_270_title">270 градусов</string>
 </resources>
