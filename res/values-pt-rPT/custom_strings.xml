@@ -326,30 +326,30 @@
     <string name="smart_charging_title">Carga inteligente</string>
     <string name="smart_charging_summary">Definir o nível máximo de carregamento</string>
     <string name="smart_charging_switch_title">Usar carregamento inteligente</string>
-    <string name="smart_charging_level_title">Stop trigger level</string>
-    <string name="smart_charging_resume_level_title">Start trigger level</string>
-    <string name="smart_charging_reset_stats_title">Reset battery statistics</string>
-    <string name="smart_charging_reset_stats_summary">Reset battery statistics after reaching user defined charging level</string>
-    <string name="smart_charging_footer">Smart Charging allows you to set maximum charging level to extend the lifespan of your battery</string>
+    <string name="smart_charging_level_title">Parar nível de acionamento</string>
+    <string name="smart_charging_resume_level_title">Iniciar nível de acionamento</string>
+    <string name="smart_charging_reset_stats_title">Reiniciar estatísticas da bateria</string>
+    <string name="smart_charging_reset_stats_summary">Redefinir estatísticas da bateria após atingir o nível de carregamento definido pelo usuário</string>
+    <string name="smart_charging_footer">A carga inteligente permite que você defina o nível máximo de carregamento para estender a duração da sua bateria</string>
     <!-- Advanced night mode brightness -->
-    <string name="night_brightness_value_title">Lower brightness if Night Light</string>
-    <string name="night_auto_value_disabled">Disabled</string>
-    <string name="night_auto_value_min">Minimum brightness</string>
-    <string name="night_bright_low">Low brightness</string>
-    <string name="night_bright_midlow">Mid low brightness</string>
+    <string name="night_brightness_value_title">Diminuir o brilho no modo Luz Noturna</string>
+    <string name="night_auto_value_disabled">Desativado</string>
+    <string name="night_auto_value_min">Brilho mínimo</string>
+    <string name="night_bright_low">Brilho baixo</string>
+    <string name="night_bright_midlow">Brilho médio baixo</string>
     <!-- Hotspot extras -->
-    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
-    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
+    <string name="tethering_allow_vpn_upstreams_title">Permitir que os clientes usem VPNs</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permitir que os clientes de hotspot usem este dispositivo\u2019conexões VPN para conectividade a montante</string>
     <!-- Android debugging notification -->
-    <string name="adb_notify">Debugging notify</string>
-    <string name="adb_notify_summary">Display a notification when USB or network debugging is enabled</string>
+    <string name="adb_notify">Notificação de depuração Usb</string>
+    <string name="adb_notify_summary">Exibir uma notificação quando a depuração USB ou rede estiver ativada</string>
     <!-- Display : Rotation -->
-    <string name="display_rotation_title">Rotation</string>
-    <string name="display_rotation_disabled">Disabled</string>
-    <string name="display_rotation_unit">degrees</string>
-    <string name="display_rotation_category_title">Rotation modes</string>
-    <string name="display_rotation_0_title">0 degrees</string>
-    <string name="display_rotation_90_title">90 degrees</string>
-    <string name="display_rotation_180_title">180 degrees</string>
-    <string name="display_rotation_270_title">270 degrees</string>
+    <string name="display_rotation_title">Rotação</string>
+    <string name="display_rotation_disabled">Desativado</string>
+    <string name="display_rotation_unit">graus</string>
+    <string name="display_rotation_category_title">Modos de rotação</string>
+    <string name="display_rotation_0_title">0 graus</string>
+    <string name="display_rotation_90_title">90 graus</string>
+    <string name="display_rotation_180_title">180 graus</string>
+    <string name="display_rotation_270_title">270 graus</string>
 </resources>
