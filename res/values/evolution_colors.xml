@@ -29,4 +29,10 @@
     <!-- Storage bar -->
     <color name="storage_bar_private_tint_color">@*android:color/accent_device_default_light</color>
 
+    <color name="storage_color_default">@*android:color/accent_device_default_light</color>
+    <color name="storage_color1">#ffab47bc</color>
+    <color name="storage_color2">#fff2a600</color>
+    <color name="storage_color3">#ffec407a</color>
+    <color name="storage_color4">#ffc0ca33</color>
+
 </resources>

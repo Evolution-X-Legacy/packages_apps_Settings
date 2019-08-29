@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2015 The Android Open Source Project
+ * Copyright (C) 2019 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -76,14 +77,6 @@ public class StorageSettings extends SettingsPreferenceFragment implements Index
 
     static final int COLOR_PUBLIC = Color.parseColor("#ff9e9e9e");
 
-    static int[] COLOR_PRIVATE = new int[]{
-            Color.parseColor("#ff1a73e8"),
-            Color.parseColor("#ffab47bc"),
-            Color.parseColor("#fff2a600"),
-            Color.parseColor("#ffec407a"),
-            Color.parseColor("#ffc0ca33"),
-    };
-
     private StorageManager mStorageManager;
 
     private PreferenceCategory mInternalCategory;
@@ -109,7 +102,6 @@ public class StorageSettings extends SettingsPreferenceFragment implements Index
         super.onCreate(icicle);
 
         final Context context = getActivity();
-        COLOR_PRIVATE[0] = getResources().getColor(R.color.storage_bar_private_tint_color, null);
 
         mStorageManager = context.getSystemService(StorageManager.class);
 
@@ -170,11 +162,13 @@ public class StorageSettings extends SettingsPreferenceFragment implements Index
         final List<VolumeInfo> volumes = mStorageManager.getVolumes();
         Collections.sort(volumes, VolumeInfo.getDescriptionComparator());
 
+        int[] colors = getResources().getIntArray(R.array.internal_storage_colors);
+
         for (VolumeInfo vol : volumes) {
             if (vol.getType() == VolumeInfo.TYPE_PRIVATE) {
                 final long volumeTotalBytes = PrivateStorageInfo.getTotalSize(vol,
                         sTotalInternalStorage);
-                final int color = COLOR_PRIVATE[privateCount++ % COLOR_PRIVATE.length];
+                final int color = colors[privateCount++ % colors.length];
                 mInternalCategory.addPreference(
                         new StorageVolumePreference(context, vol, color, volumeTotalBytes));
             } else if (vol.getType() == VolumeInfo.TYPE_PUBLIC) {
