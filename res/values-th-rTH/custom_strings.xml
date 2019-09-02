@@ -209,7 +209,7 @@
     <string name="dark_theme_style_default">ค่าเริ่มต้น</string>
     <string name="dark_theme_style_black">สีดำ</string>
     <!-- Evolution X settings -->
-    <string name="evolution_settings_summary">แถบสถานะ, การแจ้งเตือน, แถบการตั้งค่าด่วน</string>
+    <string name="evolution_settings_summary">แถบสถานะ, การแจ้งเตือน, แถบการตั้งค่าด่วน, อื่นๆ</string>
     <!-- Evolution X version -->
     <string name="evolution_version">เวอร์ชันของ Evolution X</string>
     <string name="evolution_version_default">ไม่ทราบ</string>
