@@ -153,8 +153,8 @@
     <!-- Pocket judge -->
     <string name="pocket_judge_title">口袋检测</string>
     <string name="pocket_judge_summary">当设备在你的口袋中时锁定屏幕和按键</string>
-    <string name="pocket_judge_fp_title">Allow FP in pocket mode</string>
-    <string name="pocket_judge_fp_summary">Listen for fingerprint when pocket detection is active</string>
+    <string name="pocket_judge_fp_title">在口袋模式下允许指纹识别</string>
+    <string name="pocket_judge_fp_summary">在口袋模式时检测指纹识别</string>
     <!-- LiveDisplay -->
     <string name="color_settings_title">颜色设置</string>
     <string name="color_settings_summary">调整/增强屏幕色彩</string>
@@ -341,15 +341,15 @@
     <string name="tethering_allow_vpn_upstreams_title">允许客户端使用 VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">允许热点客户端使用此设备\u2019的 VPN 连接</string>
     <!-- Android debugging notification -->
-    <string name="adb_notify">Debugging notify</string>
-    <string name="adb_notify_summary">Display a notification when USB or network debugging is enabled</string>
+    <string name="adb_notify">调试通知</string>
+    <string name="adb_notify_summary">已开启 USB 或网络调试通知</string>
     <!-- Display : Rotation -->
-    <string name="display_rotation_title">Rotation</string>
-    <string name="display_rotation_disabled">Disabled</string>
-    <string name="display_rotation_unit">degrees</string>
-    <string name="display_rotation_category_title">Rotation modes</string>
-    <string name="display_rotation_0_title">0 degrees</string>
-    <string name="display_rotation_90_title">90 degrees</string>
-    <string name="display_rotation_180_title">180 degrees</string>
-    <string name="display_rotation_270_title">270 degrees</string>
+    <string name="display_rotation_title">旋转</string>
+    <string name="display_rotation_disabled">已禁用</string>
+    <string name="display_rotation_unit">度</string>
+    <string name="display_rotation_category_title">旋转模式</string>
+    <string name="display_rotation_0_title">0 度</string>
+    <string name="display_rotation_90_title">90 度</string>
+    <string name="display_rotation_180_title">180 度</string>
+    <string name="display_rotation_270_title">270 度</string>
 </resources>
