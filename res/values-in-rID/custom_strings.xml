@@ -153,8 +153,8 @@
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Deteksi dalam saku</string>
     <string name="pocket_judge_summary">Kunci layar dan tombol ketika perangkat berada didalam saku</string>
-    <string name="pocket_judge_fp_title">Allow FP in pocket mode</string>
-    <string name="pocket_judge_fp_summary">Listen for fingerprint when pocket detection is active</string>
+    <string name="pocket_judge_fp_title">Mengizinkan FP di mode saku</string>
+    <string name="pocket_judge_fp_summary">Dengarkan sidik jari saat deteksi saku aktif</string>
     <!-- LiveDisplay -->
     <string name="color_settings_title">Pengaturan warna</string>
     <string name="color_settings_summary">Sesuaikan dan tingkatkan warna layar</string>
@@ -338,18 +338,18 @@
     <string name="night_bright_low">Kecerahan rendah</string>
     <string name="night_bright_midlow">Kecerahan sedang</string>
     <!-- Hotspot extras -->
-    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
-    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
+    <string name="tethering_allow_vpn_upstreams_title">Izinkan klien menggunakan VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Izinkan klien hotspot untuk menggunakan koneksi VPN\u2019s perangkat ini untuk konektivitas hulu</string>
     <!-- Android debugging notification -->
-    <string name="adb_notify">Debugging notify</string>
-    <string name="adb_notify_summary">Display a notification when USB or network debugging is enabled</string>
+    <string name="adb_notify">Pemberitahuan debugging</string>
+    <string name="adb_notify_summary">Tampilkan pemberitahuan bila USB atau jaringan debugging diaktifkan</string>
     <!-- Display : Rotation -->
-    <string name="display_rotation_title">Rotation</string>
-    <string name="display_rotation_disabled">Disabled</string>
-    <string name="display_rotation_unit">degrees</string>
-    <string name="display_rotation_category_title">Rotation modes</string>
-    <string name="display_rotation_0_title">0 degrees</string>
-    <string name="display_rotation_90_title">90 degrees</string>
-    <string name="display_rotation_180_title">180 degrees</string>
-    <string name="display_rotation_270_title">270 degrees</string>
+    <string name="display_rotation_title">Rotasi</string>
+    <string name="display_rotation_disabled">Dimatikan</string>
+    <string name="display_rotation_unit">derajat</string>
+    <string name="display_rotation_category_title">Mode rotasi</string>
+    <string name="display_rotation_0_title">0 derajat</string>
+    <string name="display_rotation_90_title">90 derajat</string>
+    <string name="display_rotation_180_title">180 derajat</string>
+    <string name="display_rotation_270_title">270 derajat</string>
 </resources>
