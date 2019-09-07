@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2017 The Android Open Source Project
+ * Copyright (C) 2019 The Evolution X Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,21 +17,31 @@
 
 package com.android.settings.deviceinfo.firmwareversion;
 
-import android.content.Context;
 import android.os.Build;
+import android.support.annotation.VisibleForTesting;
 import android.text.BidiFormatter;
-import com.android.settings.core.BasePreferenceController;
+import android.text.TextUtils;
 
-public class SimpleBuildNumberPreferenceController extends BasePreferenceController {
-    public int getAvailabilityStatus() {
-        return AVAILABLE;
+import com.android.settings.R;
+
+import com.android.settings.deviceinfo.DeviceModelPreferenceController;
+
+public class BuildNumberDialogController {
+
+    @VisibleForTesting
+    static final int BUILD_NUMBER_VALUE_ID = R.id.build_number_value;
+
+    private final FirmwareVersionDialogFragment mDialog;
+
+    public BuildNumberDialogController(FirmwareVersionDialogFragment dialog) {
+        mDialog = dialog;
     }
 
-    public SimpleBuildNumberPreferenceController(Context context, String str) {
-        super(context, str);
-    }
-
-    public CharSequence getSummary() {
-        return BidiFormatter.getInstance().unicodeWrap(Build.DISPLAY);
+    /**
+     * Updates the build number to the dialog.
+     */
+    public void initialize() {
+        mDialog.setText(BUILD_NUMBER_VALUE_ID,
+                BidiFormatter.getInstance().unicodeWrap(Build.DISPLAY));
     }
 }

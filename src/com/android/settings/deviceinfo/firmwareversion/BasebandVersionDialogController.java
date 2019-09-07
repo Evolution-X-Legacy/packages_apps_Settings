@@ -18,31 +18,47 @@ package com.android.settings.deviceinfo.firmwareversion;
 
 import android.content.Context;
 import android.os.SystemProperties;
+import android.support.annotation.VisibleForTesting;
+
 import com.android.settings.R;
-import com.android.settings.core.BasePreferenceController;
-import com.android.settingslib.Utils;
+import com.android.settings.Utils;
 
-public class BasebandVersionPreferenceController extends BasePreferenceController {
+public class BasebandVersionDialogController {
 
+    @VisibleForTesting
+    static final int BASEBAND_VERSION_LABEL_ID = R.id.baseband_version_label;
+    @VisibleForTesting
+    static final int BASEBAND_VERSION_VALUE_ID = R.id.baseband_version_value;
+    @VisibleForTesting
     static final String BASEBAND_PROPERTY = "gsm.version.baseband";
 
-    public BasebandVersionPreferenceController(Context context, String str) {
-        super(context, str);
+    private final FirmwareVersionDialogFragment mDialog;
+
+    public BasebandVersionDialogController(FirmwareVersionDialogFragment dialog) {
+        mDialog = dialog;
     }
 
-    public int getAvailabilityStatus() {
-        return !Utils.isWifiOnly(this.mContext) ? 0 : 3;
-    }
-
-    public CharSequence getSummary() {
+    /**
+     * Updates the baseband version field of the dialog.
+     */
+    public void initialize() {
+        final Context context = mDialog.getContext();
+        if (Utils.isWifiOnly(context)) {
+            mDialog.removeSettingFromScreen(BASEBAND_VERSION_LABEL_ID);
+            mDialog.removeSettingFromScreen(BASEBAND_VERSION_VALUE_ID);
+            return;
+        }
+        
         String baseband = SystemProperties.get(BASEBAND_PROPERTY,
-                this.mContext.getString(R.string.device_info_default));
+                context.getString(R.string.device_info_default));
+
         if (baseband.contains(",")){
           String[] baseband_parts = baseband.split(",");
           if (baseband_parts.length > 0 && baseband_parts[0].equals(baseband_parts[1])){
             baseband = baseband_parts[0];
           }
         }
-        return baseband;
+
+        mDialog.setText(BASEBAND_VERSION_VALUE_ID, baseband);
     }
 }

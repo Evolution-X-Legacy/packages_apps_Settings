@@ -18,55 +18,44 @@ package com.android.settings.deviceinfo.firmwareversion;
 
 import android.content.Context;
 import android.content.Intent;
-import android.os.Build.VERSION;
+import android.os.Build;
 import android.os.SystemClock;
 import android.os.UserHandle;
 import android.os.UserManager;
-import android.support.v7.preference.Preference;
-import android.text.TextUtils;
+import android.support.annotation.VisibleForTesting;
 import android.util.Log;
-import com.android.internal.app.PlatLogoActivity;
+import android.view.View;
+
 import com.android.settings.R;
-import com.android.settings.Utils;
-import com.android.settings.core.BasePreferenceController;
 import com.android.settingslib.RestrictedLockUtils;
 
-public class FirmwareVersionDetailPreferenceController extends BasePreferenceController {
+public class FirmwareVersionDialogController implements View.OnClickListener {
 
-    private static final int ACTIVITY_TRIGGER_COUNT = 3;
-    private static final int DELAY_TIMER_MILLIS = 500;
     private static final String TAG = "firmwareDialogCtrl";
+    private static final int DELAY_TIMER_MILLIS = 500;
+    private static final int ACTIVITY_TRIGGER_COUNT = 3;
+
+    @VisibleForTesting
+    static final int FIRMWARE_VERSION_VALUE_ID = R.id.firmware_version_value;
+    @VisibleForTesting
+    static final int FIRMWARE_VERSION_LABEL_ID = R.id.firmware_version_label;
+
+    private final FirmwareVersionDialogFragment mDialog;
+    private final Context mContext;
+    private final UserManager mUserManager;
+    private final long[] mHits = new long[ACTIVITY_TRIGGER_COUNT];
 
     private RestrictedLockUtils.EnforcedAdmin mFunDisallowedAdmin;
     private boolean mFunDisallowedBySystem;
-    private final long[] mHits = new long[ACTIVITY_TRIGGER_COUNT];
-    private final UserManager mUserManager = ((UserManager) this.mContext.getSystemService("user"));
 
-    public int getAvailabilityStatus() {
-        return AVAILABLE;
+    public FirmwareVersionDialogController(FirmwareVersionDialogFragment dialog) {
+        mDialog = dialog;
+        mContext = dialog.getContext();
+        mUserManager = (UserManager) mContext.getSystemService(Context.USER_SERVICE);
     }
 
-    public boolean isSliceable() {
-        return true;
-    }
-
-    public boolean useDynamicSliceSummary() {
-        return true;
-    }
-
-    public FirmwareVersionDetailPreferenceController(Context context, String str) {
-        super(context, str);
-        initializeAdminPermissions();
-    }
-
-    public CharSequence getSummary() {
-        return VERSION.RELEASE;
-    }
-
-    public boolean handlePreferenceTreeClick(Preference preference) {
-        if (!TextUtils.equals(preference.getKey(), getPreferenceKey()) || Utils.isMonkeyRunning()) {
-            return false;
-        }
+    @Override
+    public void onClick(View v) {
         arrayCopy();
         mHits[mHits.length - 1] = SystemClock.uptimeMillis();
         if (mHits[0] >= (SystemClock.uptimeMillis() - DELAY_TIMER_MILLIS)) {
@@ -76,8 +65,9 @@ public class FirmwareVersionDetailPreferenceController extends BasePreferenceCon
                             mFunDisallowedAdmin);
                 }
                 Log.d(TAG, "Sorry, no fun for you!");
-                return true;
+                return;
             }
+
             final Intent intent = new Intent(Intent.ACTION_MAIN)
                     .setClassName(
                             "android", com.android.internal.app.PlatLogoActivity.class.getName());
@@ -87,7 +77,6 @@ public class FirmwareVersionDetailPreferenceController extends BasePreferenceCon
                 Log.e(TAG, "Unable to start activity " + intent.toString());
             }
         }
-        return true;
     }
 
     /**
@@ -95,15 +84,25 @@ public class FirmwareVersionDetailPreferenceController extends BasePreferenceCon
      */
     public void initialize() {
         initializeAdminPermissions();
+        registerClickListeners();
+
+        mDialog.setText(FIRMWARE_VERSION_VALUE_ID, Build.VERSION.RELEASE);
+    }
+
+    private void registerClickListeners() {
+        mDialog.registerClickListener(FIRMWARE_VERSION_LABEL_ID, this /* listener */);
+        mDialog.registerClickListener(FIRMWARE_VERSION_VALUE_ID, this /* listener */);
     }
 
     /**
      * Copies the array onto itself to remove the oldest hit.
      */
+    @VisibleForTesting
     void arrayCopy() {
         System.arraycopy(mHits, 1, mHits, 0, mHits.length - 1);
     }
 
+    @VisibleForTesting
     void initializeAdminPermissions() {
         mFunDisallowedAdmin = RestrictedLockUtils.checkIfRestrictionEnforced(
                 mContext, UserManager.DISALLOW_FUN, UserHandle.myUserId());
