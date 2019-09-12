@@ -70,70 +70,70 @@
     <string name="hardware_keys_swipe_right_key_title">Deslizar hacia la derecha</string>
     <string name="hardware_keys_swipe_left_key_title">Deslizar hacia la izquierda</string>
     <string name="hardware_keys_long_tap_key_title">Mantener pulsado</string>
-    <string name="hardware_keys_swipe_tap_title">Swipe action</string>
-    <string name="hardware_keys_long_tap_title">Long tap action</string>
-    <string name="button_wake_title">Wake device</string>
-    <string name="camera_sleep_on_release_title">Screen peek</string>
-    <string name="camera_sleep_on_release_summary">A half press will keep the screen on only while the button is held down</string>
-    <string name="camera_launch_title">Launch camera</string>
-    <string name="camera_launch_summary">A longpress and release will launch camera</string>
+    <string name="hardware_keys_swipe_tap_title">Acción al deslizar</string>
+    <string name="hardware_keys_long_tap_title">Acción al mantener pulsado</string>
+    <string name="button_wake_title">Despertar dispositivo</string>
+    <string name="camera_sleep_on_release_title">Vista rápida</string>
+    <string name="camera_sleep_on_release_summary">Una leve pulsación mantendrá la pantalla encendida hasta que éste sea liberado</string>
+    <string name="camera_launch_title">Iniciar cámara</string>
+    <string name="camera_launch_summary">Una pulsación larga iniciará la cámara</string>
     <!-- Key backlight -->
-    <string name="button_backlight_title">Backlight</string>
-    <string name="button_backlight_enabled">Illuminate buttons</string>
-    <string name="button_backlight_only_when_pressed_title">Illuminate buttons only when pressed</string>
-    <string name="button_backlight_seekbar_title">Button brightness</string>
-    <string name="backlight_timeout_title">Illumination timeout</string>
-    <string name="backlight_timeout_unlimited">Don\'t turn off</string>
-    <string name="backlight_summary_disabled">Disabled</string>
-    <string name="backlight_summary_enabled_with_timeout">Enabled for <xliff:g id="timeout">%s</xliff:g></string>
-    <string name="backlight_summary_enabled">Enabled</string>
+    <string name="button_backlight_title">Retroiluminación</string>
+    <string name="button_backlight_enabled">Iluminar botones</string>
+    <string name="button_backlight_only_when_pressed_title">Iluminar los botones únicamente cuando se presionan</string>
+    <string name="button_backlight_seekbar_title">Brillo de los botones</string>
+    <string name="backlight_timeout_title">Tiempo de iluminación</string>
+    <string name="backlight_timeout_unlimited">No apagar</string>
+    <string name="backlight_summary_disabled">Deshabilitado</string>
+    <string name="backlight_summary_enabled_with_timeout">Activado durante <xliff:g id="timeout">%s</xliff:g></string>
+    <string name="backlight_summary_enabled">Habilitado</string>
     <!-- Weather -->
-    <string name="weather_title">Weather</string>
-    <string name="weather_unit">Temperature unit</string>
+    <string name="weather_title">Tiempo</string>
+    <string name="weather_unit">Unidad de temperatura</string>
     <!-- Face auto unlock -->
-    <string name="face_auto_unlock_title">Automatic face unlock</string>
-    <string name="face_auto_unlock_summary">Dismiss lock screen after face unlock</string>
+    <string name="face_auto_unlock_title">Desbloqueo facial automático</string>
+    <string name="face_auto_unlock_summary">Quitar la pantalla de bloqueo tras desbloqueo facial</string>
     <!-- Thermal control per app -->
-    <string name="thermal_control_per_app">Optimization profile</string>
-    <string name="thermal_control_per_app_default">No optimization</string>
-    <string name="thermal_control_per_app_benchmark">Performance</string>
-    <string name="thermal_control_per_app_games">Games</string>
-    <string name="thermal_control_per_app_browser">Browser</string>
-    <string name="thermal_control_per_app_video_playback">Video playback</string>
-    <string name="thermal_control_per_app_dialer">Dialer</string>
-    <string name="thermal_control_per_app_camera">Camera</string>
+    <string name="thermal_control_per_app">Perfil de optimización</string>
+    <string name="thermal_control_per_app_default">Sin optimización</string>
+    <string name="thermal_control_per_app_benchmark">Rendimiento</string>
+    <string name="thermal_control_per_app_games">Juegos</string>
+    <string name="thermal_control_per_app_browser">Navegador</string>
+    <string name="thermal_control_per_app_video_playback">Reproducción de vídeo</string>
+    <string name="thermal_control_per_app_dialer">Marcador de teléfono</string>
+    <string name="thermal_control_per_app_camera">Cámara</string>
     <!-- Notch behavior -->
-    <string name="display_cutout_mode_title">Notch behavior</string>
-    <string name="display_cutout_mode_normal">Default</string>
-    <string name="display_cutout_mode_hidden">Hidden</string>
+    <string name="display_cutout_mode_title">Comportamiento del Notch</string>
+    <string name="display_cutout_mode_normal">Por defecto</string>
+    <string name="display_cutout_mode_hidden">Oculto</string>
     <!-- Notch: Full screen apps -->
-    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
+    <string name="display_cutout_force_fullscreen_title">Aplicaciones en pantalla completa</string>
     <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
     <!-- Fingerprint authentication vibration -->
-    <string name="fp_success_auth_vib_title">Fingerprint authentication</string>
-    <string name="fp_success_auth_vib_summary">Vibrate on successful fingerprint authentication</string>
+    <string name="fp_success_auth_vib_title">Autenticación con huella dactilar</string>
+    <string name="fp_success_auth_vib_summary">Vibrar cuando la autenticación con la huella es correcta</string>
     <!-- Lock screen cover art -->
-    <string name="lockscreen_media_art_title">Display media cover art</string>
+    <string name="lockscreen_media_art_title">Mostrar portada del álbum</string>
     <!-- Button that controls inversion of layout of navigation bar -->
-    <string name="nav_bar_layout_inverse_title">Invert layout</string>
-    <string name="nav_bar_layout_inverse_summary">Invert layout of navigation bar buttons</string>
+    <string name="nav_bar_layout_inverse_title">Invertir barra de navegación</string>
+    <string name="nav_bar_layout_inverse_summary">Invertir botones de la barra de navegación</string>
     <!-- Torch long press power button -->
-    <string name="torch_long_press_power_gesture_title">Long press for torch</string>
-    <string name="torch_long_press_power_gesture_desc">Activate the torch by long pressing the power button while the display is off</string>
-    <string name="torch_long_press_power_timeout_title">Automatically turn torch off</string>
-    <string name="torch_long_press_power_timeout_never">Never</string>
-    <string name="torch_long_press_power_timeout_1min">1 minute</string>
-    <string name="torch_long_press_power_timeout_2min">2 minutes</string>
-    <string name="torch_long_press_power_timeout_5min">5 minutes</string>
-    <string name="torch_long_press_power_timeout_10min">10 minutes</string>
+    <string name="torch_long_press_power_gesture_title">Mantenega pulsado para activar la linterna</string>
+    <string name="torch_long_press_power_gesture_desc">Mantenga pulsado el botón de encendido para activar la linterna cuando la pantalla esté apagada</string>
+    <string name="torch_long_press_power_timeout_title">Apagar automáticamente la linterna</string>
+    <string name="torch_long_press_power_timeout_never">Nunca</string>
+    <string name="torch_long_press_power_timeout_1min">1 minuto</string>
+    <string name="torch_long_press_power_timeout_2min">2 minutos</string>
+    <string name="torch_long_press_power_timeout_5min">5 minutos</string>
+    <string name="torch_long_press_power_timeout_10min">10 minutos</string>
     <!-- Volume control playback -->
-    <string name="volbtn_music_controls_title">Control playback</string>
-    <string name="volbtn_music_controls_summary">Seek music tracks by long pressing the volume keys while the display is off</string>
+    <string name="volbtn_music_controls_title">Control de la reproducción de música</string>
+    <string name="volbtn_music_controls_summary">Cambia entre pistas de música manteniendo pulsadas las teclas de volumen cuando la pantalla esté apagada</string>
     <!-- Power menu on lockscreen -->
-    <string name="lockscreen_power_menu_disabled_title">Disable on lock screen</string>
-    <string name="lockscreen_power_menu_disabled_summary">Disable power menu on protected lock screen</string>
+    <string name="lockscreen_power_menu_disabled_title">Deshabilitar en pantalla de bloqueo</string>
+    <string name="lockscreen_power_menu_disabled_summary">Desactiva el menú de apagado en la pantalla de bloqueo protegida</string>
     <!-- Others settings -->
-    <string name="others_settings_title">Others settings</string>
+    <string name="others_settings_title">Otros ajustes</string>
     <string name="additional_buttons_title">Additional buttons</string>
     <!-- Status bar -->
     <string name="status_bar_title">Status bar</string>
