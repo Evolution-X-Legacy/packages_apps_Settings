@@ -134,25 +134,25 @@
     <string name="lockscreen_power_menu_disabled_summary">Desactiva el menú de apagado en la pantalla de bloqueo protegida</string>
     <!-- Others settings -->
     <string name="others_settings_title">Otros ajustes</string>
-    <string name="additional_buttons_title">Additional buttons</string>
+    <string name="additional_buttons_title">Botones adicionales</string>
     <!-- Status bar -->
-    <string name="status_bar_title">Status bar</string>
-    <string name="lockscreen_qs_disabled_title">Disable on lock screen</string>
-    <string name="lockscreen_qs_disabled_summary">Disable expanded status bar on protected lock screen</string>
-    <string name="status_bar_quick_qs_pulldown_title">Quick pulldown</string>
-    <string name="status_bar_quick_qs_pulldown_summary">%1$s edge of the status bar pulls down Quick Settings</string>
-    <string name="status_bar_quick_qs_pulldown_summary_left">Left</string>
-    <string name="status_bar_quick_qs_pulldown_summary_right">Right</string>
-    <string name="status_bar_quick_qs_pulldown_off">Off</string>
-    <string name="status_bar_quick_qs_pulldown_left">Left</string>
-    <string name="status_bar_quick_qs_pulldown_right">Right</string>
+    <string name="status_bar_title">Barra de estado</string>
+    <string name="lockscreen_qs_disabled_title">Deshabilitar en pantalla de bloqueo</string>
+    <string name="lockscreen_qs_disabled_summary">Desactiva la barra de estado expandida en la pantalla de bloqueo protegida</string>
+    <string name="status_bar_quick_qs_pulldown_title">Despliegue rápido</string>
+    <string name="status_bar_quick_qs_pulldown_summary">%1$s borde de la barra de estado desliza hacia abajo para acceder a los ajustes rápidos</string>
+    <string name="status_bar_quick_qs_pulldown_summary_left">Izquierda</string>
+    <string name="status_bar_quick_qs_pulldown_summary_right">Derecha</string>
+    <string name="status_bar_quick_qs_pulldown_off">Desactivado</string>
+    <string name="status_bar_quick_qs_pulldown_left">Izquierda</string>
+    <string name="status_bar_quick_qs_pulldown_right">Derecha</string>
     <!-- Status bar - icons -->
-    <string name="status_bar_icons_title">Status bar icons</string>
-    <string name="status_bar_system_icons_title">System icons</string>
-    <string name="status_bar_system_icons_summary">Control which status bar icons are shown</string>
+    <string name="status_bar_icons_title">Iconos de la barra de estado</string>
+    <string name="status_bar_system_icons_title">Iconos del sistema</string>
+    <string name="status_bar_system_icons_summary">Controlar qué iconos se muestran en la barra de estado</string>
     <!-- Pocket judge -->
-    <string name="pocket_judge_title">Pocket detection</string>
-    <string name="pocket_judge_summary">Lock the screen and buttons when the device is in your pocket</string>
+    <string name="pocket_judge_title">Detección de bolsillo</string>
+    <string name="pocket_judge_summary">Bloquear la pantalla y los botones cuando el dispositivo está en el bolsillo</string>
     <string name="pocket_judge_fp_title">Allow FP in pocket mode</string>
     <string name="pocket_judge_fp_summary">Listen for fingerprint when pocket detection is active</string>
     <!-- LiveDisplay -->
