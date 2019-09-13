@@ -245,7 +245,7 @@
     <string name="custom_light_title">Color claro</string>
     <string name="custom_light_on_time_title">Tiempo de encendido durante el pulso led (ms)</string>
     <string name="custom_light_off_time_title">Tiempo de apagado claro durante el pulso led (ms)\"</string>
-    <string name="value_equals_default">def</string>
+    <string name="value_equals_default">por defecto</string>
     <!-- Battery temp -->
     <string name="battery_temp_title">Temperatura de la batería:</string>
     <!-- Volume link notification -->
@@ -352,4 +352,8 @@
     <string name="display_rotation_90_title">90 grados</string>
     <string name="display_rotation_180_title">180 grados</string>
     <string name="display_rotation_270_title">270 grados</string>
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Volumen de timbre ascendente</string>
+    <string name="increasing_ring_min_volume_title">Volumen inicial</string>
+    <string name="increasing_ring_ramp_up_time_title">Tiempo de incremento</string>
 </resources>

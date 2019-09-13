@@ -352,4 +352,8 @@
     <string name="display_rotation_90_title">90 độ</string>
     <string name="display_rotation_180_title">180 độ</string>
     <string name="display_rotation_270_title">270 độ</string>
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Âm lượng chuông tăng dần</string>
+    <string name="increasing_ring_min_volume_title">Âm lượng bắt đầu</string>
+    <string name="increasing_ring_ramp_up_time_title">Khoảng thời gian tăng dần</string>
 </resources>

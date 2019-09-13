@@ -19,7 +19,7 @@
    <string name="force_authorize_substratum_packages_title">อนุญาตทุก ๆ รูปแบบ</string>
    <string name="force_authorize_substratum_packages_summary">อนุญาตให้แอปพลิเคชันธีมจากแหล่งที่ไม่รู้จัก</string>
    <!-- Manage applications: show substratum overlays -->
-   <string name="filter_substratum_apps">Substratum overlays</string>
+   <string name="filter_substratum_apps">Substratum Overlays</string>
    <string name="menu_show_substratum">แสดง overlays</string>
    <string name="menu_hide_substratum">ซ่อน overlays</string>
 </resources>

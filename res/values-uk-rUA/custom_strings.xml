@@ -352,4 +352,8 @@
     <string name="display_rotation_90_title">90 градусів</string>
     <string name="display_rotation_180_title">180 градусів</string>
     <string name="display_rotation_270_title">270 градусів</string>
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Наростаюча гучність дзвінка</string>
+    <string name="increasing_ring_min_volume_title">Початкова гучність</string>
+    <string name="increasing_ring_ramp_up_time_title">Час наростання</string>
 </resources>
