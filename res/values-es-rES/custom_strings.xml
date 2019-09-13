@@ -224,11 +224,11 @@
     <string name="data_usage_app_restrict_wifi_summary">Activar uso de datos Wi\u2011Fi</string>
     <!-- Manage applications, package string displayed in app snippet -->
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
-    <string name="status_deep_sleep">(Deep sleep: %1$d%2$s)</string>
+    <string name="status_deep_sleep">(Sueño profundo: %1$d%2$s)</string>
     <!-- Media gestures -->
-    <string name="prevent_ringing_option_mute_no_media">Mute, no media</string>
-    <string name="prevent_ringing_option_mute_no_media_summary">On (mute, no media)</string>
-    <string name="full_gesture_mode_title">Enable full gesture mode</string>
+    <string name="prevent_ringing_option_mute_no_media">Silenciar, no multimedia</string>
+    <string name="prevent_ringing_option_mute_no_media_summary">Encendido (Silenciar, no multimedia)</string>
+    <string name="full_gesture_mode_title">Activar el control completo mediante gestos</string>
     <string name="full_gesture_mode_summary">This mode disables the back button and you can trigger a back button action by a left swipe on navbar. Right swipe still triggers the last-app and the overview apps scrolling. To go home you can tap on any navbar empty space, not only the home button. When keyboard is showing, long press on navbar to move the text cursor.</string>
     <string name="full_gesture_mode_dt2s_title">Enable double tap to sleep</string>
     <string name="full_gesture_mode_dt2s_summary">Tap on an empty navbar space but not the home button to switch the screen off.</string>
