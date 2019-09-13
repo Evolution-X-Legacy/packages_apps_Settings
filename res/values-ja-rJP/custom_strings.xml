@@ -353,7 +353,7 @@
     <string name="display_rotation_180_title">180度</string>
     <string name="display_rotation_270_title">270度</string>
     <!-- Increasing ring tone volume -->
-    <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
-    <string name="increasing_ring_min_volume_title">Start volume</string>
-    <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
+    <string name="increasing_ring_volume_option_title">着信音量の増幅</string>
+    <string name="increasing_ring_min_volume_title">開始音量</string>
+    <string name="increasing_ring_ramp_up_time_title">増幅時間</string>
 </resources>
