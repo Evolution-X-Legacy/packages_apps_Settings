@@ -351,5 +351,5 @@
     <string name="display_rotation_0_title">0 grados</string>
     <string name="display_rotation_90_title">90 grados</string>
     <string name="display_rotation_180_title">180 grados</string>
-    <string name="display_rotation_270_title">270 degrees</string>
+    <string name="display_rotation_270_title">270 grados</string>
 </resources>
