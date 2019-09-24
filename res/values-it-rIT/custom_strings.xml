@@ -26,7 +26,7 @@
     <string name="battery_light_title">Indicatore led batteria</string>
     <string name="battery_low_pulse_title">Lampeggia con batteria scarica</string>
     <!-- Manual provisioning support -->
-    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> è <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
     <string name="sim_disabled">disattivato</string>
     <string name="sim_missing">mancante o difettoso</string>
     <string name="sim_enabler_need_disable_sim">La scheda SIM sarà disattivata. Continuare?</string>
@@ -165,7 +165,7 @@
     <string name="live_display_enhance_color_title">Migliora i colori</string>
     <string name="live_display_enhance_color_summary">Migliora la vividezza del colore dei toni della pelle, paesaggi e altre immagini</string>
     <string name="live_display_color_profile_title">Profilo colore</string>
-    <string name="live_display_color_profile_standard_title">Standard</string>
+    <string name="live_display_color_profile_standard_title">Predefinito</string>
     <string name="live_display_color_profile_standard_summary">Colori accurati e bianchi luminosi</string>
     <string name="live_display_color_profile_natural_title">Naturale</string>
     <string name="live_display_color_profile_natural_summary">Colori e toni della pelle realistici</string>
@@ -319,11 +319,11 @@
     <string name="app_notification_sound_timeout_value_1_minute">1 minuto</string>
     <string name="app_notification_sound_timeout_value_5_minutes">5 minuti</string>
     <string name="app_notification_sound_timeout_value_15_minutes">10 minuti</string>
-    <string name="app_notification_sound_timeout_value_30_minutes">30 minutes</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 minuti</string>
     <!-- From Q Beta 5 -->
     <string name="previous_connected_see_all">Mostra tutto</string>
     <!-- Smart charging -->
-    <string name="smart_charging_title">Smart Charging</string>
+    <string name="smart_charging_title">Ricarica intelligente</string>
     <string name="smart_charging_summary">Imposta un livello massimo di ricarica</string>
     <string name="smart_charging_switch_title">Usa Smart Charging</string>
     <string name="smart_charging_level_title">Livello di stop ricarica</string>
@@ -353,7 +353,7 @@
     <string name="display_rotation_180_title">180 gradi</string>
     <string name="display_rotation_270_title">270 gradi</string>
     <!-- Increasing ring tone volume -->
-    <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
-    <string name="increasing_ring_min_volume_title">Start volume</string>
-    <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
+    <string name="increasing_ring_volume_option_title">Volume suoneria incrementale</string>
+    <string name="increasing_ring_min_volume_title">Volume iniziale</string>
+    <string name="increasing_ring_ramp_up_time_title">Tempo di aumento</string>
 </resources>
