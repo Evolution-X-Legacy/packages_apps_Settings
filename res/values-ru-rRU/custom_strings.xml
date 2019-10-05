@@ -299,7 +299,7 @@
     <!-- Selinux -->
     <string name="selinux_status">Статус SELinux</string>
     <string name="selinux_status_disabled">Отключено</string>
-    <string name="selinux_status_permissive">Рекомендуемый</string>
+    <string name="selinux_status_permissive">Только предупреждение</string>
     <string name="selinux_status_enforcing">Принудительный</string>
     <!-- Sizes for pattern lockscreen -->
     <string name="lock_settings_picker_pattern_size_message">Выберите размер графического ключа</string>
