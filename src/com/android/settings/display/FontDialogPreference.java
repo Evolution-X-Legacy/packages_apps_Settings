@@ -81,7 +81,7 @@ public class FontDialogPreference extends CustomDialogPreference {
         }
         mProgressDialog = new ProgressDialog(mContext);
         mProgressDialog.setIndeterminate(true);
-        mProgressDialog.setTitle(mContext.getString(R.string.font_picker_title));
+        mProgressDialog.setTitle(mContext.getString(R.string.theme_customization_font_title));
         mProgressDialog.setMessage(mContext.getString(R.string.font_picker_progress));
         mProgressDialog.setCancelable(false);
         mProgressDialog.setCanceledOnTouchOutside(false);
