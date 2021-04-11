@@ -209,7 +209,7 @@
     <string name="dark_theme_style_default">Varsayılan</string>
     <string name="dark_theme_style_black">Siyah</string>
     <!-- Evolution X settings -->
-    <string name="evolution_settings_summary">Açık kaynak evrimi. Gelişmeye devam et</string>
+    <string name="evolution_settings_summary">Özelliklerimizle cihazınızı geliştirmeye başlayın</string>
     <!-- Evolution X version -->
     <string name="evolution_version">Evolution X sürümü</string>
     <string name="evolution_version_default">Bilinmiyor</string>
