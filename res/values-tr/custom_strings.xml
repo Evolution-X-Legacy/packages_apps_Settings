@@ -203,6 +203,16 @@
     <string name="network_traffic_units_megabytes">Saniyede megabayt (MB/sn)</string>
     <string name="network_traffic_show_units">Birimleri göster</string>
     <string name="network_traffic_show_units_summary">Durum çubuğunda ağ ölçme birimlerinin gösterilip gösterilmeyeceği</string>
+    <!-- Android 10 -->
+    <string name="previous_connected_see_all">Tümünü gör</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the settings category for theme overlays. -->
+    <string name="theme_customization_category">Tema seçenekleri</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize accent color. -->
+    <string name="theme_customization_accent_color_title">Vurgu Rengi</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize headline and body fonts. -->
+    <string name="theme_customization_font_title">Başlık / Gövde yazı tipi</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Label for the option that turns off customizations for a given category.-->
+    <string name="theme_customization_device_default">Cihaz varsayılanı</string>
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Cep algılama</string>
     <string name="pocket_judge_summary">Cihaz cebinizde olduğu zaman ekranı ve tuşları kilitler</string>
@@ -261,4 +271,7 @@
     <string name="dark_theme_style_title">Koyu tema stili</string>
     <string name="dark_theme_style_default">Varsayılan</string>
     <string name="dark_theme_style_black">Siyah</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Ekran görüntüsü sesi</string>     
+     
 </resources>
